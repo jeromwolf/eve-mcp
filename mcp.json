@@ -1,0 +1,77 @@
+{
+  "name": "eve-mcp",
+  "version": "1.0.0",
+  "description": "EVE MCP Server - Academic PDF Search and Q&A Service",
+  "author": "EVE Development Team",
+  "commands": {
+    "default": {
+      "description": "Run EVE MCP server",
+      "command": "npm",
+      "args": ["run", "start"]
+    }
+  },
+  "tools": [
+    {
+      "name": "search_papers",
+      "description": "Search for academic papers on various sites",
+      "inputs": [
+        {
+          "name": "query",
+          "type": "string",
+          "description": "Search query for papers",
+          "required": true
+        },
+        {
+          "name": "site",
+          "type": "string",
+          "description": "Target site to search (arxiv, scholar, pubmed)",
+          "required": false,
+          "default": "arxiv",
+          "enum": ["arxiv", "scholar", "pubmed"]
+        },
+        {
+          "name": "max_results",
+          "type": "number",
+          "description": "Maximum number of results to return",
+          "required": false,
+          "default": 10
+        }
+      ]
+    },
+    {
+      "name": "download_pdf", 
+      "description": "Download and extract text from a PDF document",
+      "inputs": [
+        {
+          "name": "url",
+          "type": "string",
+          "description": "URL of the PDF to download",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "ask_about_pdf",
+      "description": "Ask questions about a downloaded PDF document",
+      "inputs": [
+        {
+          "name": "pdf_identifier",
+          "type": "string", 
+          "description": "URL or filename of the PDF. If omitted, uses the most recent PDF",
+          "required": false
+        },
+        {
+          "name": "question",
+          "type": "string",
+          "description": "Question to ask about the PDF content",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "list_downloaded_pdfs",
+      "description": "List all downloaded PDFs with their titles and filenames",
+      "inputs": []
+    }
+  ]
+}
