@@ -27,7 +27,19 @@ npm test
 
 ### Testing MCP Server
 ```bash
-# Test server response
+# Quick test
+./auto-test.sh
+
+# Integration tests
+node integration-test.js
+
+# Cache management tests
+node cache-test.js
+
+# Full feature test (includes actual PDF download)
+./full-test.sh
+
+# Manual test server response
 echo '{"jsonrpc":"2.0","method":"tools/list","id":1}' | node build/index.js
 ```
 
@@ -60,9 +72,23 @@ EVE MCP Server is a Model Context Protocol server that enables academic paper se
 - Search results cached for number-based download (e.g., "download #2")
 - PDF text extraction using pdf-parse with CommonJS workaround
 - File naming based on URL last segment
+- LRU cache implementation (MAX_CACHE_SIZE = 20)
+- Temporary files saved to OS tmpdir() and immediately deleted after text extraction
+
+### Recent Changes
+- Implemented LRU cache to prevent memory leaks
+- Added cache usage percentage display in list_downloaded_pdfs
+- Created comprehensive test suites (auto-test.sh, integration-test.js, cache-test.js, full-test.sh)
+- Fixed CommonJS module compatibility issue with createRequire
+
+### Known Issues (see KNOWN_ISSUES.md)
+- PDF text extraction fails for scanned/image-based PDFs
+- Simple keyword matching for Q&A (no semantic search)
+- Limited error messages for failed downloads
 
 ### Future Enhancements
 - Add Google Scholar support (requires API key)
 - Implement AI-powered Q&A using embeddings/RAG
-- Add persistent storage for downloaded PDFs
+- Add persistent storage option for downloaded PDFs
 - Support for non-English papers
+- Implement cache-manager.ts for advanced memory management
