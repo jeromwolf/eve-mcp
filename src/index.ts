@@ -504,7 +504,7 @@ class EVEMCPServer {
         content: [
           {
             type: "text",
-            text: "No PDFs have been downloaded yet. Use 'download_pdf' to download a PDF first.",
+            text: `Downloaded PDFs (0/${this.MAX_CACHE_SIZE}):\n\nNo PDFs have been downloaded yet. Use 'download_pdf' to download a PDF first.\n\nCache Usage: 0%`,
           },
         ],
       };
