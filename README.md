@@ -4,34 +4,55 @@ EVE (Enhanced Virtual Environment) MCP Server는 Claude 환경에서 학술 논�
 
 ## 주요 기능
 
-1. **논문 검색**: arXiv에서 키워드로 논문 검색
-2. **PDF 다운로드**: PDF 문서 다운로드 및 텍스트 추출
-3. **질의응답**: 다운로드한 PDF에 대한 질문-답변
+1. **논문 검색**: arXiv, PubMed 등 학술 사이트에서 논문 검색
+2. **PDF 다운로드**: 검색된 PDF 다운로드 및 텍스트 추출
+3. **질의응답**: 다운로드한 PDF 내용에 대한 즉시 질의응답
 
-## 설치 방법
+## 빠른 설치
 
+> 자세한 설치 가이드는 [INSTALL.md](INSTALL.md)를 참고하세요.
+
+### 1. 필수 프로그램
+- Node.js 18 이상 ([다운로드](https://nodejs.org/))
+- Claude Desktop
+
+### 2. EVE MCP 설치
 ```bash
-# 의존성 설치
+git clone https://github.com/jeromwolf/eve-mcp.git
+cd eve-mcp
 npm install
-
-# TypeScript 빌드
 npm run build
 ```
 
-## Claude Desktop 설정
+### 3. Claude Desktop 설정
 
-Claude Desktop의 MCP 설정에 다음을 추가하세요:
-
+#### Windows
+설정 파일: `%APPDATA%\Claude\claude_desktop_config.json`
 ```json
 {
   "mcpServers": {
     "eve-mcp": {
       "command": "node",
-      "args": ["/path/to/eve-mcp/build/index.js"]
+      "args": ["C:/경로/eve-mcp/build/index.js"]
     }
   }
 }
 ```
+
+#### macOS
+설정 파일: `~/Library/Application Support/Claude/claude_desktop_config.json`
+```json
+{
+  "mcpServers": {
+    "eve-mcp": {
+      "command": "node",
+      "args": ["/Users/사용자명/경로/eve-mcp/build/index.js"]
+    }
+  }
+}
+```
+
+### 4. Claude Desktop 재시작
 
 ## 사용 예시
 
