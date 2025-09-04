@@ -44,6 +44,7 @@ class EVEMCPServer {
   private filenameToUrl: Map<string, string> = new Map();
   private currentPdfUrl?: string;
   private lastSearchResults: SearchResult[] = [];
+  private readonly MAX_CACHE_SIZE = 20; // 최대 20개 PDF까지만 캐시
 
   constructor() {
     this.server = new Server(
@@ -360,7 +361,20 @@ class EVEMCPServer {
         filename,
       };
       
-      // Cache the document
+      // Cache the document with size limit (LRU)
+      if (this.pdfCache.size >= this.MAX_CACHE_SIZE) {
+        // Remove oldest entry (first item in Map)
+        const firstKey = this.pdfCache.keys().next().value;
+        if (firstKey) {
+          const oldDoc = this.pdfCache.get(firstKey);
+          if (oldDoc?.filename) {
+            this.filenameToUrl.delete(oldDoc.filename);
+          }
+          this.pdfCache.delete(firstKey);
+          console.error(`Cache full, removing oldest PDF: ${firstKey}`);
+        }
+      }
+      
       this.pdfCache.set(url, pdfDocument);
       this.filenameToUrl.set(filename, url);
       this.currentPdfUrl = url;
@@ -510,7 +524,7 @@ class EVEMCPServer {
       content: [
         {
           type: "text",
-          text: `Downloaded PDFs (${this.pdfCache.size} total):\n\n${pdfList.join('\n\n---\n\n')}\n\nCurrent PDF: ${this.currentPdfUrl ? this.pdfCache.get(this.currentPdfUrl)?.filename : 'None'}`,
+          text: `Downloaded PDFs (${this.pdfCache.size}/${this.MAX_CACHE_SIZE}):\n\n${pdfList.join('\n\n---\n\n')}\n\nCurrent PDF: ${this.currentPdfUrl ? this.pdfCache.get(this.currentPdfUrl)?.filename : 'None'}\n\nCache Usage: ${Math.round((this.pdfCache.size / this.MAX_CACHE_SIZE) * 100)}%`,
         },
       ],
     };
