@@ -2,6 +2,12 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+## Project Overview
+
+NRC ADAMS MCP Server - A Model Context Protocol server that enables NRC ADAMS document search, download, and Q&A functionality within Claude Desktop.
+
+**IMPORTANT**: This project uses REAL NRC ADAMS data only. No mock data or simulated results.
+
 ## Commands
 
 ### Build and Development
@@ -17,27 +23,15 @@ npm run dev
 
 # Run production build
 npm run start
-
-# Run linting
-npm run lint
-
-# Run tests
-npm test
 ```
 
 ### Testing MCP Server
 ```bash
-# Quick test
-./auto-test.sh
+# Test real ADAMS search
+node test-real-adams-api.js
 
-# Integration tests
-node integration-test.js
-
-# Cache management tests
-node cache-test.js
-
-# Full feature test (includes actual PDF download)
-./full-test.sh
+# Test with specific document
+node -e "/* test ML24275A095 */"
 
 # Manual test server response
 echo '{"jsonrpc":"2.0","method":"tools/list","id":1}' | node build/index.js
@@ -45,50 +39,112 @@ echo '{"jsonrpc":"2.0","method":"tools/list","id":1}' | node build/index.js
 
 ## Architecture Overview
 
-EVE MCP Server is a Model Context Protocol server that enables academic paper search and Q&A functionality within Claude Desktop.
+NRC ADAMS MCP Server is a Model Context Protocol server that searches and downloads real documents from the U.S. Nuclear Regulatory Commission's ADAMS (Agency-wide Documents Access and Management System).
 
 ### Key Components
 
 1. **MCP Server (src/index.ts)**
-   - Main server class `EVEMCPServer` handles MCP protocol communication
-   - Implements four core tools: search_papers, download_pdf, ask_about_pdf, list_downloaded_pdfs
-   - Uses in-memory caching for downloaded PDFs
+   - Main server class `NRCADAMSMCPServer` handles MCP protocol communication
+   - Implements four core tools: search_adams, download_adams_documents, ask_about_documents, list_downloaded_documents
+   - Uses in-memory LRU caching (50 document limit)
    - Stores search results for number-based download
 
-2. **Tool Implementations**
-   - `searchPapers`: Supports arXiv and PubMed APIs
-   - `downloadPDF`: Downloads PDFs with 50MB limit, extracts text using pdf-parse
-   - `askAboutPDF`: Keyword-based search with paragraph relevance scoring
-   - `listDownloadedPDFs`: Shows cached PDFs with metadata
+2. **Real ADAMS Scraper (src/adams-real.ts)**
+   - `RealADAMSScraper` class for actual ADAMS search
+   - API fails with 500 → automatic browser fallback using Puppeteer
+   - Parses real search results from HTML tables
+   - Extracts document titles, dates, and accession numbers
+   - Supports ML and non-ML formats (SECY, NUREG, etc.)
+   - Only returns downloadable documents (with links)
 
-3. **External Dependencies**
-   - arXiv API and PubMed E-utilities (no API key required)
-   - pdf-parse for text extraction (CommonJS compatibility handled)
+3. **RAG Engine (src/rag-engine.ts)**
+   - Dual-provider support: OpenAI and Claude APIs
+   - Vector embeddings with text-embedding-ada-002
+   - Fallback to keyword search if no API keys
+   - Chunk-based document processing
+
+4. **External Dependencies**
+   - puppeteer for browser automation (ADAMS search)
    - axios for HTTP requests
-   - cheerio for XML parsing
+   - pdf-parse for text extraction
+   - cheerio for HTML/XML parsing
+   - OpenAI/Anthropic SDKs (optional)
 
 ### Important Implementation Details
-- HTTP to HTTPS conversion for arXiv URLs
-- Search results cached for number-based download (e.g., "download #2")
-- PDF text extraction using pdf-parse with CommonJS workaround
-- File naming based on URL last segment
-- LRU cache implementation (MAX_CACHE_SIZE = 20)
-- Temporary files saved to OS tmpdir() and immediately deleted after text extraction
 
-### Recent Changes
-- Implemented LRU cache to prevent memory leaks
-- Added cache usage percentage display in list_downloaded_pdfs
-- Created comprehensive test suites (auto-test.sh, integration-test.js, cache-test.js, full-test.sh)
-- Fixed CommonJS module compatibility issue with createRequire
+#### Search Flow
+1. Try ADAMS API → Always returns 500 error
+2. Fallback to Puppeteer browser automation
+3. Navigate to `https://adams-search.nrc.gov/results/`
+4. Wait 8 seconds for results to load
+5. Parse HTML tables for document info
+6. Extract links, titles, dates from table cells
 
-### Known Issues (see KNOWN_ISSUES.md)
-- PDF text extraction fails for scanned/image-based PDFs
-- Simple keyword matching for Q&A (no semantic search)
-- Limited error messages for failed downloads
+#### Document Download
+- Uses `https://adamswebsearch2.nrc.gov/webSearch2/main.jsp?AccessionNumber=`
+- Direct PDF download with axios
+- Saves to `downloaded_pdfs/` folder
+- Verifies PDF signature (%PDF)
 
-### Future Enhancements
-- Add Google Scholar support (requires API key)
-- Implement AI-powered Q&A using embeddings/RAG
-- Add persistent storage option for downloaded PDFs
-- Support for non-English papers
-- Implement cache-manager.ts for advanced memory management
+#### Key Patterns
+```typescript
+// Document number formats
+ML[0-9A-Z]{8,}  // ML24270A144
+SECY-\d{2}-\d{4}  // SECY-22-0001
+NUREG-\d{4}  // NUREG-1234
+```
+
+### Recent Changes (2025-09-09)
+
+1. **Complete Rewrite - No Mock Data**
+   - Removed ALL mock data generation
+   - Implemented RealADAMSScraper class
+   - Fixed search to return actual ML numbers
+   - Successfully tested with ML24275A095
+
+2. **Fixed Search Results**
+   - Changed from `innerText` to `innerHTML` parsing
+   - Increased wait time to 8 seconds
+   - Now correctly returns ML24270A144 etc.
+
+3. **Table Parsing Improvements**
+   - Extract from specific table columns
+   - Only show documents with download links
+   - Clean extraction of titles and dates
+   - Support for non-ML document formats
+
+4. **PDF Download Fix**
+   - Use adamswebsearch2.nrc.gov URLs
+   - Direct axios download (no browser needed)
+   - Verify real PDF files (116KB+ sizes)
+
+### Current Status
+
+✅ **Working**
+- Real ADAMS search (no mock data)
+- Browser fallback when API fails
+- Actual document downloads
+- RAG-based Q&A on documents
+- LRU cache management (50 docs)
+
+⚠️ **Known Issues**
+- ADAMS API always returns 500 (browser fallback works)
+- PDF text extraction fails for scanned PDFs
+- Some documents may not have download links
+
+### Testing
+
+```bash
+# Test with real document
+node -e "import('./build/adams-real.js').then(async m => {
+  const s = new m.RealADAMSScraper();
+  const r = await s.searchReal('safety analysis 2024', 5);
+  console.log(r);
+  await s.close();
+});"
+
+# Expected first result: ML24270A144
+```
+
+### GitHub Repository
+https://github.com/jeromwolf/eve-mcp
