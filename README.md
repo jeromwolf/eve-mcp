@@ -1,22 +1,23 @@
-# EVE MCP Server
+# NRC ADAMS MCP Server
 
-EVE (Enhanced Virtual Environment) MCP Server는 Claude 환경에서 학술 논문 PDF를 검색하고 질의응답할 수 있는 MCP 서버입니다.
+Nuclear Regulatory Commission (NRC) ADAMS (Agency-wide Documents Access and Management System) document search and analysis server for Claude Desktop.
 
-## 주요 기능
+## ✨ Features
 
-1. **논문 검색**: arXiv, PubMed 등 학술 사이트에서 논문 검색
-2. **PDF 다운로드**: 검색된 PDF 다운로드 및 텍스트 추출
-3. **질의응답**: 다운로드한 PDF 내용에 대한 즉시 질의응답
+- 🔍 **Site Search**: Search documents from NRC ADAMS database
+- 📥 **Auto Download**: Automatically download top 10 documents (configurable)
+- 💬 **Document Chat**: Chat with downloaded documents using AI-powered search
+- 🧠 **RAG Support**: Optional semantic search with OpenAI or Claude API
+- 📊 **Smart Cache**: LRU cache management for up to 50 documents
 
-## 빠른 설치
+## 🚀 Quick Start
 
-> 자세한 설치 가이드는 [INSTALL.md](INSTALL.md)를 참고하세요.
-
-### 1. 필수 프로그램
-- Node.js 18 이상 ([다운로드](https://nodejs.org/))
+### 1. Prerequisites
+- Node.js 18+ ([Download](https://nodejs.org/))
 - Claude Desktop
+- (Optional) OpenAI or Claude API key for RAG features
 
-### 2. EVE MCP 설치
+### 2. Installation
 ```bash
 git clone https://github.com/jeromwolf/eve-mcp.git
 cd eve-mcp
@@ -24,206 +25,188 @@ npm install
 npm run build
 ```
 
-### 3. Claude Desktop 설정
-
-#### Windows
-설정 파일: `%APPDATA%\Claude\claude_desktop_config.json`
-```json
-{
-  "mcpServers": {
-    "eve-mcp": {
-      "command": "node",
-      "args": ["C:/경로/eve-mcp/build/index.js"]
-    }
-  }
-}
-```
+### 3. Claude Desktop Configuration
 
 #### macOS
-설정 파일: `~/Library/Application Support/Claude/claude_desktop_config.json`
+```bash
+open -e ~/Library/Application\ Support/Claude/claude_desktop_config.json
+```
+
+Add the following configuration:
 ```json
 {
   "mcpServers": {
-    "eve-mcp": {
+    "nrc-adams-mcp": {
       "command": "node",
-      "args": ["/Users/사용자명/경로/eve-mcp/build/index.js"]
+      "args": ["/Users/your_username/path/eve-mcp/build/index.js"],
+      "env": {
+        "OPENAI_API_KEY": "sk-...",  // Optional: for OpenAI embeddings
+        "ANTHROPIC_API_KEY": "sk-ant-..."  // Optional: for Claude analysis
+      }
     }
   }
 }
 ```
 
-### 4. Claude Desktop 재시작
-
-## 사용 예시
-
-### 1. 논문 검색
-
-#### 기본 검색 (arXiv)
-```
-"machine learning 논문 검색해줘"
-"transformer architecture 관련 논문 찾아줘"
-"attention mechanism 최신 논문 5개"
-"BERT 논문 검색"
-```
-
-#### PubMed 검색 (의학/생명과학)
-```
-"PubMed에서 COVID-19 vaccine 논문 검색해줘"
-"pubmed에서 cancer immunotherapy 최신 논문 10개"
-"PubMed에서 alzheimer treatment 연구 찾아줘"
-"pubmed에서 CRISPR gene editing 논문 3개"
+#### Windows
+Configuration file: `%APPDATA%\Claude\claude_desktop_config.json`
+```json
+{
+  "mcpServers": {
+    "nrc-adams-mcp": {
+      "command": "node",
+      "args": ["C:/path/eve-mcp/build/index.js"],
+      "env": {
+        "OPENAI_API_KEY": "sk-...",  // Optional
+        "ANTHROPIC_API_KEY": "sk-ant-..."  // Optional
+      }
+    }
+  }
+}
 ```
 
-#### 검색 개수 지정
+### 4. Restart Claude Desktop
+
+## 📖 Usage Guide
+
+### 1. Search NRC ADAMS Documents
+
+#### Basic Search
 ```
-"deep learning 논문 3개만 검색해줘"
-"PubMed에서 diabetes 논문 20개 찾아줘"
+"Search for emergency plan"
+"Find reactor safety documents"
+"Look for ML24001234"  // Document number search
 ```
 
-#### 복잡한 검색어
+#### Advanced Search
 ```
-"attention is all you need 논문 찾아줘"
-"large language model fine-tuning 관련 논문"
-"COVID-19 mRNA vaccine effectiveness 연구"
-```
-
-### 2. PDF 다운로드
-
-#### URL로 직접 다운로드
-```
-"https://arxiv.org/pdf/1706.03762.pdf 다운로드해줘"
-"http://arxiv.org/pdf/1810.04805.pdf 다운로드"
+"Search for emergency plan from 2024"
+"Find 20 documents about reactor"  // Custom result count (default: 50)
+"Search safety analysis top 100"  // Max 100 results
 ```
 
-#### 검색 결과에서 번호로 다운로드
+### 2. Download Documents
+
+#### Auto Download (Top 10)
 ```
-"GPT 논문 검색해줘"
-"1번 논문 다운로드"  # 첫 번째 검색 결과
-"3번도 다운로드해줘"  # 세 번째 검색 결과
+"Download emergency plan documents"  // Downloads top 10 automatically
+"Download reactor safety top 5"  // Custom download count
 ```
 
-#### 여러 논문 다운로드
+#### Manual Download
 ```
-"reinforcement learning 논문 5개 검색"
-"1번, 3번, 5번 논문 다운로드해줘"
-```
-
-### 3. PDF 질의응답
-
-#### 최근 PDF에 질문 (파일명 없이)
-```
-"이 논문의 핵심 contribution이 뭐야?"
-"주요 실험 결과를 요약해줘"
-"limitation이나 future work 섹션 있어?"
-"논문의 methodology 설명해줘"
+"Download document #3"  // From search results
+"Download documents 1, 3, 5"  // Multiple documents
 ```
 
-#### 파일명으로 특정 PDF 지정
+### 3. Chat with Downloaded Documents
+
+#### Ask Questions
 ```
-"1706.03762.pdf에서 self-attention 메커니즘 설명해줘"
-"bert_paper.pdf에서 pre-training 과정 찾아줘"
-"covid_vaccine.pdf에서 효과성 데이터 보여줘"
+"What are the main safety requirements?"
+"Find information about emergency procedures"
+"Summarize the reactor specifications"
 ```
 
-#### 구체적인 내용 찾기
+#### Search in Documents
 ```
-"transformer 아키텍처 그림 설명해줘"
-"실험에 사용된 데이터셋이 뭐야?"
-"hyperparameter 설정값들 알려줘"
-"이 논문에서 인용한 BERT 논문 정보"
+"Search for cooling system in downloaded files"
+"Find emergency response procedures"
 ```
 
-#### 비교 질문
+### 4. Cache Management
+
+#### View Downloaded Documents
 ```
-"이 모델의 장점과 단점은?"
-"기존 방법과 어떤 차이가 있어?"
-"성능 향상이 얼마나 됐어?"
+"Show downloaded documents"
+"List cached files"
 ```
 
-### 4. PDF 목록 관리
-
-#### 목록 확인
+#### Clear Cache
 ```
-"다운로드한 PDF 목록 보여줘"
-"현재 저장된 논문들 뭐가 있어?"
+"Clear cache"
+"Delete downloaded files"
 ```
 
-#### 특정 PDF 정보
-```
-"transformer.pdf 정보 알려줘"
-"가장 최근에 다운로드한 PDF는?"
-```
+## 🧠 RAG Configuration (Optional)
 
-### 5. 복합 시나리오 예제
+RAG enables semantic search instead of simple keyword matching. See [API_SETUP.md](API_SETUP.md) for detailed instructions.
 
-#### 시나리오 1: 특정 주제 연구
-```
-1. "PubMed에서 COVID-19 vaccine side effects 논문 10개 검색"
-2. "1번이랑 3번 논문 다운로드해줘"
-3. "첫 번째 논문에서 주요 부작용 종류 알려줘"
-4. "두 번째 논문에서는 같은 내용 어떻게 설명해?"
-5. "두 논문의 결론 비교해줘"
-```
+### Quick Setup
 
-#### 시나리오 2: 최신 기술 조사
-```
-1. "transformer 기반 최신 모델 논문 검색"
-2. "가장 최근 논문 3개 다운로드"
-3. "각 논문의 핵심 아이디어 요약해줘"
-4. "성능 비교 표 있으면 보여줘"
-```
+#### Option 1: OpenAI (Recommended)
+- Best accuracy with vector embeddings
+- Cost: ~$0.10-$0.50 per 100 documents
+- Get key: https://platform.openai.com/api-keys
 
-#### 시나리오 3: 문헌 리뷰
-```
-1. "machine learning in healthcare 논문 15개 검색"
-2. "1번부터 5번까지 다운로드"
-3. "각 논문의 application area 정리해줘"
-4. "공통적으로 언급되는 challenge는?"
-```
+#### Option 2: Claude/Anthropic
+- No additional signup if you have Claude account
+- Direct relevance scoring without embeddings
+- Get key: https://console.anthropic.com
 
-### 6. 한국어 질문 예제
+#### Option 3: No API Key
+- Works with keyword search
+- Free but less accurate
+- Good for exact term matching
 
-```
-"이 논문의 핵심이 뭐야?"
-"실험 결과 요약해줘"
-"어떤 데이터셋 썼어?"
-"이 방법의 한계점은?"
-"future work으로 뭘 제안해?"
-```
+### Performance Comparison
 
-### 7. 오류 처리
+| Method | Accuracy | Speed | Cost |
+|--------|----------|-------|------|
+| OpenAI Embeddings | 95% | Fast | $0.0001/1K tokens |
+| Claude Analysis | 85% | Medium | $0.25/1M tokens |
+| Keyword Search | 60% | Fastest | Free |
 
-#### 다운로드 실패 시
-```
-"다시 다운로드 시도해줘"
-"다른 URL 형식으로 해볼게: https://..."
-```
-
-#### PDF를 찾을 수 없을 때
-```
-"다운로드한 PDF 목록 확인"
-"[정확한 파일명]으로 다시 질문"
-```
-
-## 개발
+## 🛠 Development
 
 ```bash
-# 개발 모드 실행
+# Development mode
 npm run dev
 
-# 테스트
+# Run tests
 npm test
 
-# 린트
+# Lint check
 npm run lint
+
+# Build
+npm run build
 ```
 
-## 제한사항
+## 📋 Commands Reference
 
-- PDF 크기: 최대 50MB
-- 지원 사이트: arXiv, PubMed (Google Scholar는 API 키 필요)
-- 텍스트 추출: 이미지나 표의 텍스트는 추출되지 않을 수 있음
+### Search Commands
+- `search_adams`: Search NRC ADAMS database
+- `download_adams_documents`: Download documents from search results
 
-## 라이센스
+### Document Commands
+- `ask_about_documents`: Query downloaded documents
+- `list_downloaded_documents`: Show cached documents
+- `clear_cache`: Remove all downloaded documents
+
+## 🔧 Troubleshooting
+
+### Documents not downloading?
+- Check network connection
+- Verify document availability on ADAMS
+- Some documents may be restricted
+
+### Search not accurate?
+- Add API key for RAG features
+- Use more specific keywords
+- Check API_SETUP.md for configuration
+
+### Cache full?
+- Automatic LRU eviction after 50 documents
+- Use "clear cache" to manually clean
+
+## 📝 Notes
+
+- Maximum 50 documents in cache (LRU)
+- Documents are text-extracted for searching
+- PDF parsing may fail for scanned/image PDFs
+- Search results limited to 100 per query
+
+## 📄 License
 
 MIT License

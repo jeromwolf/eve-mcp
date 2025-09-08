@@ -1,7 +1,7 @@
 {
-  "name": "eve-mcp",
-  "version": "1.0.0",
-  "description": "EVE MCP Server - Academic PDF Search and Q&A Service",
+  "name": "nrc-adams-mcp",
+  "version": "2.1.0",
+  "description": "NRC ADAMS MCP Server - Nuclear Regulatory Documents Search with RAG",
   "main": "build/index.js",
   "type": "module",
   "scripts": {
@@ -13,21 +13,27 @@
   },
   "keywords": [
     "mcp",
-    "pdf",
-    "academic",
-    "search",
-    "qa"
+    "nrc",
+    "adams",
+    "nuclear",
+    "regulatory",
+    "rag",
+    "ai",
+    "search"
   ],
-  "author": "EVE Development Team",
+  "author": "Kelly Kim",
   "license": "MIT",
   "dependencies": {
+    "@anthropic-ai/sdk": "^0.61.0",
     "@modelcontextprotocol/sdk": "^0.5.0",
     "axios": "^1.6.0",
     "cheerio": "^1.0.0-rc.12",
     "node-fetch": "^3.3.2",
+    "openai": "^5.19.1",
     "pdf-lib": "^1.17.1",
     "pdf-parse": "^1.1.1",
-    "pdfjs-dist": "^5.4.149"
+    "pdfjs-dist": "^5.4.149",
+    "puppeteer": "^24.19.0"
   },
   "devDependencies": {
     "@types/jest": "^29.0.0",

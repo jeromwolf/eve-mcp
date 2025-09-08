@@ -13,7 +13,21 @@
       "Bash(git push:*)",
       "Bash(./auto-test.sh:*)",
       "Bash(./full-test.sh:*)",
-      "Bash(echo:*)"
+      "Bash(echo:*)",
+      "Bash(tree:*)",
+      "Bash(cat:*)",
+      "WebFetch(domain:www.nrc.gov)",
+      "Bash(npm run build:*)",
+      "Read(//var/folders/h2/yhmybb9n1cn1wn3y141wqv8m0000gn/T/TemporaryItems/NSIRD_screencaptureui_9PlG3b/**)",
+      "Bash(node:*)",
+      "Bash(npm install:*)",
+      "Bash(curl:*)",
+      "Bash(python3:*)",
+      "Bash(pip3 install:*)",
+      "Read(//var/folders/h2/yhmybb9n1cn1wn3y141wqv8m0000gn/T/TemporaryItems/NSIRD_screencaptureui_oMhdIe/**)",
+      "Read(//var/folders/h2/yhmybb9n1cn1wn3y141wqv8m0000gn/T/TemporaryItems/NSIRD_screencaptureui_SwVx7o/**)",
+      "Read(//var/folders/h2/yhmybb9n1cn1wn3y141wqv8m0000gn/T/TemporaryItems/NSIRD_screencaptureui_EMQIwD/**)",
+      "Bash(timeout:*)"
     ],
     "deny": []
   }

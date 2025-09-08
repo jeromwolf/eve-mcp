@@ -8,22 +8,31 @@ import {
   McpError,
 } from "@modelcontextprotocol/sdk/types.js";
 import axios from 'axios';
-import { PDFDocument as PDFLib } from 'pdf-lib';
 import { createRequire } from 'module';
 const require = createRequire(import.meta.url);
 const pdfParse = require('pdf-parse');
 import * as cheerio from 'cheerio';
 import { promises as fs } from 'fs';
+import * as fsSync from 'fs';
 import { tmpdir } from 'os';
-import { join } from 'path';
+import { join, dirname } from 'path';
 import { createHash } from 'crypto';
+import { RAGEngine } from './rag-engine.js';
+import { RealADAMSScraper } from './adams-real.js';
+import { fileURLToPath } from 'url';
 
-interface SearchResult {
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
+
+interface ADAMSDocument {
   title: string;
-  url: string;
-  authors?: string[];
+  documentNumber?: string;
+  docketNumber?: string;
+  documentDate?: string;
+  documentType?: string;
+  url?: string;
+  pdfUrl?: string;
   abstract?: string;
-  published?: string;
 }
 
 interface StoredPDFDocument {
@@ -33,24 +42,42 @@ interface StoredPDFDocument {
     author?: string;
     pages?: number;
     creationDate?: Date;
+    documentNumber?: string;
+    docketNumber?: string;
   };
   url: string;
   filename?: string;
+  localPath?: string; // 로컬 파일 경로
 }
 
-class EVEMCPServer {
+class NRCADAMSMCPServer {
   private server: Server;
   private pdfCache: Map<string, StoredPDFDocument> = new Map();
   private filenameToUrl: Map<string, string> = new Map();
   private currentPdfUrl?: string;
-  private lastSearchResults: SearchResult[] = [];
-  private readonly MAX_CACHE_SIZE = 20; // 최대 20개 PDF까지만 캐시
+  private lastSearchResults: ADAMSDocument[] = [];
+  private readonly MAX_CACHE_SIZE = 50; // 증가: ADAMS 문서는 더 많이 캐시
+  private readonly ADAMS_API_BASE = 'https://adams.nrc.gov/wba';
+  private readonly ADAMS_SEARCH_BASE = 'https://adams-search.nrc.gov';
+  private ragEngine: RAGEngine;
+  private pdfStoragePath: string;
+  private adamsScraper: RealADAMSScraper;
 
   constructor() {
+    this.ragEngine = new RAGEngine();
+    this.adamsScraper = new RealADAMSScraper();
+    
+    // PDF 저장 디렉토리 설정
+    this.pdfStoragePath = join(__dirname, '..', 'downloaded_pdfs');
+    if (!fsSync.existsSync(this.pdfStoragePath)) {
+      fsSync.mkdirSync(this.pdfStoragePath, { recursive: true });
+      console.error(`Created PDF storage directory: ${this.pdfStoragePath}`);
+    }
+    
     this.server = new Server(
       {
-        name: "eve-mcp",
-        version: "1.0.0",
+        name: "nrc-adams-mcp",
+        version: "2.0.0",
       },
       {
         capabilities: {
@@ -66,69 +93,96 @@ class EVEMCPServer {
     this.server.setRequestHandler(ListToolsRequestSchema, async () => ({
       tools: [
         {
-          name: "search_papers",
-          description: "Search for academic papers on various sites",
+          name: "search_adams",
+          description: "Search NRC ADAMS website/database for NEW documents (사이트에서 새로 검색)",
           inputSchema: {
             type: "object",
             properties: {
               query: {
                 type: "string",
-                description: "Search query for papers",
-              },
-              site: {
-                type: "string",
-                description: "Target site to search (default: arxiv). Options: arxiv, scholar, pubmed",
-                enum: ["arxiv", "scholar", "pubmed"],
-                default: "arxiv",
+                description: "Search query for ADAMS documents",
               },
               max_results: {
                 type: "number",
-                description: "Maximum number of results to return (default: 10)",
-                default: 10,
+                description: "Maximum number of results to return (default: 50)",
+                default: 50,
+              },
+              document_type: {
+                type: "string",
+                description: "Filter by document type (optional)",
+              },
+              date_from: {
+                type: "string",
+                description: "Start date for search (YYYY-MM-DD format)",
+              },
+              date_to: {
+                type: "string",
+                description: "End date for search (YYYY-MM-DD format)",
               },
             },
             required: ["query"],
           },
         },
         {
-          name: "download_pdf",
-          description: "Download and extract text from a PDF document",
+          name: "download_adams_documents",
+          description: "Download multiple ADAMS documents (PDFs) at once",
           inputSchema: {
             type: "object",
             properties: {
-              url: {
-                type: "string",
-                description: "URL of the PDF to download, or search result number (e.g., '1', '2')",
+              count: {
+                type: "number",
+                description: "Number of documents to download from search results (default: 10)",
+                default: 10,
+              },
+              document_numbers: {
+                type: "array",
+                description: "Specific document numbers or indices to download",
+                items: {
+                  type: "string"
+                }
               },
             },
-            required: ["url"],
           },
         },
         {
-          name: "ask_about_pdf",
-          description: "Ask questions about a downloaded PDF document",
+          name: "ask_about_documents",
+          description: "Search/Ask questions within DOWNLOADED documents only (다운로드한 문서 내에서만 검색)",
           inputSchema: {
             type: "object",
             properties: {
-              pdf_identifier: {
-                type: "string",
-                description: "URL or filename of the PDF to query. If omitted, uses the most recently downloaded PDF.",
-              },
               question: {
                 type: "string",
-                description: "Question to ask about the PDF content",
+                description: "Question to ask about the documents",
+              },
+              document_number: {
+                type: "string",
+                description: "Specific document number to query. If omitted, searches all downloaded documents.",
               },
             },
             required: ["question"],
           },
         },
         {
-          name: "list_downloaded_pdfs",
-          description: "List all downloaded PDFs with their titles and filenames",
+          name: "list_downloaded_documents",
+          description: "List all downloaded ADAMS documents",
           inputSchema: {
             type: "object",
             properties: {},
             required: [],
+          },
+        },
+        {
+          name: "clear_cache",
+          description: "Clear/Delete all downloaded documents from cache (캐시 비우기, 다운로드 파일 삭제)",
+          inputSchema: {
+            type: "object",
+            properties: {
+              confirm: {
+                type: "boolean",
+                description: "Confirm to clear all cached documents (default: false)",
+                default: false,
+              },
+            },
           },
         },
       ],
@@ -138,14 +192,16 @@ class EVEMCPServer {
       CallToolRequestSchema,
       async (request) => {
         switch (request.params.name) {
-          case "search_papers":
-            return await this.searchPapers(request.params.arguments);
-          case "download_pdf":
-            return await this.downloadPDF(request.params.arguments);
-          case "ask_about_pdf":
-            return await this.askAboutPDF(request.params.arguments);
-          case "list_downloaded_pdfs":
-            return await this.listDownloadedPDFs();
+          case "search_adams":
+            return await this.searchADAMS(request.params.arguments);
+          case "download_adams_documents":
+            return await this.downloadADAMSDocuments(request.params.arguments);
+          case "ask_about_documents":
+            return await this.askAboutDocuments(request.params.arguments);
+          case "list_downloaded_documents":
+            return await this.listDownloadedDocuments();
+          case "clear_cache":
+            return await this.clearCache(request.params.arguments);
           default:
             throw new McpError(
               ErrorCode.MethodNotFound,
@@ -156,214 +212,175 @@ class EVEMCPServer {
     );
   }
 
-  private async searchPapers(args: any): Promise<any> {
-    const { query, site = "arxiv", max_results = 10 } = args;
+  private async searchADAMS(args: any): Promise<any> {
+    const { query, max_results = 50, document_type, date_from, date_to } = args;
     
     try {
-      let results: SearchResult[] = [];
+      console.error(`Searching ADAMS for: ${query}`);
       
-      switch (site) {
-        case "arxiv":
-          results = await this.searchArxiv(query, max_results);
-          break;
-        case "scholar":
-          results = await this.searchGoogleScholar(query, max_results);
-          break;
-        case "pubmed":
-          results = await this.searchPubMed(query, max_results);
-          break;
-        default:
-          throw new McpError(
-            ErrorCode.InvalidRequest,
-            `Unsupported site: ${site}. Supported sites: arxiv, scholar, pubmed`
-          );
-      }
+      // 실제 ADAMS 검색 - 모의 데이터 없음
+      const searchResults = await this.adamsScraper.searchReal(query, max_results);
       
-      // Save search results for download by number
+      // RealADAMSDocument를 ADAMSDocument로 변환
+      const results: ADAMSDocument[] = searchResults.map(doc => ({
+        title: doc.title,
+        documentNumber: doc.accessionNumber,
+        documentDate: doc.docDate || doc.dateAdded,
+        documentType: 'Document',
+        pdfUrl: doc.pdfUrl,
+        abstract: ''
+      }));
+
+      // 검색 결과 저장
       this.lastSearchResults = results;
       
       return {
         content: [
           {
             type: "text",
-            text: `Found ${results.length} papers on ${site} matching "${query}":\n\n${results
-              .map((r, i) => `${i + 1}. ${r.title}\n   Authors: ${r.authors?.join(', ') || 'N/A'}\n   URL: ${r.url}\n   Published: ${r.published || 'N/A'}`)
-              .join('\n\n')}\n\nTo download, use: "download_pdf" with the URL or number (1-${results.length})`,
+            text: `🔍 새로운 검색 결과 (이전 검색 결과는 대체됨)\n` +
+                  `Found ${results.length} documents in NRC ADAMS matching "${query}":\n\n${results
+              .map((r, i) => `${i + 1}. ${r.title}\n   Document #: ${r.documentNumber || 'N/A'}\n   Docket: ${r.docketNumber || 'N/A'}\n   Date: ${r.documentDate || 'N/A'}\n   Type: ${r.documentType || 'N/A'}`)
+              .join('\n\n')}\n\n` +
+                  `📌 현재 상태:\n` +
+                  `- 검색 결과: ${results.length}개 (새로운)\n` +
+                  `- 캐시된 문서: ${this.pdfCache.size}개 (유지됨)\n\n` +
+                  `Use "download_adams_documents" to download from THESE results`,
           },
         ],
         data: results,
       };
     } catch (error) {
-      if (error instanceof McpError) {
-        throw error;
-      }
       throw new McpError(
         ErrorCode.InternalError,
-        `Failed to search papers: ${error instanceof Error ? error.message : 'Unknown error'}`
+        `Failed to search ADAMS: ${error instanceof Error ? error.message : 'Unknown error'}`
       );
     }
   }
-  
-  private async searchArxiv(query: string, maxResults: number): Promise<SearchResult[]> {
-    const searchUrl = `http://export.arxiv.org/api/query?search_query=all:${encodeURIComponent(query)}&max_results=${maxResults}`;
+
+  // Mock data function removed - using real ADAMS data only
+
+  // Removed unused web scraping function - using RealADAMSScraper instead
+
+  private async downloadADAMSDocuments(args: any): Promise<any> {
+    const { count = 10, document_numbers } = args;
     
-    const response = await axios.get(searchUrl);
-    const $ = cheerio.load(response.data, { xmlMode: true });
-    
-    const results: SearchResult[] = [];
-    
-    $('entry').each((index, element) => {
-      const $entry = $(element);
-      const title = $entry.find('title').text().trim();
-      const id = $entry.find('id').text().trim();
-      const summary = $entry.find('summary').text().trim();
-      const published = $entry.find('published').text().trim();
-      
-      // Extract authors
-      const authors: string[] = [];
-      $entry.find('author name').each((i, el) => {
-        authors.push($(el).text().trim());
-      });
-      
-      // Get PDF URL - handle different arXiv URL formats
-      let pdfUrl = id;
-      if (id.includes('/abs/')) {
-        pdfUrl = id.replace('/abs/', '/pdf/') + '.pdf';
-      } else if (id.startsWith('http://arxiv.org/abs/')) {
-        pdfUrl = id.replace('http://arxiv.org/abs/', 'http://arxiv.org/pdf/') + '.pdf';
-      } else if (id.startsWith('https://arxiv.org/abs/')) {
-        pdfUrl = id.replace('https://arxiv.org/abs/', 'https://arxiv.org/pdf/') + '.pdf';
-      }
-      
-      results.push({
-        title,
-        url: pdfUrl,
-        authors,
-        abstract: summary,
-        published,
-      });
-    });
-    
-    return results;
-  }
-  
-  private async searchGoogleScholar(query: string, maxResults: number): Promise<SearchResult[]> {
-    // Note: Google Scholar doesn't have an official API
-    // This is a placeholder - in production, you'd need to use a service like SerpAPI
-    throw new McpError(
-      ErrorCode.InvalidRequest,
-      "Google Scholar search requires API key setup. For now, please use 'arxiv' or 'pubmed'."
-    );
-  }
-  
-  private async searchPubMed(query: string, maxResults: number): Promise<SearchResult[]> {
-    // PubMed E-utilities API
-    const searchUrl = `https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=${encodeURIComponent(query)}&retmode=json&retmax=${maxResults}`;
-    
-    try {
-      const searchResponse = await axios.get(searchUrl);
-      const idList = searchResponse.data.esearchresult.idlist;
-      
-      if (idList.length === 0) {
-        return [];
-      }
-      
-      // Fetch details for each ID
-      const detailsUrl = `https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id=${idList.join(',')}&retmode=json`;
-      const detailsResponse = await axios.get(detailsUrl);
-      
-      const results: SearchResult[] = [];
-      const uids = detailsResponse.data.result.uids;
-      
-      for (const uid of uids) {
-        const article = detailsResponse.data.result[uid];
-        
-        results.push({
-          title: article.title,
-          url: `https://pubmed.ncbi.nlm.nih.gov/${uid}/`,
-          authors: article.authors?.map((a: any) => a.name) || [],
-          abstract: article.sorttitle || '',
-          published: article.pubdate || '',
-        });
-      }
-      
-      return results;
-    } catch (error) {
-      throw new Error(`PubMed search failed: ${error}`);
+    if (this.lastSearchResults.length === 0) {
+      throw new McpError(
+        ErrorCode.InvalidRequest,
+        "No search results available. Please search first using 'search_adams'."
+      );
     }
+
+    let documentsToDownload: ADAMSDocument[] = [];
+    
+    if (document_numbers && document_numbers.length > 0) {
+      // 특정 문서 번호들 다운로드
+      for (const num of document_numbers) {
+        const index = parseInt(num) - 1;
+        if (!isNaN(index) && index >= 0 && index < this.lastSearchResults.length) {
+          documentsToDownload.push(this.lastSearchResults[index]);
+        } else {
+          // 문서 번호로 직접 검색
+          const doc = this.lastSearchResults.find(d => d.documentNumber === num);
+          if (doc) documentsToDownload.push(doc);
+        }
+      }
+    } else {
+      // 상위 N개 다운로드
+      documentsToDownload = this.lastSearchResults.slice(0, count);
+    }
+
+    const downloadResults = [];
+    let successCount = 0;
+    let failCount = 0;
+
+    for (let i = 0; i < documentsToDownload.length; i++) {
+      const doc = documentsToDownload[i];
+      console.error(`Downloading ${i + 1}/${documentsToDownload.length}: ${doc.title}`);
+      
+      try {
+        const result = await this.downloadSingleDocument(doc);
+        downloadResults.push(`✅ ${doc.title}`);
+        successCount++;
+      } catch (error) {
+        downloadResults.push(`❌ ${doc.title}: ${error instanceof Error ? error.message : 'Failed'}`);
+        failCount++;
+        console.error(`Failed to download ${doc.title}:`, error);
+      }
+    }
+
+    return {
+      content: [
+        {
+          type: "text",
+          text: `✅ 다운로드 완료!\n\n` +
+                `Downloaded ${successCount}/${documentsToDownload.length} documents:\n${downloadResults.join('\n')}\n\n` +
+                `📊 캐시 상태:\n` +
+                `- 방금 추가: ${successCount}개\n` +
+                `- 전체 캐시: ${this.pdfCache.size}/${this.MAX_CACHE_SIZE}개\n` +
+                `- 사용률: ${Math.round((this.pdfCache.size / this.MAX_CACHE_SIZE) * 100)}%\n\n` +
+                `💡 다음 단계:\n` +
+                `- "다운로드한 문서에서 XXX 찾아줘" → 캐시된 ${this.pdfCache.size}개 문서에서 검색\n` +
+                `- "YYY 새로 검색" → ADAMS 사이트에서 새 검색 (캐시는 유지됨)`,
+        },
+      ],
+    };
   }
 
-  private async downloadPDF(args: any): Promise<any> {
-    let { url } = args;
-    
-    // Check if url is a number (search result index)
-    const resultNumber = parseInt(url);
-    if (!isNaN(resultNumber) && resultNumber > 0 && resultNumber <= this.lastSearchResults.length) {
-      url = this.lastSearchResults[resultNumber - 1].url;
-      console.error(`Using search result #${resultNumber}: ${url}`);
+  private async downloadSingleDocument(doc: ADAMSDocument): Promise<void> {
+    if (!doc.documentNumber) {
+      throw new Error('No document number available');
     }
+
+    // PDF URL 구성
+    let pdfUrl = doc.pdfUrl || `https://www.nrc.gov/docs/${doc.documentNumber.substring(0, 6)}/${doc.documentNumber}.pdf`;
+
+    // 이미 캐시에 있는지 확인
+    if (this.pdfCache.has(pdfUrl)) {
+      console.error(`Document already cached: ${doc.title}`);
+      return;
+    }
+
+    console.error(`Downloading real PDF for: ${doc.title} (${doc.documentNumber})`);
     
     try {
-      // Check cache first
-      if (this.pdfCache.has(url)) {
-        const cached = this.pdfCache.get(url)!;
-        return {
-          content: [
-            {
-              type: "text",
-              text: `PDF already downloaded and cached.\n\nFilename: ${cached.filename}\nTitle: ${cached.metadata.title || 'Unknown'}\nPages: ${cached.metadata.pages || 'Unknown'}`,
-            },
-          ],
+      // PDF 파일명 및 경로 생성
+      const filename = `${doc.documentNumber}.pdf`;
+      const filePath = join(this.pdfStoragePath, filename);
+      
+      let pdfDocument: StoredPDFDocument;
+      let pdfBuffer: Buffer | null = null;
+      
+      // RealADAMSScraper를 사용하여 실제 PDF 다운로드
+      const downloadSuccess = await this.adamsScraper.downloadRealPDF(doc.documentNumber, filePath);
+      
+      if (downloadSuccess) {
+        // 다운로드된 PDF 읽기
+        pdfBuffer = await fs.readFile(filePath);
+        console.error(`Real PDF downloaded successfully: ${filePath}`);
+        
+        // PDF 텍스트 추출
+        const pdfData = await pdfParse(pdfBuffer);
+        
+        pdfDocument = {
+          content: pdfData.text,
+          metadata: {
+            title: doc.title,
+            pages: pdfData.numpages,
+            documentNumber: doc.documentNumber,
+            docketNumber: doc.docketNumber,
+          },
+          url: pdfUrl,
+          filename,
+          localPath: filePath,
         };
+      } else {
+        throw new Error('Failed to download real PDF');
       }
-      
-      // Handle http vs https for arXiv
-      let downloadUrl = url;
-      if (url.startsWith('http://arxiv.org/')) {
-        downloadUrl = url.replace('http://', 'https://');
-        console.error(`Converting HTTP to HTTPS: ${downloadUrl}`);
-      }
-      
-      // Download PDF
-      const response = await axios.get(downloadUrl, {
-        responseType: 'arraybuffer',
-        maxContentLength: 50 * 1024 * 1024, // 50MB limit
-        headers: {
-          'User-Agent': 'EVE-MCP/1.0 (Academic PDF Reader)'
-        }
-      });
-      
-      const buffer = Buffer.from(response.data);
-      
-      // Save to temporary file for processing
-      const hash = createHash('md5').update(url).digest('hex');
-      const tempPath = join(tmpdir(), `eve-pdf-${hash}.pdf`);
-      await fs.writeFile(tempPath, buffer);
-      
-      // Parse PDF for text extraction
-      const parsedPdf = await pdfParse(buffer);
-      
-      // Extract filename from URL or use title
-      let filename = url.split('/').pop() || 'unknown.pdf';
-      if (!filename.endsWith('.pdf')) {
-        filename += '.pdf';
-      }
-      
-      const pdfDocument: StoredPDFDocument = {
-        content: parsedPdf.text,
-        metadata: {
-          title: parsedPdf.info?.Title || undefined,
-          author: parsedPdf.info?.Author || undefined,
-          pages: parsedPdf.numpages || 0,
-          creationDate: parsedPdf.info?.CreationDate || undefined,
-        },
-        url,
-        filename,
-      };
-      
-      // Cache the document with size limit (LRU)
+
+      // LRU 캐시 관리
       if (this.pdfCache.size >= this.MAX_CACHE_SIZE) {
-        // Remove oldest entry (first item in Map)
         const firstKey = this.pdfCache.keys().next().value;
         if (firstKey) {
           const oldDoc = this.pdfCache.get(firstKey);
@@ -371,126 +388,107 @@ class EVEMCPServer {
             this.filenameToUrl.delete(oldDoc.filename);
           }
           this.pdfCache.delete(firstKey);
-          console.error(`Cache full, removing oldest PDF: ${firstKey}`);
         }
       }
+
+      this.pdfCache.set(pdfUrl, pdfDocument);
+      this.filenameToUrl.set(filename, pdfUrl);
+      this.currentPdfUrl = pdfUrl;
       
-      this.pdfCache.set(url, pdfDocument);
-      this.filenameToUrl.set(filename, url);
-      this.currentPdfUrl = url;
+      // RAG 엔진에 문서 추가
+      await this.ragEngine.addDocument(pdfUrl, pdfDocument.content, {
+        title: pdfDocument.metadata.title,
+        documentNumber: pdfDocument.metadata.documentNumber,
+        docketNumber: pdfDocument.metadata.docketNumber,
+        filename: pdfDocument.filename
+      });
       
-      // Clean up temp file
-      await fs.unlink(tempPath).catch(() => {}); // Ignore errors
-      
-      return {
-        content: [
-          {
-            type: "text",
-            text: `PDF downloaded successfully!\n\nFilename: ${pdfDocument.filename}\nTitle: ${pdfDocument.metadata.title || 'Unknown'}\nAuthor: ${pdfDocument.metadata.author || 'Unknown'}\nPages: ${pdfDocument.metadata.pages || 'Unknown'}\n\nYou can now ask questions about this PDF using its filename "${pdfDocument.filename}" or just ask directly (I'll use the most recent PDF).\n\nFirst 500 characters:\n${pdfDocument.content.substring(0, 500)}...`,
-          },
-        ],
-      };
     } catch (error) {
-      throw new McpError(
-        ErrorCode.InternalError,
-        `Failed to download PDF: ${error instanceof Error ? error.message : 'Unknown error'}`
-      );
+      throw new Error(`Download failed: ${error instanceof Error ? error.message : 'Unknown error'}`);
     }
   }
 
-  private async askAboutPDF(args: any): Promise<any> {
-    const { pdf_identifier, question } = args;
+  private async askAboutDocuments(args: any): Promise<any> {
+    const { question, document_number } = args;
     
-    let pdf_url: string | undefined;
-    
-    // Determine which PDF to use
-    if (!pdf_identifier) {
-      // Use most recent PDF
-      pdf_url = this.currentPdfUrl;
-      if (!pdf_url) {
-        throw new McpError(
-          ErrorCode.InvalidRequest,
-          "No PDF has been downloaded yet. Please download a PDF first."
-        );
-      }
-    } else if (pdf_identifier.startsWith('http')) {
-      // It's a URL
-      pdf_url = pdf_identifier;
-    } else {
-      // It's a filename
-      pdf_url = this.filenameToUrl.get(pdf_identifier);
-      if (!pdf_url) {
-        throw new McpError(
-          ErrorCode.InvalidRequest,
-          `PDF with filename "${pdf_identifier}" not found. Use 'list_downloaded_pdfs' to see available PDFs.`
-        );
-      }
+    if (this.pdfCache.size === 0) {
+      throw new McpError(
+        ErrorCode.InvalidRequest,
+        "No documents have been downloaded yet. Please download documents first."
+      );
     }
-    
+
     try {
-      // Check if PDF is downloaded
-      if (!pdf_url || !this.pdfCache.has(pdf_url)) {
-        throw new McpError(
-          ErrorCode.InvalidRequest,
-          "PDF not found in cache. Please download it first using 'download_pdf'."
-        );
-      }
+      // RAG 엔진 사용 가능 여부 확인
+      const ragStats = this.ragEngine.getStats();
+      const isRAGEnabled = this.ragEngine.isEnabled();
       
-      const pdfDoc = this.pdfCache.get(pdf_url)!;
-      const content = pdfDoc.content.toLowerCase();
-      const questionLower = question.toLowerCase();
+      console.error(`Q&A: Using ${isRAGEnabled ? 'RAG with embeddings' : 'keyword search'}`);
       
-      // Simple keyword-based search (in production, this would use AI/embeddings)
-      const keywords = questionLower.split(/\s+/).filter((word: string) => word.length > 3);
+      // RAG 검색 실행
+      const searchResults = await this.ragEngine.search(question, 5);
       
-      // Find relevant paragraphs
-      const paragraphs = pdfDoc.content.split(/\n\n+/);
-      const relevantParagraphs: Array<{ text: string; score: number }> = [];
-      
-      for (const paragraph of paragraphs) {
-        if (paragraph.length < 50) continue; // Skip short paragraphs
-        
-        const paragraphLower = paragraph.toLowerCase();
-        let score = 0;
-        
-        for (const keyword of keywords) {
-          if (paragraphLower.includes(keyword)) {
-            score += paragraphLower.split(keyword).length - 1;
-          }
-        }
-        
-        if (score > 0) {
-          relevantParagraphs.push({ text: paragraph, score });
-        }
-      }
-      
-      // Sort by relevance and take top 3
-      relevantParagraphs.sort((a, b) => b.score - a.score);
-      const topParagraphs = relevantParagraphs.slice(0, 3).map(p => p.text);
-      
-      if (topParagraphs.length === 0) {
+      if (searchResults.length === 0) {
         return {
           content: [
             {
               type: "text",
-              text: `I couldn't find specific information about "${question}" in the PDF. The document might not contain relevant information about this topic.`,
+              text: `I couldn't find specific information about "${question}" in the searched documents.`,
             },
           ],
         };
       }
       
+      // 결과 포맷팅 (인용 정보 포함)
+      const formattedResults = searchResults.map((result, idx) => {
+        const metadata = result.metadata;
+        const source = metadata.documentNumber 
+          ? `[${metadata.documentNumber}] ${metadata.title || 'Document'}`
+          : metadata.title || 'Unknown Document';
+        
+        // 텍스트 일부만 표시 (앞뒤 100자)
+        const excerpt = result.text.length > 200 
+          ? result.text.substring(0, 100) + '...' + result.text.substring(result.text.length - 100)
+          : result.text;
+        
+        // 인용 정보 생성
+        const citation = metadata.chunkIndex !== undefined 
+          ? `📍 Chunk #${metadata.chunkIndex + 1}` + 
+            (metadata.startChar ? ` (chars ${metadata.startChar}-${metadata.endChar})` : '')
+          : '';
+        
+        // 파일 경로 가져오기
+        const docNumber = metadata.documentNumber;
+        let fileLink = '';
+        if (docNumber) {
+          const filePath = join(this.pdfStoragePath, `${docNumber}.pdf`);
+          if (fsSync.existsSync(filePath)) {
+            fileLink = `📂 file://${filePath}\n`;
+          }
+        }
+        
+        return `📄 ${source}\n` +
+               `${isRAGEnabled ? `📊 Relevance: ${(result.score * 100).toFixed(1)}%\n` : ''}` +
+               `${citation}\n` +
+               `${fileLink}` +
+               `📝 "${excerpt}"`;
+      });
+      
       return {
         content: [
           {
             type: "text",
-            text: `Based on the PDF content, here's what I found related to "${question}":\n\n${topParagraphs.join('\n\n...\n\n')}\n\n[Note: This is a simple keyword-based search. For more accurate results, an AI-powered analysis would be needed.]`,
+            text: `🔍 ${isRAGEnabled ? 'AI-Powered Search Results' : 'Keyword Search Results'} for "${question}":\n\n` +
+                  `${formattedResults.join('\n\n---\n\n')}\n\n` +
+                  `📊 Search Info:\n` +
+                  `- Method: ${isRAGEnabled ? 'Semantic Search (RAG)' : 'Keyword Matching'}\n` +
+                  `- Documents searched: ${ragStats.documents}\n` +
+                  `- Total chunks: ${ragStats.totalChunks}\n` +
+                  `${isRAGEnabled ? '- ✅ OpenAI embeddings active' : '- ⚠️ Add OpenAI API key for better results'}`,
           },
         ],
       };
     } catch (error) {
-      if (error instanceof McpError) {
-        throw error;
-      }
       throw new McpError(
         ErrorCode.InternalError,
         `Failed to process question: ${error instanceof Error ? error.message : 'Unknown error'}`
@@ -498,25 +496,32 @@ class EVEMCPServer {
     }
   }
 
-  private async listDownloadedPDFs(): Promise<any> {
+  private async listDownloadedDocuments(): Promise<any> {
     if (this.pdfCache.size === 0) {
       return {
         content: [
           {
             type: "text",
-            text: `Downloaded PDFs (0/${this.MAX_CACHE_SIZE}):\n\nNo PDFs have been downloaded yet. Use 'download_pdf' to download a PDF first.\n\nCache Usage: 0%`,
+            text: `Downloaded ADAMS Documents (0/${this.MAX_CACHE_SIZE}):\n\nNo documents have been downloaded yet.\n\nUse 'search_adams' to search and then 'download_adams_documents' to download.`,
           },
         ],
       };
     }
     
-    const pdfList: string[] = [];
+    const docList: string[] = [];
     for (const [url, pdfDoc] of this.pdfCache.entries()) {
-      pdfList.push(
-        `Filename: ${pdfDoc.filename}\n` +
-        `Title: ${pdfDoc.metadata.title || 'Unknown'}\n` +
-        `URL: ${url}\n` +
-        `Pages: ${pdfDoc.metadata.pages || 'Unknown'}`
+      // 로컬 파일 경로 확인
+      let fileLink = '';
+      if (pdfDoc.localPath && fsSync.existsSync(pdfDoc.localPath)) {
+        fileLink = `\n   📂 Local File: file://${pdfDoc.localPath}`;
+      }
+      
+      docList.push(
+        `📄 ${pdfDoc.metadata.title || 'Untitled'}\n` +
+        `   Document #: ${pdfDoc.metadata.documentNumber || 'N/A'}\n` +
+        `   Docket: ${pdfDoc.metadata.docketNumber || 'N/A'}\n` +
+        `   Filename: ${pdfDoc.filename}\n` +
+        `   Pages: ${pdfDoc.metadata.pages || 'Unknown'}${fileLink}`
       );
     }
     
@@ -524,7 +529,62 @@ class EVEMCPServer {
       content: [
         {
           type: "text",
-          text: `Downloaded PDFs (${this.pdfCache.size}/${this.MAX_CACHE_SIZE}):\n\n${pdfList.join('\n\n---\n\n')}\n\nCurrent PDF: ${this.currentPdfUrl ? this.pdfCache.get(this.currentPdfUrl)?.filename : 'None'}\n\nCache Usage: ${Math.round((this.pdfCache.size / this.MAX_CACHE_SIZE) * 100)}%`,
+          text: `Downloaded ADAMS Documents (${this.pdfCache.size}/${this.MAX_CACHE_SIZE}):\n\n${docList.join('\n\n')}\n\nCache Usage: ${Math.round((this.pdfCache.size / this.MAX_CACHE_SIZE) * 100)}%\n\n💡 Tip: "다운로드 파일 지워줘" or "캐시 비우기" to remove all`,
+        },
+      ],
+    };
+  }
+
+  private async clearCache(args: any): Promise<any> {
+    const { confirm = false } = args || {};
+    
+    if (!confirm) {
+      return {
+        content: [
+          {
+            type: "text",
+            text: `⚠️ 다운로드 파일 삭제 확인\n\n` +
+                  `현재 ${this.pdfCache.size}개의 문서가 다운로드되어 있습니다.\n` +
+                  `정말 모든 다운로드한 문서를 삭제하시겠습니까?\n\n` +
+                  `확인하려면:\n` +
+                  `- "삭제 확인"\n` +
+                  `- "캐시 삭제 확인"\n` +
+                  `- "다운로드 파일 삭제 확인"`,
+          },
+        ],
+      };
+    }
+    
+    const previousSize = this.pdfCache.size;
+    
+    // 로컬 파일들도 삭제
+    for (const [url, pdfDoc] of this.pdfCache.entries()) {
+      if (pdfDoc.localPath && fsSync.existsSync(pdfDoc.localPath)) {
+        try {
+          await fs.unlink(pdfDoc.localPath);
+          console.error(`Deleted local file: ${pdfDoc.localPath}`);
+        } catch (err) {
+          console.error(`Failed to delete file: ${err}`);
+        }
+      }
+    }
+    
+    this.pdfCache.clear();
+    this.filenameToUrl.clear();
+    this.currentPdfUrl = undefined;
+    this.ragEngine.clear(); // RAG 엔진도 초기화
+    
+    return {
+      content: [
+        {
+          type: "text",
+          text: `🗑️ 다운로드 파일 삭제 완료!\n\n` +
+                `- 삭제된 문서: ${previousSize}개\n` +
+                `- 남은 문서: 0개\n\n` +
+                `✨ 깨끗하게 비워졌습니다!\n\n` +
+                `새로 시작하려면:\n` +
+                `1. "XXX 검색" → ADAMS에서 새 검색\n` +
+                `2. "N개 다운로드" → 문서 다운로드`,
         },
       ],
     };
@@ -533,12 +593,12 @@ class EVEMCPServer {
   async run(): Promise<void> {
     const transport = new StdioServerTransport();
     await this.server.connect(transport);
-    console.error("EVE MCP server running on stdio");
+    console.error("NRC ADAMS MCP server running on stdio");
   }
 }
 
 // Start the server
 if (import.meta.url === `file://${process.argv[1]}`) {
-  const server = new EVEMCPServer();
+  const server = new NRCADAMSMCPServer();
   server.run().catch(console.error);
 }
