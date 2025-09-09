@@ -40,8 +40,8 @@ Add the following configuration:
       "command": "node",
       "args": ["/Users/your_username/path/eve-mcp/build/index.js"],
       "env": {
-        "OPENAI_API_KEY": "sk-...",  // Optional: for OpenAI embeddings
-        "ANTHROPIC_API_KEY": "sk-ant-..."  // Optional: for Claude analysis
+        "OPENAI_API_KEY": "sk-...",   
+        "ANTHROPIC_API_KEY": "sk-ant-..."   
       }
     }
   }
@@ -57,8 +57,8 @@ Configuration file: `%APPDATA%\Claude\claude_desktop_config.json`
       "command": "node",
       "args": ["C:/path/eve-mcp/build/index.js"],
       "env": {
-        "OPENAI_API_KEY": "sk-...",  // Optional
-        "ANTHROPIC_API_KEY": "sk-ant-..."  // Optional
+        "OPENAI_API_KEY": "sk-...",  
+        "ANTHROPIC_API_KEY": "sk-ant-..."  
       }
     }
   }

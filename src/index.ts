@@ -39,7 +39,7 @@ import * as fsSync from 'fs';
 import { tmpdir } from 'os';
 import { join, dirname } from 'path';
 import { createHash } from 'crypto';
-import { RAGEngine } from './rag-engine.js';
+import { EnhancedRAGEngine } from './rag-engine-enhanced.js';
 import { ImprovedADAMSScraper } from './adams-real-improved.js';
 import mcpLogger from './mcp-logger.js';
 import { fileURLToPath } from 'url';
@@ -83,12 +83,12 @@ class NRCADAMSMCPServer {
   private readonly MAX_CACHE_SIZE = 50; // 증가: ADAMS 문서는 더 많이 캐시
   private readonly ADAMS_API_BASE = 'https://adams.nrc.gov/wba';
   private readonly ADAMS_SEARCH_BASE = 'https://adams-search.nrc.gov';
-  private ragEngine: RAGEngine;
+  private ragEngine: EnhancedRAGEngine;
   private pdfStoragePath: string;
   private adamsScraper: ImprovedADAMSScraper;
 
   constructor() {
-    this.ragEngine = new RAGEngine();
+    this.ragEngine = new EnhancedRAGEngine();
     this.adamsScraper = new ImprovedADAMSScraper();
     
     // PDF 저장 디렉토리 설정
@@ -442,13 +442,18 @@ class NRCADAMSMCPServer {
       this.filenameToUrl.set(filename, pdfUrl);
       this.currentPdfUrl = pdfUrl;
       
-      // RAG 엔진에 문서 추가
-      await this.ragEngine.addDocument(pdfUrl, pdfDocument.content, {
-        title: pdfDocument.metadata.title,
-        documentNumber: pdfDocument.metadata.documentNumber,
-        docketNumber: pdfDocument.metadata.docketNumber,
-        filename: pdfDocument.filename
-      });
+      // RAG 엔진에 문서 추가 (페이지 정보 포함)
+      await this.ragEngine.addDocumentWithPages(
+        pdfUrl, 
+        pdfDocument.content, 
+        {
+          title: pdfDocument.metadata.title,
+          documentNumber: pdfDocument.metadata.documentNumber,
+          docketNumber: pdfDocument.metadata.docketNumber,
+          filename: pdfDocument.filename
+        },
+        pdfDocument.metadata.pages // 전체 페이지 수 전달
+      );
       
     } catch (error) {
       throw new Error(`Download failed: ${error instanceof Error ? error.message : 'Unknown error'}`);
@@ -486,7 +491,7 @@ class NRCADAMSMCPServer {
         };
       }
       
-      // 결과 포맷팅 (인용 정보 포함)
+      // 결과 포맷팅 (향상된 인용 정보 포함)
       const formattedResults = searchResults.map((result, idx) => {
         const metadata = result.metadata;
         const source = metadata.documentNumber 
@@ -498,11 +503,22 @@ class NRCADAMSMCPServer {
           ? result.text.substring(0, 100) + '...' + result.text.substring(result.text.length - 100)
           : result.text;
         
-        // 인용 정보 생성 - 페이지/청크 정보 포함
-        const citation = metadata.chunkIndex !== undefined 
-          ? `📍 Section #${metadata.chunkIndex + 1}` + 
-            (metadata.startChar ? ` (position ${metadata.startChar}-${metadata.endChar})` : '')
-          : '';
+        // 향상된 인용 정보 생성 - 페이지/섹션/라인 정보 포함
+        let citation = '';
+        if (metadata.citation) {
+          // EnhancedRAGEngine에서 제공하는 포맷된 인용
+          citation = `📍 ${metadata.citation}`;
+        } else if (metadata.pageNumber) {
+          // 페이지 정보가 있는 경우
+          citation = `📍 Page ${metadata.pageNumber}`;
+          if (metadata.totalPages) citation += ` of ${metadata.totalPages}`;
+          if (metadata.section) citation += ` - ${metadata.section}`;
+          if (metadata.lineNumbers) citation += ` (Lines ${metadata.lineNumbers[0]}-${metadata.lineNumbers[1]})`;
+        } else if (metadata.chunkIndex !== undefined) {
+          // 기본 청크 정보만 있는 경우 (fallback)
+          citation = `📍 Section #${metadata.chunkIndex + 1}` + 
+            (metadata.startChar ? ` (position ${metadata.startChar}-${metadata.endChar})` : '');
+        }
         
         // ADAMS URL 생성 (Markdown 링크 형식)
         const adamsUrl = metadata.documentNumber 
