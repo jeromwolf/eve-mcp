@@ -157,6 +157,26 @@ RAG enables semantic search instead of simple keyword matching. See [API_SETUP.m
 | Claude Analysis | 85% | Medium | $0.25/1M tokens |
 | Keyword Search | 60% | Fastest | Free |
 
+## 📁 Project Structure
+
+```
+nrc-adams-mcp/
+├── src/                    # TypeScript source code
+├── build/                  # Compiled JavaScript output
+├── tests/                  # Test files and scripts
+│   ├── test-comprehensive.js  # Main test suite (75% success)
+│   └── auto-test.sh           # Automated testing
+├── docs/                   # Documentation
+│   ├── API_SETUP.md           # API configuration guide
+│   └── logging_privacy_protection_guidelines.md
+├── assets/                 # Screenshots and resources
+├── downloaded_pdfs/        # PDF cache (gitignored)
+├── test-results/           # Test outputs (gitignored)
+├── logs/                   # Application logs
+├── temp/                   # Temporary files (gitignored)
+└── debug/                  # Debug files (gitignored)
+```
+
 ## 🛠 Development
 
 ```bash
@@ -164,7 +184,12 @@ RAG enables semantic search instead of simple keyword matching. See [API_SETUP.m
 npm run dev
 
 # Run tests
-npm test
+node tests/test-comprehensive.js     # Full test suite
+./tests/auto-test.sh                 # Quick automated tests
+
+# Run specific tests
+node tests/test-simple.js            # Basic functionality
+node tests/test-integration.js       # Integration tests
 
 # Lint check
 npm run lint

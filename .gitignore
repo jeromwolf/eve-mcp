@@ -40,6 +40,13 @@ coverage/
 tmp/
 temp/
 
+# Downloaded PDFs and test results
+downloaded_pdfs/
+test-results/
+
+# Debug files
+debug/
+
 # Cache
 .cache/
 .eslintcache
