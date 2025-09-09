@@ -35,7 +35,7 @@ export class RealADAMSScraper {
    * 실제 ADAMS 검색 - 모의 데이터 없음
    */
   async searchReal(query: string, maxResults: number = 50): Promise<RealADAMSDocument[]> {
-    console.error(`[REAL ADAMS] Searching for: "${query}"`);
+    // console.error(`[REAL ADAMS] Searching for: "${query}"`);
     
     let page: puppeteer.Page | null = null;
     
@@ -52,7 +52,7 @@ export class RealADAMSScraper {
           sortDirection: 1
         };
         
-        console.error(`[REAL ADAMS] Calling API: ${apiUrl}`);
+        // console.error(`[REAL ADAMS] Calling API: ${apiUrl}`);
         
         const response = await axios.post(apiUrl, searchPayload, {
           headers: {
@@ -74,11 +74,11 @@ export class RealADAMSScraper {
               undefined
           }));
           
-          console.error(`[REAL ADAMS] Found ${results.length} documents via API`);
+          // console.error(`[REAL ADAMS] Found ${results.length} documents via API`);
           return results;
         }
       } catch (apiError: any) {
-        console.error(`[REAL ADAMS] API failed with ${apiError.response?.status || 'error'}, using browser fallback...`);
+        // console.error(`[REAL ADAMS] API failed with ${apiError.response?.status || 'error'}, using browser fallback...`);
       }
       
       // 브라우저로 폴백
@@ -98,7 +98,7 @@ export class RealADAMSScraper {
       const encodedParams = encodeURIComponent(JSON.stringify(searchParams));
       const searchUrl = `https://adams-search.nrc.gov/results/${encodedParams}`;
       
-      console.error(`[REAL ADAMS] Browser URL: ${searchUrl.substring(0, 100)}...`);
+      // console.error(`[REAL ADAMS] Browser URL: ${searchUrl.substring(0, 100)}...`);
       
       // 페이지 이동
       await page.goto(searchUrl, {
@@ -110,7 +110,7 @@ export class RealADAMSScraper {
       await new Promise(resolve => setTimeout(resolve, 8000));
       
       // 테이블에서 문서 정보 파싱
-      console.error('[REAL ADAMS] Parsing search results from table...');
+      // console.error('[REAL ADAMS] Parsing search results from table...');
       
       const documents = await page.evaluate(() => {
         const results: any[] = [];
@@ -169,7 +169,7 @@ export class RealADAMSScraper {
         return uniqueResults;
       });
       
-      console.error(`[REAL ADAMS] Found ${documents.length} documents in table`);
+      // console.error(`[REAL ADAMS] Found ${documents.length} documents in table`);
       
       // 문서 정보 생성
       if (documents.length > 0) {
@@ -183,16 +183,16 @@ export class RealADAMSScraper {
             : `https://www.nrc.gov/docs/${doc.accessionNumber}.pdf`
         }));
         
-        console.error(`[REAL ADAMS] Returning ${results.length} documents`);
+        // console.error(`[REAL ADAMS] Returning ${results.length} documents`);
         return results;
       }
       
       // 결과가 없으면 빈 배열 반환
-      console.error('[REAL ADAMS] No documents found');
+      // console.error('[REAL ADAMS] No documents found');
       return [];
       
     } catch (error) {
-      console.error('[REAL ADAMS] Search error:', error);
+      // console.error('[REAL ADAMS] Search error:', error);
       throw new Error(`Search failed: ${error}`);
     } finally {
       if (page) await page.close();
@@ -203,13 +203,13 @@ export class RealADAMSScraper {
    * 실제 PDF 다운로드 - 모의 데이터 없음
    */
   async downloadRealPDF(documentNumber: string, savePath: string): Promise<boolean> {
-    console.error(`[REAL ADAMS] Downloading: ${documentNumber}`);
+    // console.error(`[REAL ADAMS] Downloading: ${documentNumber}`);
     
     try {
       // ADAMS webSearch2 URL 사용
       const pdfUrl = `https://adamswebsearch2.nrc.gov/webSearch2/main.jsp?AccessionNumber=${documentNumber}`;
       
-      console.error(`[REAL ADAMS] PDF URL: ${pdfUrl}`);
+      // console.error(`[REAL ADAMS] PDF URL: ${pdfUrl}`);
       
       // axios로 직접 다운로드
       const response = await axios.get(pdfUrl, {
@@ -223,7 +223,7 @@ export class RealADAMSScraper {
       });
       
       const status = response.status;
-      console.error(`[REAL ADAMS] Response status: ${status}`);
+      // console.error(`[REAL ADAMS] Response status: ${status}`);
       
       if (status === 200 && response.data) {
         const buffer = Buffer.from(response.data);
@@ -234,11 +234,11 @@ export class RealADAMSScraper {
           
           if (isPDF) {
             await fs.writeFile(savePath, buffer);
-            console.error(`[REAL ADAMS] ✓ Saved real PDF to: ${savePath}`);
-            console.error(`[REAL ADAMS] File size: ${buffer.length} bytes`);
+            // console.error(`[REAL ADAMS] ✓ Saved real PDF to: ${savePath}`);
+            // console.error(`[REAL ADAMS] File size: ${buffer.length} bytes`);
             return true;
           } else {
-            console.error(`[REAL ADAMS] Not a PDF, first bytes: ${buffer.toString('utf8', 0, 20)}`);
+            // console.error(`[REAL ADAMS] Not a PDF, first bytes: ${buffer.toString('utf8', 0, 20)}`);
           }
         }
       }
@@ -246,13 +246,13 @@ export class RealADAMSScraper {
       return false;
       
     } catch (error) {
-      console.error(`[REAL ADAMS] Download error: ${error}`);
+      // console.error(`[REAL ADAMS] Download error: ${error}`);
       
       // 대체 URL 시도
       try {
         const folder = documentNumber.substring(0, 6);
         const altUrl = `https://www.nrc.gov/docs/${folder}/${documentNumber}.pdf`;
-        console.error(`[REAL ADAMS] Trying alternative URL: ${altUrl}`);
+        // console.error(`[REAL ADAMS] Trying alternative URL: ${altUrl}`);
         
         const response = await axios.get(altUrl, {
           responseType: 'arraybuffer',
@@ -266,12 +266,12 @@ export class RealADAMSScraper {
           const buffer = Buffer.from(response.data);
           if (buffer.toString('utf8', 0, 4) === '%PDF') {
             await fs.writeFile(savePath, buffer);
-            console.error(`[REAL ADAMS] ✓ Downloaded via alternative URL`);
+            // console.error(`[REAL ADAMS] ✓ Downloaded via alternative URL`);
             return true;
           }
         }
       } catch (altError) {
-        console.error(`[REAL ADAMS] Alternative download also failed`);
+        // console.error(`[REAL ADAMS] Alternative download also failed`);
       }
       
       return false;

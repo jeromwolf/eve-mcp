@@ -1,0 +1,564 @@
+
+================================================================================
+🚀 SIMPLE TEST - 1 Search, 10 Downloads, 10 RAG Questions
+================================================================================
+Test Start: 2025-09-09T04:37:30.558Z
+RAG Engine: OpenAI initialized
+
+📍 Step 1: SEARCH
+Query: "reactor safety analysis emergency planning"
+Target: Find 10+ documents for download
+
+2025-09-09 13:37:30 [[32minfo[39m]: Starting ADAMS search {
+  "query": "query_9e58b252",
+  "maxResults": 15
+}
+2025-09-09 13:37:30 [[32minfo[39m]: Attempting ADAMS API search (attempt 1/3)
+2025-09-09 13:37:30 [[32minfo[39m]: Request: POST https://adams-search.nrc.gov/api/search {
+  "q": "reactor safety analysis emergency planning",
+  "filters": [],
+  "legacyLibFilter": true,
+  "mainLibFilter": true,
+  "sort": "",
+  "sortDirection": 1
+}
+2025-09-09 13:37:31 [[33mwarn[39m]: ADAMS API search failed on attempt 1, retrying in 1000ms {
+  "error": "Request failed with status code 500"
+}
+2025-09-09 13:37:32 [[32minfo[39m]: Attempting ADAMS API search (attempt 2/3)
+2025-09-09 13:37:32 [[32minfo[39m]: Request: POST https://adams-search.nrc.gov/api/search {
+  "q": "reactor safety analysis emergency planning",
+  "filters": [],
+  "legacyLibFilter": true,
+  "mainLibFilter": true,
+  "sort": "",
+  "sortDirection": 1
+}
+2025-09-09 13:37:32 [[33mwarn[39m]: ADAMS API search failed on attempt 2, retrying in 2000ms {
+  "error": "Request failed with status code 500"
+}
+2025-09-09 13:37:34 [[32minfo[39m]: Attempting ADAMS API search (attempt 3/3)
+2025-09-09 13:37:34 [[32minfo[39m]: Request: POST https://adams-search.nrc.gov/api/search {
+  "q": "reactor safety analysis emergency planning",
+  "filters": [],
+  "legacyLibFilter": true,
+  "mainLibFilter": true,
+  "sort": "",
+  "sortDirection": 1
+}
+2025-09-09 13:37:34 [[31merror[39m]: Error occurred Request failed with status code 500 {
+  "stack": "AxiosError: Request failed with status code 500\n    at settle (file://.../lib/core/settle.js:19:12)\n    at IncomingMessage.handleStreamEnd (file://.../lib/adapters/http.js:599:11)\n    at IncomingMessage.emit (node:events:520:35)\n    at endReadableNT (node:internal/streams/readable:1701:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (file://.../lib/core/Axios.js:45:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async ImprovedADAMSScraper.searchViaAPI (file://.../nrc-adams-mcp/build/adams-real-improved.js:187:26)\n    at async ImprovedADAMSScraper.withRetry (file://.../nrc-adams-mcp/build/adams-real-improved.js:73:24)\n    at async ImprovedADAMSScraper.searchReal (file://.../nrc-adams-mcp/build/adams-real-improved.js:130:33)\n    at async runSimpleTest (file://.../project/nrc-adams-mcp/test-simple.js:59:27)",
+  "context": "ADAMS API search failed after 3 attempts"
+}
+2025-09-09 13:37:34 [[33mwarn[39m]: API search failed, falling back to browser {
+  "error": "Request failed with status code 500"
+}
+2025-09-09 13:37:35 [[32minfo[39m]: Browser initialized successfully
+2025-09-09 13:37:35 [[32minfo[39m]: Performance: op_5ba73e9c {
+  "duration": "408ms",
+  "success": "[SENSITIVE_MASKED]"
+}
+2025-09-09 13:37:35 [[32minfo[39m]: Attempting Browser search (attempt 1/3)
+2025-09-09 13:37:35 [[32minfo[39m]: Navigating to search URL {
+  "url": "https://adams-search.nrc.gov/results/%7B%22keywords%22%3A%22reactor%20safety%20analysis%20emergency%"
+}
+2025-09-09 13:37:38 [[32minfo[39m]: Results found after 1011ms
+2025-09-09 13:37:38 [[32minfo[39m]: Performance: op_fe018341 {
+  "duration": "1012ms",
+  "success": "[SENSITIVE_MASKED]",
+  "waitTime": 1011
+}
+2025-09-09 13:37:38 [[32minfo[39m]: Browser search found 25 documents
+2025-09-09 13:37:38 [[32minfo[39m]: Performance: op_f17f79e9 {
+  "duration": "8290ms",
+  "success": "[SENSITIVE_MASKED]",
+  "resultCount": 15,
+  "method": "Browser"
+}
+✅ Found 15 documents in 8299ms
+
+Search Results:
+  1. ML24303A161: Transcript of the Advisory Committee on Reactor Safeguards T...
+  2. ML11222A238: 6/23/2011 - Meeting Minutes of the ACRS Fukushima Subcommitt...
+  3. ML24324A305: Draft Safety Evaluation Of The TerraPower Topical Report,  "...
+  4. ML003704534: NRC Program for Risk-Based Analysis of Reactor Operating Exp...
+  5. ML23240A746: X-Energy,  LLC,  Xe-100 Licensing White Paper Emergency Plan...
+  6. ML062290297: Vogtle Electric Generating Plant Early Site Permit Applicati...
+  7. 4008002081: NRC RAI AND STAFF POSITIONS RE SYSTEMS (AUXILIARY  REACTOR) ...
+  8. ML013470008: Emergency Planning Document Update....
+  9. ML063490302: Emergency Planning Document Updated #27753....
+  10. ML062290267: Vogtle Electric Generating Plant Early Site Permit Applicati...
+
+📥 Step 2: DOWNLOAD 10 DOCUMENTS
+Downloading 10 documents...
+
+[1/10] Downloading ML24303A161...
+2025-09-09 13:37:38 [[32minfo[39m]: Using keyword-based path {
+  "keyword": "[SENSITIVE_MASKED]",
+  "path": "downloaded_pdfs/reactor_safety_analysis_emergency_planning_2025-09-09/ML24303A161.pdf"
+}
+2025-09-09 13:37:38 [[32minfo[39m]: Starting PDF download {
+  "documentNumber": "doc_doc_ML***",
+  "savePath": "downloaded_pdfs/reactor_safety_analysis_emergency_planning_2025-09-09/ML24303A161.pdf"
+}
+2025-09-09 13:37:38 [[32minfo[39m]: Attempting Download ML24303A161 (attempt 1/3)
+2025-09-09 13:37:38 [[32minfo[39m]: Request: GET https://adamswebsearch2.nrc.gov/webSearch2/main.jsp
+2025-09-09 13:37:41 [[32minfo[39m]: Response: 200 https://adamswebsearch2.nrc.gov/webSearch2/main.jsp {
+  "duration": "2882ms"
+}
+2025-09-09 13:37:41 [[32minfo[39m]: PDF saved successfully {
+  "documentNumber": "doc_doc_ML***",
+  "path": "downloaded_pdfs/reactor_safety_analysis_emergency_planning_2025-09-09/ML24303A161.pdf",
+  "size": "2456.55 KB"
+}
+2025-09-09 13:37:41 [[32minfo[39m]: Performance: op_9bd74341 {
+  "duration": "2887ms",
+  "success": "[SENSITIVE_MASKED]"
+}
+  ✅ Downloaded in 2888ms
+Warning: TT: undefined function: 32
+Warning: TT: undefined function: 32
+2025-09-09 13:37:41 [[32minfo[39m]: PDF text extracted successfully {
+  "path": "downloaded_pdfs/reactor_safety_analysis_emergency_planning_2025-09-09/ML24303A161.pdf",
+  "pages": 185,
+  "textLength": 209541,
+  "hasMetadata": true
+}
+RAG: Added document ML24303A161 with 266 chunks using openai
+[2/10] Downloading ML11222A238...
+2025-09-09 13:37:53 [[32minfo[39m]: Using keyword-based path {
+  "keyword": "[SENSITIVE_MASKED]",
+  "path": "downloaded_pdfs/reactor_safety_analysis_emergency_planning_2025-09-09/ML11222A238.pdf"
+}
+2025-09-09 13:37:53 [[32minfo[39m]: Starting PDF download {
+  "documentNumber": "doc_doc_ML***",
+  "savePath": "downloaded_pdfs/reactor_safety_analysis_emergency_planning_2025-09-09/ML11222A238.pdf"
+}
+2025-09-09 13:37:53 [[32minfo[39m]: Attempting Download ML11222A238 (attempt 1/3)
+2025-09-09 13:37:53 [[32minfo[39m]: Request: GET https://adamswebsearch2.nrc.gov/webSearch2/main.jsp
+2025-09-09 13:37:55 [[32minfo[39m]: Response: 200 https://adamswebsearch2.nrc.gov/webSearch2/main.jsp {
+  "duration": "2318ms"
+}
+2025-09-09 13:37:55 [[32minfo[39m]: PDF saved successfully {
+  "documentNumber": "doc_doc_ML***",
+  "path": "downloaded_pdfs/reactor_safety_analysis_emergency_planning_2025-09-09/ML11222A238.pdf",
+  "size": "1317.91 KB"
+}
+2025-09-09 13:37:55 [[32minfo[39m]: Performance: op_0d5340fd {
+  "duration": "2324ms",
+  "success": "[SENSITIVE_MASKED]"
+}
+  ✅ Downloaded in 2324ms
+Warning: Unknown/unsupported post table version 3
+Warning: Unknown/unsupported post table version 3
+2025-09-09 13:37:56 [[32minfo[39m]: PDF text extracted successfully {
+  "path": "downloaded_pdfs/reactor_safety_analysis_emergency_planning_2025-09-09/ML11222A238.pdf",
+  "pages": 245,
+  "textLength": 391221,
+  "hasMetadata": true
+}
+RAG: Added document ML11222A238 with 500 chunks using openai
+[3/10] Downloading ML24324A305...
+2025-09-09 13:38:15 [[32minfo[39m]: Using keyword-based path {
+  "keyword": "[SENSITIVE_MASKED]",
+  "path": "downloaded_pdfs/reactor_safety_analysis_emergency_planning_2025-09-09/ML24324A305.pdf"
+}
+2025-09-09 13:38:15 [[32minfo[39m]: Starting PDF download {
+  "documentNumber": "doc_doc_ML***",
+  "savePath": "downloaded_pdfs/reactor_safety_analysis_emergency_planning_2025-09-09/ML24324A305.pdf"
+}
+2025-09-09 13:38:15 [[32minfo[39m]: Attempting Download ML24324A305 (attempt 1/3)
+2025-09-09 13:38:15 [[32minfo[39m]: Request: GET https://adamswebsearch2.nrc.gov/webSearch2/main.jsp
+2025-09-09 13:38:16 [[32minfo[39m]: Response: 200 https://adamswebsearch2.nrc.gov/webSearch2/main.jsp {
+  "duration": "1913ms"
+}
+2025-09-09 13:38:16 [[32minfo[39m]: PDF saved successfully {
+  "documentNumber": "doc_doc_ML***",
+  "path": "downloaded_pdfs/reactor_safety_analysis_emergency_planning_2025-09-09/ML24324A305.pdf",
+  "size": "672.45 KB"
+}
+2025-09-09 13:38:16 [[32minfo[39m]: Performance: op_56e91856 {
+  "duration": "1917ms",
+  "success": "[SENSITIVE_MASKED]"
+}
+  ✅ Downloaded in 1917ms
+2025-09-09 13:38:16 [[32minfo[39m]: PDF text extracted successfully {
+  "path": "downloaded_pdfs/reactor_safety_analysis_emergency_planning_2025-09-09/ML24324A305.pdf",
+  "pages": 8,
+  "textLength": 20590,
+  "hasMetadata": true
+}
+RAG: Added document ML24324A305 with 28 chunks using openai
+[4/10] Downloading ML003704534...
+2025-09-09 13:38:18 [[32minfo[39m]: Using keyword-based path {
+  "keyword": "[SENSITIVE_MASKED]",
+  "path": "downloaded_pdfs/reactor_safety_analysis_emergency_planning_2025-09-09/ML003704534.pdf"
+}
+2025-09-09 13:38:18 [[32minfo[39m]: Starting PDF download {
+  "documentNumber": "doc_doc_ML***",
+  "savePath": "downloaded_pdfs/reactor_safety_analysis_emergency_planning_2025-09-09/ML003704534.pdf"
+}
+2025-09-09 13:38:18 [[32minfo[39m]: Attempting Download ML003704534 (attempt 1/3)
+2025-09-09 13:38:18 [[32minfo[39m]: Request: GET https://adamswebsearch2.nrc.gov/webSearch2/main.jsp
+2025-09-09 13:38:18 [[32minfo[39m]: Response: 200 https://adamswebsearch2.nrc.gov/webSearch2/main.jsp {
+  "duration": "276ms"
+}
+2025-09-09 13:38:18 [[32minfo[39m]: PDF saved successfully {
+  "documentNumber": "doc_doc_ML***",
+  "path": "downloaded_pdfs/reactor_safety_analysis_emergency_planning_2025-09-09/ML003704534.pdf",
+  "size": "25.30 KB"
+}
+2025-09-09 13:38:18 [[32minfo[39m]: Performance: op_5f42567a {
+  "duration": "280ms",
+  "success": "[SENSITIVE_MASKED]"
+}
+  ✅ Downloaded in 280ms
+2025-09-09 13:38:18 [[32minfo[39m]: PDF text extracted successfully {
+  "path": "downloaded_pdfs/reactor_safety_analysis_emergency_planning_2025-09-09/ML003704534.pdf",
+  "pages": 4,
+  "textLength": 12151,
+  "hasMetadata": true
+}
+RAG: Added document ML003704534 with 16 chunks using openai
+[5/10] Downloading ML23240A746...
+2025-09-09 13:38:20 [[32minfo[39m]: Using keyword-based path {
+  "keyword": "[SENSITIVE_MASKED]",
+  "path": "downloaded_pdfs/reactor_safety_analysis_emergency_planning_2025-09-09/ML23240A746.pdf"
+}
+2025-09-09 13:38:20 [[32minfo[39m]: Starting PDF download {
+  "documentNumber": "doc_doc_ML***",
+  "savePath": "downloaded_pdfs/reactor_safety_analysis_emergency_planning_2025-09-09/ML23240A746.pdf"
+}
+2025-09-09 13:38:20 [[32minfo[39m]: Attempting Download ML23240A746 (attempt 1/3)
+2025-09-09 13:38:20 [[32minfo[39m]: Request: GET https://adamswebsearch2.nrc.gov/webSearch2/main.jsp
+2025-09-09 13:38:20 [[32minfo[39m]: Response: 200 https://adamswebsearch2.nrc.gov/webSearch2/main.jsp {
+  "duration": "448ms"
+}
+2025-09-09 13:38:20 [[32minfo[39m]: PDF saved successfully {
+  "documentNumber": "doc_doc_ML***",
+  "path": "downloaded_pdfs/reactor_safety_analysis_emergency_planning_2025-09-09/ML23240A746.pdf",
+  "size": "443.23 KB"
+}
+2025-09-09 13:38:20 [[32minfo[39m]: Performance: op_efd507f2 {
+  "duration": "454ms",
+  "success": "[SENSITIVE_MASKED]"
+}
+  ✅ Downloaded in 455ms
+Warning: TT: undefined function: 32
+2025-09-09 13:38:20 [[32minfo[39m]: PDF text extracted successfully {
+  "path": "downloaded_pdfs/reactor_safety_analysis_emergency_planning_2025-09-09/ML23240A746.pdf",
+  "pages": 26,
+  "textLength": 64469,
+  "hasMetadata": true
+}
+RAG: Added document ML23240A746 with 83 chunks using openai
+[6/10] Downloading ML062290297...
+2025-09-09 13:38:24 [[32minfo[39m]: Using keyword-based path {
+  "keyword": "[SENSITIVE_MASKED]",
+  "path": "downloaded_pdfs/reactor_safety_analysis_emergency_planning_2025-09-09/ML062290297.pdf"
+}
+2025-09-09 13:38:24 [[32minfo[39m]: Starting PDF download {
+  "documentNumber": "doc_doc_ML***",
+  "savePath": "downloaded_pdfs/reactor_safety_analysis_emergency_planning_2025-09-09/ML062290297.pdf"
+}
+2025-09-09 13:38:24 [[32minfo[39m]: Attempting Download ML062290297 (attempt 1/3)
+2025-09-09 13:38:24 [[32minfo[39m]: Request: GET https://adamswebsearch2.nrc.gov/webSearch2/main.jsp
+2025-09-09 13:38:25 [[32minfo[39m]: Response: 200 https://adamswebsearch2.nrc.gov/webSearch2/main.jsp {
+  "duration": "1316ms"
+}
+2025-09-09 13:38:25 [[32minfo[39m]: PDF saved successfully {
+  "documentNumber": "doc_doc_ML***",
+  "path": "downloaded_pdfs/reactor_safety_analysis_emergency_planning_2025-09-09/ML062290297.pdf",
+  "size": "3789.92 KB"
+}
+2025-09-09 13:38:25 [[32minfo[39m]: Performance: op_8ae76b43 {
+  "duration": "1321ms",
+  "success": "[SENSITIVE_MASKED]"
+}
+  ✅ Downloaded in 1322ms
+2025-09-09 13:38:25 [[32minfo[39m]: PDF text extracted successfully {
+  "path": "downloaded_pdfs/reactor_safety_analysis_emergency_planning_2025-09-09/ML062290297.pdf",
+  "pages": 160,
+  "textLength": 331774,
+  "hasMetadata": true
+}
+RAG: Added document ML062290297 with 400 chunks using openai
+[7/10] Downloading 4008002081...
+2025-09-09 13:38:40 [[32minfo[39m]: Using keyword-based path {
+  "keyword": "[SENSITIVE_MASKED]",
+  "path": "downloaded_pdfs/reactor_safety_analysis_emergency_planning_2025-09-09/4008002081.pdf"
+}
+2025-09-09 13:38:40 [[32minfo[39m]: Starting PDF download {
+  "documentNumber": "doc_doc_40***",
+  "savePath": "downloaded_pdfs/reactor_safety_analysis_emergency_planning_2025-09-09/4008002081.pdf"
+}
+2025-09-09 13:38:40 [[32minfo[39m]: Attempting Download 4008002081 (attempt 1/3)
+2025-09-09 13:38:40 [[32minfo[39m]: Request: GET https://adamswebsearch2.nrc.gov/webSearch2/main.jsp
+2025-09-09 13:38:41 [[32minfo[39m]: Response: 200 https://adamswebsearch2.nrc.gov/webSearch2/main.jsp {
+  "duration": "817ms"
+}
+2025-09-09 13:38:41 [[33mwarn[39m]: Invalid PDF content {
+  "documentNumber": "doc_doc_40***",
+  "firstBytes": "\r\n<?xml version=\"1.0"
+}
+2025-09-09 13:38:41 [[32minfo[39m]: Trying alternative URL {
+  "url": "https://www.nrc.gov/docs/400800/4008002081.pdf"
+}
+2025-09-09 13:38:41 [[32minfo[39m]: Attempting Alternative download 4008002081 (attempt 1/3)
+2025-09-09 13:38:41 [[32minfo[39m]: Request: GET https://www.nrc.gov/docs/400800/4008002081.pdf
+2025-09-09 13:38:41 [[31merror[39m]: Response: 404 https://www.nrc.gov/docs/400800/4008002081.pdf {
+  "duration": "692ms"
+}
+2025-09-09 13:38:41 [[32minfo[39m]: Performance: op_54de19ce {
+  "duration": "1516ms",
+  "success": "[SENSITIVE_MASKED]"
+}
+  ❌ Download failed
+[8/10] Downloading ML013470008...
+2025-09-09 13:38:42 [[32minfo[39m]: Using keyword-based path {
+  "keyword": "[SENSITIVE_MASKED]",
+  "path": "downloaded_pdfs/reactor_safety_analysis_emergency_planning_2025-09-09/ML013470008.pdf"
+}
+2025-09-09 13:38:42 [[32minfo[39m]: Starting PDF download {
+  "documentNumber": "doc_doc_ML***",
+  "savePath": "downloaded_pdfs/reactor_safety_analysis_emergency_planning_2025-09-09/ML013470008.pdf"
+}
+2025-09-09 13:38:42 [[32minfo[39m]: Attempting Download ML013470008 (attempt 1/3)
+2025-09-09 13:38:42 [[32minfo[39m]: Request: GET https://adamswebsearch2.nrc.gov/webSearch2/main.jsp
+2025-09-09 13:38:46 [[32minfo[39m]: Response: 200 https://adamswebsearch2.nrc.gov/webSearch2/main.jsp {
+  "duration": "4214ms"
+}
+2025-09-09 13:38:46 [[32minfo[39m]: PDF saved successfully {
+  "documentNumber": "doc_doc_ML***",
+  "path": "downloaded_pdfs/reactor_safety_analysis_emergency_planning_2025-09-09/ML013470008.pdf",
+  "size": "9904.01 KB"
+}
+2025-09-09 13:38:46 [[32minfo[39m]: Performance: op_47eeaff0 {
+  "duration": "4223ms",
+  "success": "[SENSITIVE_MASKED]"
+}
+  ✅ Downloaded in 4223ms
+2025-09-09 13:38:46 [[32minfo[39m]: PDF text extracted successfully {
+  "path": "downloaded_pdfs/reactor_safety_analysis_emergency_planning_2025-09-09/ML013470008.pdf",
+  "pages": 206,
+  "textLength": 323750,
+  "hasMetadata": true
+}
+RAG: Added document ML013470008 with 418 chunks using openai
+[9/10] Downloading ML063490302...
+2025-09-09 13:39:06 [[32minfo[39m]: Using keyword-based path {
+  "keyword": "[SENSITIVE_MASKED]",
+  "path": "downloaded_pdfs/reactor_safety_analysis_emergency_planning_2025-09-09/ML063490302.pdf"
+}
+2025-09-09 13:39:06 [[32minfo[39m]: Starting PDF download {
+  "documentNumber": "doc_doc_ML***",
+  "savePath": "downloaded_pdfs/reactor_safety_analysis_emergency_planning_2025-09-09/ML063490302.pdf"
+}
+2025-09-09 13:39:06 [[32minfo[39m]: Attempting Download ML063490302 (attempt 1/3)
+2025-09-09 13:39:06 [[32minfo[39m]: Request: GET https://adamswebsearch2.nrc.gov/webSearch2/main.jsp
+2025-09-09 13:39:10 [[32minfo[39m]: Response: 200 https://adamswebsearch2.nrc.gov/webSearch2/main.jsp {
+  "duration": "4323ms"
+}
+2025-09-09 13:39:10 [[32minfo[39m]: PDF saved successfully {
+  "documentNumber": "doc_doc_ML***",
+  "path": "downloaded_pdfs/reactor_safety_analysis_emergency_planning_2025-09-09/ML063490302.pdf",
+  "size": "9611.41 KB"
+}
+2025-09-09 13:39:10 [[32minfo[39m]: Performance: op_aed7adc4 {
+  "duration": "4335ms",
+  "success": "[SENSITIVE_MASKED]"
+}
+  ✅ Downloaded in 4335ms
+2025-09-09 13:39:10 [[32minfo[39m]: PDF text extracted successfully {
+  "path": "downloaded_pdfs/reactor_safety_analysis_emergency_planning_2025-09-09/ML063490302.pdf",
+  "pages": 182,
+  "textLength": 354454,
+  "hasMetadata": true
+}
+RAG: Added document ML063490302 with 455 chunks using openai
+[10/10] Downloading ML062290267...
+2025-09-09 13:39:28 [[32minfo[39m]: Using keyword-based path {
+  "keyword": "[SENSITIVE_MASKED]",
+  "path": "downloaded_pdfs/reactor_safety_analysis_emergency_planning_2025-09-09/ML062290267.pdf"
+}
+2025-09-09 13:39:28 [[32minfo[39m]: Starting PDF download {
+  "documentNumber": "doc_doc_ML***",
+  "savePath": "downloaded_pdfs/reactor_safety_analysis_emergency_planning_2025-09-09/ML062290267.pdf"
+}
+2025-09-09 13:39:28 [[32minfo[39m]: Attempting Download ML062290267 (attempt 1/3)
+2025-09-09 13:39:28 [[32minfo[39m]: Request: GET https://adamswebsearch2.nrc.gov/webSearch2/main.jsp
+2025-09-09 13:39:35 [[32minfo[39m]: Response: 200 https://adamswebsearch2.nrc.gov/webSearch2/main.jsp {
+  "duration": "7427ms"
+}
+2025-09-09 13:39:35 [[32minfo[39m]: PDF saved successfully {
+  "documentNumber": "doc_doc_ML***",
+  "path": "downloaded_pdfs/reactor_safety_analysis_emergency_planning_2025-09-09/ML062290267.pdf",
+  "size": "19489.11 KB"
+}
+2025-09-09 13:39:35 [[32minfo[39m]: Performance: op_3917bb55 {
+  "duration": "7442ms",
+  "success": "[SENSITIVE_MASKED]"
+}
+  ✅ Downloaded in 7442ms
+2025-09-09 13:39:35 [[32minfo[39m]: PDF text extracted successfully {
+  "path": "downloaded_pdfs/reactor_safety_analysis_emergency_planning_2025-09-09/ML062290267.pdf",
+  "pages": 424,
+  "textLength": 597540,
+  "hasMetadata": true
+}
+RAG: Added document ML062290267 with 729 chunks using openai
+
+📊 Download Summary: 9/10 succeeded
+
+🧠 Step 3: RAG - 10 QUESTIONS
+Documents in RAG: 9
+
+Asking RAG questions:
+
+Q1: What are the main safety requirements for nuclear reactors?
+  ✅ Found 3 relevant chunks
+  Top result (score: 0.86):
+    Text: "and degrees of protection for the man-made hazards to be additionally considered according to the 
+R..."
+    Citation: Unknown - 6/23/2011 - Meeting Minutes of the ACRS Fukushima ...
+    File: downloaded_pdfs/reactor_safety_analysis_emergency_planning_2025-09-09/Unknown.pdf
+    Page: N/A
+
+Q2: Describe the emergency core cooling system procedures
+  ✅ Found 3 relevant chunks
+  Top result (score: 0.84):
+    Text: "subtleties  or,  you11
+know, flaws, things that you may get the wrong view by12
+looking at this diag..."
+    Citation: Unknown - Transcript of the Advisory Committee on Reactor Sa...
+    File: downloaded_pdfs/reactor_safety_analysis_emergency_planning_2025-09-09/Unknown.pdf
+    Page: N/A
+
+Q3: What inspection criteria are used for reactor vessels?
+  ✅ Found 3 relevant chunks
+  Top result (score: 0.86):
+    Text: "power plants 
+in  the  light  of  the  events  in  Fukushima-I  (Japan)".    To  classify  the  resu..."
+    Citation: Unknown - 6/23/2011 - Meeting Minutes of the ACRS Fukushima ...
+    File: downloaded_pdfs/reactor_safety_analysis_emergency_planning_2025-09-09/Unknown.pdf
+    Page: N/A
+
+Q4: How is reactor safety analysis performed?
+  ✅ Found 3 relevant chunks
+  Top result (score: 0.86):
+    Text: "Production or Utilization Facilities”
+
+Traditional Safety Analyses (Chapter 15) 
+8
+Plant
+Internal
+Ev..."
+    Citation: Unknown - Transcript of the Advisory Committee on Reactor Sa...
+    File: downloaded_pdfs/reactor_safety_analysis_emergency_planning_2025-09-09/Unknown.pdf
+    Page: N/A
+
+Q5: What are the regulatory requirements for emergency planning?
+  ✅ Found 3 relevant chunks
+  Top result (score: 0.88):
+    Text: "operation; 
+the essential elements of advance planning and the provisions that have been made to cop..."
+    Citation: Unknown - X-Energy,  LLC,  Xe-100 Licensing White Paper Emer...
+    File: downloaded_pdfs/reactor_safety_analysis_emergency_planning_2025-09-09/Unknown.pdf
+    Page: N/A
+
+Q6: Explain the containment system design requirements
+  ✅ Found 3 relevant chunks
+  Top result (score: 0.85):
+    Text: "defueled), 
+Unit 2 
+(3071 Mwt) and 
+Unit 3 (3071Mwt). 
+Figure 
+1. B-3 shows a general layout of the ..."
+    Citation: Unknown - Emergency Planning Document Updated #27753....
+    File: downloaded_pdfs/reactor_safety_analysis_emergency_planning_2025-09-09/Unknown.pdf
+    Page: N/A
+
+Q7: What are the radiation protection standards mentioned?
+  ✅ Found 3 relevant chunks
+  Top result (score: 0.86):
+    Text: "areas unless their exposure has been properly evaluated.  Plan implementing
+procedures detail the em..."
+    Citation: Unknown - Emergency Planning Document Updated #27753....
+    File: downloaded_pdfs/reactor_safety_analysis_emergency_planning_2025-09-09/Unknown.pdf
+    Page: N/A
+
+Q8: Describe the quality assurance program requirements
+  ✅ Found 3 relevant chunks
+  Top result (score: 0.87):
+    Text: "requirements necessary to assure adequate quality shall be included or 
+referenced in documents for ..."
+    Citation: Unknown - Vogtle Electric Generating Plant Early Site Permit...
+    File: downloaded_pdfs/reactor_safety_analysis_emergency_planning_2025-09-09/Unknown.pdf
+    Page: N/A
+
+Q9: What are the technical specifications for reactor operation?
+  ✅ Found 3 relevant chunks
+  Top result (score: 0.85):
+    Text: "Technical 
+Information 
+Document 
+14844, 
+March 
+23, 
+1962, 
+U. S.   
+Atomic 
+Energy 
+Commission, 
+T..."
+    Citation: Unknown - Emergency Planning Document Update....
+    File: downloaded_pdfs/reactor_safety_analysis_emergency_planning_2025-09-09/Unknown.pdf
+    Page: N/A
+
+Q10: How are safety margins calculated in the analysis?
+  ✅ Found 3 relevant chunks
+  Top result (score: 0.83):
+    Text: "safety  margins,  there  is  also  confirmatory  information  in  some  cases.    In  other  cases, ..."
+    Citation: Unknown - 6/23/2011 - Meeting Minutes of the ACRS Fukushima ...
+    File: downloaded_pdfs/reactor_safety_analysis_emergency_planning_2025-09-09/Unknown.pdf
+    Page: N/A
+
+🔒 Step 4: PRIVACY COMPLIANCE CHECK
+Privacy Status: COMPLIANT
+PII Violations: 0
+
+📁 Step 5: FOLDER STATISTICS
+Total Keywords: 1
+Total Documents: 9
+Total Size: 46.59 MB
+2025-09-09 13:40:09 [[32minfo[39m]: Browser closed
+2025-09-09 13:40:09 [[32minfo[39m]: Scraper cleanup completed
+
+════════════════════════════════════════════════════════════════════════════════
+📈 TEST SUMMARY
+════════════════════════════════════════════════════════════════════════════════
+
+📍 Search:
+  Query: "reactor safety analysis emergency planning"
+  Results: 15 documents found
+
+📥 Downloads:
+  Success Rate: 9/10
+  Success Percentage: 90.0%
+
+🧠 RAG:
+  Documents Indexed: 9
+  Questions Asked: 10
+  Questions Answered: 10/10
+
+🔒 Privacy:
+  Status: COMPLIANT
+  Violations: 0
+
+📄 Report saved: logs/test-simple-report-2025-09-09.json
+
+════════════════════════════════════════════════════════════════════════════════
+✅ Simple Test Completed
+End Time: 2025-09-09T04:40:09.937Z
+════════════════════════════════════════════════════════════════════════════════

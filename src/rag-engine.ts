@@ -1,5 +1,6 @@
 import OpenAI from 'openai';
 import Anthropic from '@anthropic-ai/sdk';
+import mcpLogger from './mcp-logger.js';
 
 export interface DocumentChunk {
   text: string;
@@ -30,7 +31,7 @@ export class RAGEngine {
       this.openai = new OpenAI({ apiKey: openaiKey });
       this.initialized = true;
       this.provider = 'openai';
-      console.error('RAG Engine: OpenAI initialized');
+      mcpLogger.info('RAG Engine: OpenAI initialized');
       return;
     }
 
@@ -40,11 +41,11 @@ export class RAGEngine {
       this.anthropic = new Anthropic({ apiKey: claudeKey });
       this.initialized = true;
       this.provider = 'anthropic';
-      console.error('RAG Engine: Claude/Anthropic initialized');
+      mcpLogger.info('RAG Engine: Claude/Anthropic initialized');
       return;
     }
 
-    console.error('RAG Engine: No API key found, using fallback keyword search');
+    mcpLogger.info('RAG Engine: No API key found, using fallback keyword search');
   }
 
   isEnabled(): boolean {
@@ -158,9 +159,9 @@ export class RAGEngine {
       }
 
       this.chunks.set(documentId, documentChunks);
-      console.error(`RAG: Added document ${documentId} with ${documentChunks.length} chunks using ${this.provider}`);
+      mcpLogger.info(`RAG: Added document ${documentId} with ${documentChunks.length} chunks using ${this.provider}`);
     } catch (error) {
-      console.error('RAG: Error processing document:', error);
+      mcpLogger.error('RAG: Error processing document:', error);
       // 실패시 텍스트만 저장
       const chunks = this.splitIntoChunks(text);
       let charOffset = 0;
@@ -197,7 +198,7 @@ export class RAGEngine {
         return await this.searchWithClaude(query, topK);
       }
     } catch (error) {
-      console.error('RAG: Search error:', error);
+      mcpLogger.error('RAG: Search error:', error);
     }
 
     // 실패시 키워드 검색
@@ -299,11 +300,11 @@ Scores:`;
             }
           } catch (e) {
             // 파싱 실패시 키워드 검색으로 폴백
-            console.error('Claude response parsing failed:', e);
+            mcpLogger.warn('Claude response parsing failed:', e);
           }
         }
       } catch (error) {
-        console.error('Claude API error:', error);
+        mcpLogger.error('Claude API error:', error);
       }
     }
 

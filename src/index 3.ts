@@ -503,8 +503,7 @@ class NRCADAMSMCPServer {
           
           for (const path of possiblePaths) {
             if (fsSync.existsSync(path)) {
-              // 터미널에서 열 수 있는 명령어 포함
-              fileLink = `📂 Local: ${path}\n    💡 Open: \`open "${path}"\` (copy & paste to terminal)\n`;
+              fileLink = `📂 Local: ${path}\n`;
               break;
             }
           }
@@ -520,7 +519,6 @@ class NRCADAMSMCPServer {
       });
       
       // 답변 생성 - 검색 결과를 기반으로 통합된 답변 생성
-      mcpLogger.info(`Generating synthesized answer with ${searchResults.length} search results`);
       let synthesizedAnswer = `Based on the downloaded documents, here's what I found regarding "${question}":\n\n`;
       
       // 가장 관련성 높은 결과들로 답변 구성
@@ -545,7 +543,7 @@ class NRCADAMSMCPServer {
         const title = metadata.title || 'Untitled';
         const section = metadata.chunkIndex !== undefined ? `Section ${metadata.chunkIndex + 1}` : '';
         const adamsUrl = docNumber !== 'N/A' 
-          ? `[Open in ADAMS](https://adamswebsearch2.nrc.gov/webSearch2/main.jsp?AccessionNumber=${docNumber})`
+          ? `https://adamswebsearch2.nrc.gov/webSearch2/main.jsp?AccessionNumber=${docNumber}`
           : '';
         
         synthesizedAnswer += `\n[${idx + 1}] **${title}**\n`;

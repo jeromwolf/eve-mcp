@@ -27,7 +27,23 @@
       "Read(//var/folders/h2/yhmybb9n1cn1wn3y141wqv8m0000gn/T/TemporaryItems/NSIRD_screencaptureui_oMhdIe/**)",
       "Read(//var/folders/h2/yhmybb9n1cn1wn3y141wqv8m0000gn/T/TemporaryItems/NSIRD_screencaptureui_SwVx7o/**)",
       "Read(//var/folders/h2/yhmybb9n1cn1wn3y141wqv8m0000gn/T/TemporaryItems/NSIRD_screencaptureui_EMQIwD/**)",
-      "Bash(timeout:*)"
+      "Bash(timeout:*)",
+      "Bash(git config:*)",
+      "Bash(git remote set-url:*)",
+      "Bash(mkdir:*)",
+      "Read(//var/folders/h2/yhmybb9n1cn1wn3y141wqv8m0000gn/T/TemporaryItems/NSIRD_screencaptureui_E5cGCP/**)",
+      "Read(//var/folders/h2/yhmybb9n1cn1wn3y141wqv8m0000gn/T/TemporaryItems/NSIRD_screencaptureui_FYzsg7/**)",
+      "Read(//var/folders/h2/yhmybb9n1cn1wn3y141wqv8m0000gn/T/TemporaryItems/NSIRD_screencaptureui_fQaQLF/**)",
+      "Bash(sed:*)",
+      "Read(//var/folders/h2/yhmybb9n1cn1wn3y141wqv8m0000gn/T/TemporaryItems/NSIRD_screencaptureui_bmYotd/**)",
+      "Bash(npx @modelcontextprotocol/inspector build/index.js)",
+      "Read(//var/folders/h2/yhmybb9n1cn1wn3y141wqv8m0000gn/T/TemporaryItems/NSIRD_screencaptureui_2RKkJg/**)",
+      "Read(//var/folders/h2/yhmybb9n1cn1wn3y141wqv8m0000gn/T/TemporaryItems/NSIRD_screencaptureui_rlJSNy/**)",
+      "Read(//var/folders/h2/yhmybb9n1cn1wn3y141wqv8m0000gn/T/TemporaryItems/NSIRD_screencaptureui_yTFsMs/**)",
+      "Read(//var/folders/h2/yhmybb9n1cn1wn3y141wqv8m0000gn/T/TemporaryItems/NSIRD_screencaptureui_i13VXV/**)",
+      "Read(//Users/blockmeta/Library/**)",
+      "Read(//var/folders/h2/yhmybb9n1cn1wn3y141wqv8m0000gn/T/TemporaryItems/NSIRD_screencaptureui_9wUVi0/**)",
+      "Read(//var/folders/h2/yhmybb9n1cn1wn3y141wqv8m0000gn/T/TemporaryItems/NSIRD_screencaptureui_rV69Yg/**)"
     ],
     "deny": []
   }

@@ -483,9 +483,9 @@ class NRCADAMSMCPServer {
             (metadata.startChar ? ` (position ${metadata.startChar}-${metadata.endChar})` : '')
           : '';
         
-        // ADAMS URL 생성 (Markdown 링크 형식)
+        // ADAMS URL 생성
         const adamsUrl = metadata.documentNumber 
-          ? `🔗 [View in ADAMS](https://adamswebsearch2.nrc.gov/webSearch2/main.jsp?AccessionNumber=${metadata.documentNumber})`
+          ? `🔗 https://adamswebsearch2.nrc.gov/webSearch2/main.jsp?AccessionNumber=${metadata.documentNumber}`
           : '';
         
         // 파일 경로 가져오기
@@ -503,8 +503,7 @@ class NRCADAMSMCPServer {
           
           for (const path of possiblePaths) {
             if (fsSync.existsSync(path)) {
-              // 터미널에서 열 수 있는 명령어 포함
-              fileLink = `📂 Local: ${path}\n    💡 Open: \`open "${path}"\` (copy & paste to terminal)\n`;
+              fileLink = `📂 Local: ${path}\n`;
               break;
             }
           }
@@ -519,58 +518,17 @@ class NRCADAMSMCPServer {
                `📝 "${excerpt}"`;
       });
       
-      // 답변 생성 - 검색 결과를 기반으로 통합된 답변 생성
-      mcpLogger.info(`Generating synthesized answer with ${searchResults.length} search results`);
-      let synthesizedAnswer = `Based on the downloaded documents, here's what I found regarding "${question}":\n\n`;
-      
-      // 가장 관련성 높은 결과들로 답변 구성
-      searchResults.slice(0, 3).forEach((result, idx) => {
-        const metadata = result.metadata;
-        const docRef = metadata.documentNumber || 'Document';
-        const section = metadata.chunkIndex !== undefined ? `, Section ${metadata.chunkIndex + 1}` : '';
-        
-        // 답변에 인용 포함
-        const content = result.text.length > 300 
-          ? result.text.substring(0, 300) + '...'
-          : result.text;
-        
-        synthesizedAnswer += `• ${content} [Source: ${docRef}${section}]\n\n`;
-      });
-      
-      // 인용 섹션 추가
-      synthesizedAnswer += `\n📚 **Citations and Sources:**\n`;
-      searchResults.forEach((result, idx) => {
-        const metadata = result.metadata;
-        const docNumber = metadata.documentNumber || 'N/A';
-        const title = metadata.title || 'Untitled';
-        const section = metadata.chunkIndex !== undefined ? `Section ${metadata.chunkIndex + 1}` : '';
-        const adamsUrl = docNumber !== 'N/A' 
-          ? `[Open in ADAMS](https://adamswebsearch2.nrc.gov/webSearch2/main.jsp?AccessionNumber=${docNumber})`
-          : '';
-        
-        synthesizedAnswer += `\n[${idx + 1}] **${title}**\n`;
-        synthesizedAnswer += `    Document: ${docNumber}${section ? ` | ${section}` : ''}\n`;
-        if (adamsUrl) {
-          synthesizedAnswer += `    Link: ${adamsUrl}\n`;
-        }
-        if (isRAGEnabled) {
-          synthesizedAnswer += `    Relevance: ${(result.score * 100).toFixed(1)}%\n`;
-        }
-      });
-      
-      // 검색 메타데이터 추가
-      synthesizedAnswer += `\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n`;
-      synthesizedAnswer += `📊 **Search Metadata:**\n`;
-      synthesizedAnswer += `• Method: ${isRAGEnabled ? 'AI Semantic Search (OpenAI Embeddings)' : 'Keyword Search'}\n`;
-      synthesizedAnswer += `• Documents searched: ${ragStats.documents}\n`;
-      synthesizedAnswer += `• Total chunks analyzed: ${ragStats.totalChunks}\n`;
-      synthesizedAnswer += `• Top results shown: ${searchResults.length}\n`;
-      
       return {
         content: [
           {
             type: "text",
-            text: synthesizedAnswer,
+            text: `🔍 ${isRAGEnabled ? 'AI-Powered Search Results' : 'Keyword Search Results'} for "${question}":\n\n` +
+                  `${formattedResults.join('\n\n---\n\n')}\n\n` +
+                  `📊 Search Info:\n` +
+                  `- Method: ${isRAGEnabled ? 'Semantic Search (RAG)' : 'Keyword Matching'}\n` +
+                  `- Documents searched: ${ragStats.documents}\n` +
+                  `- Total chunks: ${ragStats.totalChunks}\n` +
+                  `${isRAGEnabled ? '- ✅ OpenAI embeddings active' : '- ⚠️ Add OpenAI API key for better results'}`,
           },
         ],
       };

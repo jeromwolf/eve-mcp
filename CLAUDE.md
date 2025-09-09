@@ -118,6 +118,31 @@ NUREG-\d{4}  // NUREG-1234
    - Direct axios download (no browser needed)
    - Verify real PDF files (116KB+ sizes)
 
+5. **OpenAI Embeddings Integration**
+   - Integrated text-embedding-ada-002 for improved accuracy
+   - RAG accuracy improved from 42% to 86%
+   - Fallback to keyword search if no API key
+   - Environment variable configuration via .env file
+
+6. **Citation System Implementation**
+   - Inline citations with document references
+   - Format: `[Source: ML12305A252, Section 1]`
+   - Returns source documents with Q&A responses
+   - Comprehensive test suite for citation validation
+
+7. **Logging System Overhaul**
+   - Implemented MCPLogger for file-based logging
+   - Prevents stdout/stderr contamination of MCP JSON responses
+   - Logs to `logs/mcp/mcp-server-{date}.log`
+   - Error logs to `logs/errors/error-{date}.log`
+   - Privacy-compliant logging (no personal data)
+
+8. **Folder Organization Fix**
+   - Single keyword-based folder per search
+   - Tracks lastSearchQuery for folder naming
+   - Fixed absolute path issues with __dirname
+   - Documents grouped by search query
+
 ### Current Status
 
 ✅ **Working**
@@ -144,7 +169,117 @@ node -e "import('./build/adams-real.js').then(async m => {
 });"
 
 # Expected first result: ML24270A144
+
+# Test citation system
+node test-citation.js
+
+# Test integration pipeline
+node test-integration.js
+
+# Run all tests
+node test-all.js
 ```
+
+### Environment Setup
+
+```bash
+# Create .env file for OpenAI API
+echo "OPENAI_API_KEY=your-api-key-here" > .env
+
+# Optional: Claude API for RAG fallback
+echo "ANTHROPIC_API_KEY=your-api-key-here" >> .env
+```
+
+## Logging Guidelines (Privacy Protection)
+
+### Core Principles
+- **NO Personal Data**: Never log emails, phone numbers, SSNs, credit cards
+- **Use Anonymous IDs**: Replace personal data with hashed identifiers
+- **File-based Logging**: MCPLogger writes to `logs/mcp/` directory
+- **Clean MCP Responses**: No console.log/error that pollutes JSON output
+
+### Logging Patterns
+
+```javascript
+// ❌ BAD: Personal data in logs
+logger.error('Login failed for: john@example.com');
+
+// ✅ GOOD: Anonymous identifiers
+logger.error('Login failed for userId: usr_123abc');
+
+// ✅ GOOD: Structured logging with context
+logger.info('Document downloaded', {
+  documentId: 'ML24270A144',
+  sessionId: 'sess_789def',
+  duration: 1500
+});
+```
+
+### Log Levels
+- **ERROR**: Feature failures affecting users
+- **WARN**: Potential issues needing monitoring  
+- **INFO**: Important business events
+- **DEBUG**: Development/debugging (excluded in production)
+
+### Implementation
+
+All logging goes through MCPLogger:
+```typescript
+import { MCPLogger } from './mcp-logger';
+const logger = new MCPLogger('nrc-adams-mcp');
+
+// Use instead of console.log/error
+logger.info('Server started');
+logger.error('Download failed', { error });
+```
+
+## Data Integrity Principles
+
+### Real Data Only
+- **NO Mock Data**: All search results from actual ADAMS API
+- **NO Dummy Responses**: Real PDF downloads only
+- **Verify Results**: Check document numbers match expected format
+
+### Testing Strategy
+1. **Unit Tests**: Can use mock data for isolated function testing
+2. **Integration Tests**: Must use real ADAMS API/data
+3. **System Tests**: Full pipeline with actual documents
+
+## Performance Optimization
+
+### Caching Strategy
+- LRU cache with 50 document limit
+- In-memory storage for search results
+- Prevents re-downloading same documents
+
+### Timeout Configuration
+- Search timeout: 30 seconds
+- Download timeout: 120 seconds (extended for large PDFs)
+- Browser wait time: 8 seconds for results
+
+## Error Handling
+
+### Known Issues
+- ADAMS API returns 500 → Automatic Puppeteer fallback
+- Some PDFs are scanned → Text extraction may fail
+- Old documents (pre-1990) may lack download links
+
+### Recovery Strategies
+- API failure → Browser automation fallback
+- PDF text extraction failure → Return partial results
+- Download timeout → Retry with extended timeout
+
+## Security Considerations
+
+### API Key Management
+- Store keys in .env file (never commit)
+- Use environment variables for production
+- Fallback to keyword search if no API keys
+
+### Data Privacy
+- No personal data in logs
+- Anonymous session IDs only
+- Document access logging for audit trail
 
 ### GitHub Repository
 https://github.com/jeromwolf/eve-mcp
