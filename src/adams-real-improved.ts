@@ -31,8 +31,8 @@ export class ImprovedADAMSScraper {
   
   // 동적 대기 설정
   private readonly waitOptions = {
-    minWait: 3000,
-    maxWait: 10000,
+    minWait: 5000,    // 최소 5초 대기
+    maxWait: 15000,   // 최대 15초 대기로 증가
     checkInterval: 500
   };
   
@@ -123,13 +123,26 @@ export class ImprovedADAMSScraper {
     const perf = measurePerformance('Wait for search results');
     const startTime = Date.now();
     
+    // 먼저 최소 대기 시간만큼 기다림
+    await new Promise(resolve => setTimeout(resolve, this.waitOptions.minWait));
+    
     while (Date.now() - startTime < this.waitOptions.maxWait) {
       const hasResults = await page.evaluate(() => {
         const rows = document.querySelectorAll('tr');
+        // 더 다양한 문서 패턴 확인
+        const patterns = [
+          /ML\d{8,}/,           // ML documents
+          /SECY-\d{2}-\d{4}/,   // SECY documents
+          /NUREG-\d{4}/,        // NUREG documents
+          /\d{10}/              // 10-digit documents
+        ];
+        
         for (let i = 0; i < rows.length; i++) {
           const text = rows[i].innerText || '';
-          if (text.match(/ML\d{8,}/)) {
-            return true;
+          for (const pattern of patterns) {
+            if (pattern.test(text)) {
+              return true;
+            }
           }
         }
         return false;

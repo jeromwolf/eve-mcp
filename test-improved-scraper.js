@@ -1,3 +1,4 @@
+import 'dotenv/config';
 import { ImprovedADAMSScraper } from './build/adams-real-improved.js';
 import * as fs from 'fs/promises';
 import path from 'path';

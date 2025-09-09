@@ -1,3 +1,4 @@
+import 'dotenv/config';
 import { ImprovedADAMSScraper } from './build/adams-real-improved.js';
 import { getKeywordStatistics, sanitizeKeywordForFolder } from './build/utils.js';
 import fs from 'fs/promises';

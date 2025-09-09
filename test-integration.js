@@ -1,3 +1,4 @@
+import 'dotenv/config';
 #!/usr/bin/env node
 
 import { ImprovedADAMSScraper } from './build/adams-real-improved.js';

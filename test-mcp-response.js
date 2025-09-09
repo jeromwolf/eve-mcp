@@ -1,3 +1,4 @@
+import 'dotenv/config';
 #!/usr/bin/env node
 
 // Test MCP server response

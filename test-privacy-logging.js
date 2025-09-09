@@ -1,3 +1,4 @@
+import 'dotenv/config';
 import logger, { 
   measurePerformance, 
   logError, 

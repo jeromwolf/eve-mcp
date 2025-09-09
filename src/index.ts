@@ -1,4 +1,25 @@
 #!/usr/bin/env node
+
+// MCP Protocol requires clean JSON output - suppress all console/stderr output
+import * as fs from 'fs';
+const originalStderr = process.stderr.write;
+const originalStdout = process.stdout.write;
+
+// Suppress stderr completely for MCP protocol
+process.stderr.write = () => true;
+
+// Only allow JSON output on stdout
+const stdoutWrite = process.stdout.write.bind(process.stdout);
+process.stdout.write = function(chunk: any, ...args: any[]): boolean {
+  const str = chunk?.toString() || '';
+  // Only allow JSON responses (starting with { and containing jsonrpc)
+  if (str.trim().startsWith('{') || str.trim() === '') {
+    return stdoutWrite(chunk, ...args);
+  }
+  // Block all non-JSON output
+  return true;
+};
+
 import 'dotenv/config';
 import { Server } from "@modelcontextprotocol/sdk/server/index.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
@@ -13,7 +34,7 @@ import { createRequire } from 'module';
 const require = createRequire(import.meta.url);
 const pdfParse = require('pdf-parse');
 import * as cheerio from 'cheerio';
-import { promises as fs } from 'fs';
+import { promises as fsPromises } from 'fs';
 import * as fsSync from 'fs';
 import { tmpdir } from 'os';
 import { join, dirname } from 'path';
@@ -370,7 +391,7 @@ class NRCADAMSMCPServer {
         const actualPath = join(this.pdfStoragePath, keywordFolder, `${doc.documentNumber}.pdf`);
         
         // 다운로드된 PDF 읽기
-        pdfBuffer = await fs.readFile(actualPath);
+        pdfBuffer = await fsPromises.readFile(actualPath);
         mcpLogger.info(`Real PDF downloaded successfully: ${actualPath}`);
         
         // PDF 텍스트 추출 (Warning 메시지 억제)
@@ -647,7 +668,7 @@ class NRCADAMSMCPServer {
     for (const [url, pdfDoc] of this.pdfCache.entries()) {
       if (pdfDoc.localPath && fsSync.existsSync(pdfDoc.localPath)) {
         try {
-          await fs.unlink(pdfDoc.localPath);
+          await fsPromises.unlink(pdfDoc.localPath);
           mcpLogger.info(`Deleted local file: ${pdfDoc.localPath}`);
         } catch (err) {
           mcpLogger.warn(`Failed to delete file: ${err}`);

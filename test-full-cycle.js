@@ -1,3 +1,4 @@
+import 'dotenv/config';
 import { ImprovedADAMSScraper } from './build/adams-real-improved.js';
 import { RAGEngine } from './build/rag-engine.js';
 import fs from 'fs/promises';

@@ -1,3 +1,4 @@
+import 'dotenv/config';
 #!/usr/bin/env node
 
 import { NRCADAMSMCPServer } from './build/index.js';

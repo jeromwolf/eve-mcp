@@ -1,3 +1,4 @@
+import 'dotenv/config';
 #!/usr/bin/env node
 
 import { runCitationTest } from './test-citation.js';
