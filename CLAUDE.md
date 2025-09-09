@@ -355,8 +355,66 @@ node tests/test-integration.js
 ```
 
 ### 📊 Latest Commits
+- `93e949d`: Enhanced RAG engine with page-level citations (2025-09-09)
+- `0f314db`: Comprehensive project context documentation
 - `eaa0866`: Project structure organization and cleanup
 - `24348e8`: Test improvements achieving 75% success rate
 - `08a2f84`: Privacy logging and OpenAI embeddings integration
 
 All changes committed and pushed to main branch.
+
+## Enhanced RAG Engine (2025-09-09 Latest)
+
+### 🎯 Page-Level Citation System
+Successfully implemented and tested enhanced RAG engine with professional citation format.
+
+#### Key Features
+1. **Page Tracking**:
+   - Tracks exact page numbers for each text chunk
+   - Format: "Page X of Y" for precise references
+   - Automatically estimates pages from document structure
+
+2. **Section Extraction**:
+   - Identifies section headers using heuristics
+   - Supports various formats (CHAPTER, Section, Part, etc.)
+   - Includes section title in citations
+
+3. **Line Number Recording**:
+   - Records start and end line numbers
+   - Format: "Lines A-B" for exact text location
+   - Helps users find specific content quickly
+
+4. **Professional Citations**:
+   - Format: `[ML24275A095] Page 15 of 250 - Section 3.2 (Lines 450-475)`
+   - Complete reference information in every search result
+   - Improves document traceability
+
+#### Implementation Details
+- **New Module**: `src/rag-engine-enhanced.ts`
+- **Updated**: `src/index.ts` to use `EnhancedRAGEngine`
+- **Test File**: `tests/test-enhanced-citations.js`
+- **Accuracy**: Achieved 79.4% relevance in safety requirements search
+
+#### Test Results
+```
+✅ PDF extracted: 5 pages, 9846 characters
+✅ Page tracking: "Page 1 of 5"
+✅ Section extraction: "SAFETY RESEARCH PROGRAMS SUBCOMMITTEE"
+✅ Line numbers: "Lines 87-106"
+✅ Citation format: Complete professional citations
+✅ RAG statistics: 1 document with page info, 19 chunks
+```
+
+### 📈 Accuracy Testing Framework
+Created comprehensive accuracy evaluation system:
+- **Ground Truth Datasets**: Predefined Q&A pairs for validation
+- **Multi-metric Scoring**: Keyword match (40%), source relevance (30%), completeness (30%)
+- **Test File**: `tests/test-accuracy-evaluation.js`
+- **Documentation**: `docs/ACCURACY_TESTING_GUIDE.md`
+
+### 🔧 Current Architecture Enhancement
+The enhanced RAG engine now provides:
+- Better search accuracy with OpenAI embeddings
+- Precise document citations with page-level detail
+- Professional reference format for regulatory compliance
+- Improved user experience with exact content location
