@@ -1,0 +1,136 @@
+[PDF Metadata]
+Title: E:\FileNET\ML062620424.wpd
+Pages: 4
+
+[Content]
+ACRSR-2211
+      September 19, 2006
+The Honorable Dale E. Klein
+Chairman
+U.S. Nuclear Regulatory Commission
+Washington, DC 2005-0001
+SUBJECT:REPORT ON THE SAFETY ASPECTS OF THE LICENSE RENEWAL
+APPLICATION FOR THE MONTICELLO NUCLEAR GENERATING
+PLANT
+Dear Chairman Klein:
+During the 535
+th
+ meeting of the Advisory Committee on Reactor Safeguards,
+September 7-8, 2006, we completed our review of the license renewal application for
+the Monticello Nuclear Generating Plant (MNGP) and the final Safety Evaluation Report
+(SER) prepared by the NRC staff.  Our Plant License Renewal Subcommittee also
+reviewed this matter during a meeting on May 30, 2006.  During our review, we had the
+benefit of discussions with representatives of the NRC staff and the applicant, Nuclear
+Management Company, LLC (NMC).  We also had the benefit of the documents
+referenced. This report fulfills the requirements of 10 CFR 54.25 that the ACRS review
+and report on all license renewal applications.
+CONCLUSION AND RECOMMENDATION
+The programs established and committed to by the applicant to manage age-related
+degradation provide reasonable assurance that MNGP can be operated in accordance
+with its current licensing basis for the period of extended operation without undue risk to
+the health and safety of the public.
+The NMC application for renewal of the operating license for MNGP should be
+approved.
+BACKGROUND AND DISCUSSION
+MNGP is a General Electric Boiling Water Reactor-3 (BWR-3) within a Mark-I
+containment.  The current power rating of 1775 MWt includes a 6.3% power uprate that
+was implemented in 1998.  NMC requested renewal of the MNGP operating license for
+20 years beyond the current license term, which expires on September 8, 2010.
+
+-2-
+In the final SER, the staff documented its review of the license renewal application and
+other information submitted by NMC and obtained during the audits and inspections
+conducted at the plant site.  The staff reviewed the completeness of the applicant’s
+identification of structures, systems, and components (SSCs) that are within the scope
+of license renewal; the integrated plant assessment process; the applicant’s
+identification of the plausible aging mechanisms associated with passive, long-lived
+components; the adequacy of the applicant’s Aging Management Programs (AMPs);
+and the identification and assessment of time-limited aging analyses (TLAAs) requiring
+review.  
+The NMC application is largely consistent with the Generic Aging Lessons Learned
+(GALL) Report.  All deviations from the approaches specified in the GALL Report are
+documented in the application.  The applicant identified the SSCs that fall within the
+scope of license renewal and performed a comprehensive aging management review
+for these SSCs.  Based on the results of this review, the applicant will implement 36
+AMPs for license renewal including existing, enhanced, and new programs.  In the
+SER, the staff concluded that the applicant has appropriately identified the SSCs within
+the scope of license renewal and that the AMPs described by the applicant are
+appropriate and sufficient to manage aging of long-lived passive components that are
+within the scope of license renewal.  We concur with this conclusion.
+The staff conducted an inspection and an audit.  The inspection verified that the
+scoping and screening methodologies are consistent with the regulations and are
+adequately reflected in the application.  The audit verified the appropriateness of the
+AMPs and the aging management reviews.  Based on the inspection and audit, the staff
+concluded that these programs are consistent with the descriptions contained in the
+NMC license renewal application.  The staff also concluded that the existing programs,
+to be credited as AMPs for license renewal, are generally functioning well and that an
+implementation plan has been established in the applicant’s commitment tracking
+system to ensure timely completion of the license renewal commitments.
+During our meetings with the staff and the applicant, we discussed the adequacy of
+programs proposed by NMC to manage aging of certain components that are a current
+focus of the staff and the industry, as described below.
+Aging of the drywell shell of MNGP will be managed through the use of the ASME
+Section XI, Subsection IWE Program.  We agree with this approach.  Even though this
+Program does not include ultrasonic testing, this approach was chosen by NMC and
+accepted by the staff because the plant has several design features that prevent water
+accumulation behind the shell.  During each refueling outage, water leakage is
+monitored from the refueling seal bellows, the drywell air gap drains, and the sand-
+pocket drains. The refueling seal is within the scope of license renewal.  Ultrasonic
+inspections performed in the past did not identify any degradation.  
+
+-3-
+MNGP has experienced shroud cracking.  This cracking was identified through the
+required licensee inspection process.  Periodic inspections of up to 75% of the shroud
+welds are performed according to the guidelines of the Boiling Water Reactor Vessel
+and Internals Project (BWRVIP).  Previously identified flaws have exhibited no
+significant crack growth since the introduction of hydrogen water chemistry at MNGP. 
+Aging of the shroud will continue to be managed by using the guidelines in  the
+BWRVIP-76.  We find this AMP appropriate.
+The MNGP steam dryers are within the scope of license renewal.  A 1998 inspection
+identified an indication that was not structurally significant.  A 2001 inspection revealed
+no change in this indication and no additional indications were identified.  A
+comprehensive inspection conducted in 2005 to examine areas where steam dryer
+failures had occurred at other plants found new indications on the dryer shell.  These
+indications were evaluated and determined to be acceptable by the applicant.  Another
+inspection is planned for 2007.  Aging of the steam dryers will continue to be managed
+in accordance with the guidelines in the BWRVIP-139  program.  We find this AMP
+appropriate.
+The applicant identified the systems and components requiring TLAAs and reevaluated
+them for 20 more years of operation.  Affected TLAAs included those associated with
+neutron embrittlement, metal fatigue, irradiation-assisted stress corrosion cracking,
+environmental qualification of electrical equipment, and stress relaxation of hold-down
+bolts.  The staff concluded that the applicant has provided an adequate list of TLAAs.
+Further, the staff concluded that in all cases the applicant has met the requirements of
+the license renewal rule by demonstrating that the TLAAs will remain valid for the period
+of extended operation, or that the TLAAs have been projected to the end of the period
+of extended operation, or that the aging effects will be adequately managed for the
+period of extended operation.  We concur with the staff that MNGP TLAAs have been
+properly identified and that criteria supporting 20 more years of operation have been
+met.
+We agree with the staff that there are no issues related to the matters described in 
+10 CFR 54.29(a)(1) and (a)(2) that preclude renewal of the operating license for MNGP. 
+The programs established and committed to by NMC provide reasonable assurance
+that MNGP can be operated in accordance with its current licensing basis for the period
+of extended operation without undue risk to the health and safety of the public.  The
+NMC application for renewal of the operating license for MNGP should be approved.
+Sincerely,
+    /RA/
+ 
+Graham B. Wallis
+Chairman
+
+-4-
+References: 
+1)Safety Evaluation Report Related to the License Renewal of the Monticello
+Nuclear Generating Plant, dated August 2, 2006.
+2)Monticello Nuclear Generating Plant- Application for Renewed Operating
+License, dated March 16, 2005. 
+3)Audit and Review Report for Plant Aging Management Programs (AMPs) and
+Aging Management Reviews (AMRs) - Monticello Nuclear Generating Plant,
+dated October 12, 2005.
+4)Monticello Nuclear Generating Plant, Inspection Report 05000263/2006006,
+dated March 30, 2006.
+5)BWR Vessel and Internals Project, BWR Core Shroud Inspection and Flaw
+Evaluation Guidelines (BWRVIP-76), EPRI Report TR-114232, November 1999.
+6)BWR Vessel and Internals Project, Steam Dryer Inspection and Flaw Evaluation
+Guidelines (BWRVIP-139), EPRI Report TR-1011463, April 2005.

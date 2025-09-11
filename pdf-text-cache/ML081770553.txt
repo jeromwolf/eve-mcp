@@ -1,0 +1,2343 @@
+[PDF Metadata]
+Pages: 82
+
+[Content]
+ilil"***•• 
+",'" 
+",'"
+•
+• 
+* 
+"*
+"* 
+. 
+"'",
+"'",
+"* 
+"* 
+*
+* 
+• * 
+UNrrED STATES 
+NUCLEAR REGULATORY COMMISSION 
+ADVISORY COMMITTEE ON REACTOR SAFEGUARDS 
+WASHINGTON, D.C. 20555-0001 
+October 9,2001 
+geoJ's 
+MEMORANDUM TO:  
+ACRS Members 
+~1J~fJ/JjV 
+FROM: 
+Noel Dudley, 
+Se~'i6fStaff Engineer 
+ACRS 
+SUBJECT:  
+CERTIFICATION OF THE SUMMARY/MINUTES OF THE ACRS 
+SUBCOMMITTEE MEETING ON THE SAFETY EVALUATION 
+REPORT RELATED TO THE LICENSE RENEWAL APPLICATION 
+FOR TURKEY POINT, UNITS 3 AND 
+4, SEPTEMBER 25,2001 
+ROCKVILLE, MARYLAND 
+The minutes of the subject meeting, issued on October 2, 2001, have been certified as 
+the official record of the proceedings of that meeting. A copy of the certified minutes is 
+attached. 
+Attachment: As stated 
+cc via e-mail: 
+J. Larkins 
+S. Bahadur 
+ACRS Fellows and Technical Staff 
+cc: ACRS Secretary 
+E. Barnard (3 copies) 
+
+UNITED STATES
+ 
+NUCLEAR REGULATORY COMMISSION
+ 
+ADVISORY COMMITTEE ON REACTOR SAFEGUARDS
+ 
+WASHINGTON, D.C. 20555·0001 
+geoTs 
+MEMORANDUM TO: Noel Dudley, Senior Staff Engineer 
+ACRS 
+FROM: 
+Dr. Mario Bonaca, Chairman 
+Plant License Renewal Subcommittee 
+SUBJECT: 
+CERTIFICATION 
+OF THE MINUTES OF THE ACRS SUBCOMMITTEE 
+MEETING ON THE SAFETY EVALUATION REPORT RELATED 
+TO 
+THE LICENSE RENEWAL APPLICATION FOR TURKEY POINT, UNITS 
+3 AND 
+4, SEPTEMBER 25, 2001 - ROCKVILLE, MARYLAND 
+I hereby certify that, to the best of my knowledge and belief, the minutes of the subject 
+meeting issued on October 
+2, 2001, are an accurate record of the proceedings for the meeting. 
+~~I~ 
+Dr. Mario Bonaca, Chairman 
+Plant License Renewal Subcommittee 
+10 /4/0 ( 
+
+UNITED STA"rES
+ 
+NUCLEAR REGULATORY COMMISSION
+ 
+ADVISORY COMMITTEE ON REACTOR SAFEGUARDS
+ 
+WASHINGTON, D.C. 20555-0001
+ 
+October 2,2001 
+M geors, -005 "2
+I\LV\~11P oJ 
+MEMORANDUM TO: Dr. Mario Bonaca, Chairman
+ 
+Plant License Renewal Subcommittee
+ 
+~<9~~oJL-
+FROM:  Noel DUdley:-S(;f(Or Staff Engineer
+ 
+ACRS
+ 
+SUBJECT:  WORKING 
+COpy OF THE MINUTES OF THE ACRS SUBCOMMITTEE 
+MEETING ON THE SAFETY EVALUATION REPORT RELATED TO 
+THE LICENSE RENEWAL APPLICATION FOR TURKEY POINT, UNITS 
+3 AND 
+4, SEPTEMBER 25,2001 - ROCKVILLE, MARYLAND 
+A working copy of the minutes for the subject meeting is  attached for your review. 
+would appreciate your review and comment 
+as soon as possible. Copies are being sent to the 
+Plant License Renewal Subcommittee members for information and/or review. 
+Attachment: As stated 
+cc: 
+G. Leitch 
+P. Ford 
+S. Rosen 
+W. Shack 
+cc via e-mail: 
+J. Larkins 
+S. Bahadur 
+I 
+
+Issued: 
+Certified: 
+10/2/01 
+10/4/01 
+ADVISORY COMMITTEE ON REACTOR SAFEGUARDS 
+MINUTES 
+OF ACRS SUBCOMMITTEE MEETING ON 
+PLANT LICENSE 
+RENEWAL 
+TURKEY POINT UNITS 3 AND 4 
+SEPTEMBER 25, 2001 
+ROCKVILLE, MARYLAND 
+The 
+ACRS Subcommittee on Plant License Renewal held a  meeting on September 25, 2001, at 
+11545 Rockville Pike, Rockville, Maryland, 
+in Room T-2B3. The purpose of the meeting was to 
+hold discussions with representatives of the NRC staff and Florida Power and Light, Company, 
+(FPL) concerning the open and confirmatory items identified 
+in the safety evaluation report 
+(SER) related to the license renewal of Turkey Point, Units 3 and 4, and associated 
+Westinghouse topical reports. Mr. Noel Dudley was the cognizant ACRS staff engineer for this 
+meeting. The meeting was convened 
+at 8:30 a.m. on September 25, 2001, and adjourned at 
+4:20 p.m. on the same day. 
+ATTENDEES: 
+ACRS 
+M. Bonaca, Chairman 
+W. Shack, Member 
+P. Ford, Member N. Dudley, ACRS Staff 
+S. Rosen, Member 
+NRC STAFF 
+R. Auluck, NRR M. Khanna, NRR 
+S. Hoffman, NRR G. Galletti, NRR 
+B. Elliot, NRR 
+M. Khanna, NRR 
+J. Davis, NRR 
+B. Thomas, NRR 
+C. Munson, NRR 
+P. Shemanski, NRR 
+A. Keirn, NRR 
+A. Lee, NRR 
+ENTERGY OPERATIONS, INC. 
+E. Thompson, FPL 
+S. Hale, FPL 
+There were no written comments 
+or requests for time to make oral statements received from 
+members of the public. Approximately 10 members of the pUblic attended the meeting. A  list of 
+meeting attendees is available in the ACRS office files. 
+ACRS SUBCOMMITTEE CHAIRMAN'S INTRODUCTION 
+Dr. Mario Bonaca, Chairman of the Plant License Renewal Subcommittee, convened the 
+meeting and stated that the purpose of the meeting was to discuss the staff's SER, with open 
+items, related to the license renewal Turkey Point Plant, Units 3 and 4, and the associated 
+Westinghouse topical reports. Dr. Bonaca noted that during the presentation, he would raise 
+issues provided by Mr. John Barton, an ACRS consultant. He called upon Ms. Elizabeth 
+Thompson, FPL, to begin. 
+
+Minutes: Plant License Renewal Subcommittee 2 
+September 
+25, 2001 
+FPL PRESENTATION Ms. Elizabeth Thompson and Mr. Stephen Hale, FPL 
+Ms. Thompson, presented background information concerning the preparation of the license 
+renewal application for Turkey Point Units 3 and 
+4. Mr. Stephen Hale, FPL, presented the 
+purpose and criteria of the scoping and screening processes. He explained the scoping 
+process for safety-related structures and components and for non-safety related structures and 
+components that could affect safety-related equipment. Mr. Hale described the screening 
+process for mechanical systems, structures, and electrical and instrumentation and control 
+systems. 
+Mr. Hale presented the purpose of the aging management reviews. He explained how the 
+aging effects, which require aging management programs, were established based on technical 
+resources, operating experience reviews, and peer reviews. He summarized the requirements 
+for common aging management programs. Mr. Hale described the time limited aging analyses 
+(TLAA) process and listed the seven TLAAs for Turkey Point. He concluded that: 
+• The aging management programs at Turkey Point will adequately manage aging effects 
+so that the intended functions of in-scope systems, structures, and components (SSCs) 
+will be maintained consistent with the current licensing basis for the period of extended 
+operations. 
+• All TLAAs for Turkey Point were identified, evaluated, and shown to be acceptable for 
+the extended period of operation. 
+Dr. Shack asked why the staff had to issue a  request for additional information concerning the 
+fatigue of the pressurizer surge line given that the same issue had been adequately addressed 
+during the staff review of the license renewal application for Arkansas nuclear One, Unit 
+1. Mr. 
+Hale explained that Turkey Point is  the first plant to apply for license renewal that was 
+constructed 
+in accordance with B-31.1 design criteria and, as such, new questions were 
+identified regarding the design of the pressurizer. In addition, the safety evaluation of the 
+Westinghouse topical report WCAP-14574-A, "License Renewal Evaluation: Aging 
+Management Evaluation for Pressurizes," identified new areas of concerns that the applicant 
+addressed. 
+Dr. Bonaca questioned how the application would have been modified if the generic guidance 
+documents had been available. Mr. Hale explained that referencing the Generic Aging Lessons 
+Learned (GALL) report would have been beneficial. 
+Mr. Rosen asked why it was necessary to consider non-safety SSCs 
+in the scoping and 
+screening process. Mr. Hale stated that since Turkey Point was one of the early plants which 
+was licensed, not all systems now considered to be safety-related were identified as safety­
+related. 
+In response to a question prepared by Mr. Barton, Mr. Hale explained why the following SSCs 
+were not included 
+in scope: 
+•  Hot containment penetrations lines are outside plant structures and will not exceed 
+150°F if a  line break occurs. 
+
+Minutes: Plant License Renewal Subcommittee 3 
+September 
+25, 2001 
+•  The consequences of a release from the ventilation system of the Radiological Waste 
+Building is  less than 10 CFR Part 100 limits. 
+•  The screen wash system is not necessary to maintain suction during a severe accident, 
+since the circulating water pumps are secured. 
+•  The C-bus only provides power to non-safety loads. 
+•  The off-site transformers are not necessary during severe accidents since the safety­
+related diesel generators provide power. 
+Mr. Bonaca questioned why the spent fuel pool cooling system was within scope for Turkey 
+Point when all previous applicants considered spent fuel pool cooling systems to be outside the 
+scope of license renewal. Mr. Stephen Hoffman explained that scoping of SSCs was 
+dependent of the current design basis for each plant. 
+The Subcommittee members and FPL representatives discussed the aging management 
+program for the fatigue of thin wall stainless steel piping located 
+in trenches outside the turbine 
+building. Mr. Hale explained that the aging management program for these pipes was derived 
+from operational experience of similar pipes at St. Lucie. 
+Dr. Ford questioned how licensees predict the failure of component, such as baffle bolts, and 
+how they calculated the risk associated with these failures. Mr. Hale explained that the industry 
+uses operating experience and the results of inservice inspections and inservice tests to move 
+toward risk-informed inspection programs. He noted that aging management programs rely 
+on 
+defense-in-depth designs, operating experience, redundancy, and early defect detection to 
+control risk. 
+Dr. Bonaca asked why ASME Class 
+II pipes were not within the scope of license renewal when 
+they were physically located over Class I pipes. Mr. Hale explained that failures of ASME Class 
+II pipes were not part of the current design accident analyses and that non-safety related 
+systems which affect safety related components are already considered within scope 
+(Le. piping 
+supports). 
+NRC SAFETY EVALUATION REPORT (SER) PRESENTATION 
+Introduction: 
+Mr. Rajender Auluck, NRR 
+Mr. Rajender Auluck outlined the staff's presentation and introduced the presenters. He 
+provided an overview of the license review schedule and the SER format. Mr. Auluck 
+summarized the open items and the staff's inspection activities. During discussions with the 
+Subcommittee members, Mr. Auluck provided the following information. 
+•  
+In response to the emerging issue of reactor vessel head penetration cracking, the 
+applicant committed to adopt future industry recommendations. 
+•  Emerging issues, which are identified after the operating license is  renewed, will be 
+
+Minutes: Plant License Renewal Subcommittee 4 
+September 25,2001 
+handled by using the existing site-specific corrective action program. 
+•  Babcock and Wilcox manufactured the Turkey Point reactor vessel to Westinghouse 
+specifications. 
+•  The Turkey Point fatigue monitoring program verifies commutative usage factors are not 
+exceeded. 
+•  The Turkey Point license renewal application contained most of the required 
+information, however, the staff needed assistance 
+in located specific information. 
+Chap. 2.0 -Structures and Components Subject to an Aging Management Review: 
+Messrs. Greg Galletti and Brian Thomas, NRR 
+The staff described its methodology for reviewing the applicant's scoping and screening 
+process, its on-site audits, and its findings and conclusions. 
+Mr. Rosen questioned the use of the emergency operating procedures (EOPs) 
+in the scoping 
+and screening processes. Mr. Galletti explained that the results of the processes were 
+compared to the maintenance program results, which were derived 
+in part, by using the EOPs. 
+Mr. Rosen noted that the staff did not evaluate the qualification and training of licensee 
+personnel on the commitments made 
+in the license renewal application. Ms. Thompson, FPL, 
+stated that the new information 
+in the application was automatically included in the training 
+programs for licensee engineers. 
+Chap. 3.1 - Common Aging Management Programs: Ms. Meena Khanna, NRR 
+Ms. Meena Khanna, NRR, identified the common aging management programs the staff 
+reviewed. 
+Chap. 3.2 -Reactor Coolant System: Ms. Meena Khanna, NRR 
+Ms. Khanna identified the systems reviewed by the staff. She noted that the applicant did not 
+reference the Westinghouse topical reports 
+in the application, but did compare the topical report 
+results to the commitments 
+in the application. She stated that the reactor vessel head 
+penetration nozzle cracking will be managed by the reactor vessel head alloy 
+600 penetration 
+inspection program. 
+Dr. Bonaca questioned whether all Westinghouse topical report action items were addressed 
+in 
+the application. Mr. Hale, FPL, explained that the action items not addressed in the application 
+were addressed 
+in subsequent responses to staff Requests for Additional Information. 
+Dr. Ford asked if the reactor vessel internals aging management program had been reviewed 
+against the ASME code. Mr. Allen Hiser, Jr., NRR, explained that the inspection programs were 
+still being developed and that the staff was monitoring the industry's progress. 
+Dr. Ford asked when data would become available to better predict component failures. The 
+staff explained that inspections were ongoing at established intervals and that if  research 
+
+Minutes: Plant License Renewal Subcommittee 5 
+September 
+25, 2001 
+results indicated problems, then the inspection intervals would be shortened. Dr. Ford stated 
+that not enough data presently exists and that 10 year is  too long to wait. He suggested that 
+calculated changes 
+in the loss of coolant accident frequency should be used to determine the 
+priority of research needs. 
+In response to questions from Dr. Bonaca the staff and Mr. Hale explained that: 
+•  the containment radiation monitors were within the scope of license renewal, however, 
+no aging effects had been identified and no aging management programs were 
+necessary; and 
+•  the main steam insolation valve air accumulators are within scope and have an aging 
+management program, however, the backup instrument air bottles, which are routinely 
+replaced, are not within scope and do not have an aging management program. 
+Chap. 3.3 -Engineered Safety Features: Ms. Meena Khanna, NRR 
+Ms. Khanna identified the systems reviewed by the staff. She noted that the applicant 
+adequately identified the aging effects and applicable aging management programs for each 
+component of the engineered safety features system. 
+Chap. 3.4 -Auxiliary Systems: Mr. James Davis, NRR 
+Mr. James Davis, NRR, identified the systems reviewed by the staff. The Subcommittee 
+members and the staff discussed inspections requirements for inaccessible areas and 
+operating experience at other plants. The staff agreed to provide the Subcommittee an 
+explanation for why the intake structure does not have an aging management program. 
+Chap. 3.5 -Steam and Power Conversion Systems: Mr. James Davis, NRR 
+Mr. Davis identified the systems reviewed by the staff. 
+Chap. 3.6 -Structures and Components: Mr. Clifford Munson, NRR 
+Mr. Clifford Munson, NRR, identified the structural components and commodities reviewed by 
+the staff. 
+Chap. 3.7 -Electrical Components: Mr. Paul Shemanski, NRR 
+Mr. Paul Shemanski, NRR, identified the electrical component types subject to aging 
+management review. He noted that no aging management program was required for non­
+environmentally qualified (EO) medium voltage cables subject to moisture, since the cables 
+were designed with a lead sheath to prevent failure from water treeing due to moisture ingress. 
+He stated that on the basis of the staff's review, the applicant developed a new aging 
+management program for non-EO cables, connections, and electrical penetrations. The 
+Subcommittee and Mr. Shemanski discussed the operating experience and testing of the lead 
+sheath cables. 
+
+Minutes: Plant License Renewal Subcommittee 6 
+September 25,2001 
+Chap. 3.8 -New Aging Management Programs: Ms. Andrea Keim, NRR 
+Ms. Andrea Keim, NRR, identi'fied the aging management programs that were developed to 
+support the license renewal application. Dr. Shack questioned the meaningfulness of the one­
+time inspection of small bore piping. 
+Mr. Barry Elliot, NRR, explained that cracking in small 
+bore piping has not been a problem and that the one-time inspection is  intended to confirm the 
+absence of cracking. 
+Dr. Shack stated that the applicant's proposal to use a 
+VT-1 visual inspection of baffle bolts was 
+insufficient, 
+in and of itself, but would be acceptable if performed in conjunction with an 
+ultrasonic test. He stated that one-time inspections of reactor vessel internals using a 
+VT-1 
+visual inspection as implied by the SER, is  not sufficient. The staff agreed to review and modify 
+the SER to clarify this issue. 
+Field erected 
+tanks internal inspection: Mr. Clifford Munson, NRR, explained the 
+open item concerning one-time inspection of condensate storage tanks, demineralized 
+water storage tanks, and the refueling water storage tank. 
+Galvanic corrosion susceptibility inspection program: Mr. James Davis, NRR, 
+identified the specific component and commodity groups for which credit was taken for 
+this aging management program. 
+He described the use of baseline examinations and 
+one-time inspections. 
+Chap. 3.9 -
+Existing Aging Management Review: Ms. Andrea Keim, NRR 
+Ms. Keim identified the existing aging management programs reviewed by the staff. Dr. Ford 
+stated that the staff should take a leadership role 
+in resolving emerging aging degradation 
+issues. Mr. Elliot explained that licensees are responsible for identifying emergent issues and 
+determining appropriate resolution, where as the staff is responsible for confirming the 
+adequacy of the proposed resolutions. 
+Chap. 4.0 - Time-Limited 
+Aging Analyses: Messrs. Barry Elliot and Paul Shemanski, NRR 
+Mr. Barry Elliot, NRR, identified the time-limited aging analyses (TLAAs) reviewed by the staff. 
+Reactor vessel 
+irradiation embrittlement: Mr. Elliot noted that the applicant must 
+apply the chemistry factor ratio adjustment to the surveillance data when submitting the 
+48 EFPY pressure-temperature curves for staff approval. He observed that the 
+circumferential weld between the nozzle belt and the intermediate shell approaches 
+RT
+PTS screening criterion at end of life and should be tracked and considered by the 
+licensee 
+in future submittals. 
+The Subcommittee and the staff discussed the appropriateness of allowing licensees to 
+continue operating reactor pressure vessels that are within a few degrees of the 
+pressurized thermal shock screening criterion. The staff explained that the screening 
+criterion is very conservative and that if the criterion is exceeded licensees are required 
+to perform plant-specific evaluations. 
+
+Minutes: Plant License Renewal Subcommittee 7 
+September 
+25, 2001 
+Metal fatigue: Mr. Elliot identified an open item that requires the staff to complete a 
+review of the Westinghouse topical report regarding the evaluation of underclad 
+cracking. 
+Environmental review process: Mr. Shemanski noted the staff disagreed with the 
+applicant as to which requirement 
+in 10 CFR 54.21, "Contents of application - Technical 
+information," is being met, but accepts the application on the basis of the technical 
+adequacy of the equipment qualification. The applicant committed to revise the EO 
+documentation package to referenced the wear cycle aging effect on Westinghouse and 
+Joy motors. 
+WESTINGHOUSE TOPICAL REPORTS Mr. Barry Elliot, NRR 
+Mr. Elliot presented the materials used, the aging effects, aging management programs, 
+TLAAs, renewal application action items, and significant technical issues for the following 
+Westinghouse Topical Reports: 
+•  Westinghouse Energy Systems WCAP-14422 Rev. 2-A, "Licensing Renewal 
+Evaluation: Aging Managementfor Reactor Coolant Systems Supports." 
+•  Westinghouse Energy Systems WCAP-14574-A, "License Renewal Evaluation: Aging 
+Management Evaluation for Pressurizers." 
+•  Westinghouse Energy Systems WCAP-14575-A, "Aging Management Evaluation for 
+Class 1 Piping and Associated Pressure Boundary Components." 
+•  Westinghouse Energy Systems WCAP-14577 Rev. 1-A, "License Renewal Evaluation: 
+Aging Management for Reactor Internals." 
+Mr. Elliot concluded that upon completion of all renewal application action items, applicants who 
+reference the topical reports will have adequately demonstrated that the aging of components 
+within the scope of the topical reports can be managed adequately for the period of extended 
+operations. 
+Dr. Ford stated that the reports do not provide data concerning the effects on safety margins 
+and questioned how a reviewer would be able to make a decision on the adequacy of the aging 
+management programs. The Subcommittee recognized that this information relates to the 
+current licensing basis and not to the license renewal process. 
+Dr. Bonaca stated that 
+in order to make a clear distinction between the current licensing basis 
+and license renewal commitments, the SERs should include a description of the philosophy and 
+implementation of the license renewal process. 
+SUBCOMMITTEE COMMENTS, CONCERNS, AND RECOMMENDATIONS 
+Mr. Rosen requested additional information concerning allowing continued plant operations 
+when the calculated reference temperature of the reactor pressure vessel (RT
+PTS) is within a 
+few degrees of the pressurized thermal shock screening criterion. 
+
+Minutes: Plant License Renewal Subcommittee 8 
+September 25, 
+2001 
+Mr. Rosen stated that in order to retain corporate knowledge, licensees should be required to 
+provide training on license renewal commitments to their employees. 
+Mr. Rosen stated that there should be clarity as to how EOPs should be used 
+in the license 
+renewal screening process. 
+Dr. Ford stated the license renewal application identified aging management programs. 
+However, Dr. Ford expressed his view that the topical reports did not contain sufficient data for 
+reviewers to reach well supported decisions. The topical reports rely 
+on programs that are part 
+of the current licensing basis. 
+Drs. Shack and Bonaca stated that the table format used 
+in the application was good and easy 
+to follow. Dr. Shack noted that the application on the CD Rom was easy to use, however, the 
+hard copy of the application was difficult to navigate. 
+Dr. Bonaca agreed with the staff's position concerning the evaluation of seismic ASME Class 
+II 
+pipes located over Class I components 
+The Subcommittee agreed that the Westinghouse topical reports would be useful for future 
+applicants. 
+STAFF AND INDUSTRY COMMITMENTS 
+The staff committed to provide the ACRS with a  reference for an explanation of the applicants 
+scoping methodology. [Provided 9/25/01; Application for Renewed Operating License for 
+Turkey Point Units 3 & 
+4, pages 2.1-4 to 2.1-12] 
+The staff agreed to consider clarifying its approval for use of the VT
+-1 inspection for reactor 
+vessel internals including baffle bolts. 
+The staff committed to provide the ACRS a copy of the Request for Additional Information 
+regarding the integrity of the reactor pressure vessel. [Provided 9/25/0"\] 
+SUBCOMMITTEE DECISIONS 
+The Subcommittee decided not to prepare an interim letter nor a letter concerning the 
+Westinghouse Topical Reports. 
+The Subcommittee requested that the staff present an abbreviate version of its presentation 
+regarding the SER and Westinghouse Topical Reports to the ACRS on October 
+5,2001. 
+FOLLOW-UP ACTIONS 
+The Subcommittee plans to visit Turkey Point Units 3 and 4, after the resolution of the 
+remaining open items are documented 
+in the SER. 
+
+•••••••••••••••••••••••••••••••••••••••••••••••• 
+•••••••••••••••••••••••••••••••••••••••••••••••• 
+Minutes: Plant License Renewal Subcommittee 9 
+September 25, 2001 
+PRESENTATION SLIDES AND HANDOUTS PROVIDED DURING THE MEETING 
+The presentation slides and handouts used during the meeting are available in the ACRS office 
+files or as attachments 
+to the transcript. 
+BACKGROUND MATERIAL PROVIDED TO THE SUBCOMMIITEE: 
+1.  U.S. Nuclear Regulatory Safety Evaluation Report with Open Items Related to the 
+License Renewal of Turkey Point Nuclear Plant, Units 3 and 
+4, issued August 2001. 
+2.  Selected Sections from the Florida Power and Light, Company's Application for 
+Renewed Operating Licenses, Turkey Point Units 3 
+& 4, based on individual Members' 
+review assignments. 
+3.  Westinghouse Energy Systems WCAP-14422 Rev. 2-A, "Licensing Renewal Evaluation: 
+Aging Management for Reactor Coolant Systems Supports," issues December 2000. 
+4.  Westinghouse Energy Systems WCAP-14574-A, "License Renewal Evaluation: Aging 
+Management Evaluation for Pressurizers," issued December 2000. 
+5.  Westinghouse Energy Systems WCAP-14575-A, "Aging Management Evaluation for 
+Class 1 Piping and Associated Pressure Boundary Components," issued December 
+2000. 
+6.  Westinghouse Energy Systems WCAP-14577 Rev. 1-A, "License Renewal Evaluation: 
+Aging Management for Reactor Internals," issued March 
+2001 . 
+NOTE: Additional details of this meeting can be obtained from a transcript of this meeting 
+available 
+in the NRC Public Document Room, One White Flint North, 11555 Rockville Pike, 
+Rockville, 
+MD, (301) 415-7000, downloading or viewing on the Internet at 
+''http://www.nrc.gov/ACRSACNW,'' or can be purchased from Neal 
+R. Gross and Co., 1323 
+Rhode Island Avenue, NW, Washington, D.C. 20005, (202) 234-4433 (Voice), 387-7330 (Fax), 
+e-mail: nrgross@nealgross.com. 
+
+ADVISORY COMMITIEE ON REACTOR SAFEGUARDS
+ 
+PLANT LICENSE RENEWAL 
+SUBCOMMlrrEE MEETING
+ 
+TURKEY POINT UNITS 3 AND 4 APPLICATION AND RELATED
+ 
+WESTINGHOUSE TOPICAL REPORTS
+ 
+SEPTEMBER 25, 
+2001
+ 
+ROCKVILLE, MARYLAND
+ 
+-AGENDA­
+TOPIC  
+PRESENTER 
+I. Opening Remarks  M. Bonaca, ACRS 8:30-8:35 a.m. 
+/O;D$ 
+II. Florida Power and Light Company Presentation 
+FPL Staff 8:35-9:45t.a.m. 
+A.  Background 
+B.  License Renewal Application Scoping and
+ 
+Screening Process (IPA)
+ 
+C.  Aging Management Reviews 
+D.  Aging Management Programs 
+E.  Time Limiting Aging Analyses 
+IO:~()-I():.fS 
+Introduction and Overview of SER Related to 
+D. Matthews, NRR 9:46 10:08la.m. 
+~. 
+Turkey Point License Renewal Application 
+R. Auluck, NRR 
+D~ ~o
+[ 
+-BREAK- 
+10:ge-10:+S a.m. 
+) 
+If): r.r, 1/; 1.0 
+IV.  SER Chap. 2.0 - Structures and Components 
+G. Galletti, NRR ~-~ a.m. 
+Subject to an Aging Management Review 
+B. Thomas, NRR 
+1/: 20 -1/: ro 
+V.  SER Chap. 3.1 - Common Aging Management 
+M. Khanna, NRR 10:90·11:08'a.m. 
+Programs 
+SER Chap. 3.2 - Reactor Coolant Systems 
+SER Chap. 3.3 - Engineered Safety Feature Systems 
+/I: ro -12:00 rnv&' 
+VI. SER Chap. 3.4 - Auxiliary Systems  
+J. Davis, NRR 
+1-4:00 H:1-Ba.m. 
+SER Chap. 3.5: Steam and Power Conversion
+ 
+Systems
+ 
+/2:(1$-/2:IS 
+SER Chap. 3.6: Structures and Structural 
+C. Munson, NRR 14.15=11.26 a.m. 
+Com onents 
+l'1.:a1 tlNrJlI-12: oS' 
+SER Chap. 3.7: Electrical and I&C 
+P. Shemanski 
+1:20 11:28a.m. 
+NRR 
+
+J}FI> 
+Federal Register 1Vol. 66, No. 176/Tuesday, September 11, 20011 Notices 
+47247 
+OMB Number: 1218-<J209.
+ 
+Agency Number: ICR 121B-<J209 2001.
+ 
+Affected Public: Business or other for-
+
+profit, Farms, 
+and State, Local or Tribal 
+Government. 
+Cite/Rejerence/Form/etc: OSHA Form 
+196A 
+and OSHA Form 196B. 
+Total Respondents: 139,000. 
+Frequency: 
+Annually. 
+Average Time per Response: 30 
+minutes. 
+Estimated Total Burden Hours: 66,720 
+hours. 
+Comments submitted in response to 
+this 
+comment request will be 
+summarized 
+andlor included in the 
+request 
+for Office of Management and 
+Budget approval ofthe information 
+collection request; they will also 
+become a matter 
+of public record. 
+Dated: September 5, 2001. 
+John L. Henshaw, 
+Assistant Secretary. 
+[FR Doc. 01-22795 Filed 9-10-01; 8:45 am] 
+BILLING CODE 451l)...2~ 
+NATIONAL CREDIT UNION 
+ADMINISTRATION 
+Sunshine 
+Act Meeting 
+TIME AND DATE: 10:00 a.m., Thursday, 
+September 13, 2001. 
+PLACE: Board Room, 7th Floor. Room 
+7047.1775 Duke Street. Alexandria, VA 
+22314-342B. 
+STATUS: Open. 
+MATTERS TO BE CONSIDERED: 
+1. Requests from Three (3) Federal 
+Credit Unions to Convert 
+to Community 
+Charters. 
+2. Requests from Three (3) Federal 
+Credit Unions to Expand their 
+Community Charters. 
+3. Proposed Rule: Amendment to Part 
+704, NCUA's Rules 
+and Regulations, 
+Corporate Credit Unions. 
+4. Final Rule: Amendments to Section 
+701.31(d), NCUA's Rules 
+and 
+Regulations, Nondiscrimination in 
+Advertising. 
+5. Interim Final Rule: Amendment to 
+Part 707, NCUA's Rules 
+and 
+Regulations, Truth in Savings. 
+RECESS: 11:15 a.m. 
+TIME AND DATE: 11:30 a.m., Thursday,
+ 
+September 
+13,2001.
+ 
+PLACE: Board Room, 7th Floor, Room
+ 
+7047,1775 Duke Street, Alexandria, 
+VA 
+22314-342B. 
+STATUS: Closed. 
+MAnERS TO BE CONSIDERED: 
+1. Administrative Action under 
+Section 206 of the Federal Credit Union 
+Act. Closed 
+pursuant to exemptions (B), 
+(9)(A)(ii), and (9)(B). 
+2. Two (2) Administrative Actions NUCLEAR REGULATORY 
+under Part 704 of NCUA's Rules and COMMISSION 
+Regulations. Closed pursuant to \J-. . 
+exemption (B). ...,. 
+.. . 
+3. Corporate ExammatIon RevIew 
+Task Force Report 
+and 
+Recommendations. Closed pursuant to 
+exemption 
+(B). 
+4. One (1) Personnel Matter. Closed 
+. (
+d)
+pursuant to exemptIOns 2) an (6. 
+FOR FURTHER INFORMATION CONTACT: 
+Becky Baker, Secretary 
+of the Board, 
+Telephone 703-518-6304. 
+Becky Baker, 
+Secretary ofthe Board. 
+[FR Doc. 01-22811 Filed 9--6-01; 8:45 ami 
+BILLING CODE 7535-01-M 
+NATIONAL TRANSPORTATION 
+SAFETY BOARD 
+Sunshine Act Meeting 
+TIME AND PLACE: 9:30 a.m., Tuesday, 
+September 
+1B, 2001 
+PLACE: NTSB Conference Center, 429 
+L'Enfant Plaza SW., Washington, 
+DC 
+20594. 
+STATUS: The two items are Open to the 
+Public. 
+MATTERS TO BE CONSIDERED: 
+73B5-Railroad Accident Report: 
+Collision 
+of Amtrak Train 304-26 
+with a Highway Vehicle at a 
+Highway-Rail Grade Crossing in 
+McLean, Illinois, on September 26, 
+1999 
+7392A-Marine Accident Report: Fire 
+On Board the U.S. Passenger Ferry 
+Columbia, Chatham Strait, about 30 
+nautical miles Southwest 
+of Juneau, 
+Alaska, on June 6, 2000 
+NEWS MEDIA CONTACT: Telephone: (202) 
+314-6100. 
+Individuals requesting specific 
+accommodations 
+should contact Ms. 
+Carolyn Dargan at (202) 314-6305 by 
+Friday, September 14, 2001. 
+FOR FURTHER INFORMATION CONTACT: 
+Vicky D'Onofrio, (202) 314-6410. 
+September 
+7, 2001. 
+Vicky D'Onofrio, 
+Federal RegisterUaison Officer. 
+[FR Doc. 01-22938 Filed 9-7-01; 3:44 pml 
+BILLING CODE 753:1-l)1-M 
+AdVISOry Committee on Reactor 
+Safeguards Meeting 
+of the 
+Subcommittee on Plant License 
+Renewal' Notice 
+of Meeting
+' 
+The ACRS Subcommittee on Plant 
+License Renewal will 
+hold a meeting on 
+September 
+25,2001, Room T-2B3, 
+1155 R    k 
+'11 P'k R    k '11
+4 ocVIe    Ie, ocVIe, 
+Maryland. 
+The entire meeting will be open to 
+public attendance. 
+The agenda for the subject meeting 
+shall be as follows: 
+Tuesday, September 
+25,2001-8:30 a.m. until the conclusion 
+of business 
+The Subcommittee will discuss the 
+draft Safety Evaluation Report, with 
+open items, concerning the license 
+renewal application for Turkey Point 
+Nuclear Plant, Units 3 
+and 4; and the 
+associated Westinghouse Topical 
+Reports. 
+The purpose of this meeting is 
+to gather information, analyze relevant 
+issues 
+and facts, and to formulate 
+proposed positions 
+and actions, as 
+appropriate, for deliberation by the full 
+Committee. 
+Oral statements may be presented by 
+members 
+of the public with the 
+concurrence of the Subcommittee 
+Chairman; written statements will be 
+accepted 
+and made available to the 
+Committee. Electronic recordings will 
+be permitted only during those portions 
+of the meeting that are open to the 
+public, 
+and questions may be asked only 
+by members 
+of the Subcommittee, its 
+consultants, 
+and staff. Persons desiring 
+to make oral statements should notify 
+the cognizant ACRS staff engineer 
+named below five days prior to the 
+meeting, 
+if possible, so that appropriate 
+arrangements 
+can be made. 
+During the initial portion of the 
+meeting, the Subcommittee, along with 
+any 
+of its consultants who may be 
+present, may exchange preliminary 
+views regarding matters to be 
+conSidered during 
+the balance of the 
+meeting. 
+The Subcommittee will then hear 
+presentations by 
+and hold discussions 
+with representatives of the NRC staff, 
+the Florida Power and Light Company, 
+and other interested persons regarding 
+this review. 
+Further information regarding topics 
+to be discussed, whether the meeting 
+has been canceled or rescheduled, 
+and 
+the Chairman's ruling on requests for 
+the opportunity to present oral 
+statements 
+and the time allotted 
+therefor, 
+can be obtained by contacting 
+the cognizant ACRS staff engineer, Mr. 
+Noel 
+F. Dudley (telephone 301/415­
+
+47248 Federal Register / Vol. 66, No. 176/ Tuesday, September 11, 2001/ Notices 
+6888) between 7:00 a.m, and 3:45 p.m. 
+(EDT). Persons planning to attend this 
+meeting are urged to contact 
+the above 
+named individual one or two working 
+days 
+prior to the meeting to be advised 
+of any potential changes to the agenda, 
+etc., 
+that may have occurred. 
+Dated: August 30, 2001. 
+Sber Babadur, 
+AssociateDirectorfor Technical Support, 
+ACRSIACNW. 
+[FR Doc. 01-22763 Filed 9-10-01: 8:45 amI 
+BILLING eOOE 7590-01~ 
+NUCLEAR REGULATORY 
+COMMISSION 
+Advisory Committee 
+on Reactor 
+Safeguards Meeting 
+of the ACRS 
+Subcommittee on Materials and 
+Metallurgy; Notice 
+of Meeting 
+The ACRS Subcommittee on Materials 
+and Metallurgy will hold a meeting on 
+September 26,2001, Room T-2B3, 
+11545 Rockville Pike, Rockville, 
+Maryland. 
+The entire meeting will be 
+open to 
+public attendance. 
+The agenda for the subject meeting 
+shall be as follows: 
+Wednesday, 
+September 
+26,2001-8:30 a.m. until the 
+conclusion 
+ofbusiness 
+The Subcommittee will discuss the 
+status of the Steam Generator Action 
+Plan 
+and the South Texas Project, Unit 
+2, tube integrity issues. The purpose of 
+this meeting 
+is to gather information, 
+analyze relevant issues 
+and facts, and to 
+formulate proposed positions 
+and 
+actions, as appropriate, for deliberation 
+by the full Committee. 
+Oral statements may 
+be presented by 
+members of 
+the public with the 
+concurrence of the Subcommittee 
+Chairman: written statements 
+will be 
+accepted 
+and made available to the 
+Committee. Electronic recordings will 
+be permitted only during those portions 
+of the meeting that are open to the 
+public, and questions may be asked only 
+by members 
+of the Subcommittee, its 
+consultants, 
+and staff. Persons desiring 
+to make oral statements 
+should notify 
+the cognizant 
+ACRS staff engineer 
+named below five days prior to the 
+meeting, if possible, so 
+that appropriate 
+arrangements can be made. 
+During the initial portion 
+of the 
+meeting, the Subcommittee, along with 
+any of its consultants who may be 
+present, may exchange preliminary 
+views regarding matters to be 
+considered during 
+the balance of the 
+meeting. 
+The Subcommittee will 
+then hear 
+presentations by and hold discussions 
+with representatives of the NRC staff 
+and other interested persons regarding 
+this review. 
+Further information regarding topics 
+to be discussed, 
+whether the meeting 
+has been canceled or rescheduled, 
+and 
+the Chairman's ruling on requests for 
+the opportunity to present oral 
+statements 
+and the time allotted 
+therefor, can be obtained by contacting 
+the cognizant ACRS staff engineer, Mr. 
+Noel F. Dudley (telephone 301/415­
+6888) between 7:00 a.m. and 3:45 p.m. 
+(EDT). Persons planning to attend this 
+meeting are urged to contact the above 
+named individual one or two working 
+days prior 
+to the meeting to be advised 
+of any potential changes to the agenda, 
+etc., 
+that may have occurred. 
+Dated: August 30, 2001. 
+Sber Bahadur, 
+Associate Directorfor Technical Support. 
+ACRSIACNW. 
+[FR Doc. 01-22764 Filed 9-10-01; 8:45 am] 
+BILLING CODe 7590-01~ 
+NUCLEAR REGULATORY 
+COMMISSION 
+Sunshine 
+Act Meeting 
+DATE: Weeks of September 10,17,24, 
+October 1,8,152001 
+PLACE: Commissioners' Conference 
+Room, 11555 Rockville Pike, Rockville, 
+Maryland 
+STATUS: Public and Closed 
+MATTERS TO BE CONSIDERED: 
+Week of September 10, 2001 
+There are no meetings scheduled for 
+the Week of September 10, 2001. 
+Week of September 17, 2001-Tentative 
+There are no meetings scl!eduled for 
+the Week of September 17, 2001. 
+Week of September 24, 2001-Tentative 
+Friday, September 28, 2001 
+9:25 a.m. Affirmation Session (Public 
+Meeting) 
+(if needed) 
+9:30 a.m. Briefing 
+on 
+Decommissioning Activities and 
+Status (Public Meeting) (Contact: 
+John Buckley, 301-415-6607) 
+1:30 p.m. Briefing 
+on Threat 
+Environment Assessment (Closed­
+Ex. 1) 
+Week of October 1, 2001-Tentative 
+Thursday, October 4, 2001 
+9:25 a.m. Affirmation Session (Public 
+Meeting) (if needed) 
+Week ofOctober 8, 2001-Tentative 
+There are no meetings scheduled for 
+the Week of October 8, 2001. 
+Week of October 15, 2001-Tentative 
+Thursday, October 18, 2001 
+9:00 a.m, meeting 
+with NRC 
+Stakeholders-Progress of 
+Regulatory Reform (Public Meeting) 
+(Location-Two White Flint North 
+Auditorium) 
+The 
+schedule for Commission 
+meetings is subject to change on short 
+notice. To verify the status of meetings 
+call 
+(recording)-(301) 415-1292. 
+Contact person for more information: 
+David Louis Gamberoni (301) 415-1651. 
+The NRC Commission Meeting 
+Schedule can be found on the Internet 
+at: http://www.nrc.gov/SECU/smj/ 
+schedule.htm 
+This notice is distributed by mail to 
+several 
+hundred subscribers; if you no 
+longer 
+wish to receive it. or would like 
+to be 
+added to the distribution, please 
+contact 
+the Office of the Secretary, 
+Washington, 
+DC, 20555 (301-415-1969). 
+In addition, distribution 
+of this meeting 
+notice over 
+the Internet system is 
+available. Ifyou are interested in 
+receiving this Commission meeting 
+schedule electronically, please send an 
+electronic message to dkw@nrc.gov. 
+Dated: September 6. 2001. 
+David Louis GamberDni, 
+Technical Coordinator, Office ofthe 
+Secretary. 
+[FR Doc. 01-22852 Filed 9-7-01; 11:50 amI 
+BILLING CODe 75iO-Ol-M 
+OFFICE OF MANAGEMENT AND 
+BUDGET 
+Cumulative Report on Rescissions and 
+Deferrals 
+August 1, 2001. 
+Section 1014(e) of the Congressional 
+Budget 
+and Impoundment Control Act 
+of 1974 (Public Law 93-344) requires a 
+monthly report listing all budget 
+authority for 
+the current fiscal year for 
+which, as of the first day of the month, 
+a special message 
+had been transmitted 
+to Congress. 
+This report gives the status, as of 
+August 1. 2001, 
+oftwo deferrals 
+contained 
+in one special message for FY 
+2001. The message was transmitted to 
+Congress 
+on January 18, 2001. 
+Deferrals (Attachments A and B) 
+As of July 1, 2001, $1.4 billion in 
+budget authority was being deferred 
+from obligation. Attachment B shows 
+the status of each deferral reported 
+during 
+FY 2001. 
+Information From Special Message 
+The special message containing 
+information 
+on the deferrals that are 
+
+:OMMITTEE ON REACTOR SAFEGUARDS 
+:E MEETING ON PLANT LICENSE RENEWAL 
+SEPTEMBER 25, 2001
+ 
+Date
+ 
+PLEASE PRINT
+ 
+NRC ORGANIZATION 
+Ntc I:<'~(v~.;' 1\ 
+R. Au.. LLt <:.-\<
+ 
+if\VL S~.em".,JV:::1 
+JAMe5 . Me:-poO F"F 
+AY:LA~ \J .Q'-l-.{~ 
+FA1' fA-rl\fAIt::­
+
+ADVISORY COMMITIEE ON REACTOR SAFEGUARDS 
+SUBCOMMITIEE MEE1·ING ON PLANT LICENSE RENEWAL 
+SEPTEMBER 25. 2001
+ 
+Date
+ 
+PLEASE PRINT
+ 
+NRC ORGANIZATION 
+11£ ljDo/E: H cB 
+~ (t.c.{/I.U·UV"617 Lb 
+~I
+~ 
+rvfZR. 
+7
+{&fV1.[1J 
+~ "N
+/~ft JAM MAJJ 0 &~
+ 
+IIIf 
+It It if ,'I 
+, 
+.1Jf2. ~(,<;r2d-(RI:F (~GfJ 
+Dqn/e/ rrVW7K,'1 
+
+ADVISORY COMMITTEE ON REACTOR SAFEGUARDS
+ 
+SUBCOMMlrrEE MEETING ON PLANT LICENSE RENEWAL
+ 
+SEPTEMBER 25, 2001
+ 
+Date 
+PLEASE PRINT 
+NAME 
+AFFILIATION 
+S r/!r./C 
+fPL 
+NM(; 
+A.f. g.C' e-tt...:..L...1vl....:.-o__ 
+(J_WMd3i£V 
+b(\V'H~ Rfor>yih->---_I 
+Cl-(ARL~S £. H£l/Cl'?. 
+JAN Cw. WIL...$0tJ 
+
+li 
+.. 
+•
+I=PL 
+LICENSE RENEWAL 
+TURKEY POINT PLANT
+ 
+ACRS
+ 
+SUBCOMMITTEE MEETING
+ 
+September 25, 2001
+ 
+
+•
+I=PL 
+Agenda
+ 
+•  Background 
+•  Scoping And Screening Process
+ 
+•  Aging Management Reviews 
+•  Time Limited Aging Analyses 
+2
+ 
+
+•
+F=PL  
+Background
+ 
+•  Strategic planning for license renewal ofFPL 
+nuclear plants began in 1992 
+.~  FPL active in license renewal industry groups 
+since 1993 
+•  Integrated Plant Assessment (IPA) and Time 
+Limited Aging Analyses (TLAAs) efforts for 
+Turkey Point initiated in 1999 
+•  License Renewal Application (LRA) submitted 
+in September 2000 
+3 
+
+•
+I=PL 
+Background
+ 
+•  Safety Review Requirements and Guidance 
+-   10 CFR Part 54-License Renewal Rule 
+-  Draft Standard Review Plan for License Renewal 
+-  Draft GALL Report 
+-  Regulatory Guide DG-1 047 
+-  NRC position letters on generic issues 
+-  NEI 95-10 
+-  Westinghouse Owners' Group (WOG) License 
+Renewal Guidelines 
+4 
+
+•
+I=PL 
+Background
+ 
+•  IPA/TLAA Technical Work Description 
+-  Initial procedures piloted in 1996 
+-  Procedures based on making the best use 
+of existing 
+design references and tools 
+-  Information trips made to other applicants 
+-  In-depth review 
+of another applicant's technical 
+documents performed by core team 
+5 
+
+•I=PL  
+Background
+ 
+•  IPAITLAA Technical Work Description (cont.) 
+-  Lessons learned from NRC review ofprevious 
+applications, RAIs and RAJ responses, and resolution 
+to generic issues factored into procedures and output 
+documents, as available 
+-  Technical work performed in accordance with the 
+FPL Quality Assurance Program 
+-  Work products have undergone significant internal 
+and external independent reviews 
+6 
+
+•
+I=PL 
+Scoping And Screening Process
+ 
+•  Scoping 
+-  Purpose - To identify Systems and Structures within 
+the scope 
+of License Renewal 
+-  Scoping Criteria - Systems and Structures which are: 
+•  Safety Related 
+•  Non-Safety Related which can Affect Safety Related 
+•  Systems and Structures relied on to demonstrate 
+compliance with Fire Protection, Environmental 
+Qualification, Pressurized Thermal Shock, Anticipated 
+Transients without Scram, and Station Blackout 
+7 
+
+•
+I=PL 
+Scoping And Screening Process
+ 
+•  Scoping - Safety Related 
+-  Safety Related definitions in FPL procedures the 
+same as 10 
+CFR Part 54 
+-  Used UFSAR, Technical Specifications, licensing 
+correspondence, Design Basis Documents (DBDs), 
+Component Database, and design drawings 
+-  All systems and structures were reviewed for 
+SR 
+components and structural components 
+8 
+
+•
+I=PL 
+Scoping And Screening Process
+ 
+•  Scoping - Non Safety which can affect Safety 
+Related 
+-  Used UFSAR, Technical Specifications, licensing 
+correspondence, DBDs, Component Database, design 
+drawings, and pipe stress analyses
+ 
+-  Two categories
+ 
+•  Provides functional support 
+•  Potential for interactions 
+9
+ 
+
+•
+FPL 
+Scoping And Screening Process
+ 
+•  Scoping - Regulated Events 
+-  Used UFSAR, Technical Specifications, licensing 
+correspondence, DBDs, Component Database, design 
+drawings 
+-  Also used Appendix R Safe Shutdown Analysis and 
+Essential Equipment List, EQ List in the Component 
+Database, and Station Blackout Load List 
+10 
+
+Scoping And Screening Process 
+•
+FPL 
+•  Screening 
+-  Purpose - To identify Structures and Components 
+(SCs) which require an Aging Management Review 
+-  Screening Criteria - SCs which: 
+•  Support License Renewal System Intended Functions 
+(component level scoping) 
+•  Perform the intended functions without moving parts or 
+without a change in configuration or properties (passive) 
+•  Are not subject to replacement based on a qualified life or 
+specified time period (long-lived) 
+11 
+
+•F=PL 
+Scoping And Screening Process
+ 
+•  Mechanical System Screening 
+-  Evaluation boundaries and interfaces are established 
+-  SCs that are included within a system's evaluation 
+boundaries are identified 
+-  SCs that support system intended functions are 
+identified 
+-  SCs that are passive are identified 
+-  SCs that are long-lived are identified 
+-  Component Intended Functions for SCs requiring an 
+Aging Management Review are identified 
+12 
+
+•
+I=PL 
+Scoping And Screening Process
+ 
+•  Civil/Structural Screening 
+-  SCs for each structure are identified 
+-  SCs identified include non-current carrying electrical 
+and I&C components
+ 
+-  SCs that support each 
+of the structure intended
+ 
+functions are identified 
+-  SCs that are passive are identified 
+-  SCs that are long-lived are identified 
+-  Component Intended Functions for SCs requiring an 
+Aging Management Review are identified 
+13
+ 
+
+•
+I=PL 
+Scoping And Screening Process
+ 
+•  Electrical/I&C Screening 
+-  Component commodity groups are identified 
+-  Descriptions and functions for each component 
+commodity group are identified 
+-  Component commodity groups that are passive are 
+identified 
+-  Component commodity groups that are long-lived are 
+identified 
+•  Component commodity groups covered by 10 CFR 50.49 
+EQ Program are considered to be subject to replacement 
+based on qualified life 
+14 
+
+•
+I=PL 
+Aging Management Reviews
+ 
+•  Purpose-For each SC requiring an Aging 
+Management Review (AMR), demonstrate that 
+the effects 
+of aging will be adequately managed 
+so that the intended functions will be maintained 
+consistent with the Current Licensing Basis for 
+the extended period 
+of operation 
+15 
+
+• Aging Management Reviews
+ 
+I=PL 
+•  Aging effects requiring management established 
+based on review 
+of engineering inputs
+ 
+-AMR technical resources
+ 
+-
+AMR operating experience reviews
+ 
+-
+AMR peer reviews
+ 
+•  Methodology for determining aging effects requiring 
+management for civil/mechanical SSCs in LRA 
+Appendix C 
+16 
+l 
+
+•
+I=PL 
+Aging Management Reviews
+ 
+•  AMR Technical Resources 
+-WOG Generic Technical Reports (15 total) 
+-  NUMARC License Renewal Industry Reports 
+-
+B&W Tools (both Mechanical and Civil/Structural) 
+-  Another applicant's IPA technical documents 
+-  Submitted applications 
+-  Materials handbooks and in-house materials expertise 
+-  Participation in industry groups 
+17 
+~
+ 
+
+•
+I=PL 
+Aging Management Reviews
+ 
+•  AMR Operating Experience Reviews 
+-  Reviewed applicable INPO and NRC generic 
+communications and FPL responses 
+-  Extensive review 
+of plant specific history including: 
+-   Non-Conformance and Condition Reports 
+-   Event Response Team and Licensee Event Reports 
+-   FPL Metallurgical Laboratory Reports 
+-   Interviews with component/system engineers and plant walk-
+downs 
+-  Used as input for identification of aging effects 
+-  Establishes track record for managing aging 
+18 
+
+Aging Management Reviews 
+•
+I=PL 
+•  AMR Peer Reviews 
+-  License renewal staff members from other applicants 
+-  Licensing and technical license renewal consultants 
+-  Specific review 
+of Class 1 AMR documents by 
+Framatome
+ 
+-  FPL technical chief for electrical/I&C areas
+ 
+19 
+
+Aging Management Reviews 
+•
+F=PL 
+•  Aging Management Programs 
+-  Performed ten attribute evaluation used in Turkey 
+Point LRA Appendix B 
+-  Bridged programs described in the Turkey Point LRA 
+with actual implementation in the field 
+-  Identified specific plant procedures required to 
+implement the programs
+ 
+-  Identified specific program commitments
+ 
+20
+ 
+
+•
+I=PL 
+Time Limited Aging Analyses
+ 
+•  TLAAs are defined by 10 CFR 54.3 
+•  Process to identify TLAAs for Turkey Point is 
+consistent with the guidance in NEI 95-10 
+-  Involved an extensive review of the UFSAR, 
+Technical Specifications, licensing correspondence 
+andDBDs 
+21 
+
+•
+F=PL 
+Time Limited Aging Analyses
+ 
+•  No exemptions were identified involving TLAAs
+ 
+•  TLAAs for Turkey Point 
+-Reactor Vessel Irradiation Embrittlement 
+-Class 1 and non-Class 1 Fatigue 
+-Equipment Qualification 
+-Containment Tendon Relaxation 
+-Containment Liner Fatigue 
+-Wear/Erosion 
+-Crane Fatigue 
+22
+ 
+
+• 
+Conclusions
+•
+I=PL 
+•  The aging management programs at Turkey Point 
+will adequately manage aging effects so that the 
+intended functions 
+of in-scope SSCs will be 
+maintained consistent with the current licensing 
+basis for the period 
+of extended operation 
+•  All TLAAs for Turkey Point were identified, 
+evaluated, and shown to be acceptable for the 
+extended period 
+of operation 
+23 
+
+·
+ .
+ 
+ACRS LICENSE RENEWAL SUBCOMMITTEE
+ 
+TURKEY POINT LICENSE 
+RENEWAL APPLICATION
+ 
+SEPTEMBER 25, 2001
+ 
+RAJ 
+AULUCK
+ 
+PROJECT MANAGER
+ 
+NRR
+ 
+
+• 
+TURKEY POINT LICENSE RENEWAL APPLICATION 
+Introduction 
+Overview 
+Scoping and Screening 
+Aging Mangement Review 
+Reactor Coolant System 
+Engineered Safety Features 
+Auxiliary Systems 
+Steam and Power Conversion Systems 
+Structures and Structural Components 
+Electrical Systems 
+Aging Management Programs 
+Time-limited Aging Analyses 
+David Matthews 
+Raj Auluck 
+Greg Galletti 
+Brian Thomas 
+Meena Khanna 
+Meena Khanna 
+James Davis 
+James Davis 
+Clifford Munson 
+Paul Shemanski 
+Andrea Keim 
+Barry Elliott 
+Paul Shemanski 
+2
+ 
+
+OVERVIEW 
+BACKGROUND 
+Application Submitted by Letter Dated September 8, 2000 
+3-Loop Westinghouse, Pressurized Water Reactor. 2 Unit Site, Each Designed 
+for 2300 MWT 
+Plant Located in Dade County, Florida City, Florida, Approximately 25 Miles 
+South 
+of Miami 
+Unit 1: License Expires July 19, 2012. Requests Renewal Through July 19, 2032 
+Unit 2: License Expires April 10, 2013. Requests Renewal Through 
+April 10, 2033 
+Review Status 
+3
+ 
+
+OVERVIEW (CONT.)
+ 
+Turkey Point License Renewal Application Review Schedule 
+MILESTONE 
+Receive License Renewal Application 
+Notice Application Tendered 
+Complete Acceptance Review of Application 
+Publish Acceptance Review 
+& Docket Application/Notice of 
+Opportunity for Hearing 
+Notice of Intent/Notice of Environmental Scoping Meeting 
+Deadline for Filing Hearing Requests and Petitions for 
+Intervention 
+Environmental Scoping Meeting 
+EIS Scoping Period Ends 
+Staff Complete Environmental RAls 
+Staff Complete Safety RAls 
+Applicant Responds to Environmental RAls 
+Applicant Responds to Safety RAls 
+Complete Scoping Inspection 
+Staff Issue Draft EIS for Comment 
+Staff Issue SER 
+& Identify Open Items 
+Public Meeting to Discuss DEIS 
+ACRS Subcommittee Meeting 
+ACRS Full Committee Meeting 
+Complete Aging Management Review Inspection 
+End of DEIS Comment Period 
+Applicant Completes Responses to SER Open Items 
+Staff Issue Final EIS 
+Complete Optional Final Inspection 
+Staff Issue SSER 
+ACRS Subcommittee Meeting 
+Regional Administrator's Letter 
+ACRS Full Committee Meeting 
+ACRS Letter 
+Issue SER as NUREG 
+Commission Paper W/Staff Recommendations 
+Commission Decision 
+4 
+TARGET DATE 
+09/11/00 
+09/26/00 
+10/10/00 
+10/17/00 
+10/20/00 
+11/17/00 
+12/06/00 
+12/22/00 
+01/31/01 
+02/05/01 
+03/30/01 
+04/23/01 
+06/22/01 
+07/17/01 
+08/17/01 
+07/17/01 
+09/25/01 
+10/5/01 
+09/14/01 
+09/06/01 
+12/17/01 
+01/29/02 
+03/15/02 
+04/15/02 
+05/02/02 
+05/03/02 
+05/16/02 
+OS/24/02 
+05/30/02 
+12/2/02 
+03/10/03 
+ACTUAL DATE 
+09/11/00 
+09/26/00 
+10/04/00 
+10/12/00 
+10/24/00 
+11/13/00 
+12/06/00 
+12/22/00 
+01/31/01 
+02/02/01 
+03/30/01 
+04/19/01 
+OS/25/01 
+06/12/01 
+08/17/01 
+07/17/01 
+09/14/01 
+09/06/01 
+
+OVERVIEW (CONT1.
+ 
+•  SER Format Follows the License Renewal Application Format 
+Chapter 1 -Introduction and General Discussion 
+Chapter 2 -Structures and Components SUbject 
+to Aging 
+Management Review (Scoping and Screening) 
+Chapter 3 -Aging Management Review (AMRs) Results 
+Including Aging Management Programs 
+Chapter 4 -Time-limited Aging Analyses (TLAAs) 
+5
+ 
+
+OVERVIEW (CONT.)
+ 
+•  First Westinghouse PWR 
+•  FPL Participated in Westinghouse Owners Group (WOG) 
+•  Four Westinghouse Generic Reports (WCAPs) Submitted for 
+NRC Staff 
+Review 
+•  At the Time 
+of Application, NRC Staff Review was not Complete 
+•  Application Addresses Applicability 
+of WCAPs to Turkey Point 
+6
+ 
+
+OVERVIEW-<CONT.}
+ 
+OPEN ITEMS 
+•  Scoping 
+of Seismic 11/1 Piping Systems (SER Sections 2.1.2 and 3.4.16.4) 
+•  Reactor Vessel Head Alloy 600 Penetration Inspection Program (SER 
+Section 
+3.9.12) 
+•  Reactor Vessel Underclad Cracking (SER Section 4.3) 
+•  Acceptance Criteria for Field Erected Tanks Internal Inspection (SER 
+Section 
+3.8.4) 
+7
+ 
+
+OVERVIEW (CaNT.)
+ 
+INSPECTION ACTIVITIES 
+•  Scoping Inspection - May 
+21 -25, 2001 
+•  AMR Inspection -August 20 -24, 2001 and September 10 - 14, 2001 
+•  Overall Material Condition of the Plant Looked Good 
+•  Backup Documentation 
+for Scoping and Screening Process was Complete 
+•  Reviewed Several AMR Supporting Documents 
+for New and Existing 
+Programs 
+•  Team Concluded that these Documents were Complete and Easy 
+to Follow 
+8
+ 
+
+SER SECTION 2 -STRUCTURES AND COMPONENTS SUBJECT TO 
+AN AGING MANAGEMENT REVIEW 
+2.1 - SCOPING AND SCREENING METHODOLOGY Greg Galletti 
+Overview
+ 
+On-Site 
+Audit
+ 
+Findings
+ 
+Conclusions
+ 
+Open Item: Scoping 
+of Seismic 11/1 Piping 
+9
+ 
+
+SER SECTION 2 -STRUCTURES AND COMPONENTS SUBJECT TO 
+AN AGING MANAGEMENT REVIEW 
+2.2-5 - SCOPING AND SCREENING - SYSTEMS AND STRUCTURES B. Thomas 
+• Reactor Coolant Systems (7 Systems) 
+(e.g. Reactor Vessels, Pressurizes, etc....) 
+• Engineering Safety Features 
+(7 Systems) 
+(e.g. Residual Heat Removal, Containment Spray etc....) 
+• Auxiliary Systems (15 Systems) 
+(e.g. Intake Cooling Water, Fire Protection, etc.....) 
+• Steam and Power Conversion Systems 
+(3 Systems) 
+(e.g. Main Steam and Turbine Generators Feedwater and Slowdown, etc.) 
+10
+ 
+
+• Structures 
+Containment and 18 other structures
+ 
+(e.g., auxiliary 
+building, control building, cooling water canals, etc.)
+ 
+• Electrical and Instrumentation and Controls 
+Open Items: None 
+11
+ 
+
+SER SECTION 3 -AGING MANAGEMENT REVIEW
+ 
+3.1  COMMON AGING MANAGEMENT PROGRAMS 
+Meena Khanna 
+Chemistry Control Program 
+FPL Quality Assurance Program 
+Systems and Structures Monitoring Program 
+Open Items: None 
+12
+ 
+
+SER SECTION 3 -AGING MANAGEMENT REVIEW 
+3.2 - REACTOR COOLANT SYSTEMS  
+Meena Khanna 
+Reactor Coolant Piping 
+Reactor Vessels 
+Regenerative and Excess 
+Reactor Coolant Internals 
+Letdown Heat Exchangers 
+Reactor Coolant Pumps 
+Pressurizers 
+Steam Generators 
+Items 
+of Interest 
+•  
+AMR results compared to topical reports (WCAP-14574 on 
+Pressurizers, WCAP-14575 on Piping, and WCAP-14577 on Reactor 
+Vessel Internals) 
+but does not incorporate the topical report results by 
+reference 
+•  Reactor vessel head penetration nozzle cracking managed 
+by RV Head 
+Alloy 600 Penetration Inspection Program 
+Open Items: None 
+13 
+
+I. 
+SER SECTION 3 -AGING MANAGEMENT REVIEW 
+3.3 - ENGINEERED SAFETY FEATURES (ESF) SYSTEMS 
+Meena Khanna 
+ESF Systems Include: 
+Emergency Containment Cooling
+ 
+Containment Spray
+ 
+Containment Isolation
+ 
+Safety Injection
+ 
+Residual Heat Removal
+ 
+Emergency Containment Filtration
+ 
+Containment Post Accident Monitoring and Control
+ 
+Items 
+of Interest: 
+The applicant adequately identified the aging effects and applicable aging 
+management programs 
+for each component of the ESF System. 
+Open Items: None 
+14 
+
+SER SECTION 3-AGING MANAGEMENT REVIEW 
+3.4 - AUXILIARY SYSTEMS 
+James Davis 
+Includes 
+15 Systems 
+Intake Cooling Water 
+Component Cooling Water 
+Spent Fuel Pool Cooling 
+Chemical and Volume Control 
+Primary Water Makeup 
+Sample Systems 
+Waste Disposal 
+Instrument Air 
+Normal Containment and Control Rod Drive Mechanism Cooling 
+Auxiliary Building and Electrical Equipment Room Ventilation 
+Control Building Ventilation 
+Emergency Diesel Generator Building Ventilation 
+Turbine Building Ventilation 
+Fire Protection 
+Emergency Diesel Generators and Support Systems 
+Open Items: None 
+15
+ 
+
+SER SECTION 3 -AGING MANAGEMENT REVIEW
+ 
+3.5 - STEAM AND POWER CONVERSION SYSTEMS 
+James Davis 
+Includes 3 Systems
+ 
+Main Steam and Turbine Generators
+ 
+Feedwater and 
+Slowdown
+ 
+Auxiliary Feedwater and Condensate Storage
+ 
+Open Items: None 
+16
+ 
+
+SER SECTION 3 -AGING MANAGEMENT REVIEW 
+3.6 - STRUCTURES AND STRUCTURAL COMPONENTS 
+Clifford Munson 
+STRUCTURAL COMPONENTS 
+AND COMMODITIES 
+CONTAINMENT
+ 
+Containment Structure Concrete Components
+ 
+Containment Structure Steel Components
+ 
+Containment Structure Post - Tensioning System
+ 
+Containment Internal Structural Concrete Components
+ 
+Containment Internal Structural Steel Components
+ 
+OTHER STRUCTURES
+ 
+Steel in Air Structural Components
+ 
+Steel in Fluid Structural Components
+ 
+Concrete Structural Components
+ 
+Miscellaneous Structural Components
+ 
+Open Items: None 
+17
+ 
+
+SER SECTION 3 -AGING MANAGEMENT REVIEW
+ 
+3.7 - ELECTRICAL AND INSTRUMENTATION AND CONTROLS Paul Shemanski 
+The 
+following is a list of in-scope electrical component types subject to 
+aging management review: 
+• Insulated cables and connections (including splices, connectors, and 
+terminal blocks) 
+not included in the Environmental Qualification 
+Program 
+• Uninsulated Ground Conductors 
+•  Twenty-two Electrical/l&C penetration assemblies that are 
+within the 
+scope 
+of license renewal but not included in the Environmental 
+Qualification Program 
+18
+ 
+
+Items of Interest 
+•  
+No AMP required for non-EQ medium voltage cables subjectto 
+significant moisture. Cables designed with lead sheath to prevent 
+failure from water treeing due to moisture ingress. 
+•  Based on staff review, the applicant developed a new 
+AMP for non-EQ 
+cables, connections, and electricalll&C penetrations. 
+Open Items: None 
+19
+ 
+
+SER SECTION 3 -AGING MANAGEMENT REVIEW 
+3.8 - NEW AGING MANAGEMENT PROGRAMS 
+Andrea Keim 
+• Auxiliary Feedwater Pump Oil Coolers Inspection Program 
+• Auxiliary Feedwater Steam Piping Inspection Program 
+• Emergency Containment Coolers Inspection Program 
+• Field Erected Tanks Internal Inspection Program 
+• Galvanic Corrosion Susceptibility Inspection Program 
+• Reactor Vessel Internal Inspection Program 
+• Small Bore Class I Piping Inspection Program 
+20
+ 
+
+SER SECTION 3 -AGING MANAGEMENT REVIEW
+ 
+3.8 - NEW AGING MANAGEMENT PROGRAMS Clifford Munson 
+3.8.4 FIELD ERECTED TANKS INTERNAL INSPECTION 
+Items 
+of Interest 
+Proposed One Time Visual Inspection 
+of 
+•  Condensate Storage Tanks (CST) 
+•  Demineralized Water Storage Tanks (DWST) 
+• Refueling Water Storage Tank (RWST) 
+Open Items: 
+•  Acceptance criteria 
+not yet developed 
+•  Previous inspection 
+of CST showed corrosion at some of the welds and 
+coating degradation at several areas 
+•  DWST and RWST have never been inspected internally 
+21
+ 
+
+SER SECTION 3 -AGING MANAGEMENT REVIEW
+ 
+3.85· GALVANIC CORROSION SUSCEPTIBILITY INSPECTION PROGRAM 
+James Davis 
+The Galvanic Corrosion Susceptibility Inspection Program is Credited for Aging 
+Management of Specific Component/Commodity Groups in the Following Systems: 
+Auxiliary Feedwater and Condensate Storage Chemical and Volume Control 
+Component Cooling Water 
+Containment Spray 
+Control Building Ventilation Emergency Containment Cooling 
+Emergency Diesel Generators and Support Systems 
+Feedwater and Slowdown 
+Fire Protection 
+Instrument 
+Air 
+Normal Containment 
+& CRD Mechanism Cooling 
+Reactor Coolant 
+Residual Heat Removal 
+Safety Injection 
+Spent Fuel Pool Cooling 
+Turbine Building Ventilation 
+Waste Disposal 
+22
+ 
+
+Scope 
+•  Manage the Potential Effects of Loss of Material due to Galvanic Corrosion 
+- Internal Surfaces 
+of Susceptible Piping and Components. 
+•  Carbon steel components coupled 
+to stainless steel components in 
+raw water systems. 
+•  Baseline examinations 
+to establish if the corrosion mechanism is 
+active in other systems. 
+• One-time inspections 
+to determine the need for additional actions. 
+Open Items: None 
+23
+ 
+
+SER SECTION 3 -AGING MANAGEMENT REVIEW
+ 
+3.9 Existing Aging Management Programs 
+• ASME Section 
+Xllnservice Inspection Programs 
+• Boraflex Surveillance Program 
+• Boric Acid Wastage Surveillance Program 
+• Chemistry Control Program 
+• Containment Spray System Piping Inspection Program 
+• Environment Qualification Program 
+• Fatigue Monitoring Program 
+• Fire Protection Program 
+• Flow-Accelerated Corrosion Program 
+• Intake Cooling Water System Inspection Program 
+• Periodic Surveillance and Preventive Maintenance Program 
+• Reactor Vessel Head Alloy 
+600 Penetration Inspection Program 
+• Reactor Vessel Integrity Program 
+• Steam Generator Integrity Program 
+• Systems and Structures Monitoring Program 
+• Thimble Tube Inspection Program 
+24
+ 
+
+SER SECTION 4 -TIME-LIMITED AGING ANALYSIS 
+4.1 IDENTIFICATION OF TLAAs 
+• Reactor Vessel Irradiation Embrittlement 
+• Metal Fatigue 
+• Environmental Qualification 
+of Electrical Equipment 
+• Containment Tendon Loss 
+of Prestress 
+• Containment Liner Plate Fatigue 
+•  Other Plant Specific TLAAs 
+Bottom Mounted Instrumentation Thimble Tube Wear 
+Emergency Cooler Tube Wear 
+Leak-Before-Break 
+for RCS Piping 
+Crane Load Cycle Limit 
+25 
+
+SER SECTION 4 -TIME-LIMITED AGING ANALYSES 
+4.2 • REACTOR VESSEL IRRADIATION EMBRITTlEMENT 
+Barry Elliott 
+Pressurized Thermal Shock 
+Charpy Upper Shelf Energy 
+Pressure Temperature 
+limits 
+Items 
+of Interest 
+Applicant 
+must apply the chemistry factor ratio adjustment described 
+in 
+RG 1.99, Rev. 2, Position 2.1, to the surveillance data when 
+submitting the 
+48 EFPY p.T limits curves to ensure an accurate 
+assessment 
+of the data. 
+Circumferential weld (heat number 72442) between the nozzle belt and 
+the intermediate shell exhibits a relatively high 
+RTPTS at EOl, and 
+therefore 
+this material should be tracked and considered by the 
+licensee in future submittals. 
+Open Items: None 
+26
+ 
+
+.. 
+SER SECTION 4 -TIME-LIMITED AGING ANALYSES 
+4.3 - METAL FATIGUE 
+Barry Elliott 
+Open Item: 
+Complete staff review 
+of Westinghouse Tropical Report WCAP-15338 
+regarding the evaluation 
+of underclad cracking 
+27
+ 
+
+It 
+SER SECTION 4 -TIME-LIMITED AGING ANALYSES 
+4.4 - ENVIRONMENTAL QUALIFICATION Paul Shemanski 
+Items 
+of Interest: 
+The electrical equipment identified in Section 
+4.4.1 of the LRA, the 
+applicant uses 10 CFR 
+54.21 (c)(1)(i) in its TLAA evaluation to demonstrate 
+that the analyses remain valid for the period of extended operation. The 
+staff disagrees and finds the applicant's demonstration to be consistent 
+with 10 CFR 54.21 (c)(1)(ii). However, the staff accepted the applicant's 
+classification 
+of these TLAAs under 10 CFR 54.21 (c)(1 )(i) since it does not 
+affect the technical adequacy of the equipment qualification. 
+The applicant did 
+not address the wear cycle aging effect on motors 
+(Westinghouse and Joy) adequately. The applicant committed 
+to revise the 
+EQ documentation package for these motors to address the staff's 
+concern. 
+Open Items: None 
+28 
+
+Reactor Vessel Head Alloy 600
+ 
+Penetration Inspection Program
+ 
+•  Program proposed to manage and monitor for primary water stress corrosion 
+cracking in  Alloy 600 vessel head penetration (VHP) nozzles 
+•  Program based on Generic Letter 97-01 inspections 
+Non-qualified visual examinations in  both units and one time volumetric 
+examination of the VHP nozzles of the Turkey Point Unit 4 
+proposed program does not address potential for cracking to initiate from in  the 
+J-groove weld or heat affected zone of the nozzle 
+proposed program does not address potential for undetected circumferential 
+cracking to exist the VHP nozzles of the Turkey Point units 
+•  Open Item created to ensure that the Reactor Vessel Head Alloy 600 Penetration 
+Inspection Program will be consistent with NRC Bulletin 2001-01, and the industry's 
+and staff's efforts to ensure that the proposed inspections of the Turkey Point VHP 
+nozzles will be sufficient to ensure the integrity of the nozzles during the extended 
+periods of operation for the Turkey Point units 
+
+I 
+I~ 
+I' 
+ACRS LICENSE RENEWAL SUBCOMMITTEE
+ 
+WESTINGHOUSE TOPICAL REPORTS REFERENCED IN THE
+ 
+TURKEY POINT LICENSE RENEWAL APPLICATION
+ 
+SEPTEMBER 25, 2001
+ 
+BARRY ELLIOT
+ 
+NRR
+ 
+
+~ ~ 
+Aging Management Evaluation for Class 1 Piping and Associated 
+Pressure Boundary Components 
+WCAP-14575 
+Materials used in  Class 1 Piping and associated Pressure Boundary Components 
+•  Class 1 piping, fittings, valve bodies and bonnets and reactor coolant pump (RCP) 
+casings are all stainless steel 
+•  RCP bolting are alloy steel 
+•  Valve bolting are carbon steel, alloy steel 
+or stainless steel 
+WCAP - 14575 identifies the following aging effects for Class 1 Piping and associated Pressure 
+Boundary Components 
+•  Fatigue related cracking 
+•  Corrosion 
+of external surfaces caused by leakage of borated water 
+•  Reduction of fracture toughness due to thermal aging 
+of Cast Stainless Steel 
+•  Loss of material caused by wear. of RCP and valve bolted closure elements 
+•  Loss of bolting preload caused by stress relaxation of bolted closures 
+2 
+
+WCAP - 14575 identifies the following aging management programs (AMP) 
+•  Inservice inspection and test requirements of ASME Code, Section 
+XI and 
+ASMEIANSI 
+OM standards to manage the aging effect of wear 
+•  Inservice inspection requirements of ASME Code, Section 
+XI to manage stress 
+relaxation 
+•  Commitments in  response to NRC Generic Letter 88-05," Boric Acid Corrosion of 
+Carbon Steel Reactor Pressure Boundary Components in PWR Plants," to manage 
+corrosion caused by borated water leakage 
+•  Identifies analysis methods and inspection requirements to manage fatigue related 
+cracking 
+•  Identifies analysis methods and inspection requirements to manage the reduction in 
+fracture toughness due to thermal aging 
+WCAP -14575 identifies the following TLAAs 
+•  Fatigue evaluations 
+•  Leak-Before-Break (LBB) evaluations 
+3 
+
+License Renewal Evaluation: Aging Management for Reactor Internals 
+WCAP 
+-14577 
+Materials used in Reactor Internals are stainless steel and nickel based alloys 
+WCAP - 14577 identifies the following aging effects for Reactor Internals 
+•  Reduction of fracture toughness due to neutron irradiation of high neutron fluence 
+components 
+•  Irradiation-assisted stress corrosion cracking of high neutron fluence components 
+•  Irradiation creep of baffle/former and barrel/former bolts 
+•  Combination of stress relaxation and high-cylce fatigue for preloaded components 
+•  Wear of components that experience axial sliding 
+(8MI flux thimbles) and components 
+that constitute the interface between (keys, insert and pins) structural components 
+•  Void swelling of high neutron fluence components 
+4
+ 
+
+WCAP - 14577 identifies the following AMPs 
+•  Inservice Inspection requirements of ASME Code, Section 
+XI and the results from the 
+PWR Materials Reliability Project to manage the reduction of fracture toughness, 
+irradiation-assisted stress corrosion cracking, and void swelling 
+•  Inservice Inspection requirements of ASME Code, Section 
+XI of accessible surfaces 
+of PWR core support structures (excluding baffle/former and barrel/former bolts) to 
+manage stress relaxation and wear of keys, inserts, and pins - or - Neutron noise 
+monitoring 
+•  Ultrasonic or eddy current examination per responses to I&E Bulletin 88-09 to manage 
+wear of 8MI flux thimbles 
+•  Augmented ultrasonic examination of baffle/former and barrel/former bolts to manage 
+aging effects of these components 
+•  Inservice inspection requirements of ASME Code, Section 
+XI and a fatigue
+ 
+management program to manage fatigue
+ 
+WCAP - 14577 identifies fatigue as a TLAA 
+5
+ 
+
+License Renewal Evaluation: Aging Management Evaluation for Pressurizer 
+WCAP 
+-14574 
+Materials used in the Pressurizer 
+•  Upper and lower heads are either low alloy steel plates or cast carbon steel with 
+stainless steel clad 
+•  Surge nozzle is either cast with the lower head 
+or forged from low alloy steel 
+•  Surge nozzle, safety nozzles, relief nozzle and spray nozzle safe ends are stainless 
+steel and are welded to the nozzle using Incone1182/82 or stainless steel 
+•  Shell is alloy steel with stainless steel clad 
+•  Heater Wells, surge nozzle retaining basket, instrument nozzles, heater support plate, 
+heater bracket, and heater bolts are stainless steel 
+•  Support Skirt and flange are carbon steel plate 
+•  Spray head is cast stainless steel 
+•  Manway cover and manway bolting are alloy steel 
+6 
+
+• Surge nozzle and spray nozzle thermal sleeves are stainless steel 
+WCAP - 14574 identifies the following aging effects for Pressurizer components 
+•  Fatigue related cracking 
+•  Primary water stress corrosion cracking (PWSCC) of Inconel 82/182 weld metal and 
+sensitized stainless steel safe ends 
+WCAP - 14574 identifies the following AMPs 
+•  Inservice inspection requirements of ASME Code, Section 
+XI and a fatigue 
+management program to manage fatigue 
+•  Inservice Inspection requirements of ASME Code, Section 
+XI to manage PWSCC of 
+Inconel 82/182 weld metal and sensitized stainless steel safe ends 
+WCAP - 14574 identifies fatigue as a TLAA 
+7
+ 
+
+License renewal Evaluation: Aging Management for Reactor Coolant System Supports
+ 
+WCAP - 14422
+ 
+Steel components and concrete embedments are the materials used for Reactor Coolant System 
+Supports 
+WCAP - 14422 identifies the following aging effects for Reactor Coolant System Supports 
+•  Loss of material and decrease of strength of steel components resulting from 
+aggressive chemical attach and corrosion 
+•  Loss of material and decrease of strength of concrete embedments resulting from 
+aggressive chemical attach and corrosion 
+•  Stress corrosion cracking of bolting 
+8
+ 
+
+• 
+WCAP - 14422 identifies the following AMPs 
+•  Inservice Inspection requirements of ASME Code, Section 
+XI and leakage 
+identification walkdowns to manage aggressive chemical attach and corrosion for 
+steel components 
+•  Inservice Inspection to ACI 349 Code and leakage identification walkdowns to 
+manage aggressive chemical attach and corrosion for concrete embedments 
+•  Inservice Inspection requirements of ASME Code, Section 
+XI to manage stress 
+corrosion cracking of bolting 
+WCAP - 14422 indicates that applicants must address the following plant-specific action items 
+•  Applicant must identify program necessary to ensure proper preload is  maintained 
+•  Applicant must address the effects of irradiation on concrete components 
+• Applicant must address inaccessible areas 
+WCAP - 14422 identifies fatigue as a TLAA 
+9
+ 
+
+Staff Evaluation 
+Renewal Applicant Action Items 
+•  Staff has identified 10 renewal applicant action items 
+in its evaluation of WCAP­
+14575, Class 1 Piping and Associated Pressure Boundary Piping 
+•  Significant Technical Issues: 
+Evaluate the impact of halogens 
+in insulation on stress corrosion cracking of 
+stainless steel piping 
+Perform additional volumetric inspection of small bore piping that 
+is susceptible 
+to stress corrosion cracking or unanticipated thermal fatigue resulting from 
+thermal stratification or turbulent penetration 
+Evaluate the susceptibility of cast stainless steel piping to thermal embrittlement 
+Perform plant-specific fatigue evaluation 
+Perform plant-specific leak-before-break analysis to assess margins on load 
+10
+ 
+
+• Staff has identified 11 renewal applicant action items in  its evaluation of WCAP­
+14577, Reactor Vessel Internals 
+• Significant Technical Issues: 
+Evaluate the synergistic effects of thermal aging and neutron embrittlement 
+on 
+the fracture toughness of cast austenitic stainless steel components 
+Describe its aging management plan for void swelling, cracking and loss of 
+fracture toughness 
+Address plant-specific plans for management of age-related degredation of 
+baffle/former and barrel/former bolting 
+Perform plant-specific fatigue evaluation 
+11
+ 
+
+•  Staff has identified 10 renewal applicant action items in its evaluation of WCAP­
+14574, Pressurizer 
+•  Significant Technical Issues: 
+Perform plant-specific fatigue evaluation including insurge/outsurge and other 
+transient loads not included 
+in the CLB 
+Evaluate the potential for bolting to develop stress corrosion cracking 
+•  Staff has identified 16 renewal applicant action items in  its evaluation of WCAP­
+14422, Reactor Coolant System Supports 
+CONCLUSION 
+Upon completion of all renewal applicant action items, license renewal applicants who reference 
+the WOG reports adequately demonstrate that the aging of the components within the scope of 
+the WOG report can be managed so that there is  reasonable assurance that the components will 
+perform their intended functions in  accordance with the current licensing basis during the period 
+of extended operation 
+12 
+..

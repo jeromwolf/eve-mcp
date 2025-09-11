@@ -1,0 +1,2778 @@
+[PDF Metadata]
+Pages: 84
+
+[Content]
+,. 
+UNITED STATES
+ 
+NUCLEAR REGULATORY COMMISSION
+ 
+ADVISORY COMMITTEE ON REACTOR SAFEGUARDS
+ 
+WASHINGTON, DC 20555 • 0001 
+March 42005 
+~ 
+MEMORANDUM TO: 
+ACR~ Membery_ .S " . 
+G-""Izvr"., /c~ . 
+FROM:  
+Cayetlno Santos Jr., Senior Staff Engineer 
+Technical Support Staff 
+ACRS/ACNW 
+SUBJECT:  CERTIFICATION OF THE MINUTES OF THE ACRS 
+SUBCOMMITTEE MEETING ON THE DONALD 
+C. COOK UNITS 1 
+AND 2 LICENSE RENEWAL APPLICATION, FEBRUARY 
+9,2005­
+ROCKVILLE, MARYLAND 
+The minutes 
+of the subject meeting were certified on March 2, 2005, as the official record 
+of the proceedings 
+of that meeting. A copy of the certified minutes is attached. 
+Attachment: As stated 
+cc: J. Larkins 
+S. Duraiswamy 
+J. Flack 
+M. Snodderly 
+
+UNITED STATES
+ 
+NUCLEAR REGULATORY COMMISSION
+ 
+ADVISORY COMMITTEE ON REACTOR SAFEGUARDS
+ 
+WASHINGTON, DC 20555 ·0001 
+February 28, 2005 
+MEMORANDUM TO: Mario Bonaca, Chairman 
+ACRS Plant License Renewal Subcommittee 
+&...../~i.-~  Se:..' J:;-."'Jr. 
+FROM:  Cayetarfo Santos Jr., senTor Staff Engineer, 
+Technical Support Staff 
+ACRSIACNW 
+SUBJECT:  WORKING 
+COpy OF THE MINUTES OF THE ACRS SUBCOMMITTEE 
+MEETING 
+ON THE DONALD C. COOK UNITS 1 AND 2 LICENSE 
+RENEWAL APPLICATION, FEBRUARY 
+9,2005 - ROCKVILLE, 
+MARYLAND 
+A working copy 
+of the minutes for the subject meeting is attached for your review. 
+Please review and comment 
+on them at your earliest convenience. If you are satisfied with 
+these minutes please sign, date, and return the attached  certification letter. 
+Attachments:  Certification Letter 
+Minutes (DRAFT) 
+cc 
+wlo Attachment: 
+J. Larkins 
+J. Flack 
+S. Duraiswamy 
+M. Snodderly 
+
+~" ReOU,_
+<:-" ~~ 
+UNITED STATES 
+t!!
+lo+o!II~%.NUCLEAR REGULATORY COMMISSION
+" 
+C0  
+ADVISORY COMMITTEE ON REACTOR SAFEGUARDS 
+~ C 
+WASHINGTON. DC 2H55 ·0001
+~ l 
+~" ~O"" 
+****-+<
+MEMORANDUM TO: Cayetano Santos Jr., Senior Staff Engineer,
+ 
+Technical Support Staff
+ 
+ACRS/ACNW
+ 
+FROM:  
+Mario Bonaca, Chairman
+ 
+ACRS Plant License Renewal Subcommittee
+ 
+SUBJECT:  CERTIFICATION OF THE MINUTES OF THE ACRS 
+SUBCOMMITIEE 
+MEETING ON THE DONALD C. COOK UNITS 1 AND 2 LICENSE 
+RENEWAL APPLICATION, FEBRUARY 
+9,2005 - ROCKVILLE, 
+MARYLAND 
+I hereby certify, to the best of my knowledge 
+and belief, that the minutes of the subject meeting 
+on February 
+9, 2005, are an accurate record of the proceedings for that meeting. 
+Mario Bonaca , 
+::> Date
+ 
+Plant License Renewal Subcommittee Chairman
+ 
+
+CERTIFIED on 3/2/05 by Mario Bonaca 
+Issued 02/28/05 
+ADVISORY COMMITTEE ON REACTOR SAFEGUARDS
+ 
+MINUTES OF ACRS PLANT LICENSE RENEWAL SUBCOMMITTEE MEETING
+ 
+ON THE DONALD 
+C. COOK NUCLEAR POWER PLANT UNITS 1 AND 2
+ 
+FEBRUARY 
+9, 2005
+ 
+ROCKVILLE, MARYLAND
+ 
+On February 
+9, 2005, the Plant License Renewal Subcommittee held a meeting in Room T2B3, 
+11545 Rockville Pike, Rockville, Maryland. The purpose 
+of the meeting was to review and 
+discuss the Donald 
+C. Cook Units 1 and 2 License Renewal Application (LRA) and Safety 
+Evaluation Report (SER) with Open Items. 
+The meeting was open to the public. No written comments 
+or requests to make oral statements 
+were received from members 
+of the public related to this meeting. Mr. Cayetano Santos was 
+the Designated Federal Official for this meeting. The meeting convened at 1:30 pm and 
+adjourned at 5:30 pm on February 
+9, 2005. 
+ATTENDEES: 
+ACRS MEMBERS/STAFF 
+Mario Bonaca, Chairman Stephen Rosen, Member 
+Victor Ransom, Member William Shack, Member 
+Jack Sieber, Member Graham Leitch, Consultant 
+John Barton, Consultant 
+Cayetano Santos Jr., ACRS Staff 
+NRC STAFF/PRESENTERS 
+P. Kuo, NRR J. Rowley, NRR 
+C. Lauron, NRR E. Reichelt, NRR 
+J. Strnisha, NRR C. Li, NRR 
+P. Lougheed, Region III M. Morgan, NRR 
+Y. Li, NRR J. Fair, NRR 
+T. Cheng, NRR O. Chopra, NRR 
+R. Subbaratnam, NRR 
+J. Zimmerman, NRR 
+G. Cranston, NRR R. Hernandez, NRR 
+S. Lee, NRR J. Downs, NRR 
+K. Hsu, NRR 
+V. Rodriguez, NRR 
+M. Razzaque, NRR 
+L. Lund, NRR 
+H. Ashar, NRR 
+N. Iqbal, NRR 
+M. Mitchell, NRR 
+T. Terry, NRR 
+L. Tran, NRR G. Suber, NRR 
+OTHER ATTENDEES 
+M. Miller, AREVA J. Gebbie, AEP 
+D. Wooten, Dominion M. Rinckel, AREVA 
+R. Finnin, AREVA R. Grumbir, AEP 
+1
+ 
+
+M. Scarpello, AEP P. Schoepf, AEP 
+C. Lane, AEP 
+N. Haggerty, AEP 
+K. Faris, PNNL W. Fromme, NMC 
+K. Sakamoto, ..INES 
+B. Kalinowski, AEP 
+L. Lindquist, AEP 
+G. Young, Entergy 
+R. Ahrabli, Entergy 
+A. Cox, Entergy 
+C. Marks, ISL F. Saba, ISL 
+S. Pope, ISL 
+The presentation slides, handouts used during the meeting, and a complete list of attendees 
+are attached to the Office Copy of the meeting minutes. The presentation to the Subcommittee 
+is summarized below. 
+Opening Remarks 
+Mr. Bonaca, Chairman of the Plant License Renewal Subcommittee, convened the meeting and 
+made a few introductory remarks. The purpose of this meeting is to review the Indiana 
+Michigan Power Company's (I&M) license renewal application (LRA) and the related Safety 
+Evaluation Report (SER) with Open Items for the Donald 
+C. Cook Nuclear Plant (CNP) Units 1 
+and 2. Mr. Bonaca called upon Mr. Kuo of the Office of Nuclear Reactor Regulation (NRR) to 
+begin the discussion. 
+Staff Introduction 
+Mr. Kuo introduced several members of the staff including Mr. Rowley (Project Manager), Ms. 
+Lougheed (Inspection Team Leader), and Mr. Cranston (Audit Team Leader). 
+CNP License Renewal Application 
+Mr. Grumbir, I&M, greeted the Subcommittee and introduced accompanying members of the 
+I&M staff. Mr. Grumbir's presentation described CNP's recent operating 
+experience, plant 
+improvements, plant-specific aging management programs (AMPs), and implementation plans. 
+Background 
+In a letter dated October 31,2003, I&M submitted an application to the NRC for renewal of CNP 
+operating licenses for an additional 20 years. The current licenses for Units 1 and 2 expire on 
+October 
+25,2014, and December 23,2017, respectively. This is the third plant to be reviewed 
+using the new on-site audit process to verify consistency with the Generic Aging Lessons 
+Learned (GALL) report. CNP made extensive use of past precedents 
+in the LRA. 
+Plant Description 
+CNP consists of a two, 4-loop Westinghouse pressurized water reactor units with ice condenser 
+containments. Unit 1 is licensed for a power output of 3304 MWt, and Unit 2 is  licensed for a 
+power output of 3468 MWt. The approximate net electrical outputs of Unit 1 and 2 are 1044 
+MWe and 1117 MWe, respectively. CNP has 4 emergency diesel generators, operates on 
+an 
+18 month fuel cycle, and uses Lake Michigan as the ultimate heat sink. 
+2 
+
+Recent Operating Experience 
+Some of the recent events at CNP include a design basis recovery effort (September 1997 ­
+December 2000), silt intrusion into the essential service water system (August 2001), and fish 
+intrusion (April 2003). Since their last outages, Unit 1 has been operating for 309 days and Unit 
+2 has been operating for 73 days. The combined capacity factor for both units 
+in 2004 is 92%. 
+Mr. Grumbir stated that the Reactor Oversight Process (ROP) has shown improvement 
+in 
+CNP's performance from 2002 to 2005. In the third quarter of 2002, Unit 1 was in the 
+Regulatory Response Column and Unit 2 was 
+in the Degraded Cornerstone Column of the ROP 
+Action Matrix. 
+In 2005 Unit 1 entered the Licensee Response Column and Unit 2 entered the 
+Regulatory Response column of the Action Matrix. 
+Plant Improvements 
+Mr. Grumbir stated that a Nuclear Asset Management plan has been developed through 2037. 
+The steam generators for Units 1 and 2 were replaced 
+in 2000 and 1988, respectively. In 2002 
+and 2003 Appendix K Measurement Uncertainty Recapture power uprates were obtained for 
+both units and the reserve auxiliary transformers were replaced. In 2005 CNP will install 
+traveling water screens, convert to improved technical specifications, and  add supplemental 
+diesel generators. 
+In 2006, the Unit 1 turbine rotor will be replaced and a new computerized 
+system (INDUS Passport) will be implemented for corrective action processes, work 
+management, and commitment management. The reactor heads will be replaced 
+in 2006 and 
+2007. Plant improvements that are currently under evaluation include dry cask storage, stretch 
+power uprates, upgrades to moisture separators, replacement of the Unit 2 main transformer, 
+and rewinds of the main generator. 
+Industrv Issues 
+Inspections of the reactor vessel heads and bottom-mounted instrumentation nozzles were 
+performed at CNP due to current industry issues. 
+In 2003 a bare metal visual inspection of the 
+reactor head of Unit 1 did not show any leaks or boron deposits. Penetration weld repairs were 
+performed on the reactor head of Unit 2 
+in 2004. In  2003 the bottom-mounted instrumentation 
+nozzles were inspected and no indications were found. A Flow-Accelerated Corrosion (FAC) 
+operating experience evaluation was performed and showed that historical inspection results 
+were acceptable and the prediction model was working properly. 
+Scoping and Screening Method 
+Mr. Kalinowski, I&M, stated that the scoping and screening methodology applied at CNP 
+is 
+consistent with previous applications. Under the "spaces" approach used by CNP, all 
+components 
+in an area of the plant that contained safety-related components were considered 
+to 
+be in scope. 
+Aging Management Programs 
+Mr. Kalinowski stated that the Aging Management Reviews (AMRs) were structured to align 
+with GALL and the determination of consistency with GALL was applied conservatively. Prior to 
+the Aging Management Program audit, information was provided regarding past precedents. 
+Of the 46 AMPs at CNP, 16 are plant-specific. Mr. Kalinowski briefly described some of the 
+plant specific programs such as Boral Surveillance, lSI Augmented Inspection, Instrument Air 
+Quality, and Structures Monitoring. 
+3 
+
+Commitment Tracking 
+Mr. Grumbir stated that commitments documented 
+in the LRA are tracked by CNP's 
+commitment management system and adjusted 
+as needed. I&M has committed to 
+implementing enhancements to the programs prior to entering the period of extended operation 
+but a more aggressive internal schedule has been established. Draft procedure changes are 
+being developed and should be implemented by 2005. Mr. Grumbir noted that many of these 
+enhancements are already being performed but are just not proceduralized. Long-range 
+activities will be tracked by CNP's Action Tracking Program. The project plan includes the 
+turnover of responsibilities to line departments. 
+Mr. Grumbir concluded his presentation by stating that the staff has performed a thorough 
+review and American Electric Power is  committed to the safe, long-term operation of CNP. 
+SER Overview 
+Mr. Rowley led the staff's presentation of the SER with Open Items, the scoping and screening 
+review, the AMP reviews and audits, and the time-limited aging analyses (TLAAs). 
+The SER with Open Items was issued on December 
+21 , 2004, containing two open items and 
+two confirmatory items. Since that time resolution has been reached on all of these items. As 
+a result of the staff's review 5 components/commodities were brought into scope and subjected 
+to an aging management review. 
+Mr. Rowley listed the dates of the audits and inspections performed by the staff. 
+Scoping and Screening 
+Mr. Rowley stated that the scoping and screening methodology is adequately described 
+in the 
+LRA and satisfies the requirements 
+in 10 CFR 54.4 and 10 CFR 54.21 (a)(1). The staff 
+reviewed the scoping and screening results to determine if  all structures were properly 
+identified. As a result of the staff's review, insulation for pipe and penetrations, emergency 
+diesel generator (EDG) exhaust silencers, auxiliary feedwater suction strainers, the EDG Air 
+distributor housings, and the spent fuel pool makeup supply refueling water storage tank were 
+brought into scope. The staff determined that the systems, structures, and components (SSCs) 
+within scope of license renewal and subject to an AMR have been identified. 
+Onsite Inspection Results 
+Ms. Lougheed, Region III, described the license renewal inspections performed by the staff. 
+The objective of the scoping and screening inspection is to confirm that the applicant has 
+included all SSCs within the scope of license renewal as required by the rule. During this 
+inspection 3 issues were identified regarding partially buried piping, emergency core cooling 
+system piping leak detection enclosures, and main steam system stop valves. This inspection 
+concluded that the scoping and screening activities successfully identified those SSCs requiring 
+an AMR. 
+The objective of the AMP inspection is to confirm that the applicant has implemented or plans to 
+implement programs to manage the effects of aging. During this inspection the 3 issues 
+identified during the scoping and screening inspection were resolved. No issues were identified 
+that would be an adverse indicator for license renewal, but two issues were raised regarding the 
+FAC Program and the Boral Surveillance Program that required additional review from NRR. 
+4
+ 
+
+Ms. Lougheed described the recent performance of CNP. The licensee is in the Regulatory 
+Response Column of the NRC Action Matrix because both units have a white inspection finding 
+in the Public Radiation Safety cornerstone and Unit 2 has a white performance indicator in the 
+Initiating Events cornerstone. No substantive cross-cutting issues have been identified. The 
+staff is conducting an internal end-of-cycle screening meeting and will provide the results to 
+licensee and public within the next several weeks. Ms. Lougheed concluded by stating that 
+current performance does not show any indicators that would preclude license renewal. 
+Aging Management Program Review and Audits 
+There are 46 aging management programs at CNP. 33 of these are existing programs and 13 
+are new programs. These AMPs can also be categorized by their consistency with GALL. 13 
+AMPs are consistent with GALL, 17 AMPs are consistent with exceptions and/or 
+enhancements, and 16 AMPs are plant-specific. 
+The staff reviewed 34 AMPs using the audit process. Mr. Cranston described some of these 
+AMPs such as the Service Water System Reliability Program, the Cast Austenitic Stainless 
+Steel (CASS) Program, the System Walkdown Program, and the FAC Program. 
+The Service Water System Reliability Program is consistent with GALL with exceptions and 
+enhancements. The exception is that heat exchangers will be visually inspected and cleaned 
+but will not undergo thermal performance testing. The staff's basis for approving this exception 
+is that inspection and cleaning is consistent with the applicant's approved submittal to GL 89-13 
+and any adverse inspection findings will result 
+in a test of the heat exchanger. In order to be 
+consistent with GALL, a physical check for selective leaching will 
+be performed during visual 
+inspections. 
+The CASS program originally cited a previously approved staff position to perform only external, 
+visual inspections based on an approved code case. The audit team determined that this code 
+case was not applicable to the plant. This AMP was revised to be consistent with GALL so 
+volumetric inspections or flaw tolerance evaluations will be performed. 
+The System Walkdown Program was credited for managing loss of material 
+on both the internal 
+an external surfaces of carbon steel materials. The staff requested more information regarding 
+thE? basis for this program to detect loss of material on internal surfaces. The applicant made a 
+revision that credits a combination of other AMPs (FAC, Service Water System Reliability, and 
+One-Time Inspection) with the management of internal aging effects for these components. 
+The staff identified 2 issues during the review of the FAC program. The staff found that this 
+program was not credited for detecting aging effects 
+in main steam nozzles so this AMP was 
+revised to include these components. The staff also found that the basis for expansion testing 
+in this AMP was not consistent with GALL. In GALL the criteria for sample expansion is 
+measured wall thinning greater than predicted. The criteria 
+in the LRA was a measured wall 
+thickness less than a threshold value. Therefore, the AMP was revised to be consistent with 
+GALL with an exception regarding the use of a threshold criteria for sample expansion. 
+Mr. Rowley described 2 AMPs that were not reviewed using the audit process. The Reactor 
+Vessel Internals Plates, Forgings, Welds, and Bolting Program was not audited because of 
+5
+ 
+
+emerging issues associated with stress corrosion cracking, irradiation assisted stress corrosion 
+cracking, and void swelling. The Steam Generator Integrity Program was not audited because 
+the replacement steam generator are constructed from Alloy 690 and GALL deals with Alloy 
+600. 
+One of the issues identified during the AMP inspection that required additional NRR review 
+dealt with the Boral Surveillance Program. Inspectors found a potential discrepancy in the 
+trending of results from Boral coupons. The staff issued a  Request for Additional Information 
+(RAI) to clarify the capability to measure and evaluate these coupons. The applicant provided 
+information regarding coupon evaluations, the results of completed evaluations, and the 
+schedule for future evaluations. The staff found the response acceptable and closed the issue. 
+The staff's review of the AMR results for the reactor vessel, internals, and reactor coolant 
+systems; engineered safety features systems; steam and power conversion systems; structures 
+and component supports; and electrical and instrumentation and controls did not identify any 
+open or confirmatory items. One open item was identified by the staff during the review of the 
+AMR results for auxiliary systems. The staff was concerned that the visual inspections 
+performed as part of the System Walkdown Program could not effectively manage the effects 
+of aging on internal surfaces of components. As a result of the staff's review, a combination of 
+3 other AMPs will be used to manage the effects of aging on these internal surfaces. These 3 
+AMPs are the FAC Program, the Service Water System Reliability Program, and the One-Time 
+Inspection Program. The staff found this acceptable and this open item was closed. 
+Data taken from two sample wells at 
+CI\IP show that the below grade soil/water environment is 
+non-aggressive based on pH, chloride, and sulfate levels. 
+The staff concluded that the applicant has demonstrated the effects of aging will be managed 
+such that intended functions will be maintained consistent with the current licensing basis for 
+the period of extended operation. 
+Time Limited Aging Analyses (TLAAs) 
+Mr. Rowley described the staff's review of the TLAAs. 
+Embrittlement of the reactor vessel affects TLAAs associated with upper shelf energy (USE), 
+pressurized thermal shock (PTS), and pressure-temperature limits. Calculations by the staff 
+and applicant demonstrate that the limiting beltline material for each unit exceeds the minimum 
+USE acceptance criterion 
+in 10 CFR 50 Appendix G through 48 Effective Full Power Years 
+(EFPY). The staff also performed independent calculations of RT
+PTS values and concluded that 
+the limiting beltline material continues to meet the screening criterion 
+in 10 CFR 50.61 through 
+48 EFPY. 
+The staff concluded that the cumulative usage factors (CUF) for Class 1 components will not 
+exceed 1. The staff also determined that for Non-Class 1 components the fatigue analyses 
+remain valid for the period of extended operation. The applicant has committed to additional 
+actions for the auxiliary spray line, pressurizer surge line, residual heat removal piping, and 
+charging and safety injection nozzles. These additional actions are to either (1) perform a 
+plant-specific fatigue analysis, (2) repair the affected piping, (3) replace the affected piping, or 
+(4) manage the effects of fatigue by an I\IRC-approved program. One of the confirmatory items 
+6
+ 
+
+listed in the draft SER was to revise the Updated Final Safety Analysis Report Supplement to 
+include these commitments. 
+The applicant's Environmental Qualification Program is  consistent with GALL and will continue 
+to manage equipment 
+in accordance with 10 CFR 50.49. 
+A concrete containment tendon prestress TLAA is  not applicable at CNP. 
+The applicant has committed to performing additional evaluations of containment penetrations 
+to satisfy the requirements of 10 CFR 54.21 
+(c)(1 )(i). The second confirmatory item listed in the 
+draft SER was to revise the Updated Final Safety Analysis Report Supplement to include this 
+commitment. 
+One of the plant-specific TLAAs is  a fatigue analysis of the ice condenser lattice frame. Past 
+operating experience indicates that the operational basis earthquake limit of 400 used 
+in the 
+analysis will not be exceeded during the period of extended operation. Therefore, the staff 
+concluded that this analysis remains valid 
+in accordance with 10 CFR 54.21 (c)(1 )(1). 
+Mr. Rowley stated that the applicant has identified the appropriate TLAAs and demonstrated 
+that either (1) the TLAAs are valid for the period of extended operation, (2) the TLAAs have 
+been projected to the end of the period of extended operation, or (3) that aging effects will be 
+adequately managed for the period of extended operation. 
+Mr. Rowley concluded by stating that the applicant has met the requirements for license 
+renewal and there is  reasonable assurance that activities will continue to be conducted 
+in the 
+renewal term 
+in accordance with the current licensing basis. 
+Member Comments 
+General 
+Chairman Bonaca made the following general comments regarding the last 3 license renewal 
+applications reviewed by the subcommittee. 
+•  Many of the new AMPs are not fully developed. The audit reports describe these new 
+programs as adequate but add that a final determination will not be made until after the 
+program details have been developed. Chairman Bonaca is  concerned that a large 
+number of these undefined programs could impact workload and leave any ACRS letter 
+unsupported. Consultant Leitch stated that a valid reason for accepting programs that 
+have not been fully developed 
+is if technical work is  still occurring in that area. 
+Consultant Leitch also noted that for new programs 
+in which there is  no equivalent 
+GALL program, there is  essentially nothing to review. Consultant Barton added that 
+some AMPs should be implemented sooner than just prior to entering the period of 
+extended operation. 
+•  Applicants are taking the same exceptions to GALL for AMPs associated with buried 
+piping/tanks/cables and fire protection. If these exceptions are always acceptable to the 
+staff, they should be justified and placed 
+in GALL. Consultant Barton noted an 
+inconsistency 
+in the Buried Piping Inspection Program in that some applicants will 
+7 
+
+perform a one-time inspection of these components prior to extended operation while 
+others will only inspect as part of maintenance activities. 
+• The audit report is  very insightful and should be better integrated into the SER. 
+Consultant Leitch asked why power levels for each unit are different. The applicant stated that 
+the units use different fuel assemblies and turbine generators. The nuclear steam supply 
+equipment for both units are virtually identical. 
+In response to a question from Member Sieber, the applicant stated the capacity of the 
+emergency diesel generators is 3500 kW. 
+The Design Basis Recovery effort at CNP required the reconstitution of a large number of 
+safety systems. 
+In response to a question 'from Consultant Leitch, the applicant described an 
+open issue associated with the operability of 4 kV breakers. These breakers are overdutied 
+and will be replaced 
+in the next outage. 
+In response to a question from Member Sieber, the applicant stated that the maintenance 
+outage for Unit 2 
+in November 2004 was due to leakage in a primary side pressurizer manway. 
+The gasket for this manway is not 
+in scope for license renewal because it  is  a short-lived 
+component that is  replaced every 8 years. 
+Several Members asked about the ice condenser. It was noted that the LRA lacked a lot of 
+specific information about the ice condenser and many of its components were not included 
+in 
+scope. The applicant stated that rebuilding of the ice condenser part of containment was 
+completed as part of the Design Basis Recovery effort 
+in 2000. A detailed examination of the 
+ice condenser components was performed for scoping and a specific AMP exists for the ice 
+condenser. The applicant described the various components 
+in the ice condenser and their 
+functions. 
+Consultant Leitch asked if there are any recent inspection findings that are not green. The 
+applicant described one issue associated with the transportation of contaminated material 
+in 
+which the dose rate on the exterior of the container exceeded a Department of Transportation 
+limit. Consultant Leitch and Member Rosen also asked about the status of performance 
+indicators (PI). The applicant stated that there is  a white 
+PI for Unit 2 for scrams with loss of 
+normal heat removal. The root cause of the problem was closing of MSIVs following a scram. 
+It was resolved by revising the EOPs to throttle back auxiliary feedwater earlier 
+in the 
+sequence. 
+Member Sieber asked about the steam generators. The applicant stated that the Unit 2 steam 
+generators are constructed from thermally treated Alloy 690. The number of plugged tubes for 
+Unit 1 and 2 are 4 and 16, respectively. 
+Chairman Bonaca and Member Sieber asked about the supplemental diesel generators that will 
+be added to the plant 
+in 2005. The applicant stated these diesel generators are not safety 
+grade and will provide redundancy. 
+In response to a question from Consultant Leitch, the 
+applicant stated that CNP does have containment igniters but they do not have a backup power 
+supply. The applicant added that the supplemental diesels will be sized such that they can 
+provide back-up power to the igniters. 
+8
+ 
+
+..
+ 
+Chairman Bonaca and Member Shack asked about the reactor vessel heads at CNP. The 
+applicant stated that Unit 1 has a medium susceptibility head while Unit 2 has a high 
+susceptibility head. Two penetration weld repairs were performed on the Unit 2 head because 
+of indications found by dye penetrant (PT) exams. These penetrations were repaired by weld 
+overlays. 
+In response to a question from Consultant Leitch, the applicant stated that the CDF for each 
+unit is  4.28x1 
+0-
+5
+• 
+Consultant Leitch noted that a certain crane manufacturer has reported concerns with 
+overstressing 
+in certain components. The staff stated that 1 crane at CNP is  affected by this 
+issue and it is  currently being reviewed by the resident inspectors. 
+Scoping and Screening 
+Consultant Leitch asked for clarification regarding the "spaces" approach used for the scoping 
+of 10 CFR 54.4(a)(2) components 
+in which all components in an area of the plant that contained 
+safety-related components were considered to be 
+in scope. The applicant stated that an area is 
+defined as a room so all components 
+in the same room as safety-related components are in 
+scope. Consultant Barton commented that this approach led to generic grouping of 
+components making it difficult to determine if specific components 
+in a system were adequately 
+covered 
+in the AMPs. Consultant Barton added that the "spaces" approach led to numerous 
+RAls from the staff. . 
+Consultant Leitch asked how scoping can be performed without locating all of the anchor 
+points. The applicant stated it was assumed that everything from the the nonsafety-related to 
+safety-related interface out to the first major component was 
+in scope. 
+Chairman Bonaca asked about the 5 components/commodities that were brought into scope as 
+a result of the staff's review. The staff stated that certain portions of insulation were credited 
+with limited heat load 
+in post accident conditions so they were brought into scope during a 
+review of the methodology. The other components were simply overlooked and brought into 
+scope during the review of the scoping and screening results for mechanical systems. 
+Consultant Leitch asked about the function of the leak detection enclosures that surround 
+emergency core cooling piping outside containment. The staff stated that they are not safety­
+related and serve to funnel water to a collection point. 
+Aging Management 
+Several Members asked about the criteria for expanding the scope of inspection 
+in the FAC 
+program. The applicant stated that this program 
+is consistent with EPRI guidance and uses an 
+expansion criterion of 60% of the wall thickness. The staff added that 
+in no case will the wall 
+thickness be less than the minimum wall thickness. If a discrepancy 
+is found between 
+inspections and predictions, all other predicted values will be revised. These revised 
+predictions may lead to further expansions of the inspection scope. 
+Consultants Leitch and Barton asked about an inspection finding 
+in which a pipe was found to 
+be partially buried 
+in the sand. The applicant stated that this pipe was located outdoors so the 
+sand had accumulated around the pipe naturally. The System Walkdown Program was revised 
+to look for significant changes 
+in environment. 
+9 
+
+·.
+ 
+There was a discussion about the BoraI Surveillance Program. Consultant Barton asked for the 
+basis 
+in extending the inspection interval from 2 years to 5 years. The applicant provided data 
+that demonstrates boral degradation is  not expected to be significant. The staff added that 5 
+years 
+is consistent with a vendor recommendation. Consultant Leitch noted that removal of 
+boral samples have been missed 
+in the past. Consultant Leitch asked why an RAI on this 
+program was issued so late 
+in the review process. The staff stated that the RAI resulted from a 
+discrepancy found during the AMP inspection which did not occur until November 2004. 
+Consultant Barton asked when the Buried Piping Inspection Program will be implemented. The 
+applicant stated that a date has not yet been determined. 
+There was a discussion regarding the System Walkdown Program. Consultant Leitch 
+expressed concern about the effectiveness of these inspections for components 
+in the same 
+room as the main steam system stop valves. The staff stated that external degradation 
+in this 
+environment should not be significant. These areas are accessible during normal operation but 
+pipes can't be inspected because they are covered with insulation. The applicant stated that 
+system walkdowns during normal operation look for any evidence of aging such as vibration, 
+support degradation, and dripping water. 
+In addition opportunistic inspection of these pipes 
+would be performed when insulation is  removed during outages or maintenance activities. 
+Consultant Barton questioned whether these walkdowns are actually being performed quarterly 
+and whether it will continue at that frequency during the period of extended operation. 
+Consultant Leitch noted that there is  a history of problems and procedure noncompliance with 
+this program. The applicant stated that the engineering resources of the plant have been 
+reorganized to ensure that system engineers can effectively perform these walkdowns at the 
+necessary frequency. Pis have also been established to measure their effectiveness. 
+Consultant Leitch asked why hydraulic fluids are not subject to an AMP. The applicant stated 
+that hydraulic fluids are periodically sampled 
+in order to determine when they should be 
+replaced. 
+Chairman Bonaca and Member Rosen asked about the Service Water System Reliability 
+Program. Chairman Bonaca asked how visual inspections can ensure the thermal performance 
+of a heat exchanger. The staff stated that 
+in addition to visual inspection, heat exchangers are 
+cleaned to return them to an "as-new" condition. The applicant listed some of the heat 
+exchangers that would be covered by this AMP. 
+The Diesel Fuel Monitoring Program takes an exception to GALL 
+in that it will not monitor for 
+microbiologically induced corrosion (MIC) because past operating experience has not shown 
+this to be a problem. Consultant Leitch stated that this was a weak argument and noted that 
+other plants have experienced MIC 
+in these tanks. A similar issue exists with the domestic 
+water supply system at CNP 
+in which there is no guarantee that conditions will not change in 
+the future. Chairman Bonaca added that these issues are generic and apply to the current 
+licensing basis. 
+Consultant Leitch noted that a number of follow-up items 
+in the audit report related to 
+elastomers. The staff stated that this was due to insufficient information provided by the 
+applicant 
+in the original application. 
+10
+ 
+
+·, 
+TLAAs 
+The reactor vessel neutron embrittlement TLAAs assumed 48 EFPY at the end 
+o'f license 
+extension. Consultant Leitch stated that this 
+is appropriate for CNP but for other plants 54 
+EFPY would be more reasonable. 
+Consultant Leitch asked about the exception to the 
+PT limit calculation that permitted the use of 
+Code Case 
+N641 rather than 10 CFR 50 Appendix G. The staff stated that this code case 
+allows the use of the crack initiation fracture toughness curve instead of the crack arrest 
+fracture toughness curve and has recently been incorporated into Section 
+XI of the ASME 
+Code. 
+The Cumulative Usage Factor (CUF) for the Pressurizer Surge line 
+is shown to be 4.5 at 60 
+years. Consultant Leitch asked if the CUF 
+is currently greater than 1 and if so what corrective 
+actions have been taken. The staff stated that more detailed fatigue calculations and fatigue 
+monitoring would result 
+in a lower CUF. However, the staff could not justify requiring all plants 
+to perform the more detailed analysis for the current licensing basis. 
+In response to a question from Consultant Barton, the staff stated that components in the 
+Environmental Quali'fication Program that were originally qualified for 40 years will be 
+requalified for the period of extended operation. 
+Member Shack noted 
+in the LRA that the TLAA associated with Leak-Before-Break did not 
+discuss stress corrosion cracking 
+in dissimilar metal welds. The applicant stated that this is 
+described in the Alloy 600 AMP. 
+Table 
+4.3-1 (page 4.3-13) of the LRA shows zero loss of load transients logged as of 10/31/98 
+and zero projected at 60 years of operation. Consultant Leitch asked if these numbers were 
+accurate. The applicant committed to providing that information at a later date. 
+Subcommittee Discussion 
+The Consultants and Members suggested that the following topics be discussed at the Full 
+Committee meeting: 
+•  A description of the ice condenser and the license renewal activities (scoping, screening, 
+and aging management) associated with its components 
+•  Improvements 
+in the commitment tracking process 
+•  The "spaces" methodology used 
+in scoping of 10 CFR 54.4(a)(2) components 
+•  The resolution of the open item associated with the FAC program 
+•  The effectiveness of the System Walkdown Program 
+Subcommittee Decisions and Follow-up Actions 
+The Subcommittee will summarize the discussions to the full Committee during the February 
+2005 ACRS meeting. 
+11 
+
+,. 
+'.
+ 
+Background Materials Provided to the Committee 
+1.  License Renewal Application for Donald C. Cook Nuclear Plant Units 1 and 2, October 31, 
+2003 
+2.  Donald C. Cook Nuclear Power Plant, Units 1 and 2 NRC License Renewal 
+Scoping/Screening Inspection Report 05000315/2004003; 05000316/2004003, June 22, 
+2004 
+3.  Information Systems Laboratories, Inc., Audit and Review Report for Plant Aging 
+Management Reviews and Programs, Donald 
+C. Cook Nuclear Plant, Units 1 &2, 
+September 22, 2004 
+4.  Safety Evaluation Report with Open Items Related to the License Renewal of the Donald 
+C. Cook Nuclear Plant, Units 1 and 2 dated December 2004 
+5.  Donald C. Cook Nuclear Power Plant, Units 1 and 2 NRC Aging Management Program 
+Inspection Report 
+No. 05000315/2004013; 05000316/2004013, January 10, 2005 
+6.  Letter dated January 21,2005, from Joseph 1\1. Jensen, Site Vice President, Indiana 
+Michigan Power Company, to NRC Document Control Desk, Subject: Response to Open 
+Item and Confirmatory Items 
+in the Draft Safety Evaluation Report Related to the License 
+Renewal of Donald 
+C. Cook Nuclear Plant, Units 1 and 2 
+********************************************* 
+NOTE: 
+Additional details of this meeting can be obtained from a transcript of this meeting available in 
+the NRC Public Document Room, One White Flint North, 11555 Rockville Pike, Rockville, MD, 
+(301) 415-7000, downloading or viewing on the Internet at 
+http://www.nrc.gov/reading-rm/doc-collections/acrs/, or can be purchased from Neal 
+R. Gross 
+and Co., 1323 Rhode Island Avenue, NW, Washington, D.C. 20005, (202) 234-4433 (voice), 
+(202) 387-7330 (fax), nrgross@nealgross.com (e-mail). 
+*********************************************** 
+12
+ 
+
+2885 
+, 
+Federal Register/Vol. 70, No. l1/Tuesday, January 18, ZOOs/Notices 
+and considered as described in 
+Appendix E of the environmental 
+document 
+and include comments from 
+the Australian Antarctic Division, 
+German Federal Environmental Agency, 
+Antarctica 
+New Zealand, and Antarctic 
+Treaty Consultative Meeting 
+(ATCM)I 
+Council on Environmental Protection 
+(CEP). The National Science Foundation 
+has made the Final 
+EIS/CEE for the 
+operation of a high-energy neutrino 
+telescope (Project IceCube) at the South 
+Pole available on the Internet at: 
+http://www.nsf.gov/od/opp/antarct/ 
+rrearyr/ceesncecube/ 
+icecube-finaCcee.pdf· 
+Polly A. Penhale. 
+Environmental Officer, Office ofPolar 
+Progmms, National Science Foundation. 
+[FRDoc. 05-917 Filed 1-14-05; 8:45 amI 
+BILLING CODE 755S-01-M 
+NUCLEAR REGULATORY 
+COMMISSION 
+[Docket No. 50-131] 
+Notice 
+and Solicitation of Comments 
+Pursuant to 10 CFR 20.1405 and 10 
+CFR 50.82(b)(5) Concerning 
+Proposed 
+Action to Decommission Department 
+of Veterans Affairs Nebraska-Western 
+Iowa Health 
+Care System Alan J. 
+Blotcky Reactor Facility 
+Notice is  hereby given 
+that the U.S. 
+Nuclear Regulatory Commission (the 
+Commission) has received an 
+application from the Department of 
+Veterans Affairs, Nebraska-Western 
+Iowa Health Care System dated 
+September 21,2004, for a license 
+amendment approving its proposed 
+decommissioning plan for the Alan 
+J. 
+Blotcky Reactor Facility (Facility 
+License 
+No. R-57) located in Omaha, 
+Nebraska. 
+In accordance with 10 CFR 20.1405, 
+the Commission is providing notice 
+and 
+soliciting comments from local and 
+State governments in the vicinity of the 
+site and any Indian Nation or other 
+indigenous people 
+that have treaty or 
+statutory rights that could be affected by 
+the decommissioning. This notice 
+and 
+solicitation of comments is published 
+pursuant to 10 CFR 20.1405, which 
+provides for publication in the Federal 
+Register and in a forum, such as local 
+newspapers, letters to State 
+or local 
+organizations, or other appropriate 
+forum, that is readily accessible 
+to 
+individuals in the vicinity of the site. 
+Comments should be 
+provided within 
+30 days of the date of this notice to 
+Patrick 
+M. Madden, Chief, Research and 
+Test Reactors Section, New, Research 
+and Test Reactors Program, Division of 
+Regulatory Improvement Programs, Mail 
+Stop 012-G13, U.S. Nuclear Regulatory 
+Commission, Washington, 
+DC 20555. 
+Further, 
+in accordance with 10 CFR 
+50.82(b)(5), notice is  also provided to 
+interested persons of the Commission's 
+intent to approve the plan by 
+amendment, subject to 
+such conditions 
+and limitations as it deems appropriate 
+and necessary, if the plan demonstrates 
+that decommissioning will be performed 
+in accordance with the regulations in 
+this chapter and will not be inimical to 
+the common defense 
+and security or to 
+the health 
+and safety of the public. 
+A copy 
+of the application (Accession 
+Number ML042740512) is  available 
+electronically for public inspection 
+in 
+the NRC Public Document Room or from 
+the Publicly Available Records 
+component of the NRC's Agencywide 
+Documents Access and Management 
+System (ADAMS). 
+ADAMS is accessible 
+from the 
+NRC web site at (the Public 
+Electronic Reading Room) 
+http:// 
+www.nrc.gov/reading-rm/adams.html. 
+Dated in Rockville, Maryland, this 10th 
+day of January, 2005. 
+For the Nuclear Regulatory Commission. 
+Patrick M. Madden, 
+Section Chief, Research and Test Reactors 
+Section, New, Research 
+and Test Reactors 
+Program, Division 
+ofRegulatoryImprovement 
+Programs, Office 
+ofNuclearReactor 
+Regulation. 
+[FR Doc. 05-888 Filed 1-14-05; 8:45 amI 
+BILLING CODE 7590-01-P 
+NUCLEAR REGULATORY 
+COMMISSION 
+Advisory Committee on Reactor 
+Safeguards Subcommittee Meeting on 
+Planning and Procedures; Notice of 
+Meeting 
+The 
+ACRS Subcommittee on Planning 
+effectiveness, ACRS subcommittee 
+structure, 
+and other activities related to 
+the conduct of ACRS business. It will 
+also discuss issues related to power 
+uprates. 
+Friday, January 28, 2005-8:30 a.m. 
+until the conclusion 
+ofbusiness. 
+The Subcommittee will continue to 
+discuss ACRS business processes, 
+anticipated workload, and other 
+activities related to the conduct 
+of ACRS 
+business. It will also discuss certain 
+proactive committee initiatives. 
+The Subcommittee will gather 
+information, analyze relevant issues and 
+facts, 
+and formulate proposed positions 
+and actions, as appropriate, for 
+deliberation 
+by the full Committee. 
+Members 
+of the public desiring to 
+provide oral statements 
+and/or written 
+comments 
+should notify the Designated 
+Federal Official, Dr. John 
+T. Larkins 
+(telephone: (301) 415-7360) between 
+7:30 a.m. 
+and 4:15 p.m. (ET) five days 
+prior to the meeting, if possible, so that 
+appropriate arrangements can be made. 
+Electronic recordings will be permitted 
+only during those portions of the 
+meeting that are 
+open to the public. 
+Further information regarding this 
+meeting 
+can be obtained by contacting 
+the Designated Federal Official between 
+7:30 a.m. 
+and 4:15 p.m. (ET). Persons 
+planning to 
+attend this meeting are 
+urged to contact 
+the above named 
+individual at least two working days 
+prior 
+to the meeting to be advised of any 
+potential changes 
+in the agenda. 
+Dated: January 11, 2005. 
+John H. Flack, 
+Acting Bmnch Chief, ACRSIACNW. 
+[FR Doc. 05-889 Filed 1-14-05; 8:45 am] 
+BILLING CODE 7590-01-P 
+NUCLEAR REGULATORY 
+COMMISSION 
+and Procedures will hold a meeting on \L.. . 
+January 27-28, 2005, Room T-2B3,-1\AdVISOry Committee on Reactor 
+11545 Rockville Pike, Rockville, 
+Maryland. 
+The entire meeting will be open to 
+public attendance, with the exception 
+of 
+a portion 
+that may be closed pursuant 
+to 5 
+~.S.~. 552b(c)(2) and (6) to discuss 
+orgamzatIonal 
+and personnel matters 
+that relate solely to internal personnel 
+rules 
+and practices of ACRS, and 
+information the release of 
+which would 
+constitute a clearly unwarranted 
+invasion 
+of personal privacy. 
+The agenda for the subject meeting 
+shall be 
+as follows: 
+Thursday, January 
+27,2005-8:30 
+a.m. until the conclusion of business. 
+The Subcommittee will discuss 
+ACRS 
+business processes, anticipated 
+workload, potential areas for improved 
+Safeguards Meeting of the 
+Subcommittee on Plant License 
+Renewal; Notice 
+of Meeting 
+The ACRS Subcommittee on Plant 
+License Renewal will 
+hold a meeting on 
+February 
+9, 2005, Room T-2B3, 11545 
+Rockville Pike, Rockville, Maryland. 
+The entire meeting will be open to 
+public attendance. 
+The agenda for the subject meeting 
+shall be as follows: 
+. 
+Wednes~ay, February 9,2005-1.30 
+p.m. untIl 5 p.m. 
+The purpose of this meeting is  to 
+discuss the License Renewal 
+Application 
+and associated Safety 
+Evaluation Report 
+(SER) with Open 
+Items related to the License Renewal of 
+
+2886 
+Federal Register / Vol. 70, No. 11 / Tuesday, January 18, 2005/ Notices 
+the Donald C. Cook Plant, Units 1 and 
+2. The Subcommittee will hear 
+presentations by and hold discussions 
+with representatives of the NRC staff, 
+Indiana Michigan Power Company, and 
+other interested persons regarding this 
+matter. 
+The Subcommittee will gather 
+information, analyze relevant issues and 
+facts, and formulate proposed positions 
+and actions, as appropriate, for 
+deliberation 
+by the full Committee. 
+Members 
+ofthe public desiring to 
+provide oral statements 
+and/or written 
+comments should notify the Designated 
+Federal Official, Mr. Cayetano Santos 
+(telephone 
+301/415-7270) five days 
+prior to the meeting, ifpossible, so that 
+appropriate arrangements can be made. 
+Electronic recordings 
+will be permitted. 
+Further information regarding this 
+meeting 
+can be obtained by contacting 
+the Designated Federal Official between 
+7:30 a.m. and 4:15 p.m. (ET). Persons 
+planning to attend this meeting are 
+urged to contact the above named 
+individual at least two working days 
+prior to the meeting to be advised of any 
+potential changes to 
+the agenda. 
+Dated: January 10, 2005. 
+John H. Flack, 
+Acting Branch Chief, ACRSIACNW. 
+[FR Doc. 05-891 Filed 1-14-05; 8:45 am] 
+BILLING CODE 7591Hl1-P 
+NUCLEAR REGULATORY 
+COMMISSION 
+Biweekly Notice; Applications and 
+Amendments 
+to Facility Operating 
+Licenses Involving 
+No Significant 
+Hazards Considerations 
+I. Background 
+Pursuant to section 189a.(2) of the 
+Atomic Energy Act of 1954, as amended 
+(the Act), the U.S. Nuclear Regulatory 
+Commission (the Commission or NRC 
+staff) is publishing this regular biweekly 
+notice. 
+The Act requires the 
+Commission publish notice of any 
+amendments issued, or proposed to be 
+issued and grants the Commission the 
+authority to issue and make 
+immediately effective any amendment 
+to an operating license upon a 
+determination by the Commission 
+that 
+such amendment involves no significant 
+hazards consideration, 
+notwithstanding 
+the pendency before the Commission of 
+a request for a hearing from any person. 
+This biweekly notice includes all 
+notices of amendments issued, or 
+proposed to be issued from December 
+23, 2004, through January 5, 2005. 
+The 
+last biweekly notice was published on 
+January 4,2005 (70 FR 398). 
+Notice of Consideration 
+of Issuance of 
+Amendments to Facility Operating 
+Licenses, Proposed No Significant 
+Hazards Consideration Determination, 
+and Opportunity for a Hearing 
+The Commission has made a 
+proposed determination 
+that th~ 
+following amendment requests mvolve 
+no significant hazards consideration. 
+Under the Commission's regulations in 
+10 CFR 50.92, this means 
+that operation 
+of 
+the facility in accordance with the 
+proposed amendment would ~ot (1) 
+involve a significant increase m the 
+probability or consequences of an 
+accident previously evaluated; or (2) 
+create the possibility of a new or 
+different 
+kind of accident from any 
+accident previously evaluated; or 
+(3) 
+involve a significant reduction in a 
+margin of safety. The basis for this 
+proposed determination for 
+each 
+amendment request is shown below. 
+The Commission is seeking public 
+comments on this proposed 
+determination. Any comments received 
+within 30 days after the date of 
+publication of this notice will be 
+considered 
+in making any final 
+determination. Within 60 days after 
+the 
+date of publication of this notice, the 
+licensee may file a request for a hearing 
+with respect to issuance of the 
+amendment to the subject facility 
+operating license 
+and any person whose 
+interest may be affected 
+by this 
+proceeding 
+and who wishes to 
+participate as a party 
+in the proceedi.ng 
+must file a written request for a hearmg 
+and a petition for leave to intervene. 
+Normally, the Commission will not 
+issue the amendment 
+until the 
+expiration of 60 days after the date of 
+publication of this notice. The 
+Commission may issue the license 
+amendment before expiration of the 60­
+day period provided 
+that its final 
+determination is that the 
+amendment 
+involves no significant hazards 
+consideration. In addition, the 
+Commission may issue 
+the amendment 
+prior to the expiration of the 30-day 
+comment period should circumstances 
+change during the 30-day 
+comment 
+period such that failure to act in a 
+timely way 
+would result, for example in 
+derating or shutdown of the facility. 
+Should the Commission take action 
+prior to 
+the expiration of either the 
+comment period or the notice period, 
+it 
+will publish in the Federal Register a 
+notice 
+of issuance. Should the 
+Commission make a final No Significant 
+Hazards Consideration Determination, 
+any hearing will take place after 
+issuance. 
+The Commission expects that 
+the need to take this action will occur 
+very infrequently. 
+Written comments may be submitted 
+by mail to the Chief, Rules and 
+Directives Branch, Division of 
+Administrative Services, Office of 
+Administration, U.S. Nuclear Regulatory 
+Commission, WC\shington, 
+DC 20555­
+0001, and should cite the publication 
+date 
+and page number of this Federal 
+Register notice. Written comments may 
+also be delivered to Room 6D22, Two 
+White Flint North, 11545 Rockville 
+Pike, Rockville, Maryland, from 7:30 
+a.m. to 4:15 p.m. Federal workdays. 
+Copies of written comments received 
+may be examined at the Commission's 
+Public Document Room (PDR), located 
+at One White 
+Flint North, Public File 
+Area 01F21, 11555 Rockville Pike (first 
+floor), Rockville, Maryland. 
+The filing of 
+requests for a hearing 
+and petitions for 
+leave to intervene is discussed below. 
+Within 60 days after 
+the date of 
+publication 
+of this notice, the licensee 
+may file a request for a hearing with 
+respect to issuance of the amendment to 
+the subject facility operating license and 
+any 
+person whose interest may be 
+affected by this proceeding 
+and who 
+wishes to participate as a party in the 
+proceeding 
+must file a written request 
+for a hearing 
+and a petition for leave to 
+intervene. Requests for a hearing 
+and a 
+petition for leave to intervene shall be 
+filed in accordance 
+with the 
+Commission's "Rules of Practice for 
+Domestic Licensing Proceedings" in 10 
+CFR part 2. Interested persons 
+should 
+consult a current copy of 10 CFR 2.309, 
+which is available at the Commission's 
+PDR, located at 
+One White Flint North, 
+Public File Area 01F21, 11555 Rockville 
+Pike (first floor), Rockville, Maryland. 
+Publicly available records will be 
+accessible from 
+the Agencywide 
+Documents Access 
+and Management 
+System's (ADAMS) Public Electronic 
+Reading Room 
+on the Internet at the 
+NRC Web site, http://www.nre.gov/ 
+reading-rm/doe-eolleetionslcfrl. 
+Ifa 
+request for a hearing or petition for 
+leave to intervene is filed 
+within 60 
+days, 
+the Commission or a presiding 
+officer designated 
+by the Commission or 
+by the Chief Administrative Judge of the 
+Atomic Safety and Licensing Board 
+Panel, will 
+rule on the request andlor 
+petition; and the Secretary or the Chief 
+Administrative Judge of the Atomic 
+Safety 
+and Licensing Board will issue a 
+notice of a hearing or 
+an appropriate 
+order. 
+As required 
+by 10 CFR 2.309, a 
+petition for leave to intervene shall set 
+forth 
+with particularity the interest of 
+the petitioner in the proceeding, and 
+how that interest may be affected by the 
+results of the proceeding. 
+The petition 
+should specifically explain the reasons 
+why intervention should be permitted 
+
+Advisory Committee on Reactor Safeguards
+ 
+Plant License Renewal Subcommittee Meeting
+ 
+Donald C. Cook Units 1 and 2
+ 
+February 9, 2005
+ 
+Rockville, MD
+ 
+-PROPOSED SCHEDULE-
+Cognizant Staff Engineer: Cayetano Santos Jr. CXS3@NRC.GOV (301) 415-7270 
+Topics  
+Presenters 
+Time 
+Opening Remarks  M. Bonaca, ACRS 
+1:30 pm 
+-1:35 pm 
+II Staff Introduction  P.T. Kuo, NRR 
+1:35 
+pm -1:40 pm 
+2.._.;~ 
+III DC Cook License Renewal Application  R. Grumbir, 
+1:40 pm 
+:)46pm 
+Indiana Michigan 
+Power Company 
+A.  Application Background 
+B.  Description of DC Cook 
+C.  Operating History 
+D.  Scoping Discussion 
+E.  Application of GALL 
+F.  Commitment Process 
+~ /' .,.-/
+,1') >y ~ 
+IV SER 
+Overview  
+J. Rowley, NRR ~m -~pm 
+P. Lougheed, Region III 
+A.  Scoping and Screening Methodology Results 
+B.  Onsite Inspection Results 
+BREAK 
+V Aging Management Program Review  J. Rowley, NRR 
+and Audits  G. Cranston, NRR 
+if ~J }ocJ 
+VI 
+Time Limited Aging Analyses 
+J. Rowley, NRR A-:{)O pm -~ pm 
+5.0':> S'~..) 
+VII Subcommittee Discussion  
+M. Bonaca, ACRS ~O pm -~pm 
+YJu 
+VIII Adjourn  M. Bonaca, ACRS _~ pm 
+NOTE: 
+•  Presentation time should not exceed 50 percent 
+of the total time allocated for a specific 
+item. The remaining 50 percent 
+of the time is  reserved for discussion. 
+•  50 copies 
+of the presentation materials to be provided. 
+
+ADVISORY COMMITTEE ON REACTOR SAFEGUARDS
+ 
+SUBCOMMITTEE MEETING ON PLANT LICENSE RENEWAL
+ 
+February 
+9. 2005
+ 
+Date 
+NRC STAFF SIGN IN FOR ACRS MEETING 
+PLEASE PRINT 
+NAME NRC ORGANIZATION 
+~h/l Lau:o
+n 
+IJ~I oe) f3kC8 
+Lt\ '-Rcc\.c\-\y:cr 
+.h'M.. "S~~\.~"-9.. 
+< 
+Q~ 0/hv57bAl 
+1(~v..r JJet'~~ da
+ 
+tJ RR{ ~ $~A ISf...::..L.:....::,ta _ 
+II 
+~¢i~~~c~AJ4
+ 
+~;J4/v~1 ~c t) 
+/<J rt. n-/ 1)~ I[;,..".\:-(} 
+"I 
+N~~. \~W \~R:...=L:::::..:;;.,~-+--_ 
+N~QWJ~P-A _ 
+/V)l£-O/V~ /,eL e/'-B 
+\I.e~N..'.C..Kcdri~\Ae""L 
+-::¢£LN~ 
+!v,ulk tuJ 
+Hilt I J)/l-I &Uf
+I 
+
+ADVISORY COMMITTEE ON REACTOR SAFEGUARDS
+ 
+SUBCOMMITTEE MEETING ON PLANT LICENSE RENEWAL
+ 
+February 
+9. 2005
+ 
+Date
+ 
+NRC STAFF SIGN IN FOR ACRS MEETING 
+PLEASE PRINT 
+NAME NRC ORGANIZATION 
+,}{r!PPdl T/feI 
+/Vf~'£~0 
+Mft-ID\Uf I ~J£f _ 
+tJ(J( r1)(IfJ) te.L f:f 
+
+ADVISORY COMMITTEE ON REACTOR SAFEGUARDS
+ 
+SUBCOMMITTEE MEETING ON PLANT LICENSE RENEWAL
+ 
+February 9. 2005
+ 
+Date
+ 
+PLEASE PRINT 
+NAME 
+AFFI 
+L1ATION 
+\\~"\t~d V\,.\.:-\v~ _ 
+I\vLeQV\ 
+""30ll\ (s-e.-bbu 
+'±~(xbAt'\t 1M S~ k~ vvtO\P 
+f; of) J(A L ;'u 0 W ~ 1/ 
+At! 
+L.J·L\~~lS\
+ 
+C/1 if fYJ~ tZ ks
+ 
+PAY-I'd.,), 546 ~ 
+TSL 
+) ~~v--e.. f Ci ~ e" 
+
+1 
+Donald C. Cook Nuclear Plant
+ 
+Richard Grumbir 
+Indiana Michigan Power Company 
+February 9, 2005 ~AMIiICAN~ 
+*"flKl'IIC 
+POWfI 
+AE!:.t1IINi»'J ~P1lrtrwr'" 
+
+2 
+Introduction 
+•  Application Background 
+•  Description of Cook 
+Nuclear Plant 
+•  
+Recent Operating 
+Experience 
+•  Scoping/Screening 
+•  
+Aging Management 
+Programs 
+•  Implementation 
+.AMIIUII@)
+fiM 
+RKr
+•
+ 
+JIIOWf.
+ 
+Al/;bwmt hiz;!IlftrIer.. 
+
+3 
+Application Background 
+• Application submitted -October 31, 2003 
+• Original license expiration 
+Unit 1 -October 25, 2014 
+Unit 2 -December 23, 2017 
+• New process 
+-   Third pilot application 
+-
+Extensive use of past precedent 
+•  Thorough review (200+ RAIs) 
+-Positive interactions 
+-Face-to-face communication effective 
+-
+Review of onsite material efficient 
+~ AMIIUII()
+*"RKrM 
+JIIOWfI 
+Ai/;~~ ~ltI1tnIf.. 
+
+4 
+Description of Cook Nuclear Plant 
+•  Westinghouse 4-loop
+PWR 
+•  
+Ice Condenser 
+Containment 
+•  AlE AEP 
+•  Rated Thermal Power 
+Unit 1 -3304 MWt 
+Unit 2 -3468 MWt 
+•  Net Electrical Output 
+Unit 1 -1044 MWe 
+Unit 2 -1117 MWe 
+•  Four Emergency Diesel
+Generators 
+(2/unit) 
+•  Once-through cooling­
+Lake Michigan UHS 
+•  
+IBM fuel cycle 
+•  AMlIICA"~ 
+IiIIRfCl'l1C
+ 
+JIIOWfI
+ 
+Al/:..l1IINQ'I ~lWtrItr'" 
+
+5 
+Recent Operating Experience
+ 
+•  Design Basis recovery ­
+September 
+1997 -December 2000
+ 
+•  Essential Service Water silt intrusion ­
+August 
+2001
+ 
+•  Fish Intrusion ~ April 2003 
+•   Unit 1 -Operating 309 days since April 2004 
+•   Unit 2 -Operating 73 days since completing
+ 
+refueling outage 
+in November 2004
+ 
+•  Combined 92% Capacity Factor in 2004
+ 
+•  AMIIICAII(l 
+iiiilRKI'IIC 
+POWII 
+AE!:blllfi»'J ~itlttfltf" 
+
+6 
+NRC Reactor Oversight 
+3<2/2002 status 
+• Unit 1 -Regulatory
+ 
+Response Column
+ 
+•  Unit 2 -Degraded 
+Cornerstone Column 
+• Unit 1 entered Column 1 January 2005 
+• NRC Website PI is for 4
+th 
+quarter 2004 
+2005 status
+ 
+•  Unit 1 -Licensee 
+Response Column* 
+• Unit 2 -Regulatory
+ 
+Response Column
+ 
+•  PI&R cross-cutting issue 
+closed (July 2004) 
+·AMIIICAN~ 
+iiME&!CfI1C
+ 
+JIOWII
+ 
+AE1..A1IIIlI'G~ _ Ptmrwr iii 
+
+7 
+Plant Improvements 
+Nuclear Asset Management plan through 2037
+ 
+Completed 
+• Unit 2 S/G replacement -1988 
+• 
+• Unit 1 
+S/G replacement -2000 
+• 
+• Appendix K 
+MUR Uprate -  2002/2003 
+• 
+• 
+Reserve Aux transformers 
+• 
+(auto load-tap changing) - 2002/2003 
+• 
+In 
+Progress 
+• Traveling water screens -2005 
+• 
+• 
+Conversion to ITS -2005 
+• Supplemental diesel generators -2005 
+• 
+• 
+Reactor head replacement -  2006/2007 
+• 
+Estimated completion dates -  (Unit l/Unit 2) 
+Future (under evaluation) 
+Dry 
+Cask Storage 
+Stretch Power Uprate 
+Moisture Separator upgrades 
+Unit 2 
+Main Transformer 
+Main Generator rewinds 
+Unit 1 Turbine rotor 
+replacement -
+2006 
+INDUS Passport tv2006 
+Digital turbine controls -TBD 
+~ 
+iiII 
+sKrlJC 
+AMIIICA"~ 
+POWf. 
+AU:..lllIt!IU~ lMfg; Ptlftrllf" 
+
+8 
+Industry Issues 
+•  Reactor Head Inspections 
+Davis-Besse 
+--2002 
+•  Unit 1 -2003 -Bare metal visual above-head inspection
+No leaks or boron deposits identified 
+•  Unit 2 -
+2004 -  Penetration weld repair performed 
+•  Bottom-Mounted Instrumentation (BMI) 
+South Texas Project --2003 
+•  Inspections performed, no indications 
+•   Flow-Accelerated Corrosion (FAC) 
+Mihama Unit 
+3, Japan --2004 
+• High  FAC rates downstream of orifices 
+•  
+OE evaluation performed for 1999 and 2004 events 
+-Procedural guidance -  downstream piping in-scope 
+-  Historical inspections results -  acceptable 
+-
+Users groups and software credited ~AMlIIWI~ 
+"'RKrRIC 
+JIlOWII 
+AJJ:.tI1tIllD~ ~PartrItr ~ 
+
+9 
+Scoping I Screening 
+•  Consistent with regulation & past 
+applicants 
+•  Performed on a plant system basis 
+•  10 CFR 54.4(a)(2) applied on a "spaces" 
+approach 
+-AMlIlCAN& 
+"ElEcrRIC 
+JIOWII 
+AE/:bll!lU'I hi:;Ftmrwr" 
+
+10 
+Aging Management Programs 
+•  AMRs structured to align with GALL 
+•  Conservative appHcation of consistency
+ 
+with GALL 
+•  Provided past precedents support prior 
+to audiJt 
+•  46 AMPs credited; 16 plant-specific 
+~AMIIICAN~
+iiII
+RKfIIC 
+POWII 
+AlJ:NI/l!/Ul~~!IlTtf/tf.. 
+
+11 
+Plant-Specific Programs 
+•  Alloy 600 Aging Management 
+•  Bolting 
+and Torquing Activities 
+•  
+Boral Surveillance 
+•  Bottom-Mounted Instrumentation 
+Thimble 
+Tube Inspection 
+•  Heat Exchanger Monitoring 
+•  
+151 .. Augmented Inspection 
+•  Instrument 
+Air Quality 
+•  
+Oil Analysis 
+•  Pressurizer Examinations 
+•  Preventative Maintenance 
+•  Structures Monitoring 
+-Divider Barrier 
+Seal 
+-Ice Basket 
+•  
+System Testing 
+•  
+System Walkdown 
+•  Wall Thinning Monitoring 
+•  Auxiliary System Water 
+Chemistry Control 
+• AlU'IICAN() 
+"'!lfCfllIC 
+POWfI 
+MP;bINDtJ €mzJ-IWtntr'" 
+
+12 
+Commitments/Implementation
+ 
+•  Tracked by CNP's commitment
+ 
+management system
+ 
+•  Commitments documented in  the 
+LRA and 
+adjusted 
+as needed during review 
+•  Commitment 
+to implement prior to period 
+of extended operation. 
+•  More aggressive internal goals 
+•  Anticipate good preparation 
+for inspections 
+prior 
+to end of current license. 
+-AMIiICAN& 
+iMflKrIIC 
+JIOWII 
+AE!:~'J ~1tImwr'" 
+
+13 
+Commitments/Implementation
+ 
+•   Draft procedure changes under development ­
+
+objective 
+is to implement most in 2005
+ 
+•  Many of these activities (enhancements) are typically
+ 
+performed, but not proceduralized
+ 
+- Example: Boric Acid Corrosion Program inspection formalized to 
+address aggregate impact of leaks on electrical components 
+•   Long-range activities will be planned out and tracked in 
+CNP's Action Tracking program 
+•   Turnover to 
+line departments included in project plan 
+-Program owner training & involvement in LRA and supporting 
+reviews
+ 
+-License Renewal Program owner
+ 
+-
+Licensing engineer
+ 
+~ 
+iII 
+RKrlIC
+MAHICANt!J 
+POWIR 
+AU:bMll'f ~lWtrwr'" 
+
+14 
+Closing Remarks 
+•  NRC review process was thorough, efficient, 
+and effective 
+•  
+Positive interactions during audits/inspections 
+and NRR reviews 
+•  LR process provided systematic opportunity 
+to refine station 
+processes to account for 
+aging effects 
+• 
+AEP is committed to safe, reliable long-term
+ 
+operation of 
+Donald C. Cook Nuclear Plant
+ 
+~AMIIICAN~
+iII
+RKrlIC 
+POWD 
+Ai1:bM»1 Wirr F#r!rwr" 
+
+~Excellence 
+Recoverv Plan 
+Getting better all the time 
+Containment 
+Divider 
+Upper 
+Containment 
+Spray 
+Containment 
+Wall 
+Ice Condenser ­
+Accumulator 
+L 
+Lower 
+Containment 
+Spray 
+Crane Wall ­
+L 
+Recirculation 
+Sump 
+
+~Excellence 
+Ice Condenser Recoverv Plan
+ 
+Getting better all the time 
+Operating Deck 
+Door Port 
+Lower Inlet 
+Doors 
+Lower Support 
+Structure 
+
+1 
+~Excellence 
+RecovervPlan 
+Getting better all the time 
+:r.. 1uI:ald t. tv"·' ~..d ..... p,,,T.= 
+J.a~::; l'j,l~:tl1. ~·IC'·_;.J f,\I. ~bL.s 
+if(X\~'::'~ of b.;uii ~:,;l.ti,* ,,;td 
+,.:"',,_p ...f (."""r"r~ !~r i." 1"", 
+'::6"~e1Il''''r ,liT""" ~ 1 :f):"~:.:tr_"'W:!':'Iit. 
+
+~Excellence 
+RecovervPlan 
+Getting better all the time 
+I ~ CONTAINMENT SHELL 
+WEAR 
+SLAB 
+STEEL PLATE 
+EMBEDDED COOLING PIPES 
+(FLOOR COOLING SYSTEM) 
+STRUCTURAL SUB FLOOR 
+WATER SOLUBLE 
+PAPER DRAIN COVER 
+LOWER 
+INLET 
+DOOR 
+DRAIN GRILL 
+i 
+FOAM CONCRETE 
+FLOOR DRAIN 
+FLAPPER VALVE 
+
+'\ 
+fA! 
+. 
+... 
+~'" 
+;~< i 
+~
+ 
+
+\~ . 
+: 
+r I":
+.  f 
+" ,., 
+" 
+<U 
+E 
++:l 
+<U
+..c:.
+.... 
+
+~Excellence 
+RecovervPlan 
+Getting better all the time 
+The Donald C. Cook Nuclear Plant 
+nate: 10/29/74 Photo No. 3340 
+lee aaking at Southern Michigan 
+Cold 
+Storage for ice condenser 
+in Unit 1 containment. 
+
+Advisory Committee on Reactor Safeguards
+ 
+(ACRS) License Renewal Subcommittee
+ 
+Jonathan 
+G. Rowley 
+Safety Project Manager 
+Donald 
+C. Cook Nuclear Plant, Units 1 & 2 
+License Renewal Application 
+Safety Evaluation Report with Open Items 
+February 
+9, 2005 
+
+NRC Review Highlights
+ 
+.• Third license renewal application reviewed as part of the 
+pilot program using the audit process 
+•   SER with Open Items Issued on 12/21/2004 
+•  
+Two Open Items 
+•  Resolution has been reached since the issuance of the SER 
+with Open Items 
+•  Two Confirmatory Items 
+•  Resolution has been reached since the issuance of the SER 
+with Open Items 
+•  Brought into scope and subjected to Aging Management
+
+Review (AMR)
+ 
+•  Five (5) components/commodities 
+February 9, 2005 
+ACRS Subcommittee Meeting ­
+Donald 
+C. Cook Nuclear Plant, Units 1 and 2 
+2 
+
+NRC Audits and Inspections
+ 
+• Aging Management Programs Audit 
+•   December 15 -  19, 2003
+ 
+• Scoping and Screening Methodology Audit 
+•  January 13 -  16, 2004
+ 
+• Aging Management Review Audit 
+•   March 1 -5, 2004
+ 
+• Scoping and Screening Inspection 
+•   May17-21, 2004 
+• Aging Management Program Inspection 
+•   November 1 -19, 2004
+ 
+February 9, 2005 
+ACRS Subcommittee Meeting ­
+
+Donald 
+C. Cook Nuclear Plant, Units 1 and 2
+ 
+3 
+
+Section 2 -Structures & Components 
+Subject to an AMR 
+Section 2.1 -  Scoping and Screening Methodology
+ 
+•   Describes methodology used to identify structures, 
+systems, and components (SSCs) that are within the 
+scope of the license renewal rule and subject to an 
+AMR 
+•   Items brought into scope: 
+•  Insulation -  Pipe and Penetrations 
+•   Staff audit and subsequent interaction determined 
+that the applicant's methodology satisfies 10 CFR 
+54.4 and 10 CFR 54.21 (a)(1). 
+February 9.2005 
+ACRS Subcommittee Meeting ­
+
+Donald C. Cook Nuclear Plant, Units 1 and 2
+ 
+4 
+
+Section 2 -Structures & Components 
+Subject to an AMR 
+Section 2.2 -  Plant Level Seoping Results 
+• Staff reviewed Section 2.2 to determine if all 
+plant level systems and structures that are 
+within the scope of license renewal were 
+properly identified. 
+-----• Staff review did not identify any omissions. 
+February 9, 2005 
+ACRS Subcommittee Meeting ­
+Donald 
+C. Cook Nuclear Plant, Units 1 and 2 
+5 
+
+Section 2 -Structures &Components 
+Subject to an AMR 
+Section 2.3 System Scoping and Screening Results ­
+Mechanical Systems 
+•  Includes the following systems: 
+•  Reactor Coolant System 
+•  Engineered Safety Features Systems 
+•  Auxiliary Systems 
+•  Steam and Power Conversion Systems 
+•  Items brought into scope: 
+•  Emergency Diesel Generator (EDG) Exhaust Silencers 
+•  Auxiliary Feed Water (AFW) Suction Strainers 
+•  EDG Air distributor housings 
+•  Spent Fuel Pool (SFP) Makeup Supply -Refueling Water 
+Storage Tank (RWST) 
+February 9,2005 
+AGRS Subcommittee Meeting ­
+Donald 
+C. Cook Nuclear Plant, Units 1 and 2 
+6 
+
+Section 2 -Structures & Components 
+Subject to an 
+AMR 
+Section 2.4 Scoping and Screening Results ­
+Structures 
+•   Discusses the following structures: 
+•   Containment 
+•   Auxiliary Building 
+•  Turbine Building and Screenhouse 
+•  Yards Structures 
+•   Structura'i Commodities 
+•   Staff did not identify any omissions or discrepancies
+ 
+February 9,2005 
+ACRS Subcommittee Meeting ­
+Donald 
+C. Cook Nuclear Plant, Units 1 and 2 
+7 
+
+Section 2 -Structures & Components 
+Subject to an AMR 
+Section 2.5 Scoping and Screening Results -Electrical 
+and Instrumentation and Controls Systems 
+•  Discusses the following Non-Environmental Qualification (EQ) 
+Component Commodity 
+Groups: 
+•   Electrical cables and connections 
+•   Inaccessible medium voltage cables 
+•   Electrical connectors 
+•   Switchyard bus for station blackout 
+(S80) connections 
+•   High voltage insulators 
+•  Components subject to 
+EQ requirements are addressed 
+separately as time-limited aging analyses (TLAA) 
+in Section 4.4 
+February 9,2005 
+ACRS Subcommittee Meeting ­
+
+Donald 
+C. Cook Nuclear Plant, Units 1 and 2
+ 
+8 
+
+Scoping and Screening Summary
+ 
+•  Scoping and screening methodology is 
+ad"equately described and justiti~edin the LRA 
+and satisfies the requirements of 
+10 CFR 54.4 
+and 10 CFR 
+54.21 (a)(1). 
+•  Scoping 
+and screening revi~e;w results fou;;nd 
+that the SSCs within the scope of license 
+renewal, 
+as required by 10CFR 54.4(a) and 
+those subject to 
+an AMR, as required by 
+10 CFR 
+54.21 (a)(1), have been identified. 
+February 9, 2005 
+ACRS Subcommittee Meeting ­
+
+Donald 
+C. Cook Nuclear Plant, Units 1 and 2
+ 
+9 
+
+License Renewal Inspections
+ 
+Scoping! and Screening Inspection 
+•  OBJECTIVE -To confirm that the a,pplicant hia:s included 
+SSCs 
+in the scope of license renewal as required by the 
+Rule 
+•  RESULTS -Th'ree follow up issu~e,s'i:'dentified: 
+•   Condensate StoraQ'e Tank pipiing partially buried 
+•  Emergency Core Cooling System piping leak detection enclosures 
+•  
+Main Steam System stop valves room environment 
+•  CONCLUSION -Applicant had properly cond'"ucted 
+license renewal Scoping and Screening for SSCs 
+requiring an aging management review 
+a,t D. C. Cook. 
+February 9,2005 
+ACRS Subcommittee Meeting ­
+Donald 
+C. Cook Nuclear Plant, Units 1 and 2 
+10 
+
+License Renewal Inspections
+ 
+iAging Management Program (AMP) lns;pection 
+•   OBJECTIVE: To confirm that applicant has 
+implemented or plans to implement AMPs to manage 
+aging effects for in-scope SSCs 
+•   RESULTS: 
+•  No issues identili:ed whic"h woul!d;be an adverse 
+indicator for license renewal 
+•  Follow 
+up issues from scoping and screening
+
+inspection 
+ad:equately resolved
+ 
+•  Two issues required 
+furth:er NRRinvolvement: 
+•  Flow Accelerated Corrosion Program 
+•  Boral Surveillance Program 
+February 9,2005 
+ACRS Subcommittee Meeting ­
+Donald 
+C. Cook Nuclear Plant. Units 1 and 2 
+11 
+
+Current Performance
+ 
+II Licensee currently in the Regulatory 
+ResiponseCol,umn of the 
+Nr,R'C·'s Action 
+Matrix 
+due toa White ins,p\e~ction findi,irng in 
+the Public Radiation S:afety cornerstone for 
+Units 1 
+and 2 and a W;hite performan"ce 
+indicator in the In'itiating: Events 
+cornerstone for Unit 
+2. 
+II No substantive cross-cutting issues 
+February 9,2005 
+AGRS Subcommittee Meeting ­
+Donald G. Gook Nuclear Plant, Units 1 and 2 
+12 
+
+Current Performance
+ 
+•  NRC internal end-af-cycle screening'meeting 
+being held yesterday and 
+tod,ay (February 8 & 
+9, 2005). Results will be provided to the 
+licensee 
+in a I'etter within next 3 weeks and a 
+public meeting to 
+dIsc:u:ss th,e results will be 
+held before April 22, 20'05 (within 16 weeks of 
+end of cycle). 
+•  CONCLUSION:  Currentperforman.ce does 
+not show any indicators that would preclude 
+license renewal. 
+February 9,2005 
+ACRS Subcommittee Meeting ­
+
+Donald 
+C. Cook Nuclear Plant, Units 1 and 2
+ 
+13 
+
+Unit 1 Perfoirmance Indicators & 
+Inspection Findings (as of 12/31/04) 
+Reactor 
+Safety 
+Radiation 
+Safety 
+~ 
+T T 
+Initiating 
+Events 
+f1 
+Mitigating 
+Systems 
+f1 
+Barrier 
+Integnty 
+Emergency 
+Preparedness 
+Occupational 
+Radiation 
+Safety 
+PubliC 
+Radiation 
+Safety 
+Penormance Indicators 
+Most Significant Inspection Findings 
+-
+I W(1) 
+Last Modified: Januar>j 24, 2005 
+February 9,2005 ACRS Subcommittee Meeting ­
+
+Donald 
+C. Cook Nuclear Plant, Units 1 and 2
+ 
+I 
+14 
+
+Unit 2 Performtantce I:ndicators & 
+Inspection Findings (as of 12/3t104) 
+Reactor 
+Safety 
+Radiation 
+Safety 
+Reactor Radiation 
+Safety 
+Safety 
+~ i T 
+Public
+Occupational
+Initiating 
+Mitigating ~ 
+Barrier Emergency 
+Radiation Radiation
+Events 
+.... 
+Systems 
+Integrity 
+Preparedness 
+Safety 
+Safety 
+Performance Indicators 
+Most Significant Inspection Findings 
+3Q12004 
+2012004
+-
+1Q12004 
+I W(1) 
+Last ModIfied: January 24, 2005 
+February 9,2005 
+ACRS Subcommittee Meeting ­
+Donald 
+C. Cook Nuclear Plant, Units 1 and 2 
+I 
+15 
+
+Section 3 -Aging Management 
+Review Results 
+II Aging Management Programs 
+• 46 Total AMPs 
+•  33 Existing Programs 
+•  13 
+New Programs 
+•  Generic Aging Lessons Learned (GALL)
+ 
+con;sisten,cy
+ 
+•  13 Consiste'nt 
+•  17 Consistent with exceptions and/or enhancements 
+•  16 Plant specific 
+February 9,2005 AGRS Subcommittee Meeting ­
+Donald 
+C. Cook Nuclear Plant, Units 1 and 2 
+16 
+
+AGING MANAGEMENT PROGRAMS
+ 
+II On-site audits and reviews of AM'Ps
+ 
+• Consistent with GALL 
+• Plant specific 
+February 9, 2005 
+ACRS Subcommittee Meeting ­
+Donald 
+C. Cook Nuclear Plant, Units 1 and·2 
+17 
+
+Service Water System Reliability
+ 
+•  AM P consistent with GALL 
+•  Exception 
+•  Enhancement 
+•  Exception 
+•  Heat exchangers receive visual inspection and cleaning, 
+not thermal performance testing. 
+•  Basis for accepting 
+•  Inspecting and cleaningco'nsistent with applicanfs NRC 
+ap;provedGL 89-13 submittal exception 
+•   Adverse inspection findi,ngs result 
+in h,eat excha'nger test. 
+•  Enhancement 
+•  Applicant will perform physical check for se,I,ective leaching 
+during visual inspection to be consistentwi,th 
+GALL 
+February 9, 2005 ACRS Subcommittee Meeting­
+Donald C. Cook Nuclear Plant,Units 1 and 2 
+18 
+
+Cast Austenitic Stainless Steel
+ 
+(CASS)
+ 
+II AMP revised to be consistent with G:ALL 
+II Audit team identified program issue 
+•  Applicant originally cited previ:ously approved 
+staff position to only 
+do external, visual 
+inspections based 
+o"nan a.ppro'ved code cease 
+•  Code case reJe:cte'dby audit team as not 
+applicable to plant 
+~ II Issue resolution 
+•  AMP to be consistent with GALL 
+•  Will do volumetric inspections or flaw tolerance 
+evaluations 
+February 9,2005 
+ACRS Subcommittee Meeting ­
+Donald 
+C. Cook Nuclear Plant, Units 1 and 2 
+19 
+
+System Walkdown
+ 
+•  Plant specific AMP 
+• Reviewed against program elements of SRP-LR, Appendix A.1 
+•  Audit team identified program issue 
+•  AMP credited for managing loss of material for internal as well as 
+external carbon steel surfaces (Detection of Aging 
+Effects) 
+•  Staff generated Request for Additional Information (RAI) 
+requesting basis for using wal'kdown to detect internal loss of 
+material 
+•  Issue resolution 
+•  Applicant revised program to manage internal aging effects with a 
+combination of AMPs: 
+•   Flow Accelerated Corrosion 
+•   Service Water System Reliability 
+•   One-Time Inspection 
+February 9,2005 
+ACRS Subcommittee Meeting ­
+Donald 
+C. Cook Nuclear Plant, Units 1 and 2 
+20 
+
+Flow-Accelerated Corrosion
+ 
+(FAC)
+ 
+•   AMP re'vised to be consistent with GALL with exception
+ 
+•   Audit team 
+iid'entified issue 
+•   AMP did not credit the FAC program for detecting aging 
+effects 
+in the main steam (MS) nozzl'es 
+•  NRC regional LRA inspection identifi,ed issue 
+•   Basis for expansion of testing for wall thinning not consistent 
+with GALL 
+•  GALL -measured waH thinning greater than prediGted 
+•  LRA -measured wall thickness less than thresho'I'd criteria 
+(Open Item) 
+.........iiiIiiiI". Issue resolution
+ 
+•   AMP revised to include MS n,ozzles 
+•   AMP reviised to state consistent with GALL with exception 
+regarding using threshold value 
+February 9, 2005 
+ACRS Subcommittee 
+Meeting­
+Donald C. Cook Nuclear Plant, Units 1 and 2 
+21 
+
+AMP Inspection Issues
+ 
+•   Flow-Accelerated Corrosion Program (Open Item) 
+•   Open Item resolved (discussed previo,usly) 
+•   Boral Surveillance Program 
+•  Inspectors identified potential discrepancy in  the trending of 
+results from Boral coupon surveillance. 
+•   RAI issued to clarify the capability to measure and evaluate 
+coupons. 
+•   Applicant provided adiequate det,ails on coupon evaluation, 
+results of completed evaluations, and future evaluations 
+schedule. 
+•   Staff finds response acceptable. Issue has been closed. 
+February 9, 2005 
+ACHS Subcommittee Meeting ­
+Donald 
+C. Cook Nuclear Plant, Units 1 and 2 
+22 
+
+Section 3 -Aging Management 
+Review Results 
+Section 3.0.3 -  Aging Management Programs 
+II 34 AMPs reviewed via audit process 
+•  Examples discussed previous,ly 
+II 12 AMPs were n;ot revle\1\tedrvia audit process
+ 
+•  Examples: 
+•  Reactor Vessel Internals Plates, Forgin
+1
+gs, Welds, 
+and Bolting Program 
+•  Steam Generator Integrity Program 
+February 9,2005 
+ACRS Subcommittee Meeting ­
+Donald 
+C. Cook Nuclear Plant, Units 1 and 2 
+23 
+
+Section 3 -Aging Management
+ 
+Review Results
+ 
+Section 3.1 -  Reactor Vessel, Internals and 
+Reactor 
+Co:olant Systems 
+Section 3.2 -
+Eng,ineered Safety Features System 
+Section 3.4 -  Steam 
+and Power Conversion 
+Systems 
+Section 3.5 -  Structures 
+and: Component Supports 
+./ Section 3.6 -  Electrical an,d In:'strumentati'on and 
+Controls 
+• 
+No Open or Confirmatory Items 
+February 9,2005 
+ACRS Subcommittee Meeting ­
+Donald 
+C. Cook Nuclear Plant, Units 1 and 2 
+24 
+
+Aging Management of In-Scope 
+Inaccessible Areas-Concrete 
+Sample 
+Aggressive 
+limits 
+Sample 
+Date 
+DC Cook 
+Sample Well 
+1A 
+DC Cook 
+Sample Well 
+12 
+pH 
+<5.5 
+03/004/1976 
+01/015/2002 
+6.4 
+7.1 
+7.8 
+7.4 
+Chloride 
+(ppm) 
+>500 ppm 
+03/004/1976 
+01/015/2002 
+20.3 
+10 
+9.7 
+12 
+Sulfate (ppm) 
+>1500 ppm 
+03/04/1976 
+01/015/2002 
+18.1 
+134 
+310.3 
+67 
+• Below grade soil/water environment non-ag,gressive 
+February 9,2005 
+ACRS Subcommittee Meeting ­
+Donald 
+C. Cook Nuclear Plant, Units 1 and 2 
+25 
+
+Section 3 -Aging M,anagement 
+Review Results 
+Section 3.3 -  Auxiliary Systems 
+•  Miscellaneous Systems in Scope for 10CFR 54.4(a)(2) 
+•  Open Item -  Use of System Walkdown Program to manage 
+internal aging effects for 10 CFR 54.4(a)(2) component types. 
+•   As a result of the staff's review, the application of a combination 
+of three additional AMPs will be used to manage the aging 
+effects on internal surfaces: 
+•   Flow-Accelerated Corrosion 
+,.~'<
+'" ~~ ~ 
+•   Service Water System Reliability 
+•  One-Time Inspection 
+•  Use of additional AMPs acceptable to staff. Open Item has 
+been resolved. 
+February 9,2005 
+ACRS Subcommittee Meeting ­
+Donald 
+C. Cook Nuclear Plant, Units 1 and 2 
+26 
+
+Aging Management Review 
+Summar 
+•  Aging management review found that the 
+applicant has demonstrated that the effects of 
+aging will be adequately managed so that the 
+intended function(s) will be maintained 
+consistent 
+with, the current lice1nsing basis for 
+the period: 
+of extended operation (PEG), as 
+required by 10 
+CFR 54.21 (a)(1). 
+February 9,2005 
+ACRS Subcommittee Meeting­
+Donald C. Cook Nuclear Plant, Units 1 and 2 
+27 
+
+-Reactor Vessel Neutron Embrittlement 
+-Metal Fatigue 
+-Environmental Qualification of Electrical 
+Components 
+-Concrete Containment Tendon Prestress 
+.....• Containment Liner and Penetration Fatigue 
+~ Analysis 
+-Other Plant-Specific TLAAs 
+Section 4 -Time-Limited Aging 
+Analyses (TLAA) 
+February 9,2005 
+AGRS Subcommittee Meeting ­
+Donald C. Cook Nuclear Plant, Units 1 and 2 
+28 
+
+Section 4 -TLAA
+ 
+Section 4.2 -Reactor Vessel Neutron 
+Embrittlement 
+•  Three analyses affected by irradiation 
+embrittlement id·enti·f'i;ed as TLAAs 
+• Charpy Upper Shelf Energ.y 
+• Pres;surized T.hermal Sh'ock 
+• Pressure Temperature Limits 
+February 9,2005 
+ACRS Subcommittee Meeting ­
+Donald 
+C. Cook Nuclear Plant, Units 1 and 2 
+29 
+
+Section 4 -TLAA -Charpy Upper 
+Shelf Energy (USE) 
+II Applicant and staff calculations 
+demonstrate the USE acce'ptance 
+criterion for the limiting beltline material 
+will be met through 48 EFPY. TLAA 
+analyses meets the requirements o,f 
+10 CFR Part 50, Appendix G, and the 
+acceptance criterion in 10 CFR 
+54.21 (c)(1)(ii). 
+February 9,2005 
+ACRS Subcommittee Meeting ­
+
+Donald C. Cook Nuclear Plant, Units 1 and 2
+ 
+30 
+
+Section 4 -TLAA -  Charpy Upper 
+Shelf Energy (USE) 
+Section 4.2 -  Reactor Vessel Neutron Embrittlement
+ 
+Limiting Material 
+For 
+USE 
+USE 
+Acceptance 
+Criterion 
+(ft-Ib) 
+Calculated 
+USE 
+values (ft-Ib) 
+48'EFPY 
+Conclusion 
+Intermediate/lower 
+50 57 Criterion is met 
+shell circumferential 
+for 48 EFPY 
+weld (Unit 1) 
+Intermediate shell 
+50 
+67 
+Criterion is met 
+plate (Unit 2) for 48 EFPY 
+February 9, 2005 
+ACRS Subcommittee Meeting ­
+Donald 
+C. Cook Nuclear Plant, Units 1 and 2 
+31 
+
+Section 4 -TLAA -  Pressurized 
+Thermal Shock (PTS) 
+-  The applicant and staff calcutation:s 
+demonstrate the screening criterion for 
+the limiting beltline RV material will be 
+met through 48 EFPY. TLAA analysis 
+meets the requirements of 10 CFR 50.61 
+and the acceptance criterion for in 
+10 CFR 54.21 (c)(1 )(ii). 
+February 9, 2005 
+AGRS Subcommittee Meeting ­
+Donald 
+C. Cook Nuclear Plant, Units 1 and 2 
+32 
+
+Section 4 -TLAA -  Pressurized 
+Thermal Shock (PTS) 
+Section 4.2 -  Reactor Vessel Neutron Emtbrittlement
+ 
+Limiting Material
+ 
+for 
+PTS
+ 
+Intermediate/lower
+ 
+shell circumferential
+ 
+weld (Unit 
+1)
+ 
+Intermediate shell
+ 
+plate (Unit 
+2)
+ 
+Screening
+ 
+Criterion
+ 
+300 
+OF
+ 
+270 
+of
+ 
+Calculated 
+RTPTS
+ 
+values
+ 
+48 EFPY
+ 
+283 
+OF
+ 
+227 
+of
+ 
+Conclusion 
+Screening
+ 
+Criterion is  met
+ 
+Screening
+ 
+Criterion is met
+ 
+February 9, 2005 
+ACRS Subcommittee Meeting ­
+Donald 
+C. Cook Nuclear Plant, Units 1 and 2 
+33 
+
+Section 4 -TLAA
+ 
+Section 4.3 -  Metal Fatigue 
+•  Class 1 Fatigue 
+•  Cumulative usage factor (CUF) not toe~ceed 1.0 
+•  Commitment to further actions for the auxiliary spray line 
+•  Non-Class 1 Fatigue 
+•   Analyses remain valid for period of extended operation 
+•  EnvironmentaUy-Assisted Fatigue 
+•  Comimitment to further actions for the pressurizer su,rg:8 line, 
+residual heat removal (RHR) piping, and charging and safety 
+injection nozzles 
+•  Confirmatory Item: Update updated final safety analysis 
+report (UFSAR) supplement to include comm:itments 
+February 9, 2005 
+ACRS Subcommittee Meeting ­
+
+Donald 
+C. Cook Nuclear Plant, Units 1 and 2
+ 
+34 
+
+,,:,::;:':::";~;j. 
+Section 4 -TLAA
+ 
+Section 4.4 -  Environmental Qual'lfication
+ 
+•  Applicant has adequately identified the TLAA for EO 
+com,ponents. 
+Applicant's EO Program is consistent with G:ALL
+ 
+X.E1 .
+ 
+•  Staff concluded EO Program will continue to manage 
+equipment in accordance with 10 CFR 5:0.49, and 
+meets 10 CFR 54.21 (c)(1) (iii). 
+February 9,2005 
+ACRS Subcommittee Meeting ­
+Donald 
+C. Cook Nuclear Plant, Units 1 and 2 
+35 
+
+Section 4 -TLAA
+ 
+Section 4.5 -  Concrete Containment 
+Tendon Prestress 
+•  The reinforced concrete containments at D. C. 
+Cook do not use prestres<sedtendons. 
+•  
+No TLAA analysis 
+February 9, 2005 
+ACRS Subcommittee Meeting ­
+Donald 
+C. Cook Nuclear Plant, Units 1 and 2 
+36 
+
+Section 4 -TLAA
+ 
+Section 4.6 -  Containment Liner Plate and 
+Penetrations 
+•  Actions and commitments satisfy require'ments of 
+10 
+CFR 54.21 (c)(1 )(i). 
+•  Commitment to perform ad'ditional evaluations of 
+the containment penetrations. 
+•  Confirmatory Item:  Updating 
+UFSAR 
+Supplement to capture commitment to analyze 
+the containment penetrations. 
+February 9,2005 
+ACRS Subcommittee M~eting ­
+Donald C. Cook Nuclear Plant, Units 1 and 2 
+37 
+
+Section 4 -TLAA
+ 
+Section 4.7 -Other Plant-Specific TLAAs
+ 
+•   RCS Piping Leak Before Brea.,k 
+•  ASME Code Case N-481 
+•   Ice Condenser Lattice Frame 
+•   Reactor Vessel Underclad Cracking 
+•   Steam Generator Tube Flow-I'nduced Vibration
+ 
+•   Fatigue Analysis of Cranes 
+•   Reactor Coolant Pump Flywheels 
+February 9, 2005 
+ACRS Subcommittee Meeting ­
+Donald C. Cook Nuclear Plant. Units 1 and 2 
+38 
+
+Section 4 -TLAA (Plant-Specific)
+ 
+Section 4.7.3 -  Ice Condenser Lattice 
+Frame 
+II Analysis based on 400 operational bas.is 
+earthquakes (OBEs) 
+•  Based 
+on past operating experience, aBE 
+limit will not be surpassed during perio"d of 
+extended operation. 
+II Fatigue analysis remains varid in ac'cordance 
+with 
+10 CFR 54.21 (c)(1 )(i) 
+February 9,2005 
+ACRS Subcommittee Meeting ­
+Donald 
+C. Cook Nuclear Plant, Units 1 and 2 
+39 
+
+TLAA Summary
+ 
+•  The applicant has identified the appropriate 
+TLAAs and ha,s demonstrated th,at: 
+•  the TLAAs will remain valid for the period of
+ 
+extended operation - 10 CFR5;4.21 
+(c)(1 )(i),
+ 
+•  the TLAAs have been proJected to the end of the 
+period 
+of extended operation - 10 CFR 
+54.21 (c)(1)(ii), 
+•  the aging effects will 
+be adequately managed for 
+the period of extended operation - 10 CFR 
+54.21 (c)(1)(iii). 
+February 9,2005 
+ACRS Subcommittee Meeting ­
+Donald 
+C. Cook Nuclear Plant, Units 1 and 2 
+40 
+
+Staff Conclusions
+ 
+II Actions have been identified and have 
+been or will be taken such that there is 
+·;;;';L;;;!:c,;;ii 
+reasonable assurance that activities will 
+continue to be conducted in the ren'ewal 
+term in accordan'c'e with thee current 
+licensing basis. 
+II The Applicant has met the requirements 
+for license renewal, as required by 
+10 CFR 54.29(a). 
+February g, 2005 
+ACRS Subcommittee Meeting ­
+Donald C. Cook Nuclear Plant, Units 1 and 2 
+41

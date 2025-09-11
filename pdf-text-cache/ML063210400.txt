@@ -1,0 +1,205 @@
+[PDF Metadata]
+Title: C:\FileNET\ML063210400.wpd
+Author: ORPUser
+Pages: 6
+
+[Content]
+ACRSR-2224
+      November 17, 2006
+The Honorable Dale E. Klein
+Chairman
+U. S. Nuclear Regulatory Commission
+Washington, DC 20555-0001
+Subject:REPORT ON THE SAFETY ASPECTS OF THE LICENSE RENEWAL
+APPLICATION FOR THE PALISADES NUCLEAR POWER PLANT
+Dear Chairman Klein:
+During the 537
+th
+ meeting of the Advisory Committee on Reactor Safeguards, November
+1-3, 2006, we completed our review of the license renewal application for the Palisades
+Nuclear Plant (PNP) and the final Safety Evaluation Report (SER) prepared by the NRC
+staff.  Our Plant License Renewal Subcommittee also reviewed this matter during a
+meeting on July 11, 2006.  During our review, we had the benefit of discussions with
+representatives of the NRC staff and the applicant, Nuclear Management Company,
+LLC (NMC).  In addition, we had the benefit of input from the public.  We also had the
+benefit of the documents referenced.  This report fulfills the requirements of 10 CFR
+54.25 that the ACRS review and report on all license renewal applications.
+CONCLUSION AND RECOMMENDATION
+The programs established and committed to by the applicant to manage age-related
+degradation provide reasonable assurance that PNP can be operated in accordance
+with its current licensing basis for the period of extended operation without undue risk to
+the health and safety of the public.
+The NMC application for renewal of the operating license for PNP should be approved. 
+Continued operation during the entire period of extended operation is contingent on the
+resolution of the issues associated with three Time-Limited Aging Analyses (TLAAs)
+related to reactor pressure vessel (RPV) integrity.
+BACKGROUND AND DISCUSSION
+PNP is a Combustion Engineering 2-loop pressurized water nuclear plant with a large,
+dry, ambient-pressure containment.  PNP is located five miles south of South Haven,
+Michigan, on the eastern shore of Lake Michigan.  The current power rating of the PNP 
+
+-2-
+is 2566 MWt, for a gross electrical output of 767 MWe.  PNP was originally licensed to
+operate on February 21, 1971.  NMC requested renewal of the PNP operating license
+for 20 years beyond the current license term, which expires on February 20, 2011.
+In the final SER, the staff documented its review of the license renewal application and
+other information submitted by NMC and obtained during the audit and inspection
+conducted at the plant site.  The staff reviewed the completeness of the applicant’s
+identification of structures, systems, and components (SSCs) that are within the scope
+of license renewal; the integrated plant assessment process; the applicant’s
+identification of the plausible aging mechanisms associated with passive long-lived
+components; the adequacy of the applicant’s Aging Management Programs (AMPs);
+and the identification and assessment of TLAAs requiring review.
+The NMC application is largely consistent with NUREG-1801, “Generic Aging Lessons
+Learned (GALL) Report,” issued in July 2001.  All deviations from the GALL Report are
+documented in the application.  The applicant identified the SSCs that fall within the
+scope of license renewal and performed a comprehensive aging management review
+for these SSCs.  Based on the results of this review, the applicant will implement 24
+AMPs for license renewal including existing, enhanced, and new programs.  In the final
+SER, the staff concluded that the applicant has appropriately identified the SSCs within
+the scope of license renewal and that the AMPs described by the applicant are
+appropriate and sufficient to manage aging of long-lived passive components that are
+within the scope of license renewal.  We concur with this conclusion.
+The staff conducted an inspection and an audit.  The inspection verified that the
+scoping and screening methodologies are consistent with the regulations and are
+adequately reflected in the application.  The audit verified the appropriateness of the
+AMPs and the aging management reviews.  Based on the inspection and audit, the staff
+concluded that these programs are consistent with the descriptions contained in the
+NMC license renewal application.  The staff also concluded that the existing programs,
+to be credited as AMPs for license renewal, are generally functioning well and that an
+implementation plan has been established in the applicant’s commitment tracking
+system to ensure timely completion of the license renewal commitments.
+During our meetings with the staff and the applicant, we discussed the adequacy of
+programs proposed by NMC to manage aging of certain components that are projected
+to exceed acceptance limits during the period of extended operation.
+The applicant identified the systems and components requiring TLAAs and reevaluated
+them for 20 additional years of operation.  As required by 10 CFR Part 54, the applicant
+must identify any exemptions granted under 10 CFR 50.12 which rely on a TLAA and 
+
+-3-
+determine if that exemption should be continued for an additional 20 years of operation. 
+No such exemption currently exists in the PNP licensing basis.  The applicant
+reexamined 23 TLAAs.  All of these TLAAs are valid, without restriction, for 20 more
+years of operation, except for three TLAAs associated with reactor vessel neutron
+embrittlement, namely:  reactor vessel upper shelf energy, reactor vessel pressurized
+thermal shock, and reactor vessel pressure-temperature curves.  In each of these
+cases, PNP will exceed the acceptance limits prior to the end of the extended period of
+operation.  
+To analyze the reactor vessel neutron fluence for purposes of RPV integrity
+evaluations, the applicant uses the methodology described in WCAP-15353, which is
+consistent with Regulatory Guide 1.190.  
+The applicant began using low neutron leakage cores in 1988 to reduce the neutron
+embrittlement of the reactor vessel to extend the time before exceeding the acceptance
+limits.  However, the applicant predicts that the following acceptance limits will be
+exceeded:
+•Upper Shelf Energy limit – exceed in 2021.
+•Reactor Vessel Pressurized Thermal Shock (PTS) screening criterion – exceed
+in 2014.
+•Pressure-Temperature limit curves – expire in 2014.
+The staff’s confirmatory calculations show reasonable agreement with the applicant’s
+findings.  
+Upper Shelf Energy Limit
+.  The applicant predicts this criterion will be exceeded in
+2021.  Appendix G of 10 CFR 50 requires RPV beltline materials to have Charpy upper
+shelf energy values no less than 50 ft-lb in the transverse direction in the base metal
+and along a weld for weld material.  However, in accordance with Appendix G, Charpy
+upper shelf energy values below 50 ft-lb  may be acceptable if it is demonstrated that
+lower Charpy upper shelf energy values will provide margins of safety against fracture
+(ductile tearing) equivalent to those required by ASME Code, Section XI, Appendix G. 
+Regulatory Guide 1.99 describes two acceptable methods for determining the upper
+shelf energy values for RPV beltline materials.
+Because the reactor vessel upper shelf energy limit will be exceeded prior to the end of
+the extended period of operation, the applicant must provide an analysis in accordance
+with 10 CFR Part 50, Appendix G at least three years prior to exceeding the upper shelf
+energy limit.
+
+-4-
+PTS Screening Criterion
+.  The applicant predicts the criterion for axial welds and plates
+will be exceeded in 2014.  10 CFR 50.61 provides the fracture toughness requirements
+for protecting reactor vessels from the effects of PTS events.  The end of life reference
+temperature (RT
+PTS
+) value is the sum of a reference value for an unirradiated material, a
+shift in the reference value caused by exposure to high-energy neutron irradiation, and
+an additional margin to account for uncertainties.
+If an applicant determines that the RPV will not meet the PTS screening criterion
+through the end of the facility’s current license term, several actions must be taken.  10
+CFR 50.61(b)(3), requires that an applicant implement a reasonably practicable flux
+reduction program in an effort to avoid exceeding the PTS screening criterion.  If no
+reasonably practicable flux reduction program will meet this objective (as is true in the
+case of PNP) the applicant has several options.  The applicant may submit a safety
+analysis in accordance with 10 CFR 50.61(b)(4) to demonstrate that the RPV can be
+operated beyond the 10 CFR 50.61 screening criterion.  This safety analysis may
+include plant modifications.  Such an analysis must be submitted three years prior to
+the time the RPV is projected to exceed the PTS screening criterion.  In accordance
+with 10 CFR 50.61(b)(7), the applicant could propose to anneal the RPV in order to
+improve its material properties and permit continued operation.  In accordance with 10
+CFR 50.66, the applicant’s thermal annealing plan would have to be submitted three
+years prior to when the facility’s RPV is projected to exceed the PTS screening
+criterion.
+Pressure-Temperature Limit Curves
+.   Pressure-temperature limit curves are contained
+in the PNP technical specifications and are assessed against the limits in 10 CFR
+50.60, Appendix G to 10 CFR 50, and Appendix G to Section XI of the ASME Code. 
+The current pressure-temperature limits approved by the staff are valid beyond the
+current license term, but not through the extended period of operation.  Based on the
+neutron fluence expected to be accumulated, the pressure-temperature limit curves will
+expire in 2014.  Prior to entering the period of extended operation, the applicant must
+submit an amendment requesting a  technical specification change and approval of new
+limits covering the period of extended operation beyond 2014.  
+The staff has concluded that the applicant has provided an adequate list of TLAAs. 
+Further, the staff has concluded that the applicant has met the license renewal rule by
+demonstrating that the TLAAs have been projected to the end of the period of extended
+operation.  In those cases where the current TLAAs do not cover the entire period of
+extended operation, the applicant must provide additional information in a timely
+manner and submit a license amendment for a technical specification change to extend
+these three TLAAs to cover the entire period of extended operation.  We concur with
+the staff that the applicant has properly identified the applicable TLAAs, reviewed the 
+
+-5-
+associated analyses and licensing bases, and identified those instances where
+additional measures are needed to modify the TLAAs to cover the entire period of
+extended operation.  We concur with the staff’s conclusions and the resulting license
+conditions and commitments.
+During our Plant License Renewal Subcommittee meeting on July 11, 2006, members
+of the Public provided comments and raised several questions.  These  comments and
+questions were recorded and are contained in the transcript of that meeting.  The
+reference to the transcript that contains these comments and questions was provided to
+the Executive Director for Operations.  Subsequently, the staff has responded to these
+questions and comments.
+We agree with the staff that there are no issues related to the matters described in 10
+CFR 54.29(a)(1) and (a)(2) that preclude renewal of the operating license for PNP.  The
+programs established and committed to by NMC provide reasonable assurance that
+PNP can be operated in accordance with its current licensing basis for the period of
+extended operation without undue risk to the health and safety of the public.  Continued
+operation during the entire period of extended operation is contingent on the resolution
+of the issues associated with three TLAAs related to RPV integrity.  The NMC
+application for renewal of the operating license for PNP should be approved.
+Sincerely,
+  /RA/
+Graham B. Wallis
+Chairman
+
+-6-
+References:
+1.Safety Evaluation Report Related to the License Renewal of the Palisades
+Nuclear Power Plant, September 2006. 
+2.Palisades Nuclear Power Plant - Application for Renewed Operating Licenses,
+March 22, 2005
+3.Safety Evaluation Report with Open Items Related to the License Renewal of the
+Palisades Nuclear Power Plant, June 2006
+4.Audit and Review Report for Plant Aging Management Reviews and Programs
+(AMPs) (AMRs) - Palisades Nuclear Power Plant, October 20, 2005
+5.Palisades Nuclear Power Plant, Inspection Report 05000255/2005009,
+December 28, 2005
+6.Memorandum dated September 13, 2006, from John T. Larkins, Executive
+Director, ACRS, to Luis A. Reyes, Executive Director for Operations, Subject: 
+Questions Raised by Members of the Public During the ACRS Subcommittee
+Meeting on Palisades Nuclear Plant License Renewal Application
+7.Regulatory Guide 1.99 Revision 2, Radiation Embrittlement of Reactor Vessel
+Materials, May 1988
+8.Regulatory Guide 1.190, Calculational and Dosimetry Methods for Determining
+Pressure Vessel Neutron Fluence, March 2001
+9.Palisades Reactor Pressure Vessel Fluence Evaluation, WCAP-15353, January
+2000

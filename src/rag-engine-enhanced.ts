@@ -33,8 +33,8 @@ export class EnhancedRAGEngine {
   private openai?: OpenAI;
   private anthropic?: Anthropic;
   public provider: 'openai' | 'anthropic' | 'none' = 'none';
-  private readonly CHUNK_SIZE = 500;
-  private readonly CHUNK_OVERLAP = 100;
+  private readonly CHUNK_SIZE = 2000;  // Increased from 500 to reduce API calls
+  private readonly CHUNK_OVERLAP = 200;  // Increased proportionally
 
   constructor() {
     // API 키 확인 및 초기화
@@ -245,10 +245,10 @@ export class EnhancedRAGEngine {
   }
 
   async search(query: string, topK: number = 5): Promise<SearchResult[]> {
-    mcpLogger.info(`RAG search: "${query}" (provider: ${this.provider})`);
+    mcpLogger.info(`🔍 RAG search: "${query}" (provider: ${this.provider})`);
 
     if (this.documents.size === 0) {
-      mcpLogger.warn('No documents in RAG engine');
+      mcpLogger.warn('❌ No documents in RAG engine');
       return [];
     }
 
@@ -256,6 +256,9 @@ export class EnhancedRAGEngine {
     for (const chunks of this.documents.values()) {
       allChunks.push(...chunks);
     }
+    
+    mcpLogger.info(`📚 Total chunks available: ${allChunks.length} from ${this.documents.size} documents`);
+    mcpLogger.info(`🧠 Chunks with embeddings: ${allChunks.filter(c => c.embedding).length}`);
 
     let results: SearchResult[] = [];
 
@@ -288,11 +291,21 @@ export class EnhancedRAGEngine {
             citation: this.formatCitation(chunk.metadata)
           }
         }));
+        
+        mcpLogger.info(`✅ OpenAI embedding search completed: ${results.length} results`);
+        results.forEach((r, i) => {
+          mcpLogger.info(`  ${i+1}. Score: ${r.score.toFixed(3)} | Text: ${r.text.substring(0, 50)}...`);
+        });
       } catch (error) {
-        mcpLogger.error('Embedding search failed', error);
+        mcpLogger.error('❌ Embedding search failed', error);
+        // Fall back to keyword search
+        mcpLogger.info('🔄 Falling back to keyword search...');
       }
-    } else {
-      // 키워드 검색 (fallback)
+    }
+    
+    // 키워드 검색 (fallback 또는 임베딩 실패시)
+    if (results.length === 0 && (this.provider !== 'openai' || !this.openai)) {
+      mcpLogger.info('🔍 Using keyword search (no embeddings available)');
       const queryLower = query.toLowerCase();
       const queryWords = queryLower.split(/\s+/);
 
@@ -326,9 +339,14 @@ export class EnhancedRAGEngine {
           citation: this.formatCitation(chunk.metadata)
         }
       }));
+      
+      mcpLogger.info(`✅ Keyword search completed: ${results.length} results`);
+      results.forEach((r, i) => {
+        mcpLogger.info(`  ${i+1}. Score: ${r.score.toFixed(3)} | Text: ${r.text.substring(0, 50)}...`);
+      });
     }
 
-    mcpLogger.info(`RAG search returned ${results.length} results with page info`);
+    mcpLogger.info(`🎯 Final search results: ${results.length} items returned`);
     return results;
   }
 

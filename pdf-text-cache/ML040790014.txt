@@ -1,0 +1,127 @@
+[PDF Metadata]
+Pages: 4
+
+[Content]
+ACRSR-2069
+March 18, 2004
+The Honorable Nils J. Diaz
+Chairman
+U.S. Nuclear Regulatory Commission
+Washington, DC 20555-0001
+SUBJECT:REPORT ON THE SAFETY ASPECTS OF THE LICENSE RENEWAL
+APPLICATION FOR THE H. B. ROBINSON STEAM ELECTRIC PLANT, UNIT 2
+Dear Chairman Diaz:
+During the 510th meeting of the Advisory Committee on Reactor Safeguards, March 3-6, 2004,
+we completed our review of the License Renewal Application (LRA) for the H. B. Robinson
+Steam Electric Plant, Unit 2, known as Robinson Nuclear Plant, and the related final Safety
+Evaluation Report (SER) prepared by the NRC staff.  Our Plant License Renewal
+Subcommittee reviewed this application and the staff’s initial SER during a meeting on
+September 30, 2003.  During these reviews, we had the benefit of discussions with
+representatives of the NRC staff and the Carolina Power and Light Company (CP&L).  We also
+had the benefit of the documents referenced.
+CONCLUSIONS AND RECOMMENDATIONS
+1.The programs instituted and committed to by CP&L to manage age-related degradation
+are appropriate and provide reasonable assurance that the Robinson Nuclear Plant can
+be operated in accordance with its current licensing basis for the period of extended
+operation without undue risk to the health and safety of the public.
+2.The CP&L application for renewal of the operating license for Robinson Nuclear Plant
+should be approved.
+BACKGROUND AND DISCUSSION
+This report fulfills the requirements of 10 CFR 54.25, which states that the ACRS should review
+and report on all license renewal applications.  In its application, CP&L requested renewal of the
+operating license for the Robinson Nuclear Plant for 20 years beyond the current license term,
+which expires on July 31, 2010.  Robinson Nuclear Plant is a Westinghouse-designed, three-
+loop, pressurized-water reactor rated at 2,339 megawatts-thermal (MWt) with replacement
+steam generators installed in 1984.  It is located adjacent to Unit 1 of the H.B. Robinson Steam
+Electric Plant, a coal fired steam power plant.  The LRA was prepared in accordance with
+NUREG 1801, The Generic Aging Lessons Learned Report. 
+
+-2-
+The Robinson Nuclear Plant final SER documents the results of the staff’s review of the
+information submitted by the applicant, including commitments that were necessary to resolve
+open and confirmatory items identified by the staff in the initial SER and those identified during
+onsite NRC inspections and audits.  In particular, the staff reviewed the completeness of the
+applicant’s identification of structures, systems, and components that are within the scope of
+license renewal, the integrated plant assessment process, the identification of the plausible
+aging mechanisms associated with passive long-lived components, the adequacy of the aging
+management programs, and the identification and assessment of time limited aging analyses
+(TLAAs) requiring review.
+Several design features that are unique to Robinson Nuclear Plant, such as grouted tendons,
+containment liner insulation, and some shared systems with a fossil unit, were identified.  All
+shared systems are included in the scope of the LRA.
+Robinson Nuclear Plant site has aggressive ground water due to a low pH.  The applicant has
+committed to inspect the dam spillway and the intake structures every 10-years and will also
+perform opportunistic inspections of inaccessible concrete structures.
+The pressurizer spray head is not in scope and, given its importance for cooldown, we
+questioned its omission.  The applicant responded that the accident-basis analysis for plant
+operation does not include pressurizer spray so its exclusion is permissible.  The applicant
+further stated that degradation of the nozzle would be noticed during normal operation.
+The applicant stated that the plant has 37 existing aging management programs, of which 27
+have been enhanced, and 10 new programs have been added.  Several of these programs
+have yet to be developed and they will require NRC approval.  As with other applicants, we
+encouraged CP&L to establish a schedule for implementing these commitments well ahead of
+the beginning of the license renewal period so as not to place an unreasonable demand on both
+the applicant and NRC resources.  CP&L has committed to have 18 of these programs in place
+by mid 2004.  
+Time limited aging analyses were performed by the applicant to evaluate reactor vessel neutron
+embrittlement, metal fatigue for certain components, environmental qualification, grouted
+concrete containment tendon prestress, boraflex aging, and foundation pile corrosion.  All these
+issues have been resolved satisfactorily.  In the case of reactor vessel neutron embrittlement,
+the staff performed independent calculations and found the applicant’s analysis acceptable.
+We agree with the staff’s conclusion that all open and confirmatory items have been closed
+appropriately.  We conclude that on the basis of our review of the final SER, the LRA, and the
+NRC inspection and audit reports, there are no issues, specifically related to the matters
+described in 10 CFR 54.29(a)(1) and (a)(2), that preclude renewal of the operating license for
+the plant.  The programs instituted and committed to by CP&L to manage age-related 
+
+-3-
+degradation are appropriate and provide reasonable assurance that the  plant can be operated
+in accordance with its current licensing basis for the period of extended operation without undue
+risk to the health and safety of the public.  The CP&L application for renewal of the operating
+license for the Robinson Nuclear Plant should be approved.
+Sincerely,
+/RA/
+Mario V. Bonaca
+Chairman
+References
+:
+1.U.S. Nuclear Regulatory Commission, “Final Safety Evaluation Report Related to
+H. B. Robinson Steam Electric Plant, Unit 2,” January 2004.
+2.U.S. Nuclear Regulatory Commission, “Safety Evaluation Report with open items
+Related to the License Renewal of the H. B. Robinson Steam Electric Plant, Unit 2,”
+August 2003.
+3.Letter from J. W. Moyer, Carolina Power and Light Company, to the U.S. Nuclear
+Regulatory Commission, Subject: Application for Renewal of Operating License,
+H. B. Robinson Steam Electric Plant, Unit 2, June 14, 2002.
+4.NRC Inspection Report 50-261/03-08, H.B. Robinson Steam Electric Plant, May 8, 2003.
+5.NRC Inspection Report 50-261/03-09, H.B. Robinson Steam Electric Plant,
+July 31, 2003.
+
+-3-
+degradation are appropriate and provide reasonable assurance that the  plant can be operated
+in accordance with its current licensing basis for the period of extended operation without undue
+risk to the health and safety of the public.  The CP&L application for renewal of the operating
+license for the Robinson Nuclear Plant should be approved.
+Sincerely,
+Mario V. Bonaca
+Chairman
+References
+:
+1.U.S. Nuclear Regulatory Commission, “Final Safety Evaluation Report Related to
+H. B. Robinson Steam Electric Plant, Unit 2,” January 2004.
+2.U.S. Nuclear Regulatory Commission, “Safety Evaluation Report with open items
+Related to the License Renewal of the H. B. Robinson Steam Electric Plant, Unit 2,”
+August 2003.
+3.Letter from J. W. Moyer, Carolina Power and Light Company, to the U.S. Nuclear
+Regulatory Commission, Subject: Application for Renewal of Operating License,
+H. B. Robinson Steam Electric Plant, Unit 2, June 14, 2002.
+4.NRC Inspection Report 50-261/03-08, H.B. Robinson Steam Electric Plant, May 8, 2003.
+5.NRC Inspection Report 50-261/03-09, H.B. Robinson Steam Electric Plant,
+July 31, 2003.
+DOCUMENT NAME: G:\ACRS LTRS\Draft LRA for Robinson .wpd
+To receive a copy of this document, indicate in the box:  "C" = Copy without attachment/enclosure  "E" =
+Copy with attachment/enclosure "N" = No copy                        Accession #: ML040790014
+OFFICEACRS/ACNWN   ACRS/ACNWNACRS/ACNWN
+NAMEBPJainMWestonJTLarkins       
+DATE 03/18/0403/18/0403/18/04
+OFFICIAL RECORD COPY

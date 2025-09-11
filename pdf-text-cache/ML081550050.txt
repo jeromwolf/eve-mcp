@@ -1,0 +1,1934 @@
+[PDF Metadata]
+Pages: 30
+
+[Content]
+UNITED STATES
+ 
+NUCLEAR REGULATORY COMMISSION
+ 
+ADVISORY COMMITIEE ON REACTOR SAFEGUARDS
+ 
+WASHINGTON, D.C. 20555-0001 
+May 15, 2003 
+FROM: 
+Tim Kobetz, 
+ACRS 
+SUBJECT:  
+CERTIFICATION OF THE MINUTES OF THE ACRS SUBCOMMITTEE 
+MEETING ON THE SAFETY EVALUATION REPORT RELATED TO THE 
+LICENSE RENEWAL APPLICATION FOR ST. LUCIE UNITS 1 AND 
+2, 
+APRIL 9, 2003 -ROCKVILLE, MARYLAND 
+The minutes 
+of the subject meeting, issued on May 7,2003, were certified on May 9, 
+2003, as the official record of the proceedings of that meeting. A copy of the certified minutes is 
+attached. 
+Attachment: As stated 
+cc via e-mail: 
+J. Larkins 
+S. Bahadur
+ 
+ACRS Fellows and Technical Staff
+ 
+cc: ACRS Secretary 
+E. Barnard 
+
+UNITED STATES
+ 
+NUCLEAR REGULATORY COMMISSION
+ 
+ADVISORY COMMITTEE ON REACTOR SAFEGUARDS
+ 
+WASHINGTON, D.C. 20555·0001
+ 
+MEMORANDUM TO: Tim Kobetz, Senior Staff Engineer 
+ACRS 
+FROM: 
+Dr. Mario Bonaca, Chairman 
+License Renewal Subcommittee 
+SUBJECT: 
+WORKING 
+COpy OF THE MINUTES OF THE ACRS SUBCOMMITTEE 
+MEETING ON THE SAFETY EVALUATION REPORT RELATED TO THE 
+LICENSE RENEWAL APPLICATION FOR ST. LUCIE UNITS 1 AND 
+2, 
+APRIL 9, 2003 - ROCKVILLE, MARYLAND 
+I hereby certify that, to the best 
+of my knowledge and belief, the minutes of the subject 
+meeting issued on May 
+7, 2003, are an accurate record of the proceedings for the meeting. 
+rj~ v~~ 
+Dr. Mario Bonaca, Chairman 
+License Renewal Subcommittee 
+Date 
+
+UNITED STATES
+ 
+NUCLEAR REGULATORY COMMISSION
+ 
+ADVISORY COMMITTEE ON REACTOR SAFEGUARDS
+ 
+WASHINGTON. D.C. 20555·0001 
+May 7,2003 
+MEMORANDUM TO: Dr. Mario Bonaca, Chairman 
+Plant License 
+ReneW~1Sub m~.ttee 
+FROM:  Tim Kobetz, Senior St En r; 
+ACRS 
+SUBJECT:  
+WORKING 
+COpy OF THE MINUTES OF THE ACRS SUBCOMMITIEE 
+MEETING ON THE SAFETY EVALUATION REPORT RELATED TO THE 
+LICENSE RENEWAL APPLICATION FOR 
+ST. LUCIE UNITS 1 AND 2, 
+APRIL 9,2003 - ROCKVILLE, MARYLAND 
+A working copy of the minutes for the 
+SUbject meeting is  attached for your review. 
+would appreciate your review and comment as soon 
+as possible. Copies are being sent to the 
+Plant License Renewal Subcommittee members for information and/or review. 
+Attachment: As stated 
+cc: M. Bonaca 
+P. Ford 
+G. Leitch 
+S. Rosen
+ 
+G.Wallis
+ 
+cc via e-mail: 
+J. Larkins 
+S. Bahadur 
+S. Duraiswamy 
+I 
+
+Issued: 05/07/03 
+Certified: 05/09/03 
+CERTIFIED 
+ADVISORY COMMITTEE ON REACTOR SAFEGUARDS
+ 
+MINUTES OF ACRS SUBCOMMITTEE MEETING ON
+ 
+PLANT LICENSE RENEWAL
+ 
+ST. LUCIE UNITS 1 AND 2
+ 
+APRIL 
+9, 2003
+ 
+ROCKVILLE, 
+MD
+ 
+The ACRS Subcommittee on Plant License Renewal held a meeting on April 9, 2003, at 11545 
+Rockville Pike, Rockville, Maryland, in  Room T-2B3. The purpose 
+of the meeting was to hold 
+discussions with representatives 
+of NRC staff and Florida Power and Light (FP&L or applicant) 
+concerning the safety evaluation report (SER), with open and confirmatory items and associated 
+supporting information, for the license renewal 
+of St. Lucie Units 1 and 2. Mr. Timothy Kobetz 
+was the cognizant ACRS staff engineer for this meeting. The meeting was convened at 8:30 AM 
+and adjourned at 3:15 
+PM on the same day. 
+PARTICIPANTS: 
+ACRS 
+NRC Staff 
+FP&L 
+M. Bonaca, Chairman 
+N. Dudley S. Hale 
+G. Leitch D. Jeng 
+B. Beisler 
+P. Ford 
+C. Julian A. Menocal 
+S. Rosen 
+P.1. Kuo 
+G. Wallis 
+G. Galletti 
+R. Franovich 
+J. Medoff 
+S.Sheng 
+S. Bailey 
+There were no written comments or requests for time to make oral statements received from 
+members 
+of the public. Two stakeholders attended the meeting. A list of meeting attendees is 
+available in the ACRS office files. 
+ACRS SUBCOMMITTEE CHAIRMAN'S INTRODUCTION 
+Dr. Mario Bonaca, Chairman of Plant License Renewal Subcommittee, convened the meeting 
+and stated that the purpose was to review the staff's SER with open items related to the 
+application for license renewal 
+of the operating licenses for St. Lucie Units 1and 2. Dr. Bonaca 
+then called upon NRC staff to begin. 
+
+Minutes: Plant License Renewal Subcommittee 2 
+April 9, 2003 
+NRC STAFF INTRODUCTION Mr. P. 1. Kuo 
+Mr. Kuo noted that there were 
+11 open items at the time the draft SER was issued. Since then, 
+all these items have been resolved. The staff will discuss the closure 
+of these items and the 
+inspections performed to support the review 
+of the LRA. In addition, the staff will discuss the 
+status 
+of interim staff guidance (ISG) that has either been issued, or is  under review, to 
+supplement the Generic Aging Lessons Learned (GALL) technical reviews. 
+FLORIDA POWER AND LIGHT PRESENTATION Mr. Steve Hale 
+Mr. Hale, License Renewal Manager for FP&L, was responsible for Turkey Point and St. Lucie 
+LRAs. FP&L submitted the St. Lucie LRA in  November 2001, and received the renewed 
+licenses for Turkey Point Units 1 and 1 on June 
+6, 2002. 
+The technical work performed on-site, was directed by the FP&L procedures used in 1996 in 
+support 
+of the Turkey Point license renewal effort. St. Lucie's PN&Ds, safety analysis report 
+(SAR) and design basis documents (DBD) were all used for preparation 
+of the LRA. In addition, 
+FP&L made information trips to other license renewal applicants that have received a license for 
+extended operation (e.g., Oconee). 
+The St. Lucie application format 
+is the same format that FP&L used for Turkey Point. The 
+methodology is  described in Section 
+2-1 of the LRA is the same as for Turkey Point, and follows 
+the gUidance 
+of Nuclear Energy Institute (NEI) document 95-10, "Industry Guideline for 
+Implementing The Requirements 
+of 10 CFR Part 54 -The License Renewal Rule." 
+Mr. Leitch questioned whether FP&L physically walked-down systems to look for potential 
+interactions in  which non-safety related equipment may affect safety related equipment. Mr. 
+Hale replied yes walk-downs were performed; that the approach FP&L took for seismic 
+1111 
+interactions was an area-based approach, which included all the non-safety related supports. In 
+areas where there was non-safety and safety-related equipment, all 
+of the supports and conduit 
+were included. The only thing not included was the pipe because, from a design-basis 
+standpoint, the pipe was never classified that way (Note: FP&L did eventually bring segments 
+of 
+the pipe into scope due to seismic 1111 concerns). Mr. Hale added that there was quite a bit of 
+field work involved in developing the LRA. 
+Mr. Rosen questioned which drawings were used to determine which non-safety related 
+systems can affect safety systems, adding that just marking P&IDs would not seem to be 
+adequate because P&IDs do not accurately represent the lengths 
+of piping and component 
+positions. Mr. Hale acknowledged that was true and pointed out that, because 
+of that issue, 
+FP&L physically designated areas that were in  scope. For example, at 
+St. Lucie, there is a room 
+which has some swinging switch gear on the 19-5 foot-level, where engineers actually wrote 
+on 
+a wall stating that "non-safety related pipe in  AB switch gear room," 
+Mr. Rosen questioned whether isometric drawings were used at all. Mr. Hale replied no, 
+because when coupled with on-site inspections and engineering walk-downs, P&IDs were 
+adequate for that aging management program. 
+
+Minutes: Plant License Renewal Subcommittee 3 
+April 9. 2003 
+When reviewing the regulated events, there was some other documentation used. FP&L has a 
+control document called the "Appendix R Safe Shut-Down List." In addition, there 
+is an item 
+called the "Essential Equipment List; EO List," which 
+is derived from the FP&L component 
+database. 
+In summary, for the scoping 
+of systems and structures for St. Lucie, FP&L identified 39 out of 70 
+systems were in scope, and 
+16 out of the 46 structures on-site were in scope. 
+In screening, the purpose is to identify structures and components which require 
+an aging 
+management review. The criteria FP&L used was component-level scoping. Once the entire 
+structures in the scope have been identified, then the structure systems are scoped down to the 
+component level,  and screened to determine whether it is passive or not and whether it is long­
+lived or not. 
+In the mechanical area, FP&L established evaluation boundaries and interfaces with other 
+systems to ensure it captured everything. Specific structures and components were identified 
+that were included in  the systems evaluation boundaries. FP&L reviewed the intended 
+functions, and then identified which structures and components supported those functions from 
+a passive standpoint and whether they were long-lived. 
+Mr. Leitch stated that he was concerned that electronic components (e.g., power supplies) are 
+considered active and are eliminated during the screening process. However, in revieWing 
+industry operating experience there appears to be a growing trend 
+of plant upset conditions 
+(e.g., scrams) that are the result 
+of failed electronic components. Some of these electrical 
+components are active 
+in a sense that the failure can be detected by maintenance procedures 
+and surveillance tests, however, some 
+of them are revealed only in failure which can scram the 
+plant, or cause some other kind 
+of upset conditions. Mr. Leitch questioned whether, 
+independent 
+of license renewal, there is some kind of a program to assess which electronic 
+components whose failure could, all by itself, cause an undesirable chain 
+of events. Mr. Hale 
+responded yes, there are breaker programs which perform preventative maintenance breakers 
+at FP&L. Active electrical components receive a lot of attention. FP&L also has some strategic 
+plans looking at obsolescence 
+of instrumentations and controls at St. Lucie and Turkey Point in 
+terms 
+of long-term life cycle management. Electrical components are also included in  the 
+maintenance rule monitoring specifically related to some 
+of those active components and 
+systems. 
+Dr. Bonaca noted that 
+he was reviewing the pressurizer spray system and the screening 
+process concluded that the pressurizer spray head should not be 
+in scope. The reason given 
+was that the function 
+of the spray head is enhancing the efficiency of the spray and that St. 
+Lucie can survive a fire event where the pressurizer spray is for protection purposes, however, 
+the event can be mitigated without the enhanced effect 
+of the spray head. Dr. Bonaca 
+questioned whether FP&L performs any inspection 
+of the spray head because the component is 
+subjected to significant thermal cycles and, therefore, subject to breaking or cracking over 60 
+years. Mr. Hale stated that FP&L took the position that the Westinghouse Owner Group 
+originally took in its topical report (which was also used at Turkey Point). The aging effect is 
+thermal embrittlement 
+of stainless, not the fatigue issue. 
+
+Minutes: Plant License Renewal Subcommittee 4 
+April 9, 2003 
+Dr. Wallis asked what the definition of long-lived is. Mr. Hale responded that around 40 years is 
+the criteria used by FP&L. 
+Mr. Hale stated that 
+in the electrical and instrument and control (I&C) area FP&L took a slightly 
+different approach to improve the efficiency its review. FP&L eliminated the active components 
+up front because because 95% 
+of the electrical components are active. For example the first 
+time the engineers performed did a component download 
+on our 40-volt system at Turkey Point, 
+there were 18,000 components. It made more sense to eliminate the active categories up front 
+and then deal with the passive components. One point to make clear for electrical components 
+is that if something was 
+in the environmental qualification (EQ) program, it is replaced on a 
+qualified life. So even though some 
+of these components may be greater than 40 years, the fact 
+that it is 
+in the EQ program allowed the engineers to eliminate it as a long-lived item. This is 
+consistent with what previous utilities have done for license renewal. 
+The screening results are summarized 
+in Chapter 2 of the LRA and the details are presented in 
+Chapter 3. There are four mechanical sections: rack and cooling system, connective systems, 
+ESF, auxiliary systems, and steam and power conversion. In  the structural area and the 
+electrical area FP&L provided license renewal boundary drawings to facilitate the NRC review 
+the LRA and also included a SAR and boundary drawings. 
+Mr. Hale next discussed the aging management review (AMR) which demonstrated that the 
+effects of aging will be adequately managed so the intended functions will be maintained 
+consistent with the current licensing basis (CLB) for the extended period 
+of operation. Aging 
+effects requiring management were established based on two primary areas: 1} the AMR 
+technical resources available, and 2} operating experience reviews. The methodology used for 
+determining the aging effects requiring management for non-Class I 
+in the civil and structural 
+area is  provided 
+in Appendix C of the LRA. This is an approach that was originally developed by 
+the Babcock and Wilcox (B&W) owner's group. It was then adopted by the other owner's groups 
+and controlled by the Electric Power Research Institute (EPRI) as the standardized tool for the 
+industry to utilize. 
+Even though St. Lucie is not a Westinghouse plant, there 
+is a lot of good information that was 
+developed 
+in Westinghouse generic technical reports. In addition, the original NUMARC license 
+renewal industry reports were used as well as B&W technical reports. FP&L established a large 
+database from the Turkey Point aging management reviews that was used for St. Lucie as well 
+as the GALL report. There are some unique materials at St. Lucie and, therefore, the engineers 
+used materials handbooks and in-house materials expertise to address those issues. 
+Mr. Rosen requested more information on some unique materials at St. Lucie. Mr. Hale 
+responded that the Unit 1 refueling water tank (RWT) is  aluminum. There was no industry 
+information for the use of aluminum 
+in this application so FP&L had to research the aging effect 
+of sodium hydroxide on stainless steel. Mr. Rosen questioned what sort 
+of metallurgical issues 
+were there with the aluminum Unit 1 RWT, and what evidence is there that it will last for 60 
+years. Mr. Hale stated that FP&L had confidence 
+in the tank because there is a program to 
+inspect that tank regularly. There is  an epoxy coating on the bottom that has to be inspected 
+that is identified 
+in the LRA. 
+
+Minutes: Plant License Renewal Subcommittee 5 
+April 9, 2003 
+Dr. Ford stated that the St. Lucie galvanic-aging program makes the case for one-time 
+inspections 
+of various structures based on an algorithm which takes into account galvanic 
+series. 
+Dr. Ford questioned whether the algorithm had been tested against observation, and 
+could it have predicted this galvanic corrosion 
+of this aluminum in the Unit 1 RWT. Mr. Hale 
+clarified that the galvanic program 
+is where there are dissimilar metals in treated water systems. 
+That it is  a one-time inspection. Mr. Menocal added that the galvanic corrosion 
+in the RWT for 
+Unit 1 was at the tank bottom where there is  a galvanic couple on one 
+of the lines coming in. 
+The corrective action was installation 
+of a liner. 
+Dr. Ford requested more on this particular incident with the RWT noting that he has a concern 
+about one-time inspections used to predict the validity 
+of algorithms. Where is  the evidence that 
+this methodology is  quantitatively correct? 
+If you want to have one inspection to support 
+extending the operating license from 40 to 60 years, that inspection better be at the right place 
+at the right time. Mr. Hale noted that one-time inspections are performed 
+in areas where aging 
+effects are not expected to be found. If aging effects are found, then part 
+of the corrective action 
+may be to require additional inspections. Mr. Menocal added that since there are hundreds 
+of 
+potential inspection sites, FP&L is  trying to limit its inspections by systematically identifying the 
+most limiting locations based on the galvanic series, the electrolyte, and the contact area 
+between the anodic and cathodic materials. 
+Dr. Ford stated that to make sure that the decision algorithm is  correct FP&L must go beyond 
+that boundary and take into account areas which have undergone the galvanic corrosion such 
+as the RWT. Dr. Ford again questioned whether the algorithm used, predicted the corrosion 
+in 
+the RWT. Mr. Hale replied that he was not sure a galvanic program would identify the RWT 
+corrosion. Dr. Ford noted that, that was the point he was trying to make. 
+Dr. Bonaca noted that the intake cooling water inspection identified a lot of small-bore piping that 
+had corroded 
+in the past 20 years and that FP&L has replaced 75 percent of it with a corrosion­
+resistant material. However, there is  still 25 percent of the original. The LRA states, and the 
+NRC accepted, that 
+in the future, FP&L only is  required inspect the connections between the 
+small-bore piping and the large-bore piping. 
+Dr. Bonaca questioned why the other 25 percent 
+that has not replaced should not be inspected. Mr. Hale stated that FP&L determined that 
+leakage inspections were adequate aging management programs for those nozzles. The 
+problem is  inspection techniques cannot get inside 
+of that pipe. These are small-bore pipes. We 
+can look at the connection, and that, typically, will be worst case. A combination of the crawl­
+through inspections are used 
+in addition to periodic leakage inspections externally. The basis 
+for saying leakage inspections are acceptable is  that it  is  an open-cooling water system, and 
+there is  margin. As a result 
+of St. Lucie operating experience if there is  a leak, it is  small, not 
+catastrophic. 
+Mr. Hale continued with the presentation noting that 
+in Chapter 3 of the LRA components 
+grouped the same way they were presented 
+in Chapter 2. The results are presented in six­
+column tables. These are consistent with what FP&L prepared for Turkey Point. The basis for 
+the aging effects 
+for the non-Class' are described in Appendix C of the LRA. 
+
+Minutes: Plant License Renewal Subcommittee 6 
+April 9, 2003 
+For the GALL comparisons FP&L flagged differences between the component listing in GALL 
+versus the St. Lucie component listing. In general, FP&L listed what the differences 
+in materials 
+in internal and external environments between GALL and St. Lucie. 
+Mr. Beisler, a civil engineer for FPL stated that the staff asked FP&L to address two questions 
+regarding the aging concrete, specifically the concrete below ground water. One had to do with 
+phosphates and how that affects the concrete, and the second one has to do with corrosion of 
+rebar and how that is managed. 
+During the license renewal process, FP&L had not come across any issues associated with the 
+phosphates 
+in the soil or the ground water affecting our buried concrete. FP&L did review the 
+technical documentation 
+in an attempt to identify find any information regarding phosphates. 
+In general, there was no limitations on phosphates in the American Concrete Institute (ACI) 
+documents that FP&L reviewed. 
+In addition, the American Society of Mechanical Engineers 
+(ASME) Code Section III requirements for concrete reactor vessels and containments contained 
+no information 
+on phosphates. The American Society of Testing and Materials (ASTM) 
+standards for the constituent materials for the concrete, the cement, the aggregates, did not 
+contain limitations even 
+on phosphates in the constituent materials. The EPRI documents that 
+address license renewal also did not discuss any aging effects due to phosphates. 
+Next, FP&L contacted an expert at a large architectural and engineering firm who also could not 
+find information 
+in the technical documents regarding how phosphates affect concrete. The 
+expert did some quick research and provided a brief write-up on what he was able to find. 
+Basically, the expert found that phosphates are not very soluble 
+in water in all ranges of pH, 
+which 
+is contrary to what you find with chlorides and sulfates, which are the main culprits in 
+concrete degradation. Those are very soluble, so they are able to penetrate into the concrete, 
+especially lesser-grade concretes and cause degradation. Additionally, he told us that typical 
+ranges 
+of phosphates and soil or ground water in the neighborhood of 500 to 100 PPM total 
+phosphates, but most 
+of that is fixed, meaning that it cannot be transported to the concrete to 
+cause the degradation. 
+Nearly all the water soluble phosphates are converted to non-soluble shortly after, 
+if they do 
+come into contact with the concrete, shortly after they are not able to penetrate into the 
+concrete. 
+Of course, the phosphates, in general, are not harmful to the rebar. If there was any 
+effect, it would affect the high alkalinity 
+of concrete. So expert's conclusion, based on his 
+research, supported the industry technical documents that the phosphates are not a contributor 
+to degradation 
+of concrete. 
+For the St. Lucie plant, FP&L recognized from the very beginning that the ground water was 
+aggressive. The chlorides are higher than the pUblished thresholds. The sulfates are higher 
+than the published thresholds, so FP&L recognized from the very beginning that it  needed to 
+manage our concrete below ground water and stated that 
+in the LRA. 
+Mr. Kobetz requested a copy of the paper that the expert prepared for FP&L on phosphates. 
+Mr. Beisler responded that it is not a published paper, rather something that the expert put 
+
+Minutes: Plant License Renewal Subcommittee 7 
+April 9, 2003 
+together very quickly based on some quick research, and discussions with some university 
+professors. Mr. Kobetz recommended FP&L consider trying to provide something prior to the 
+full Committee Meeting 
+in an effort shorten the discussions in this area. 
+Mr. Seisler noted that the way to prevent the corrosion 
+of rebar is  with the use of high-quality 
+concrete. FP&L reviewed ACI 
+201 which recommend a water/cement ratio less than 0.45 for 
+durability. St. Lucie structures exposed to ground water were all speci'fied at less than or equal 
+or 0.44. 
+The AC1201, dated 1977, recommends the ASTM C150 type five cement. However, the 
+construction of St. Lucie predated 1977 and used type two cement, which was the preferred 
+cement at that time for sulfate resistance. Also, the ACI document recommends an appropriate 
+air entrapment be used; for St. Lucie, the range of air entrapment was two and a half to nine­
+percent based 
+on what size aggregate is  used in the concrete. This all met the ACI 
+requirements. 
+In  addition, the ACI document recommends the following: moist curing for seven days, and St. 
+Lucie required seven to 14 days; high-quality constituent materials, including aggregates per the 
+ASTM C33, cement, ASTM C150, and very clean water, and all those are included 
+in the St. 
+Lucie concrete; and one and a half or, preferably, two inches 
+of concrete cover. St. Lucie 
+structures all have a minimum 
+of three inches, and, in fact, the structures that are exposed to 
+ground water have even more cover, in some cases up to five or six inches 
+of cover, which is 
+specified on the individual drawings for the specific structures. 
+Concrete exposed to salt water should have a 28-day strength of, at least, 5,000 PSI. For St. 
+Lucie Unit 
+1, the specification required 4,000 PSI, but the actual strengths of the concrete 
+breaks, 
+in general, were all over 5,000 PSI. 
+Mr. Seisler also noted that there is  a program that includes visual inspections 
+of exposed interior 
+and exterior surfaces 
+of the concrete looking for signs of degradations, specifically corrosion of 
+the rebar, in which case you would see cracking, rust staining possibly, and spalling, although, 
+usually, it never gets to that point. The program now includes inspections 
+of buried structures, 
+which are excavated for whatever reason. 
+Mr. Hale noted that for each aging effect requiring management, FP&L identified aging 
+management programs on a component basis. Supporting that is  an evaluation on-site which 
+goes through an assessment 
+of the GALL attributes versus FP&L program attributes, as well as 
+the general program description and the criteria for the program. Those are documented 
+in 
+program basis documents on-site. 
+Mr. Leitch questioned whether St. Lucie will be able to fully comply with the new NRC Order 
+related to vessel head penetration inspections. There is a plant similar to St. Lucie that is having 
+some difficulty fully complying with that order because 
+it, and St. Lucie, have guide sleeves or 
+thermal sleeves 
+in the CRDM penetrations, that make it  difficult obtain the required data. Mr. 
+Hale responded that St. Lucie has the guide sleeves 
+on Unit 1, and, in anticipation of that 
+
+Minutes: Plant License Renewal Subcommittee 8 
+April 9, 2003 
+question, Mr. Hale provided Mr. Leitch the 3D-day inspection report that was issued after the 100 
+percent visual inspection was completed. FP&L performed a  100 percent visual and 100 
+percent ultrasonic test on Unit 1 last refueling outage, and the 3D-day report to summarizes the 
+findings. There was no indication 
+of leakage, and  no indications of cracking on Unit 1. Unit 2 
+does not have these types of sleeves. 
+Mr. Leitch questioned whether a decision has been made whether to replace the reactor vessel 
+head at St. Lucie. Mr. Hale stated no decision has been made for St. Lucie, however, at Turkey 
+Point, the heads will be replaced in 2004 and 2005, even though there has not been an 
+indication 
+of leakage. 
+Mr. Hale next discussed various aging management programs for St. Lucie including the flow 
+accelerated corrosion program, the reactor vessel internals program, and the Alloy 600 
+program. 
+Mr. Rosen questioned whether the reactor vessel internals program evaluates how well repairs 
+made to the reactor vessel will perform over the extended license term. Mr. Hale replied no, 
+however, the program goes beyond what must be performed 
+in accordance with ASME Code 
+Section XI. St. Lucie is already committed under ASME Code Section XI to perform inspections 
+and follow-up with regard to the barrel repairs. The reactor vessel internals program addresses 
+some 
+of the more research-type issues, such as the effect of radiation embrittlement, radiation­
+assisted primary water, there is a whole series of items right now that are being investigated 
+under the MRP. 
+In conclusion, the aging management programs at 
+St. Lucie, have demonstrated they'll manage 
+the aging effects, so the intended functions will 
+be maintained consistent with our CLB. For all 
+the time-limited aging analyses (TLAA) for St. Lucie have been evaluated and shown to be 
+acceptable for the extended period of operation. 
+NRC STAFF OVERVIEW OF THE SAFETY EVALUATION REPORT AND STATUS OF OPEN 
+ITEMS Mr. Noel Dudley and Mr. James Medoff 
+Noel Dudley, project manager for the St. Lucie license renewal application, provided a brief 
+overview 
+of the staff's presentation noting that the staff will present the status of the open and 
+confirmatory items and summarize the scoping and screening methodology and the scoping and 
+screening results. The staff will also present the aging management program inspections; 
+concrete aging, as requested by the ACRS members. The staff will conclude its presentation by 
+explaining the Interim Staff Guidance (ISG) process and will provide the status 
+of the identified 
+ISG issues. 
+St. Lucie Nuclear Power Plant Units 1 and 2 are Combustion Engineering plants with large dry 
+containments. Unit 1 is  seven years older than Unit 
+2, which resulted in some design 
+differences between the units. 
+The St. Lucie process and programs which are associated with license renewal are similar to 
+those used for Turkey Point. The differences between the designs 
+of the Combustion 
+
+Minutes: Plant License Renewal Subcommittee 9 
+April 9, 2003 
+Engineering plant and the Westinghouse plant introduces some unique aging management and 
+TLAA. 
+When the staff received the St. Lucie license renewal application, they reviewed the application 
+in detail and developed the draft request for additional information (RAJ) concerning verification 
+and clarification 
+of information in the application. After meeting and discussing the draft RAl's 
+with the application, the staff issued the RAls that were required for completing the review. The 
+applicant than submitted responses to these RAls. 
+In some cases, additional meetings were held to discuss the draft responses. As a result 
+of 
+these meetings, the applicant revised the draft RAI responses before they were submitted to the 
+NRC. On the basis 
+of the information in the license renewal application and in  the RAt 
+responses, the staff prepared the SER with open items. Since issuing the SER with open items, 
+the staff has continued its discussion with the application to resolve the open items. Once all the 
+open items and confirmatory items are resolved, the staff will issue a final SER, which will 
+provide the basis 
+for issuing the license renewal. 
+The staff and the applicant have expended significant time and effort 
+in this review process. The 
+applicant used the lessons learned from its Turkey Point LRA when they prepared the St. Lucie 
+application. About 70 fewer RAl's were issued during the St. Lucie license renewal application 
+review as were issued for the Turkey Point review. 
+As a result 
+of the NRC staff review, new components or commodity groups were identified and 
+subject to an aging management review. 
+Of these, about 75 components required aging 
+management programs. 
+In response to one RAI, the applicant created a new aging 
+management program. 
+The NRC staff conducted one audit and two inspections to verify information contained in  the 
+application were 
+in responses to the RAls. 
+There were 
+11 open items identified in the SER with open items. Since the SER was issued the 
+staff has reached resolution on all 
+of these items. 
+In one open item the staff questioned the management of wall thinning due to internal corrosion 
+of small-bore piping in  the fire-protection system. For previous applications, the staff accepted 
+aging management programs that included volumetric inspection 
+of these lines. The fire 
+protection system is  supplied by city water, and the applicant's monitors internal piping 
+conditions via pressure tests, leakage tests, and identification 
+of excessive corrosion products 
+during flushing 
+of the systems. Past operating experience has not identified any degraded 
+conditions 
+of the internal surfaces, and during recent modifications of the system, the applicant 
+obtained ultrasonic pipe wall-thickness measurements on stagnant portions 
+of the system. The 
+measured wall thicknesses were apprOXimately nominal. Based upon a nominal wall thickness 
+in the measured wall thicknesses, the applicant determined a worst-case corrosion rate might 
+have occurred over the last 24 years 
+of operation. The applicant then used the worst-case 
+corrosion rate and calculated the pipe wall thickness at the end 
+of the period of extended 
+operations and found the wall thickness would be greater than the ASME B31.1 Code 
+
+Minutes: Plant License Renewal Subcommittee 10 
+April 9, 2003 
+requirements for a minimum wall thickness. Therefore, based on the volumetric measurements 
+and the corrosion rate calculations, this item was resolved. 
+Dr. Bonaca questioned whether the program will rely on the identification of leakage. Mr. Dudley 
+responded not 
+in this case. Mr. Hale added that with regard to ultrasonic as related to wet pipe 
+systems that are pressurized all the time, like fixed sprinkler systems and that sort 
+of thing, if any 
+leakage is  detected that would be an indication that was a problem, that would be corrected 
+under the fire protection program. There 
+is still quite a bit that needs to be done under the fire 
+protection program, 
+in terms of monitoring fixed systems, testing pumps, ensuring that flows 
+rates produce the right pressure at the far end of the system. Mr. Rajan, NRC staff pointed out, 
+that the staff based their acceptance primarily on the flushing pressure testing and performance 
+testing, but this was one 
+of the areas where the flow testing was not being conducted, so the 
+staff questioned the licensee how it verified the acceptability 
+of the wall thickness in those areas. 
+The applicant performed a one-time inspection and based a an estimated corrosion rate based 
+on the performance 
+of that line and projected it out, it was determined that there was sufficient 
+margin. The staff accepted that conclusion. 
+Mr. Dudley continued noting that the staff questioned FP&L's management 
+of wall thinning in 
+small-bore pipes in the intake cooling water system. The environment of the small-bore pipes is 
+stagnant sea water. The staff also questioned the possibility 
+of common mode failure of the 
+small-bore pipe during a seismic event. 
+In its response to the RAI, and in discussions with the 
+staff, the applicant indicated the following: that there are crawl-through inspections 
+of the 
+majority of the intake cooling water (ICW) systems line pipes, which include, approximately 80 
+percent of the pipes 
+in the system. The inspection also included as much of each branch line as 
+possible. The branch lines consist of welded flanges to which small-bore piping is  attached. 
+The flanges are the most susceptible location for the development of corrosion cells since there 
+is a break in the epoxy lining where the flange and pipe come together. 
+The applicant has established a program to replace small bore epoxy-lined carbon steel pipes 
+with a more corrosive-resistant material. To date, the applicant has replaced approximately 
+75% 
+of the carbon steel pipes with the more resistant material. 
+As part 
+of the normal shift activities, operators walk down the ICW system, note any leaks, and 
+initiate corrective action. The ICW system 
+is an open system and is designed to perform its 
+intended function with a sheered three-quarter inch instrument line and an additional hundred­
+gallon-per-minute leak. The maintenance history indicates that the localized failure 
+of cement 
+linings and internal epoxy coating of intake cooling water lines result 
+in small corrosion cells that 
+lead to two-wall leakage. The system and structures monitoring program and the ICW 
+inspection programs are adequate to manage internal corrosion 
+in the ICW piping. The staff 
+considers this item resolved. 
+Dr. Bonaca again questioned 25 percent of the piping that has not been replaced. Mr. Hale 
+replied that FP&L credited two aging management programs for aging of the small-bore lines. 
+One 
+is internal visual crawl-through inspections of the larger ICW piping; and the other is 
+leakage inspection. The basis behind that is  part 
+of the corrective action for the other lines be 
+
+Minutes: Plant License Renewal Subcommittee 11 
+April 9, 2003 
+established an acceptance criteria that says we can allow a certain amount of leakage, so if a 
+leak is  detected, it will be repaired. 
+Dr. Bonaca questioned why the remaining 25 percent 
+of the piping was not replaced. Mr. Hale 
+responded that part 
+of it that this system is  operating all the time, even during an outage. It is 
+difficult to replace the piping unless the system 
+is out of service. Therefore, based on operating 
+experience leakage has been small, where the system safety function 
+is not affected, FP&L will 
+essentially go into a corrective maintenance mode for these small-bore lines. 
+Mr. Dudley continued the discussion stating that, as a result 
+of industry experience with the 
+unexpected aging degradation 
+of Alloy 600 materials and Alloy 182 materials, the staff is 
+developing guidance and requirements for managing these aging effects. To ensure applicants 
+comply with future staff guidance, the staff requested a commitment from the applicants. The 
+applicant committed to implement the commitments made 
+in response to NRC bulletins and any 
+further NRC communications associated with primary water stress, corrosion, cracking, and 
+nickel-based alloy components. Therefore, the staff considers this item 
+is resolved. 
+Dr. Ford noted that there are numerous degradation modes for Alloy 600, 690, and 182, and 
+questioned whether the staff took into account whether some 
+of these components had already 
+been repaired as a possible indicator 
+of future failures. The staff responded yes, the staff had 
+the same concerns. NRC Bulletins 02-01, 02-02, and 01-01 are specific to primary water stress, 
+corrosion, cracking that occurs 
+in the upper vessel head. The bulletins do not address industry 
+experience 
+in other Class I Inconellocations. Therefore, the staff divided the open item in two; 
+one open item on the vessel heads and one open item on the remaining components. Basically, 
+the second open item requested clarification on which additional Inconel components are 
+covered by the scope of your program and how will they be inspected. FP&L provided the 
+locations and clarified that it was only using the current ASME Code Section 
+XI programs. 
+Depending on whether it is  a nozzle joined by a partial penetration weld 
+or an Alloy 182 safe end 
+nozzle weld, which is  a full-penetration weld, the ASME Code Section 
+XI requirements are 
+slightly different and may require a surface inspection, volumetric inspection, or a combination 
+of 
+the two. For the partial penetration welds, only leakage tests and VT-2 visual examinations are 
+required. 
+Mr. Dudley continued with the presentation noting that the applicant plans to use risk informed 
+methodologies for the one-time small-bore Class I piping inspection. The applicant confirmed 
+that the risk informed methodologies will not 
+be used to eliminate volumetric inspection of weld. 
+The applicant committed to provide the NRC an inspection plan, prior to the period 
+of extended 
+operations, that describes the risk inform methodology and addresses how the methodology will 
+be used to determine the location and the number 
+of small-bore piping components for 
+inspection. This commitment will be included 
+as part of the UFSAR supplement. 
+Dr. Bonaca questioned whether the inspections would be one-time inspections. Mr. Dudley 
+replied, yes. The details 
+of the program will be provided prior to the period of extended 
+operation. The applicant has committed to include specific information 
+in that program 
+description for staff approval. FP&L clarified that the Class I small-bore inspection program 
+of 
+ASME Code Section XI currently only requires visual inspection of small-bore piping. The 
+
+Minutes: Plant License Renewal Subcommittee 12 
+April 9, 2003 
+concern raised by the staff is  that there needs to be some volumetric inspection of the small­
+bore piping, 
+in addition to ASME Code Section XI. Based on FP&L's aging assessment it did 
+not anticipate finding any degradation in this piping. So FP&L committed, as other applicants 
+have, to performing a one-time volumetric inspection, 
+in addition to the ongoing visual 
+inspections performed under ASME Code Section XI. Risk is  used to establish the locations of 
+the ultrasonic (volumetric) inspections in the small-bore piping. Dr. Bonaca asked what the 
+applicant will do if the inspections identify sections 
+of degraded piping that are not in a risk 
+significant location, but are 
+in a susceptible location. Mr. Hale responded that FP&L would take 
+specific corrective action, which may include replacing the piping or additional inspections 
+including vOlumetric inspections. 
+Mr. Dudley noted that, next, the staff questioned the applicant's basis for not managing stress 
+relaxation for non-Class I bolting material. Non-Class I bolting does experience stress relaxation 
+at temperatures above 700 degrees Fahrenheit. The non-Class I bolts at St. Lucie are 
+environments that have temperatures below the 700 degrees Fahrenheit (by approximately 200­
+300 degrees Fahrenheit), and, therefore, do not require an aging management program specific 
+to stress relaxation. Mr. Medoff added that when the staff performed its review it noticed the 
+applicant has one global aging effect, which is  loss of closure integrity, and the applicant 
+evaluated it for different degradation mechanisms, such as severe corrosion 
+or cracking or 
+stress relaxation. During the review, the staff noticed that the applicant's identification of this 
+aging effect for the non-Class I was handled slightly differently. The applicant did not identify 
+stress relaxation as a mechanism leading to the loss of closure integrity. In response to an open 
+item on this matter, the applicant provided the threshold for stress relaxation for the different 
+materials for the Class I 
+in contrast to the materials used for the non-Class I reactor coolant 
+system (RCS) bolting. To confirm the validity 
+of the responses, the staff reviewed the 
+appropriate ASME Code section and confirmed the ASME Code thresholds for stress relaxation 
+in the different materials. Therefore, based on the use of 700 degrees Fahrenheit as the 
+threshold for stress relaxation and Grade B-7 bolting, which is  being used for the non-Class I 
+RCS bolting, the staff confirmed that stress relaxation would not be an applicable effect for those 
+bolting materials because the operation of the RCS would 
+be at a temperature lower than that. 
+Probably around 560-600 degrees Fahrenheit, so maybe 100-140 degrees Fahrenheit and the 
+bolts are actually cooler than that. 
+Mr. Dudley noted that the staff questioned the applicant's basis for not managing possible crack 
+propagation from Alloy 182 welds 
+in the base metal of the pressurizer nozzles and thermal 
+sleeves. The thermal sleeves are not welded and do not perform a pressure boundary function. 
+The thermal sleeves are machined, inserted, and expanded. Therefore, since there are no 
+welds, there is  no possibility of crack propagation to the base material that forms the pressure 
+boundary, and this item is  resolved. 
+In ISG-5, "Identification and Treatment of Electrical Fuse Holders for License Renewal," the 
+staff stated that the fuse holders are considered passive electrical components and should 
+be 
+brought into scope of license renewal and subject to an aging management review. The 
+applicant identified electrical boxes that contain fuses that were brought within scope. The fuse 
+holders are located 
+in electrical boxes in the electrical equipment rooms in the Unit 1 and Unit 2 
+reactor auxiliary buildings. The applicant conducted 
+an aging management review of the effects 
+
+Minutes: Plant License Renewal Subcommittee 13 
+April 9, 2003 
+of aging stressers, such as vibration, thermal cycling, electrical transients, mechanical stress, 
+fatigue, corrosion, chemical contamination, and oxidation 
+of connecting surfaces. The applicant 
+concluded that no aging management programs are required. The staff performed an extensive 
+review 
+of this since this is  the first LRA that addresses ISG-5; some of the things that the staff 
+took into consideration when they reached the acceptance 
+of the applicant's position was that 
+the fuse holders are installed 
+in parallel with breakers to address regulatory guide associated 
+with providing double isolation for non-safety-related loads powered from safety-related power 
+supplies. The non-safety related  loads include instrumentation and heater strips to electrical 
+panels. The fuse holder clips are made 
+of copper or a copper alloy plated with a corrosion­
+resistant material, either tin 
+or silver, and the fuse holders are in a mild, non-air-conditioned 
+environment, and the staff was unable to identify any aging effects that would degrade the 
+performance 
+of the fuse holder. On this basis, the staff considers this item resolved. 
+The last open item, involves instances 
+in which the St. Lucie Units 1 and 2 have experienced 
+Alloy 500 instrument nozzle leakage. Four Unit 2 pressurizers steam space instrument nozzles 
+and one Unit 1 reactor coolant system hot leg instrument nozzle were repaired with a half-nozzle 
+repair technology. A  mechanical analysis was submitted to support the St. Lucie Unit 2 
+pressurizer steam space half-nozzle repair performed 
+in 1994. The staff is  currently reviewing 
+several aspects 
+of the half-nozzle repair and associated topical reports. The staff is evaluating 
+the acceptability 
+of leaving the half-nozzle repairs in place due to the unknown effects of primary 
+coolant contacting the ferritic material 
+of the nozzles (this is  a follow-up action to concerns 
+identified at Davis Besse). The staff is  reviewing a regulatory relief request from FP&L for 
+leaving the half-nozzle repair 
+in place for one cycle while Combustion Engineering assesses 
+calculational errors 
+in its topical report associated with the fracture mechanical analysis 
+supporting half-nozzle repairs. The topical report 
+is currently being reviewed by the staff. 
+The applicant also submitted a site-specific calculation for evaluating the crack growth 
+associated with small-diameter nozzles for St. Lucie Units 1 and 
+2, and that's also under review 
+by the staff. 
+Since the technical issues associated with the half-nozzle repairs have not been resolved for the 
+current period of operations, the applicant cannot demonstrate that the fatigue analysis can be 
+re-evaluated for the period 
+of extended operations. The staff has not yet determined what is 
+appropriate for a 40-year time period. Therefore, the staff cannot extend that calculation to the 
+50-year time period at this time. However, the applicant committed to implement any further 
+NRC requirements associated with half-nozzle repairs and, on the basis 
+of this commitment, this 
+issue is  resolved for license renewal. Again, the staff will rely on the 10 CFR Part 50 operating 
+license for resolution 
+of the adequacy of the half-nozzle repairs. 
+Mr. Dudley reviewed the findings of the reactor oversight process for St. Lucie. The 
+performance indicators for St. Lucie were last updated 
+in December 2002. All the indicators are 
+green. St. Lucie has had two trips 
+in past year. In October of 2000, there was a manual re-trip. 
+Based on the loss 
+of condenser vacuum. Operators were re-aligning the condenser vacuum 
+system and, due to the misalignment, they lost pressure. 
+In April 2003, there was a reactor trip 
+during start-up when an auxiliary feed pump was started and tripped (most likely due to low 
+steam generator water level). Neither 
+of these events were recognized as a regulatory problem, 
+
+Minutes: Plant License Renewal Subcommittee 14 
+April 9, 2003 
+and there was no non-cited violations issued in  response to the trips in  either case. There were 
+several events 
+of not following your radiological control programs. There was one instance of 
+radioactive material (a hot particle) being carried off-site. 
+SCOPING AND SCREENING METHODOLOGY AND RESULTS Mr. Greg Galletti and Mr. Noel 
+Dudley 
+Mr. Galletti, an operations engineer in  the Equipment and Human Performance Branch, NRR, 
+briefly explained the staff's audit 
+of the scoping and screening methodology and the audit 
+performed as part 
+of that review process. 
+The team consists 
+of three members to perform the audit. In preparation for the audit, the team 
+conducts a procedures documentation review trip to the applicant's facility to gather information 
+pertaining to the LRA. At that time the team assembles design basis documentation (OBO), 
+scoping and screening result reports, and any other design basis information that may help the 
+team review the LRA and review the process that the applicant used to determine what systems 
+are in  scope and, ultimately, what structures and components are then subject to aging 
+management review. 
+The team spends several weeks performing a conservative desktop review. The team reviews 
+how the application is  structured in reference to the requirements 
+of the 10 CFR Part 54 to 
+ensure SSC's have been appropriately identified. 
+Once the desktop review is  complete, the team returns to the applicant's facility for a full week to 
+review in  detail the implemented guidelines. In this case, the applicant assembled a suite 
+of 
+procedures called engineering instructions that were written and implemented in  accordance 
+with the FP&L 10 CFR Part 50, Appendix 
+B, quality assurance program. 
+As part 
+of the review, the team reviewed each of those procedures in  detail with the cognizant 
+FP&L engineers for that particular discipline. The team then selected certain systems to review. 
+The team normally reviews four mechanical systems initially: component cooling water; safety 
+injection; auxiliary feed water; and main feed water and then main steam and condensate. 
+There are several reasons the team selects these systems. First, there is  a combination 
+of both 
+safety and non-safety related systems. Second, they are robust and complicated systems. 
+Third, there is  a lot 
+of interface between some of these systems. 
+The team found that the applicant's implementation guidance was very well constructed, 
+detailed, robust, and provided guidance necessary for its staff to implement their process. 
+Mr. Rosen questioned whether it was unusual for applicants to perform these reviews under 
+procedures that are controlled by 10 CFR Part 50, Appendix 
+B. Mr. Galletti responded no, 
+however, some previous applicants have chosen not to perform it under their Appendix B 
+program. Mr. Rosen and Mr. Leitch added that it was not clear how an applicant could choose 
+not to follow its Appendix B program and that this was a concern they would like to pursue with 
+the staff. 
+
+Minutes: Plant License Renewal Subcommittee 15 
+April 9, 2003 
+The team identified one major issue regarded the 10 CFR 50.54(a)(2) seismic 11/1 issue. Initially, 
+the applicant had performed an internal evaluation 
+of what it  characterized as A2 issues (the 
+effect 
+of non-safety SSCs on safety-related SSCs). After lengthy discussions with the applicant, 
+additional systems were brought into scope. 
+In summary, the team determined that that there was reasonable assurance that the applicant's 
+methodology for scoping and screening was appropriate. 
+Mr. Dudley next provided a brief overview of the scoping and screening results and the aging 
+management review process. The purpose 
+of the staffs review of the results of the applicant's 
+scoping and screening methodology is to verify that the applicant has properly implemented its 
+methodology. The staff focuses its review on the methodology results. To confirm that there is 
+no omission of the plant-level systems and structures within the scope 
+of license renewal and 
+that there is 
+no omission of mechanical systems and components, structures, or electrical and 
+I&C components, they are subject to 
+an aging management review. 
+To conduct its review, the staff used guidance from the license renewal standard review plan 
+and ISGs. The staff reviewed system drawings indicating license renewal boundaries, previous 
+license renewal application reviews, and information 
+in the updated safety evaluation reports to 
+verify there were no omissions 
+in the applicant's results. The staff's review confirmed that the 
+applicant's responses to ISGs concerning station blackout, seismic 
+11/1 issue, and ventilation fan 
+damper housings did not omit any structures 
+or components that should be taken into 
+consideration for license renewal. The staff concluded that there is  reasonable assurance that 
+the applicant has appropriately identified components subject to an AMR 
+in accordance with the 
+requirements stated in 10 CFR 54.21 (a)(1). 
+The purpose 
+of the staffs review of the applicant's aging management review results is  to verify 
+the applicant has identified the appropriate aging management program for the various 
+combinations 
+of materials, environments, and aging effects associated with the structures and 
+components that are within the scope of license renewal. 
+In this case, the staff used eXisting regulatory requirements or gUidance to reach a conclusion 
+on the appropriateness of the aging management program identified by the applicant. Since the 
+applicant did not claim credit for its aging management reviews being consistent with the GALL 
+report, the staff did not reference the GALL reports 
+in its evaluation of the aging management 
+review results. However, 
+in some cases, the staff used the technical information in the GALL 
+report to provide justification for the acceptability of the applicant's results. 
+The staff reviewed the aging management program results 
+in Chapter 3 of the LRA The staff 
+concluded that the applicant has demonstrated the aging effects associated with different 
+structures and components will be adequately managed. There is  reasonable assurance that 
+the intended function will be 
+man~ged consistent with the current licensing basis for the period 
+of extended operations, as required by 10 CFR 54.21 (a)(3). 
+AGING MANAGEMENT PROGRAM INSPECTIONS AND CONCRETE AGING ISSUES Mr. 
+Noel Dudley, Mr. Caudle Julian, and Mr. David Jeng 
+
+Minutes: Plant License Renewal Subcommittee 16 
+April 9, 2003 
+Mr. Julian next provided an overview of the license renewal inspection program. For each 
+inspection, the staff assembles a site-specific inspection plan that's reviewed and approved 
+jointly by the region and by NRR. 
+In the case of St. Lucie the staff determined that a follow-up 
+inspection 
+is not warranted. 
+The objective 
+of the scoping and screening inspection is to confirm the applicant included the 
+appropriate systems, structures, and components 
+in the scope of license renewal. The 
+inspection focused on reviewing the system boundaries. The staff concluded that the 
+applicant's scoping and screening process was successful 
+in identifying those system structures 
+and components needing to be given an aging management review and its documentation was 
+a very good quality. The applicant did not use the method used by Peach Bottom 
+in which 
+components were brought into scope by realigning the systems at the boundaries. 
+The next inspection is the aging management program inspection 
+in which the objective is to 
+con'firm that the existing aging management programs are working well and to examine the 
+applicant's plans for establishing new aging management programs and enhancing existing 
+aging management programs. 
+In this inspection, the staff assessed existing aging management 
+programs. 
+The inspectors walk down systems with the system engineers to assess how the systems are 
+being maintained today to give the NRC confidence that the utility will do good 
+in the future. 
+There were no major problems identified during the aging management program inspection. 
+The inspectors did identify that the electrical cable manholes periodic inspection program 
+needed enhancements. The applicant agreed to that and has since enhanced that program. 
+Mr. Rosen expressed concern that all nuclear plants have manholes 
+in the yards that can collect 
+water, yet this issues comes up consistently 
+in LRA reviews. This is a real problem. Ms. 
+Franovich responded that the GALL report contains 
+an A&P that addresses cables exposed to 
+moisture and significant moisture that is  1O-year test and acknowledged that an ISG should be 
+written on this matter. 
+Mr. Jeng, briefly discussed the 
+staffs review of below-grade concrete aging management. The 
+staff position for below grade concrete 
+is that if it  is  not exposed to the environment then there 
+will be no need for inspection 
+of those concrete elements. However, if the environment is 
+established to be an aggressive one, then the staff requires an applicant to propose an 
+appropriate aging management program. 
+The criteria to determine whether an environment is  aggressive consists 
+of three points in the 
+GALL and is not quite quantitative. The first point is  that the 
+pH of the environment should not 
+be less than 5.5; the second point is  that the chloride content 
+of the ground water in the soil 
+environment should not be larger than 500 PPM; and the third point are the solvent content 
+requirements, which the staff maintains they should not exceed 1500 PPM. 
+In the case of the St. Lucie, the site is  quite unique in having an aggressive environment. 
+Specifically, the content of the chloride 
+in the St. Lucie site ground water is in the order of 10,000 
+
+Minutes: Plant License Renewal Subcommittee 17 
+April 9, 2003 
+to 25,000 PPM (salt water is approximately 22,000 PPM) compared to the acceptable limit of 
+500 PPM. 
+In terms of the sulfate content of the St. Lucie ground water, it's in the order of 1,000 to 4,000 
+PPM, which exceeds the staff's limit 
+of 1500 PPM. Therefore, the applicant took the initiative to 
+treat the environment as a very aggressive one with regard to its aging management program. 
+The staff finds this acceptable. 
+With regard to the applicant's management 
+of rebar corrosion in concrete corrosion and how it 
+has evaluated the affects of phosphate on the aging of concrete, the staff finds the applicant's 
+conclusions (as stated previously 
+in this Subcommittee Meeting) very reasonable and adequate 
+Dr. Ford expressed concern with the methods used by the applicant to monitor for sea water 
+attack on concrete and rebar. Mr. Rosen added that, periodically looking for interior leakage is  a 
+good thing, but it  is  after the fact. Looking at exterior structures whenever they are excavated is 
+good thing but it is  random. Given the importance of the integrity 
+of structures exposed to 
+aggressive ground water environments more should be done to verify the integrity 
+of the 
+concrete and rebar. Dr. Kuo agreed and noted that this his is  a generic problem and not St. 
+Lucie specific. 
+TIME-LIMITED AGING ANALYSES Mr. Noel Dudley 
+Mr. Dudley noted that TLAA's have evolved since issuance of the original plant operating 
+license. For example, analyses supporting core barrel repair 
+or the reactor coolant system half­
+nozzle repairs. The staff's review 
+of TLAA's confirms that the applicant has evaluated the 
+TLAA's by verifying either the analysis is  valid for a period of extended operation, 
+or the analysis 
+is  projected to the end of the period 
+of extended operations and the results continue to meet the 
+design requirements, or there's a program to manage the aging effects. 
+Reactor neutron ernbrittlement consists 
+of three separate analyses: the end of life Upper Shelf 
+Energy; the pressurized thermal shock reference temperature; and the pressure and 
+temperature limits as a discussion item since it's not truly a TLAA. 
+The analysis 
+of the upper shelf energies for the different reactor vessel belt line materials was 
+projected to the end 
+of a period of extended operations. The results of the applicant's calculated 
+upper shelf energies for Unit 1 reactor vessel ranged from 56 to 73 foot pounds, which are 
+above the acceptance criterion 
+of 50-foot pounds. The results for Unit 2 range from 70 to 130­
+foot pounds, which again is  above the criterion. The staff performed independent calculations to 
+confirm these results 
+in accordance with the guidance in Regulatory Guide (RG) 1.99, 
+"Radiation Embrittlement of Reactor Vessel Materials". Mr. Medoff added that to perform the 
+independent calculations, the staff has a reactor vessel integrity database that includes all the 
+belt line materials for all the U.S. plants, including St. Lucie 1 and 
+2. For the neutron 
+embrittlement assessments for pressurized thermal shock and Upper Shelf, the staff performed 
+independent calculations of all the materials, and the methods 
+in the database follow the 
+guidelines 
+of regulatory guide 1.99, Revision 2, which has been in use for a long time. 
+
+Minutes: Plant License Renewal Subcommittee 18 
+April 9. 2003 
+Mr. Leitch questioned whether the applicant had committed to implement forthcoming guidance 
+provided by NRC regarding the resolution of Generic Safety Issue (GSI) 168. 
+Dr. Kuo 
+responded that the applicant has committed to some of the programs 
+in GALL Chapter 10, 
+either 
+E1 or E2 or E3, depending on the cables, but that the resolution of GSI 168 is  a current 
+operation issue. Mr. Hale added that FP&L performed an assessment with regard to adverse 
+localized environments that is  documented 
+in summary in the LRA. 
+Dr. Kuo added that it would have to get back to the Committee regarding the process by which 
+licensees implement the requirements 
+of GSls once they have been resolved. This includes 
+that, if new requirements are established, how does the licensee implement them 
+in the 
+extended license. 
+That completed the 
+staffs presentation regarding its SER. 
+INTERIM STAFF GUIDANCE Mr. Jack Cushing 
+Jack Cushing a project manager 
+in the License Renewal Branch, NRR, stated that his 
+presentation would focus on the ISG process and how the staff develops ISGs, not on the 
+technical aspects of any specific ISG. 
+Interim Staff Guidance is  new 
+or expanded guidance that the staff requires to communicate in a 
+timely manner to current and future applicants, as well as other stakeholders. ISGs provide 
+guidance that will be incorporated into the license renewal guidance documents to state an 
+approved method, but not the only method, of meeting the regulations. An applicant does not 
+have to follow the guidance, but they do have to demonstrate to the staff that their alternative 
+method complies with the regulations. 
+The license renewal process is  a learning process. The staff and the industry learn from each 
+review. The staff captures lessons learned from the reviews and communicates them to the 
+stakeholders through an ISG. The ISG also provides the stakeholders a means to raise issues 
+related to the license renewal guidance documents 
+The ISG process includes identification, development, and implementation. Implementation of 
+the ISG includes current and future applicant and addresses evaluating licensees that hold 
+renewed licenses. Compliant ISGs involve compliance with the regulation, the staff will track the 
+licensees to which it  applies and ensure that they're evaluated 
+in accordance with existing staff 
+guidance prior to entering the period of extended operation. Clarification ISG's do not involve 
+compliance with the regulation, therefore, do not involve back-fit consideration. 
+A proposed ISG is issued for stakeholder comments. If the stakeholders agree, then the ISG 
+will be published on the NRC web sites, and applicants may reference it in their license renewal 
+applications. 
+If the stakeholders do not agree, then they may provide written comments, and the 
+staff will hold a public meeting to address these comments. At that point, the staff would resolve 
+the ISG and publish it on the NRC web site. 
+
+Minutes: Plant License Renewal Subcommittee 19 
+April 9, 2003 
+Implementation for applicants, current and future applicants must address all approved ISG's 
+before a renewed license is  issued. Applicants may wish to address 
+an ISG before it is 
+approved so it does not have to be addressed in as a back-fit. 
+Currently, there are 14 ISG's (see attachment). The first five have been completed, and are 
+on 
+the NRC's web site, and current applicants are addressing them. Two are no longer ISG's 
+because they do not involve technical information. These are ISG-8 and ISG-10. ISG-8 is the 
+ISG process, which we are discussing today; and ISG-10 is the standard license renewal format, 
+which provides guidance to the applicants for the license renewal applications based on lessons 
+learned from reviews 
+of applications using the new GALL format. 
+That completed the staff's formal presentations 
+SUBCOMMITTEE MEMBER SlIMMARYS AND CONCLUSIONS 
+Mr. Rosen: 
+•  Expressed concern that 10 CFR Part 54 does not require LRA to be prepared in 
+accordance with a  10 CFR Part 50, Appendix 
+B, Quality Assurance Program 
+•  Believes that an AMP should be established for the periodic inspection 
+of cables 
+contained in  manholes. 
+•  Not convinced that monitoring for interior leakage,  and performing opportunistic 
+inspections when areas are excavated for other work, are sufficient to monitor for the 
+affects on concrete structures 
+of aggressive ground water. 
+Mr. Leitch: 
+•  Would like to hear more about TLAAs for reactor vessel core barrels at the September 
+ACRS Full Committee Meeting. 
+•  Would like to hear the applicant's follow-on process to track and implement license 
+renewal commitments (similar to what the Peach Bottom applicant presented during the 
+March 2003 ACRS Full Committee Meeting). The applicants commitments for the 
+resolution 
+of GSI-168, should be discussed during time. 
+Dr. Ford: 
+•  No comments specific to the St. Lucie LRA. 
+•  The GALL needs to be updated to include the synergistic effects 
+of AMPs 
+•  Inspection intervals need to be quantified. Currently, licensees are relying on 
+engineering judgement. A decision process needs to be established. 
+•  At the full Committee Meeting the applicant should discuss in more detail its program for 
+concrete inspections. 
+Mr. Bonaca: 
+
+Minutes: Plant License Renewal Subcommittee 20 
+April 9, 2003 
+•  At the full Committee Meeting the applicant should discuss in more detail the 
+independent assessment it had performed 
+on the affects of phosphates on concrete 
+performance. 
+•  At the full Committee Meeting the applicant should not spend much time 
+on process and 
+scoping. The applicant's presentation should focus on future activities associated with 
+license renewal. 
+•  At the full Committee Meeting the staff should discuss the ISG process and status. 
+STAFF AND INDUSTRY COMMITMENTS 
+1.  The staff committed to meet with the staff regarding the quality assurance used to 
+develop 
+of LRAs. 
+2.  The staff should be prepared to discuss the periodic inspection of electrical cables in 
+manholes. 
+3.  The staff committed to brief the Committee regarding the process by which licensees 
+implement the requirements 
+of GSls once they have been resolved. 
+4.  At the September 2003 full Committee Meeting the applicant and staff will discus the 
+following: 
+•  the TLAAs for reactor vessel core barrels 
+in more detail, 
+•  the follow-on process for tracking, implementing, and tracking commitments, 
+including a follow-up of the applicant's commitments to GSI-168. 
+•  concrete inspection programs 
+in more detail including the independent 
+assessment the applicant had performed on the affects of phosphates 
+on 
+concrete performance, 
+•  the inspection 
+of buried concrete structures. 
+•  the applicant should not spend much time on process and scoping. The 
+applicant's presentation should focus on future activities associated with license 
+renewal. 
+•  the staff should discuss the ISG process and status. 
+•  any relevant significant operational events 
+SUBCOMMITTEE DECISION 
+The Subcommittee decided not to prepare an interim letter regarding this LRA. The 
+Subcommittee Chairman briefed the full Committee on the 
+St. Lucie LRA at the April 2003 
+ACRS Meeting. The Subcommittee requested that the staff present 
+an abbreviated-version of its 
+presentation regarding the SER, and the applicant discuss its programs to track and implement 
+commitments made for license renewal, to the ACRS one month after it  submits the final SER to 
+the Committee for review. 
+
+Minutes: Plant License Renewal Subcommittee 21 
+April 9, 2003 
+PRESENTATION SLIDES AND HANDOUTS PROVIDED DURING THE MEETING 
+The presentation slides and handouts used during the meeting are available in the ACRS office 
+files and as attachments to the transcript which will be made available 
+in ADAMS. 
+BACKGROUND MATERIAL PROVIDED TO THE SUBCOMMITTEE 
+1.  "Safety Evaluation Report with Open Items Related to the License Renewal of St. Lucie 
+Units 1 and 2," February 2003 (CD-ROM also included). 
+2.  St. Lucie Units 1 and 2 License Renewal Application, November 30, 2001 (CD-ROM also 
+included). 
+3.  License Renewal Interim Staff Guidance 
+Nos. 1 through 4 (issued) 
+Nos. 5 through 14 (under staff development) 
+4.  Memorandum to Timothy Kobetz from Noel Dudley, Dated December 16,2003, 
+regarding FP&L Responses to Staff Requests for Additional Information. 
+5.  Florida Power and Light response to NRC BL 2002-01 ,Reactor Pressure Vessel Head 
+Degradation and Reactor Coolant Pressure Boundary Integrity, " dated April 
+2, 2002. 
+6.  Florida Power and Light response to NRC BL 2002-02, Circumferential Cracking of 
+Reactor Pressure vessel head penetration Nozzles, dated January 31, 2003. 
+********************************************** 
+NOTE: Additional details of this meeting can be obtained from a transcript of this meeting 
+available 
+in the NRC Public Document Room, One White Flint North, 11555 Rockville Pike, 
+Rockville, MD, (301) 415-7000, downloading or view 
+on the Internet at 
+http://www.nrc.gov/reading-rm/doc-collections/acrs/ can 
+be purchased from Neal R. Gross and 
+Co., 1323 Rhode Island Avenue, 
+NW, Washington, D.C. 20005, (202) 234-4433 (voice), (202) 
+387-7330 (fax), nrgross@nealgross.com (e-mail). 
+*********************************************** 
+
+Attachment
+ 
+Interim Staff Guidance (ISG)
+ 
+Status List
+ 
+for License Renewal
+ 
+Status as 
+of February 2003
+ 
+No ISG 
+Issue 
+(Approved ISG No.) 
+Purpose 
+Actions Status 
+(Issue date) 
+1 GALL report contains 
+one acceptable way, 
+not only way 
+(ISG-01) 
+To clarify GALL 
+report contains 
+one acceptable 
+way, not only 
+way 
+Staff issued 
+11/23/01 Letter 
+NEI responded 
+01/03/02 
+Changes 
+to 
+Completed 
+M
+LO 13300531 
+(11/23/01 ) 
+GALL: No 
+SRP: Yes 
+2 
+Station Blackout 
+(SBO) Scoping 
+(ISG-02) 
+To add SBO 
+scoping 
+Staff issued 
+11/14/01 
+UCS response 
+2/19/02 
+NEI responded 
+3/19/02 
+Final position 
+issued 4/01/02 
+Changes 
+to 
+Completed 
+ML020920464 
+(04/01/02) 
+GALL: No 
+SRP: Yes 
+3 
+Concrete Aging 
+Management Program 
+(ISG-03) 
+To clarify the 
+applicable aging 
+management 
+programs 
+(AMPs) 
+in GALL 
+and SRP 
+Staff issued 
+11/23/01 
+NEI responded 
+3/14/02 
+Staff responded 
+4/5/02 
+NEI responded 
+4/29/02 
+Changes 
+to 
+Completed 
+M
+LO 13300426 
+(11/23/01) 
+GALL: Yes 
+SRP: Yes 
+Page 1 of 3 
+
+I 
+r
+ 
+Page2 of 3 
+4 Fire Protection System 
+Piping (ISG-4) 
+To clarify AMPs 
+M26 and M27 
+Staff issued 
+1/28/02 
+Final position 
+issued 
+12/03/02 
+Changes to 
+Completed 
+ML022260137 
+(12/03/02) 
+GALL: Yes 
+SRP: 
+Yes 
+5 
+Identification and 
+Treatment 
+of Electrical 
+Fuse Holder 
+To include fuse 
+clips and fuse 
+block for fuse 
+holders and to 
+add a new AMP 
+for fuse clips 
+(Le., metallic) 
+Staff issued 
+5/16/02 
+UCS concurred 
+5/23/02 
+NEI responded 
+06/19/02 
+Staff is  revising 
+its position 
+Changes to 
+Under Staff 
+Development 
+GALL: Yes 
+SRP: Yes 
+6 
+Identification and 
+Treatment of Housing 
+for Active Components 
+To clarify a need 
+for aging 
+management 
+review (AMR) for 
+housing for fans, 
+Staff issued 
+5/01102 
+Staff will re-issue 
+its position 
+Changes to 
+Under Staff 
+Development 
+dampers, and GALL: Yes 
+HIC coils SRP: 
+Yes 
+7 Scoping Guidance for 
+Fire Protection (FP) 
+Systems, Structures, 
+and Components 
+To clarify the 
+FP 
+scoping 
+Staff issued 
+11/13/02 
+Awaiting NEI 
+response 
+8 
+Updating the Improved 
+Guidance Documents 
+ISG Process 
+To establish ISG 
+process. The 
+appeal process 
+will be a part of 
+ISG process 
+Staff issued 
+12/21/01 
+NEI response 
+3/13102 
+Staff issued 
+07/30102 
+(ML022120383) 
+Under Staff 
+Development 
+
+9 
+Scoping Criteria 
+54.4(a)(2) 
+To clarify the 
+scoping Criteria 
+54.4(a)(2) 
+Staff issued 
+12/03/02 on 
+Seismic 
+1111. 
+Staff issued 
+3/15/02 on 
+scoping criteria 
+54.4(a)(2). 
+NEI submitted 
+white paper via 
+E-mail 11/18/02 
+Under Staff 
+Development 
+10 "Class of 03" Standard 
+License Renewal 
+Application (SLRA) 
+Format 
+To standardize 
+license renewal 
+application 
+format for 2003 
+applicants 
+NEI submitted 
+January 24, 
+2003 
+Under Staff 
+Development 
+11 
+Aging Management of 
+Environmental Fatigue 
+for Carbon/Low-Alloy 
+steel 
+To review this 
+fatigue issue as 
+ISG process, 
+agreed by 
+September 18, 
+2002, meeting 
+NEI submitted 
+ISG input 
+January 17, 
+2003 for staff 
+review 
+Under Staff 
+Development 
+12 Operating Experience 
+with Cracking 
+of Class 
+1 Small-Bore Piping 
+Identified as ISG 
+on May 29,2002, 
+Public Meeting 
+On hold 
+13 
+Management 
+of loss of 
+preload on reactor 
+vessel internals bolting 
+using the loose parts 
+monitoring system 
+Identified as ISG 
+on May 29, 2002, 
+Public Meeting 
+On hold 
+14 
+Operating Experience 
+with Cracking 
+in 
+Bolting 
+Identified as ISG 
+on May 29,2002, 
+Public Meeting 
+On hold 
+Page3 
+of 3 
+
+13338 Federal Register/Vol. 68, No. 53/Wednesday, March 19, 2003/Notices 
+NRC has determined not to prepare an 
+environmental impact statement for the 
+proposed action. 
+For further details 
+with respect to the 
+proposed action, see 
+the licensee's letter 
+dated July 23, 2002, as 
+supplemented by 
+letters 
+dated November 15, 2002, and 
+January 24, 2003. Documents may be 
+examined, 
+and/or copied for a fee, at the 
+NRC's Public Document Room 
+(PDR), 
+located at One White Flint North, Public 
+File Area 
+01 F21, 11555 Rockville Pike 
+(first floor), Rockville, Maryland. 
+Publicly available records will be 
+accessible electronically from 
+the 
+Agencywide Documents Access and 
+Management System (ADAMS) Public 
+Electronic Reading Room 
+on the Internet 
+at 
+the NRC Web site, http:// 
+www.nrc.gov!reading-rm!adams.html. 
+Persons 
+who do not have access to 
+ADAMS or who encounter problems in 
+accessing the documents located in 
+ADAMS, 
+should contact the NRC PDR 
+Reference staff by telephone at 1-800­
+397-4209 or 301-415-4737, or bye-mail 
+to pdr@nrc.gov. 
+Dated at Rockville. Maryland. this 12th day
+of March 2003, 
+For the Nuclear Regulatory Commission. 
+L. Raghavan,
+ 
+Chief, Section 
+1, Project Directorate III,
+ 
+Division ofLicensing Project Management,
+ 
+Office 
+ofNuclearReactorRegulation.
+ 
+[FR Doc. 03-6544 Filed 3-18-03; 8:45 ami 
+BILLING CODE 759~1-P 
+NUCLEAR REGULATORY 
+COMMISSION 
+Advisory Committee on Reactor 
+Safeguards, Subcommittee Meeting on 
+Planning and Procedures; Notice 
+of 
+Meeting 
+The ACRS Subcommittee on Planning 
+and Procedures will hold a meeting on 
+April 9, 2003, Room T-2B1, 11545 
+Rockville Pike, Rockville, Maryland. 
+The entire meeting will be 
+open to 
+public attendance, 
+with the exception of 
+a portion 
+that may be closed pursuant 
+to 5 U.S.c. 552b(c)(2) and (6) to discuss 
+organizational 
+and personnel matters 
+that relate solely to internal personnel 
+rules 
+and practices of ACRS, and 
+information the release of which would 
+constitute a clearly unwarranted 
+invasion of personal privacy. 
+The agenda for the subject meeting 
+shall be as follows: 
+Wednesday, 
+April 9, 2003-3:30 p.m. 
+until the conclusion 
+ofbusiness 
+The Subcommittee will discuss 
+proposed 
+ACRS activities and related 
+matters. 
+The Subcommittee will gather 
+information, analyze relevant issues 
+and 
+facts, and formulate proposed positions 
+and actions, as appropriate, for 
+deliberation by the full Committee. 
+Members 
+of the public desiring to 
+provide oral statements 
+and/or written 
+comments 
+should notify the Designated 
+Federal Official, Mr. 
+Sam Duraiswamy 
+(telephone: 301/415-7364) between 7:30 
+a.m. 
+and 4:15 p.m. (ET) five days prior 
+to 
+the meeting, if possible, so that 
+appropriate arrangements 
+can be made. 
+Electronic recordings will be permitted 
+only during those portions of 
+the 
+meeting that are open to the public. 
+Further information regarding this 
+meeting 
+can be obtained by contacting 
+the Designated Federal Official between 
+7:30 a.m. 
+and 4:15 p.m. (ET). Persons 
+planning to attend this meeting are 
+urged to contact the above 
+named 
+individual at least two working days 
+prior 
+to the meeting to be advised of any 
+potential changes in 
+the agenda. 
+Dated: March 11. 2003. 
+Sher Bahadur, 
+Associate Director for Technical Support, 
+A CRSIACNW. 
+[FR Doc. 03-6547 Filed 3-18-03; 8:45 am] 
+BILLING CODE 759~1-P 
+NUCLEAR REGULATORY 
+COMMISSION 
+Advisory Committee on Reactor 
+Safeguards, Meeting 
+of the 
+Subcommittee on Plant License 
+Renewal; Notice 
+of Meeting 
+The ACRS Subcommittee on Plant 
+License Renewal will 
+hold a meeting on 
+April 9, 2003, Room T-2B3, 11545 
+Rockville Pike, Rockville, Maryland. 
+The entire meeting will be open to 
+public attendance. 
+The agenda for the subject meeting 
+shall be as follows: 
+Wednesday, 
+April 9, 2003-8:30 a.m. 
+until the conclusion 
+ofbusiness. 
+The purpose of this meeting is to 
+review 
+the license renewal application 
+for the St. Lucie nuclear 
+plant and the 
+NRC staff's initial Safety Evaluation 
+Report. The Subcommittee will hear 
+presentations by 
+and hold discussions 
+with representatives of the NRC staff, 
+the Florida Power 
+and Light Company, 
+and other interested persons regarding 
+this matter. 
+The Subcommittee will 
+gather information. analyze relevant 
+issues 
+and facts. and formulate 
+proposed positions 
+and actions, as 
+appropriate, for deliberation by the full 
+Committee. 
+Members of the public desiring to 
+provide oral statements 
+and/or written 
+comments 
+should notify the Designated 
+Federal Official, Mr. Timothy Kobetz 
+(telephone 301/415-8716) five days 
+prior to 
+the meeting, if possible, so that 
+appropriate arrangements 
+can be made. 
+Electronic recordings will be permitted. 
+Further information regarding this 
+meeting 
+can be obtained by contacting 
+the Designated Federal Official between 
+7:30 a,m. 
+and 4:15 p.m. (ET). Persons 
+planning to attend this meeting are 
+urged to contact 
+the above named 
+individual at least two working days 
+prior to the meeting to be advised of any 
+potential changes to the agenda. 
+Dated: March 11, 2003. 
+Sher Bahadur, 
+Associate Director for Technical Support, 
+A CRSIACNW. 
+[FR Doc. 03-6548 Filed 3-18-03; 8:45 am] 
+BILLING CODE 7590~1-P 
+NUCLEAR REGULATORY 
+COMMISSION 
+Draft Regulatory Guide; Issuance, 
+Availability 
+The Nuclear Regulatory Commission 
+(NRC) has issued for public comment a 
+proposed revision 
+of a guide in its 
+Regulatory Guide Series, Regulatory 
+Guides are developed to describe 
+and 
+make available to the public such 
+information as methods acceptable to 
+the NRC staff for implementing specific 
+parts of the NRC's regulations, 
+techniques 
+used by the staff in 
+evaluating specific problems or 
+postulated accidents, 
+and data needed 
+by the staff in its review of applications 
+for permits 
+and licenses. 
+The draft guide is temporarily 
+identified by its task number, DG-1107, 
+which should be mentioned in all 
+correspondence concerning this draft 
+guide. Draft Regulatory Guide DG-1107, 
+"Water Sources for Long-Term 
+Recirculation Cooling Following a Loss­
+of-Coolant Accident" is being developed 
+to describe methods acceptable to the 
+NRC staff for implementing 
+requirements 
+with respect to the sumps 
+and suppression pools performing the 
+functions of water sources for 
+emergency core cooling, containment 
+heat removal, or containment 
+atmosphere clean up. Section 1.1.4 of 
+DG-1107 contains discussions of active 
+debris mitigation systems 
+in lieu of the 
+passive 
+sump screens that are in many 
+of the nuclear plants. Specifically, 
+comments on alternative solutions to 
+debris strainers for ensuring long-term 
+cooling are solicited. 
+This draft 
+guide has not received 
+complete staff approval 
+and does not 
+represent 
+an official NRC staff position. 
+Comments may be accompanied by 
+relevant information or supporting data. 
+Written comments may be submitted by 
+mail to 
+the Rules and Directives Branch. 
+
+ADVISORY COMMITrEE ON REACTOR SAFEGUARDS
+ 
+PLANT LICENSE RENEWAL SUBCOMMITTEE MEETING
+ 
+ST. LUCIE UNITS, 1 
+&2
+ 
+APRIL 
+9, 2003, ROCKVILLE, MARYLAND
+ 
+Contact: Tim Kobetz (301-415-8716, 
+tjk1 @nrc.gov ) 
+~ROPOSEDSCHEDUL& 
+I. Opening Remarks  
+M. Bonaca, ACRS 8:30-8:35 a.m. 
+II.  
+Staff Introduction P. T. Kuo, NRR 
+8:35-8:45 a.m. 
+III.  
+Florida Power and Light, Presentation 
+S. Hale 
+8:45-9:30 a.m. 
+A.  Background 
+B.  License Renewal Application Scoping and
+ 
+Screening Process
+ 
+C.  Aging Effects 
+D.  
+Aging Management Programs 
+E.  
+Time Limited Aging Analyses 
+IV.  
+Overview and Status of Open Items Related N. Dudley 
+9:30-10:15 a.m. 
+to License Renewal 
+of St. Lucie Units 1 &2 J. Medoff 
+SER (including ROP and recent events, 
+if D. Nguyen 
+applicable). 
+J. Fair 
+S.Sheng 
+V. SER Chap. 2: Scoping and Screening 
+G. Galletti 
+10:30-11 :30 noon 
+Methodology and Results, and aging 
+N. Dudley 
+management reviews 
+VI. 
+Aging Management Program Inspections 
+and Concrete Aging Issues 
+N. Dudley 
+C. Julian 
+D. Jeng 
+12:30-1 :00 p.m. 
+VII. SER Chap. 3: Aging Management Programs 
+1:00-1 :30 p.m. 
+VIII. SER Chap. 4: Time Limited Aging Analyses 
+A. Overview 
+B. Reactor Vessel Neutron Embrittlement 
+C. Thermal Fatigue 
+D. Leak-before-break 
+N. Dudley 
+1:45-2:15 p.m. 
+IX. 
+Interim Staff Guidance: Process and Status J. Cushing 
+2:15-3:00 p.m. 
+X. Subcommittee Discussion 
+3:00-3:15 p.m. 
+XI. 
+Adjourn 3:15 p.m. 
+NOTE: 
+•  Presentation time should not exceed 50 percent 
+of the total time allocated for specific item. The 
+remaining 50 percent 
+of the time is  reserved for discussion. 
+•  25 copies 
+of the presentation materials to be provided to the Subcommittee 
+
+ADVISORY COMMITTEE ON REACTOR SAFEGUARDS
+ 
+SUBCOMMITTEE MEETING ON PLANT LICENSE RENEWAL
+ 
+APRIL 9, 2003
+ 
+ATTENDEES PLEASE SIGN IN BELOW
+ 
+PLEASE PRINT
+ 
+NAME 
+AFFILIATION 
+l'rlJce-· ee~ \e r 
+FPL 
+AN/cIIII () (;.. MENQ (J1Jl. 
+(A-v j)L (;; dvL /4/J 
+$ru~ ~6 
+,.-PL.. 
+o fe/) 
+---=:I=S L) ItJ c.. 
+Sc f -+ Gz u ( S U.V"1"'6IZ 
+.-.dJ -7./.go

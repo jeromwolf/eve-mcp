@@ -1,0 +1,127 @@
+[PDF Metadata]
+Title: E:\FileNET\ML051360445.wpd
+Pages: 3
+
+[Content]
+ACRSR-2124
+May 13, 2005
+The Honorable Nils J. Diaz
+Chairman
+U.S. Nuclear Regulatory Commission
+Washington, DC 2005-0001
+SUBJECT:REPORT ON THE SAFETY ASPECTS OF THE LICENSE RENEWAL
+APPLICATION FOR ARKANSAS NUCLEAR ONE, UNIT 2
+Dear Chairman Diaz:
+During the 522
+nd
+ meeting of the Advisory Committee on Reactor Safeguards, May 5-6, 2005,
+we completed our review of the license renewal application for Arkansas Nuclear One, Unit 2
+(ANO-2), and the associated final Safety Evaluation Report (SER) prepared by the NRC staff. 
+Our Plant License Renewal Subcommittee also reviewed this matter during a meeting on
+December 1, 2004.  During our review, we had the benefit of discussions with representatives
+of the NRC staff and Entergy Operations, Inc. (Entergy).  We also had the benefit of the
+documents referenced. This report fulfills the requirements of 10 CFR 54.25 that the ACRS
+review and report on all license renewal applications.
+CONCLUSION AND RECOMMENDATION
+1.The programs established and committed to by the applicant to manage age-related
+degradation provide reasonable  assurance that ANO-2 can be operated in accordance
+with its current licensing basis for the period of extended operation without undue risk to
+the health and safety of the public.
+2.The Entergy application for renewal of the operating license for ANO-2 should be
+approved.
+BACKGROUND AND DISCUSSION
+ANO-2 is a Combustion Engineering pressurized water reactor rated at 3026 MWt, enclosed in
+a large dry containment building.  The current power rating includes a 7.5% power uprate 
+implemented in 2002.  The ANO-2 steam generators were replaced with new Westinghouse
+Delta steam generators with Alloy 690 tubing in conjunction with this power uprate.  
+Entergy requested renewal of the ANO-2 operating license for 20 years beyond the current
+license term, which expires on July 17, 2018.  In the final SER, the staff documents its review of
+the license renewal application and other information submitted by Entergy and obtained during
+the audits and inspections at the plant site. The staff reviewed the completeness of the
+applicant’s identification of structures, systems, and components (SSCs) that are within the
+scope of license renewal; the integrated plant assessment process; the applicant’s identification
+of plausible aging mechanisms associated with passive, long-lived components; the adequacy
+of the applicant’s aging management programs; and the identification and assessment of time-
+limited aging analyses (TLAAs).  
+
+-2-
+The ANO-2 application demonstrates consistency with the Generic Aging Lessons Learned
+(GALL) Report or documents deviations from the approaches specified in that report.  The
+ANO-2 application is the second one evaluated by the staff using the new audit and review
+process developed to confirm consistency with, and the acceptability of deviations from, the
+GALL Report.  The new process requires that more review activities be conducted at the site. 
+As in the first application, this approach has resulted in more effective interactions between the
+applicant and the staff and has significantly reduced requests for additional information (RAIs). 
+During its review, the staff identified several components that the applicant should have
+included in the scope of license renewal but did not.  The applicant subsequently brought them
+into scope.  The staff concluded that these omissions were the result of minor oversights or
+different interpretations of the scoping methodology, and not an indication of process problems. 
+The staff also concluded that the applicant’s scoping and screening processes have
+successfully identified SSCs within the scope of license renewal and subject to an aging
+management review.  We agree with these conclusions.
+The applicant performed a comprehensive aging management review of all SSCs within the
+scope of license renewal.  In the application, Entergy describes 34 aging management
+programs for license renewal, including existing, enhanced, and new programs.  We agree with
+the staff’s conclusion that these programs are adequate.
+Implementation is key to effective aging management programs.  Although the applicant’s
+Structures Monitoring-Masonry Wall Program is consistent with the GALL Report, the staff’s
+audit of this program revealed that the initial baseline examinations were not documented
+properly, the first 5-year reexamination was not performed, and qualifications for personnel
+responsible for walkdowns were not established.  The Annual Assessment Letter for ANO,
+Units 1 and 2, dated March 3, 2004, had already identified a substantive cross-cutting issue
+concerning problem identification and resolution.  Based on the Annual Assessment Letter
+dated March 2, 2005, the weaknesses in the ANO-2 Problem Identification and Resolution
+Program appear to have been corrected.  Maintaining an effective problem identification and
+resolution program is critical to the success of the aging management programs.
+As in previous reviews, we questioned the adequacy of relying on opportunistic inspections of
+inaccessible buried piping and tanks, in lieu of periodic inspections at a plant-specific
+frequency, as specified in the GALL Report.  The applicant has committed to enhance its
+Buried Piping Inspection Program by performing an inspection within 10 years of entering the
+period of extended operation unless an opportunistic inspection has occurred within this 10-year
+period.  This program enhancement is appropriate.  
+The applicant identified and reevaluated systems and components requiring TLAAs for 20 more
+years of operation.  The applicant’s analyses of reactor vessel embrittlement (upper shelf
+energy, pressurized thermal shock, and pressure-temperature limits), independently verified by
+the staff, demonstrate that the limiting beltline materials will satisfy the acceptance criteria at 48
+effective full-power years (EFPYs).  This value corresponds to a constant capacity factor of
+80% for 60 years.  We questioned the use of 48 EFPYs, rather than the 54 EFPYs used by
+other applicants to bound 60 years of operation.  Given the current performance of the fleet, 54
+EFPYs seems to be a more appropriate value for 60 years of operation.  The staff
+independently verified that the upper shelf energy and pressurized thermal shock acceptance
+criteria would still be met at 54 EFPYs. 
+
+-3-
+In 2000, nondestructive examinations revealed a number of leaks in pressurizer and hot-leg
+penetration nozzles.  The applicant implemented repairs using the half-nozzle repair technique. 
+The applicant evaluated the potential for existing flaws in the remaining pressurizer and hot-leg
+penetration welds to propagate into the pressurizer or hot leg.  The applicant has performed a
+TLAA to bound the period of extended operation and has demonstrated that stress corrosion
+cracking will not cause existing flaws to propagate into the carbon steel or low-alloy steel base
+metal.  
+Since a shroud prevents a complete 360E bare metal visual inspection of some of the control
+rod drive mechanism (CRDM) penetrations, the applicant performed alternative eddy current
+and volumetric inspections.  Although these inspections did not identify any cracking or
+leakage, ANO-2 is ranked as highly susceptible to CRDM cracking. The applicant has
+scheduled the procurement of a new reactor vessel head in 2006.  Meanwhile, the applicant
+plans to modify the shroud to allow increased access for visual examinations. 
+We agree with the staff that no issues related to the matters described in 10 CFR 54.29(a)(1)
+and (a)(2) preclude renewal of the operating license for ANO-2.  The programs established and
+committed to by Entergy provide reasonable assurance that ANO-2 can be operated in
+accordance with its current licensing basis for the period of extended operation without undue
+risk to the health and safety of the public.  The Entergy application for renewal of the operating
+license for ANO-2 should be approved.
+Sincerely,
+    /RA/ 
+Graham B. Wallis
+Chairman
+References
+3.U.S. Nuclear Regulatory Commission, “Safety Evaluation Report Related to the License
+Renewal of the Arkansas Nuclear One, Unit 2,” April 2005
+4.Entergy Operations Inc., “License Renewal Application Arkansas Nuclear One - Unit 2,”
+October 2003
+5.U.S. Nuclear Regulatory Commission, “Draft Safety Evaluation Report Related to the
+License Renewal of the Arkansas Nuclear One, Unit 2,” November 2004
+6.U.S. Nuclear Regulatory Commission, ”Arkansas Nuclear One, Unit 2 - NRC License
+Renewal Scoping and Screening Inspection Report 05000368/2004-06,” April 19, 2004
+7.Information Systems Laboratories, Inc., “Audit and Review Report for Plant Aging
+Management Reviews and Programs, Arkansas Nuclear One - Unit 2,” July 29, 2004

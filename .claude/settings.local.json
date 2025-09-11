@@ -47,7 +47,11 @@
       "Read(//var/folders/h2/yhmybb9n1cn1wn3y141wqv8m0000gn/T/TemporaryItems/NSIRD_screencaptureui_ZcrXuo/**)",
       "Read(//var/folders/h2/yhmybb9n1cn1wn3y141wqv8m0000gn/T/TemporaryItems/NSIRD_screencaptureui_VH1Ldc/**)",
       "Bash(pkill:*)",
-      "Bash(rm:*)"
+      "Bash(rm:*)",
+      "Bash(for i in 1 2 3)",
+      "Bash(do echo \"Test $i:\")",
+      "Bash(done)",
+      "Bash(time:*)"
     ],
     "deny": []
   }

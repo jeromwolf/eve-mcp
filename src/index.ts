@@ -29,20 +29,19 @@ import {
   ListToolsRequestSchema,
   McpError,
 } from "@modelcontextprotocol/sdk/types.js";
-import axios from 'axios';
-import { createRequire } from 'module';
-const require = createRequire(import.meta.url);
-const pdfParse = require('pdf-parse');
-import * as cheerio from 'cheerio';
-import { promises as fsPromises } from 'fs';
-import * as fsSync from 'fs';
-import { tmpdir } from 'os';
-import { join, dirname } from 'path';
-import { createHash } from 'crypto';
+
+// Import modular services
+import { searchService } from './services/search-service.js';
+import { downloadService } from './services/download-service.js';
+import { cacheManager } from './services/cache-manager.js';
+import { stateManager } from './services/state-manager.js';
+import { configManager } from './server/config.js';
+
+// Import existing components
 import { EnhancedRAGEngine } from './rag-engine-enhanced.js';
-import { ImprovedADAMSScraper } from './adams-real-improved.js';
 import mcpLogger from './mcp-logger.js';
 import { fileURLToPath } from 'url';
+import { dirname } from 'path';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -56,52 +55,27 @@ interface ADAMSDocument {
   url?: string;
   pdfUrl?: string;
   abstract?: string;
-}
-
-interface StoredPDFDocument {
-  content: string;
-  metadata: {
-    title?: string;
-    author?: string;
-    pages?: number;
-    creationDate?: Date;
-    documentNumber?: string;
-    docketNumber?: string;
-  };
-  url: string;
-  filename?: string;
-  localPath?: string; // 로컬 파일 경로
+  accessionNumber?: string;
+  date?: string;
 }
 
 class NRCADAMSMCPServer {
   private server: Server;
-  private pdfCache: Map<string, StoredPDFDocument> = new Map();
-  private filenameToUrl: Map<string, string> = new Map();
-  private currentPdfUrl?: string;
-  private lastSearchResults: ADAMSDocument[] = [];
-  private lastSearchQuery?: string; // 마지막 검색 키워드 저장
-  private readonly MAX_CACHE_SIZE = 50; // 증가: ADAMS 문서는 더 많이 캐시
-  private readonly ADAMS_API_BASE = 'https://adams.nrc.gov/wba';
-  private readonly ADAMS_SEARCH_BASE = 'https://adams-search.nrc.gov';
   private ragEngine: EnhancedRAGEngine;
-  private pdfStoragePath: string;
-  private adamsScraper: ImprovedADAMSScraper;
+  private lastSearchResults: ADAMSDocument[] = [];
+  private lastSearchQuery?: string;
+  private readonly config;
 
   constructor() {
+    this.config = configManager.getConfig();
     this.ragEngine = new EnhancedRAGEngine();
-    this.adamsScraper = new ImprovedADAMSScraper();
     
-    // PDF 저장 디렉토리 설정
-    this.pdfStoragePath = join(__dirname, '..', 'downloaded_pdfs');
-    if (!fsSync.existsSync(this.pdfStoragePath)) {
-      fsSync.mkdirSync(this.pdfStoragePath, { recursive: true });
-      mcpLogger.info(`Created PDF storage directory: ${this.pdfStoragePath}`);
-    }
+    mcpLogger.info('NRC ADAMS MCP Server initializing with modular architecture');
     
     this.server = new Server(
       {
         name: "nrc-adams-mcp",
-        version: "2.0.0",
+        version: "3.0.0", // Updated version for refactored architecture
       },
       {
         capabilities: {
@@ -149,7 +123,7 @@ class NRCADAMSMCPServer {
         },
         {
           name: "download_adams_documents",
-          description: "Download multiple ADAMS documents (PDFs) at once",
+          description: "Download multiple ADAMS documents (PDFs) with improved retry strategy",
           inputSchema: {
             type: "object",
             properties: {
@@ -209,6 +183,15 @@ class NRCADAMSMCPServer {
             },
           },
         },
+        {
+          name: "get_system_stats",
+          description: "Get system performance and cache statistics",
+          inputSchema: {
+            type: "object",
+            properties: {},
+            required: [],
+          },
+        },
       ],
     }));
 
@@ -226,6 +209,8 @@ class NRCADAMSMCPServer {
             return await this.listDownloadedDocuments();
           case "clear_cache":
             return await this.clearCache(request.params.arguments);
+          case "get_system_stats":
+            return await this.getSystemStats();
           default:
             throw new McpError(
               ErrorCode.MethodNotFound,
@@ -240,488 +225,597 @@ class NRCADAMSMCPServer {
     const { query, max_results = 50, document_type, date_from, date_to } = args;
     
     try {
-      mcpLogger.info(`Searching ADAMS for: ${query}`);
+      mcpLogger.info('ADAMS search initiated via search service', {
+        query,
+        max_results,
+        document_type,
+        date_from,
+        date_to
+      });
       
-      // 검색 키워드 저장
+      // Store search query for folder organization
       this.lastSearchQuery = query;
       
-      // 실제 ADAMS 검색 - 모의 데이터 없음
-      const searchResults = await this.adamsScraper.searchReal(query, max_results);
+      // Use search service for modular search
+      const searchResponse = await searchService.search(query, max_results);
       
-      // RealADAMSDocument를 ADAMSDocument로 변환
-      const results: ADAMSDocument[] = searchResults.map(doc => ({
-        title: doc.title,
-        documentNumber: doc.accessionNumber,
-        documentDate: doc.docDate || doc.dateAdded,
-        documentType: 'Document',
-        pdfUrl: doc.pdfUrl,
-        abstract: ''
+      // Convert to legacy format for compatibility
+      this.lastSearchResults = searchResponse.results.map((result, index) => ({
+        title: result.title,
+        documentNumber: result.documentNumber,
+        accessionNumber: result.accessionNumber,
+        date: result.date,
+        docketNumber: result.docketNumber,
+        url: result.url,
+        documentDate: result.date,
+        documentType: document_type
       }));
 
-      // 검색 결과 저장
-      this.lastSearchResults = results;
+      // Save search results to persistent state
+      await stateManager.saveSearchResults(this.lastSearchResults, this.lastSearchQuery);
+      
+      mcpLogger.info('Search completed via search service', {
+        resultCount: this.lastSearchResults.length,
+        cached: searchResponse.cached,
+        searchTime: searchResponse.searchTime
+      });
+
+      return {
+        content: [
+          {
+            type: "text",
+            text: `Found ${this.lastSearchResults.length} documents for "${query}":
+
+${this.lastSearchResults.map((doc, index) => 
+  `${index + 1}. ${doc.title}
+   Document Number: ${doc.accessionNumber || doc.documentNumber || 'N/A'}
+   Date: ${doc.date || 'N/A'}
+   Docket: ${doc.docketNumber || 'N/A'}
+`).join('\n')}
+
+📊 Search Performance:
+• Results: ${this.lastSearchResults.length}/${max_results}
+• Cache Hit: ${searchResponse.cached ? 'Yes' : 'No'}
+• Search Time: ${searchResponse.searchTime}ms
+
+Use download_adams_documents to download specific documents by number or count.`
+          },
+        ],
+      };
+      
+    } catch (error: any) {
+      mcpLogger.error('Search failed in ADAMS tool', {
+        query,
+        error: error.message
+      });
+
+      return {
+        content: [
+          {
+            type: "text",
+            text: `❌ Search failed for "${query}": ${error.message}\n\nTry a different search term or check the ADAMS service status.`
+          },
+        ],
+      };
+    }
+  }
+
+  private async downloadADAMSDocuments(args: any): Promise<any> {
+    const { count = this.config.download.defaultTarget, document_numbers } = args;
+    
+    try {
+      // Try to load search results from state if not in memory
+      if (!this.lastSearchResults || this.lastSearchResults.length === 0) {
+        const stateData = await stateManager.loadSearchResults();
+        if (stateData && stateData.results.length > 0) {
+          this.lastSearchResults = stateData.results;
+          this.lastSearchQuery = stateData.query;
+          mcpLogger.info('Search results loaded from persistent state', {
+            resultCount: this.lastSearchResults.length,
+            query: this.lastSearchQuery
+          });
+        }
+      }
+
+      if (!this.lastSearchResults || this.lastSearchResults.length === 0) {
+        return {
+          content: [
+            {
+              type: "text",
+              text: "❌ No search results available. Please run search_adams first."
+            },
+          ],
+        };
+      }
+
+      const sessionId = `session_${Date.now()}`;
+      mcpLogger.info('Download initiated via download service', {
+        sessionId,
+        targetCount: count,
+        availableResults: this.lastSearchResults.length,
+        specificDocuments: document_numbers
+      });
+
+      let documentsToDownload = this.lastSearchResults;
+
+      // Filter by specific document numbers if provided
+      if (document_numbers && Array.isArray(document_numbers)) {
+        if (document_numbers.every(num => typeof num === 'number')) {
+          // Indices provided
+          documentsToDownload = document_numbers
+            .map(index => this.lastSearchResults[index - 1])
+            .filter(Boolean);
+        } else {
+          // Document numbers provided
+          documentsToDownload = this.lastSearchResults.filter(doc =>
+            document_numbers.includes(doc.accessionNumber) || 
+            document_numbers.includes(doc.documentNumber)
+          );
+        }
+      }
+
+      // Use download service with retry strategy
+      const downloadProgress = await downloadService.downloadDocumentsWithRetry(
+        documentsToDownload,
+        count,
+        sessionId,
+        this.lastSearchQuery || 'general'
+      );
+
+      // Add successfully downloaded documents to RAG engine
+      let ragIndexedCount = 0;
+      for (const result of downloadProgress.results) {
+        if (result.success && result.content && result.metadata) {
+          try {
+            await this.ragEngine.addDocumentWithPages(
+              result.metadata.documentNumber || 'unknown',
+              result.content,
+              result.metadata,
+              result.metadata.pages
+            );
+            ragIndexedCount++;
+            mcpLogger.info('Document indexed in RAG engine', {
+              documentNumber: result.metadata.documentNumber,
+              filename: result.filename
+            });
+          } catch (ragError: any) {
+            mcpLogger.error('Failed to index document in RAG engine', {
+              documentNumber: result.metadata.documentNumber,
+              error: ragError.message
+            });
+          }
+        }
+      }
+
+      const successfulDownloads = downloadProgress.results.filter(r => r.success);
       
       return {
         content: [
           {
             type: "text",
-            text: `🔍 새로운 검색 결과 (이전 검색 결과는 대체됨)\n` +
-                  `Found ${results.length} documents in NRC ADAMS matching "${query}":\n\n${results
-              .map((r, i) => `${i + 1}. ${r.title}\n   Document #: ${r.documentNumber || 'N/A'}\n   Docket: ${r.docketNumber || 'N/A'}\n   Date: ${r.documentDate || 'N/A'}\n   Type: ${r.documentType || 'N/A'}`)
-              .join('\n\n')}\n\n` +
-                  `📌 현재 상태:\n` +
-                  `- 검색 결과: ${results.length}개 (새로운)\n` +
-                  `- 캐시된 문서: ${this.pdfCache.size}개 (유지됨)\n\n` +
-                  `Use "download_adams_documents" to download from THESE results`,
+            text: `📥 Download Results (Session: ${sessionId})
+
+✅ Success: ${downloadProgress.successCount}/${downloadProgress.totalTargets}
+❌ Failed: ${downloadProgress.failureCount}
+🔄 Total Attempts: ${downloadProgress.attemptCount}
+📚 RAG Indexed: ${ragIndexedCount}
+
+Downloaded Documents:
+${successfulDownloads.map((result, index) => 
+  `${index + 1}. ${result.filename || 'Unknown'}
+   Size: ${result.size ? Math.round(result.size / 1024) : 0}KB
+   Path: ${result.filePath || 'N/A'}
+   ${result.metadata?.title || 'No title available'}`
+).join('\n\n')}
+
+${downloadProgress.failureCount > 0 ? 
+  `\n⚠️  Failed Downloads:\n${downloadProgress.results
+    .filter(r => !r.success)
+    .map(r => `• ${r.error || 'Unknown error'}`)
+    .join('\n')}` : ''
+}
+
+📈 Performance:
+• Success Rate: ${Math.round((downloadProgress.successCount / downloadProgress.attemptCount) * 100)}%
+• Documents ready for Q&A: ${ragIndexedCount}
+
+Use ask_about_documents to query the downloaded content.`
           },
         ],
-        data: results,
       };
-    } catch (error) {
-      throw new McpError(
-        ErrorCode.InternalError,
-        `Failed to search ADAMS: ${error instanceof Error ? error.message : 'Unknown error'}`
-      );
-    }
-  }
-
-  // Mock data function removed - using real ADAMS data only
-
-  // Removed unused web scraping function - using RealADAMSScraper instead
-
-  private async downloadADAMSDocuments(args: any): Promise<any> {
-    const { count = 10, document_numbers } = args;
-    
-    if (this.lastSearchResults.length === 0) {
-      throw new McpError(
-        ErrorCode.InvalidRequest,
-        "No search results available. Please search first using 'search_adams'."
-      );
-    }
-
-    let documentsToDownload: ADAMSDocument[] = [];
-    
-    if (document_numbers && document_numbers.length > 0) {
-      // 특정 문서 번호들 다운로드
-      for (const num of document_numbers) {
-        const index = parseInt(num) - 1;
-        if (!isNaN(index) && index >= 0 && index < this.lastSearchResults.length) {
-          documentsToDownload.push(this.lastSearchResults[index]);
-        } else {
-          // 문서 번호로 직접 검색
-          const doc = this.lastSearchResults.find(d => d.documentNumber === num);
-          if (doc) documentsToDownload.push(doc);
-        }
-      }
-    } else {
-      // 상위 N개 다운로드
-      documentsToDownload = this.lastSearchResults.slice(0, count);
-    }
-
-    const downloadResults = [];
-    let successCount = 0;
-    let failCount = 0;
-
-    for (let i = 0; i < documentsToDownload.length; i++) {
-      const doc = documentsToDownload[i];
-      mcpLogger.info(`Downloading ${i + 1}/${documentsToDownload.length}: ${doc.title}`);
       
-      try {
-        const result = await this.downloadSingleDocument(doc);
-        downloadResults.push(`✅ ${doc.title}`);
-        successCount++;
-      } catch (error) {
-        downloadResults.push(`❌ ${doc.title}: ${error instanceof Error ? error.message : 'Failed'}`);
-        failCount++;
-        mcpLogger.error(`Failed to download ${doc.title}:`, error);
-      }
-    }
+    } catch (error: any) {
+      mcpLogger.error('Download failed', {
+        error: error.message,
+        targetCount: count
+      });
 
-    return {
-      content: [
-        {
-          type: "text",
-          text: `✅ 다운로드 완료!\n\n` +
-                `Downloaded ${successCount}/${documentsToDownload.length} documents:\n${downloadResults.join('\n')}\n\n` +
-                `📊 캐시 상태:\n` +
-                `- 방금 추가: ${successCount}개\n` +
-                `- 전체 캐시: ${this.pdfCache.size}/${this.MAX_CACHE_SIZE}개\n` +
-                `- 사용률: ${Math.round((this.pdfCache.size / this.MAX_CACHE_SIZE) * 100)}%\n\n` +
-                `💡 다음 단계:\n` +
-                `- "다운로드한 문서에서 XXX 찾아줘" → 캐시된 ${this.pdfCache.size}개 문서에서 검색\n` +
-                `- "YYY 새로 검색" → ADAMS 사이트에서 새 검색 (캐시는 유지됨)`,
-        },
-      ],
-    };
-  }
-
-  private async downloadSingleDocument(doc: ADAMSDocument): Promise<void> {
-    if (!doc.documentNumber) {
-      throw new Error('No document number available');
-    }
-
-    // PDF URL 구성
-    let pdfUrl = doc.pdfUrl || `https://www.nrc.gov/docs/${doc.documentNumber.substring(0, 6)}/${doc.documentNumber}.pdf`;
-
-    // 이미 캐시에 있는지 확인
-    if (this.pdfCache.has(pdfUrl)) {
-      mcpLogger.info(`Document already cached: ${doc.title}`);
-      return;
-    }
-
-    mcpLogger.info(`Downloading real PDF for: ${doc.title} (${doc.documentNumber})`);
-    
-    try {
-      // PDF 파일명 및 경로 생성
-      const filename = `${doc.documentNumber}.pdf`;
-      const filePath = join(this.pdfStoragePath, filename);
-      
-      let pdfDocument: StoredPDFDocument;
-      let pdfBuffer: Buffer | null = null;
-      
-      // RealADAMSScraper를 사용하여 실제 PDF 다운로드
-      // 마지막 검색어를 키워드로 사용하여 하나의 폴더에 모두 저장
-      const keyword = this.lastSearchQuery || 'general';
-      const downloadSuccess = await this.adamsScraper.downloadRealPDF(doc.documentNumber, '', keyword);
-      
-      if (downloadSuccess) {
-        // 키워드 기반 실제 경로 계산
-        const { sanitizeKeywordForFolder } = await import('./utils.js');
-        const keywordFolder = sanitizeKeywordForFolder(keyword);
-        const actualPath = join(this.pdfStoragePath, keywordFolder, `${doc.documentNumber}.pdf`);
-        
-        // 다운로드된 PDF 읽기
-        pdfBuffer = await fsPromises.readFile(actualPath);
-        mcpLogger.info(`Real PDF downloaded successfully: ${actualPath}`);
-        
-        // PDF 텍스트 추출 (Warning 메시지 억제)
-        let pdfData;
-        try {
-          // stdout을 임시로 억제
-          const originalWrite = process.stdout.write;
-          process.stdout.write = () => true;
-          
-          pdfData = await pdfParse(pdfBuffer);
-          
-          // stdout 복원
-          process.stdout.write = originalWrite;
-        } catch (parseError) {
-          mcpLogger.error(`PDF parse error: ${parseError}`);
-          throw parseError;
-        }
-        
-        pdfDocument = {
-          content: pdfData.text,
-          metadata: {
-            title: doc.title,
-            pages: pdfData.numpages,
-            documentNumber: doc.documentNumber,
-            docketNumber: doc.docketNumber,
+      return {
+        content: [
+          {
+            type: "text",
+            text: `❌ Download failed: ${error.message}\n\nTry with fewer documents or different search results.`
           },
-          url: pdfUrl,
-          filename,
-          localPath: actualPath,
-        };
-      } else {
-        throw new Error('Failed to download real PDF');
-      }
-
-      // LRU 캐시 관리
-      if (this.pdfCache.size >= this.MAX_CACHE_SIZE) {
-        const firstKey = this.pdfCache.keys().next().value;
-        if (firstKey) {
-          const oldDoc = this.pdfCache.get(firstKey);
-          if (oldDoc?.filename) {
-            this.filenameToUrl.delete(oldDoc.filename);
-          }
-          this.pdfCache.delete(firstKey);
-        }
-      }
-
-      this.pdfCache.set(pdfUrl, pdfDocument);
-      this.filenameToUrl.set(filename, pdfUrl);
-      this.currentPdfUrl = pdfUrl;
-      
-      // RAG 엔진에 문서 추가 (페이지 정보 포함)
-      await this.ragEngine.addDocumentWithPages(
-        pdfUrl, 
-        pdfDocument.content, 
-        {
-          title: pdfDocument.metadata.title,
-          documentNumber: pdfDocument.metadata.documentNumber,
-          docketNumber: pdfDocument.metadata.docketNumber,
-          filename: pdfDocument.filename
-        },
-        pdfDocument.metadata.pages // 전체 페이지 수 전달
-      );
-      
-    } catch (error) {
-      throw new Error(`Download failed: ${error instanceof Error ? error.message : 'Unknown error'}`);
+        ],
+      };
     }
   }
 
   private async askAboutDocuments(args: any): Promise<any> {
     const { question, document_number } = args;
     
-    if (this.pdfCache.size === 0) {
-      throw new McpError(
-        ErrorCode.InvalidRequest,
-        "No documents have been downloaded yet. Please download documents first."
-      );
-    }
-
     try {
-      // RAG 엔진 사용 가능 여부 확인
-      const ragStats = this.ragEngine.getStats();
-      const isRAGEnabled = this.ragEngine.isEnabled();
-      
-      mcpLogger.info(`Q&A: Using ${isRAGEnabled ? 'RAG with embeddings' : 'keyword search'}`);
-      
-      // RAG 검색 실행
-      const searchResults = await this.ragEngine.search(question, 5);
-      
-      if (searchResults.length === 0) {
+      mcpLogger.info('Q&A request initiated', {
+        question,
+        specificDocument: document_number
+      });
+
+      if (!this.ragEngine.isEnabled()) {
         return {
           content: [
             {
               type: "text",
-              text: `I couldn't find specific information about "${question}" in the searched documents.`,
+              text: "❌ RAG engine not enabled. Please set OPENAI_API_KEY or ANTHROPIC_API_KEY environment variable."
             },
           ],
         };
       }
+
+      let ragStats = this.ragEngine.getStats();
       
-      // 결과 포맷팅 (향상된 인용 정보 포함)
-      const formattedResults = searchResults.map((result, idx) => {
-        const metadata = result.metadata;
-        const source = metadata.documentNumber 
-          ? `[${metadata.documentNumber}] ${metadata.title || 'Document'}`
-          : metadata.title || 'Unknown Document';
-        
-        // 텍스트 일부만 표시 (앞뒤 100자)
-        const excerpt = result.text.length > 200 
-          ? result.text.substring(0, 100) + '...' + result.text.substring(result.text.length - 100)
-          : result.text;
-        
-        // 향상된 인용 정보 생성 - 페이지/섹션/라인 정보 포함
-        let citation = '';
-        if (metadata.citation) {
-          // EnhancedRAGEngine에서 제공하는 포맷된 인용
-          citation = `📍 ${metadata.citation}`;
-        } else if (metadata.pageNumber) {
-          // 페이지 정보가 있는 경우
-          citation = `📍 Page ${metadata.pageNumber}`;
-          if (metadata.totalPages) citation += ` of ${metadata.totalPages}`;
-          if (metadata.section) citation += ` - ${metadata.section}`;
-          if (metadata.lineNumbers) citation += ` (Lines ${metadata.lineNumbers[0]}-${metadata.lineNumbers[1]})`;
-        } else if (metadata.chunkIndex !== undefined) {
-          // 기본 청크 정보만 있는 경우 (fallback)
-          citation = `📍 Section #${metadata.chunkIndex + 1}` + 
-            (metadata.startChar ? ` (position ${metadata.startChar}-${metadata.endChar})` : '');
-        }
-        
-        // ADAMS URL 생성 (Markdown 링크 형식)
-        const adamsUrl = metadata.documentNumber 
-          ? `🔗 [View in ADAMS](https://adamswebsearch2.nrc.gov/webSearch2/main.jsp?AccessionNumber=${metadata.documentNumber})`
-          : '';
-        
-        // 파일 경로 가져오기
-        const docNumber = metadata.documentNumber;
-        let fileLink = '';
-        if (docNumber) {
-          // lastSearchQuery를 사용하여 실제 저장 경로 찾기
-          const keywordFolder = this.lastSearchQuery 
-            ? `${this.lastSearchQuery.toLowerCase().replace(/[^a-z0-9]+/g, '_')}_${new Date().toISOString().split('T')[0]}`
-            : '';
-          const possiblePaths = [
-            join(this.pdfStoragePath, keywordFolder, `${docNumber}.pdf`),
-            join(this.pdfStoragePath, `${docNumber}.pdf`)
-          ];
-          
-          for (const path of possiblePaths) {
-            if (fsSync.existsSync(path)) {
-              // 터미널에서 열 수 있는 명령어 포함
-              fileLink = `📂 Local: ${path}\n    💡 Open: \`open "${path}"\` (copy & paste to terminal)\n`;
-              break;
-            }
-          }
-        }
-        
-        return `\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n` +
-               `📄 **Source**: ${source}\n` +
-               `${isRAGEnabled ? `📊 **Relevance Score**: ${(result.score * 100).toFixed(1)}%\n` : ''}` +
-               `${citation}\n` +
-               `${adamsUrl}\n` +
-               `${fileLink}` +
-               `📝 "${excerpt}"`;
+      // If RAG engine is empty, try to load existing PDF files
+      if (ragStats.documentCount === 0) {
+        mcpLogger.info('RAG engine empty, attempting to load existing PDFs');
+        await this.loadExistingPDFs();
+        ragStats = this.ragEngine.getStats();
+      }
+
+      if (ragStats.documentCount === 0) {
+        return {
+          content: [
+            {
+              type: "text",
+              text: "❌ No documents available for Q&A. Please download documents first using download_adams_documents."
+            },
+          ],
+        };
+      }
+
+      // Search using RAG engine
+      const searchResults = await this.ragEngine.search(question, 5);
+      
+      if (!searchResults || searchResults.length === 0) {
+        return {
+          content: [
+            {
+              type: "text",
+              text: `❓ No relevant information found for: "${question}"\n\nTry rephrasing your question or download more documents.`
+            },
+          ],
+        };
+      }
+
+      // Format response with citations
+      const formattedResults = searchResults.map((result, index) => {
+        return `${index + 1}. ${result.text.substring(0, 300)}${result.text.length > 300 ? '...' : ''}
+   
+   📄 Citation: ${result.metadata.citation || 'No citation available'}
+   🎯 Relevance Score: ${(result.score * 100).toFixed(1)}%`;
+      }).join('\n\n');
+
+      const sourceDocuments = [...new Set(searchResults
+        .map(r => r.metadata.documentNumber)
+        .filter(Boolean)
+      )];
+
+      mcpLogger.info('Q&A completed successfully', {
+        question,
+        resultCount: searchResults.length,
+        sourceDocuments: sourceDocuments.length
       });
-      
-      // 답변 생성 - 검색 결과를 기반으로 통합된 답변 생성
-      mcpLogger.info(`Generating synthesized answer with ${searchResults.length} search results`);
-      let synthesizedAnswer = `Based on the downloaded documents, here's what I found regarding "${question}":\n\n`;
-      
-      // 가장 관련성 높은 결과들로 답변 구성
-      searchResults.slice(0, 3).forEach((result, idx) => {
-        const metadata = result.metadata;
-        const docRef = metadata.documentNumber || 'Document';
-        const section = metadata.chunkIndex !== undefined ? `, Section ${metadata.chunkIndex + 1}` : '';
-        
-        // 답변에 인용 포함
-        const content = result.text.length > 300 
-          ? result.text.substring(0, 300) + '...'
-          : result.text;
-        
-        synthesizedAnswer += `• ${content} [Source: ${docRef}${section}]\n\n`;
-      });
-      
-      // 인용 섹션 추가
-      synthesizedAnswer += `\n📚 **Citations and Sources:**\n`;
-      searchResults.forEach((result, idx) => {
-        const metadata = result.metadata;
-        const docNumber = metadata.documentNumber || 'N/A';
-        const title = metadata.title || 'Untitled';
-        const section = metadata.chunkIndex !== undefined ? `Section ${metadata.chunkIndex + 1}` : '';
-        const adamsUrl = docNumber !== 'N/A' 
-          ? `[Open in ADAMS](https://adamswebsearch2.nrc.gov/webSearch2/main.jsp?AccessionNumber=${docNumber})`
-          : '';
-        
-        synthesizedAnswer += `\n[${idx + 1}] **${title}**\n`;
-        synthesizedAnswer += `    Document: ${docNumber}${section ? ` | ${section}` : ''}\n`;
-        if (adamsUrl) {
-          synthesizedAnswer += `    Link: ${adamsUrl}\n`;
-        }
-        if (isRAGEnabled) {
-          synthesizedAnswer += `    Relevance: ${(result.score * 100).toFixed(1)}%\n`;
-        }
-      });
-      
-      // 검색 메타데이터 추가
-      synthesizedAnswer += `\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n`;
-      synthesizedAnswer += `📊 **Search Metadata:**\n`;
-      synthesizedAnswer += `• Method: ${isRAGEnabled ? 'AI Semantic Search (OpenAI Embeddings)' : 'Keyword Search'}\n`;
-      synthesizedAnswer += `• Documents searched: ${ragStats.documents}\n`;
-      synthesizedAnswer += `• Total chunks analyzed: ${ragStats.totalChunks}\n`;
-      synthesizedAnswer += `• Top results shown: ${searchResults.length}\n`;
-      
+
       return {
         content: [
           {
             type: "text",
-            text: synthesizedAnswer,
+            text: `🤖 Answer for: "${question}"
+
+${formattedResults}
+
+📊 Search Statistics:
+• Results Found: ${searchResults.length}
+• Source Documents: ${sourceDocuments.length}
+• Total Documents Available: ${ragStats.documentCount}
+• Documents with Page Info: ${ragStats.documentsWithPageInfo}
+
+📚 Source Documents: ${sourceDocuments.join(', ') || 'N/A'}`
           },
         ],
       };
-    } catch (error) {
-      throw new McpError(
-        ErrorCode.InternalError,
-        `Failed to process question: ${error instanceof Error ? error.message : 'Unknown error'}`
-      );
+      
+    } catch (error: any) {
+      mcpLogger.error('Q&A failed', {
+        question,
+        error: error.message
+      });
+
+      return {
+        content: [
+          {
+            type: "text",
+            text: `❌ Q&A failed: ${error.message}\n\nPlease try again or check if documents are properly loaded.`
+          },
+        ],
+      };
     }
   }
 
   private async listDownloadedDocuments(): Promise<any> {
-    if (this.pdfCache.size === 0) {
+    try {
+      const cacheStats = cacheManager.getStats();
+      const ragStats = this.ragEngine.getStats();
+      const downloadStats = downloadService.getStats();
+      
+      // Get cached download results
+      const downloadKeys = cacheManager.keys().filter(key => key.startsWith('download_'));
+      const documents = downloadKeys
+        .map(key => cacheManager.get(key))
+        .filter(doc => doc && doc.success)
+        .slice(0, 20); // Limit display
+
+      mcpLogger.info('Document list requested', {
+        cachedDocuments: documents.length,
+        ragDocuments: ragStats.documentCount
+      });
+
       return {
         content: [
           {
             type: "text",
-            text: `Downloaded ADAMS Documents (0/${this.MAX_CACHE_SIZE}):\n\nNo documents have been downloaded yet.\n\nUse 'search_adams' to search and then 'download_adams_documents' to download.`,
+            text: `📚 Downloaded Documents (${documents.length} shown, max 20)
+
+${documents.length > 0 ? 
+  documents.map((doc, index) => 
+    `${index + 1}. ${doc.filename || 'Unknown'}
+   Title: ${doc.metadata?.title || 'No title'}
+   Document: ${doc.metadata?.documentNumber || 'N/A'}
+   Size: ${doc.size ? Math.round(doc.size / 1024) : 0}KB
+   Path: ${doc.filePath || 'N/A'}`
+  ).join('\n\n') :
+  'No documents downloaded yet.'
+}
+
+📊 System Statistics:
+• Cache Entries: ${cacheStats.totalEntries}/${cacheStats.maxSize}
+• Cache Hit Rate: ${(cacheStats.hitRate * 100).toFixed(1)}%
+• Memory Usage: ${cacheStats.memoryUsage}MB
+• RAG Documents: ${ragStats.documentCount}
+• RAG Chunks: ${ragStats.totalChunks}
+• Download Sessions: ${downloadStats.activeSessions}
+• Overall Success Rate: ${(downloadStats.successRate * 100).toFixed(1)}%
+
+Use ask_about_documents to query these documents.`
+          },
+        ],
+      };
+      
+    } catch (error: any) {
+      mcpLogger.error('List documents failed', {
+        error: error.message
+      });
+
+      return {
+        content: [
+          {
+            type: "text",
+            text: `❌ Failed to list documents: ${error.message}`
           },
         ],
       };
     }
-    
-    const docList: string[] = [];
-    for (const [url, pdfDoc] of this.pdfCache.entries()) {
-      // 로컬 파일 경로 확인
-      let fileLink = '';
-      if (pdfDoc.localPath && fsSync.existsSync(pdfDoc.localPath)) {
-        fileLink = `\n   📂 Local File: file://${pdfDoc.localPath}`;
-      }
-      
-      docList.push(
-        `📄 ${pdfDoc.metadata.title || 'Untitled'}\n` +
-        `   Document #: ${pdfDoc.metadata.documentNumber || 'N/A'}\n` +
-        `   Docket: ${pdfDoc.metadata.docketNumber || 'N/A'}\n` +
-        `   Filename: ${pdfDoc.filename}\n` +
-        `   Pages: ${pdfDoc.metadata.pages || 'Unknown'}${fileLink}`
-      );
-    }
-    
-    return {
-      content: [
-        {
-          type: "text",
-          text: `Downloaded ADAMS Documents (${this.pdfCache.size}/${this.MAX_CACHE_SIZE}):\n\n${docList.join('\n\n')}\n\nCache Usage: ${Math.round((this.pdfCache.size / this.MAX_CACHE_SIZE) * 100)}%\n\n💡 Tip: "다운로드 파일 지워줘" or "캐시 비우기" to remove all`,
-        },
-      ],
-    };
   }
 
   private async clearCache(args: any): Promise<any> {
-    const { confirm = false } = args || {};
+    const { confirm = false } = args;
     
     if (!confirm) {
       return {
         content: [
           {
             type: "text",
-            text: `⚠️ 다운로드 파일 삭제 확인\n\n` +
-                  `현재 ${this.pdfCache.size}개의 문서가 다운로드되어 있습니다.\n` +
-                  `정말 모든 다운로드한 문서를 삭제하시겠습니까?\n\n` +
-                  `확인하려면:\n` +
-                  `- "삭제 확인"\n` +
-                  `- "캐시 삭제 확인"\n` +
-                  `- "다운로드 파일 삭제 확인"`,
+            text: "⚠️ This will clear ALL downloaded documents and cache data.\nRun again with confirm=true to proceed."
           },
         ],
       };
     }
-    
-    const previousSize = this.pdfCache.size;
-    
-    // 로컬 파일들도 삭제
-    for (const [url, pdfDoc] of this.pdfCache.entries()) {
-      if (pdfDoc.localPath && fsSync.existsSync(pdfDoc.localPath)) {
-        try {
-          await fsPromises.unlink(pdfDoc.localPath);
-          mcpLogger.info(`Deleted local file: ${pdfDoc.localPath}`);
-        } catch (err) {
-          mcpLogger.warn(`Failed to delete file: ${err}`);
+
+    try {
+      // Clear all caches
+      cacheManager.clear();
+      this.ragEngine.clear();
+      searchService.clearCache();
+      
+      // Clear local state
+      this.lastSearchResults = [];
+      this.lastSearchQuery = undefined;
+
+      mcpLogger.info('Cache cleared successfully');
+
+      return {
+        content: [
+          {
+            type: "text",
+            text: "✅ All caches and downloaded documents cleared successfully.\n\nSystem reset - ready for new searches and downloads."
+          },
+        ],
+      };
+      
+    } catch (error: any) {
+      mcpLogger.error('Clear cache failed', {
+        error: error.message
+      });
+
+      return {
+        content: [
+          {
+            type: "text",
+            text: `❌ Failed to clear cache: ${error.message}`
+          },
+        ],
+      };
+    }
+  }
+
+  private async getSystemStats(): Promise<any> {
+    try {
+      const cacheStats = cacheManager.getStats();
+      const ragStats = this.ragEngine.getStats();
+      const downloadStats = downloadService.getStats();
+      const searchStats = searchService.getStats();
+
+      return {
+        content: [
+          {
+            type: "text",
+            text: `📊 NRC ADAMS MCP Server Statistics
+
+🔍 Search Performance:
+• Total Searches: ${searchStats.totalSearches}
+• Cache Hit Rate: ${(searchStats.cacheHitRate * 100).toFixed(1)}%
+• Average Results: ${searchStats.averageResults}
+• Average Search Time: ${searchStats.averageSearchTime}ms
+• Popular Keywords: ${searchStats.mostPopularKeywords.join(', ')}
+
+📥 Download Performance:
+• Active Sessions: ${downloadStats.activeSessions}
+• Total Downloads: ${downloadStats.totalDownloads}
+• Success Rate: ${(downloadStats.successRate * 100).toFixed(1)}%
+• Average File Size: ${Math.round(downloadStats.averageSize / 1024)}KB
+
+💾 Cache System:
+• Entries: ${cacheStats.totalEntries}/${cacheStats.maxSize}
+• Hit Rate: ${(cacheStats.hitRate * 100).toFixed(1)}%
+• Memory Usage: ${cacheStats.memoryUsage}MB
+• Most Accessed: ${cacheStats.mostAccessed || 'None'}
+
+🧠 RAG Engine:
+• Provider: ${ragStats.provider}
+• Documents: ${ragStats.documentCount}
+• Total Chunks: ${ragStats.totalChunks}
+• With Page Info: ${ragStats.documentsWithPageInfo}
+• Avg Chunks/Doc: ${ragStats.averageChunksPerDocument.toFixed(1)}
+
+🏗️ Architecture:
+• Version: 3.0.0 (Modular)
+• Config Source: Environment + Defaults
+• Services: Search, Download, Cache, RAG
+• Status: ✅ All systems operational`
+          },
+        ],
+      };
+      
+    } catch (error: any) {
+      mcpLogger.error('Get stats failed', {
+        error: error.message
+      });
+
+      return {
+        content: [
+          {
+            type: "text",
+            text: `❌ Failed to get system stats: ${error.message}`
+          },
+        ],
+      };
+    }
+  }
+
+  /**
+   * Load existing PDF files into RAG engine
+   */
+  private async loadExistingPDFs(): Promise<void> {
+    try {
+      const { promises: fs } = await import('fs');
+      const { promises: fsPromises } = await import('fs');
+      const path = await import('path');
+
+      const pdfDir = this.config.storage.pdfPath;
+      
+      // Find all PDF files in subdirectories
+      const entries = await fsPromises.readdir(pdfDir, { withFileTypes: true });
+      const directories = entries.filter(entry => entry.isDirectory());
+      
+      let loadedCount = 0;
+      
+      for (const dir of directories) {
+        const dirPath = path.join(pdfDir, dir.name);
+        const files = await fsPromises.readdir(dirPath);
+        const pdfFiles = files.filter(file => file.endsWith('.pdf'));
+        
+        for (const pdfFile of pdfFiles) {
+          const pdfPath = path.join(dirPath, pdfFile);
+          const documentNumber = path.basename(pdfFile, '.pdf');
+          
+          // Skip if already processed (performance optimization)
+          // Check if RAG engine already has documents to avoid reprocessing
+          const ragStats = await this.ragEngine.getStats();
+          if (ragStats.documentCount >= pdfFiles.length && loadedCount > 0) {
+            break; // Already loaded all documents
+          }
+          
+          try {
+            // Use high-speed cache instead of slow extraction
+            const cacheFile = `pdf-text-cache/${documentNumber}.txt`;
+            const content = await fs.readFile(cacheFile, 'utf8').catch(() => null);
+            if (content) {
+              await this.ragEngine.addDocumentWithPages(
+                documentNumber,
+                content,
+                {
+                  title: `Document ${documentNumber}`,
+                  documentNumber: documentNumber,
+                  filename: pdfFile
+                }
+              );
+              loadedCount++;
+              mcpLogger.debug('PDF loaded into RAG engine', {
+                documentNumber,
+                contentLength: content.length
+              });
+            }
+          } catch (error: any) {
+            mcpLogger.warn('Failed to load PDF into RAG engine', {
+              pdfPath,
+              error: error.message
+            });
+          }
         }
       }
+      
+      mcpLogger.info('Existing PDFs loaded into RAG engine', {
+        loadedCount,
+        totalDirectories: directories.length
+      });
+      
+    } catch (error: any) {
+      mcpLogger.error('Failed to load existing PDFs', {
+        error: error.message
+      });
     }
-    
-    this.pdfCache.clear();
-    this.filenameToUrl.clear();
-    this.currentPdfUrl = undefined;
-    this.ragEngine.clear(); // RAG 엔진도 초기화
-    
-    return {
-      content: [
-        {
-          type: "text",
-          text: `🗑️ 다운로드 파일 삭제 완료!\n\n` +
-                `- 삭제된 문서: ${previousSize}개\n` +
-                `- 남은 문서: 0개\n\n` +
-                `✨ 깨끗하게 비워졌습니다!\n\n` +
-                `새로 시작하려면:\n` +
-                `1. "XXX 검색" → ADAMS에서 새 검색\n` +
-                `2. "N개 다운로드" → 문서 다운로드`,
-        },
-      ],
-    };
   }
 
   async run(): Promise<void> {
     const transport = new StdioServerTransport();
     await this.server.connect(transport);
-    mcpLogger.info("NRC ADAMS MCP server running on stdio");
+    mcpLogger.info('NRC ADAMS MCP Server (Modular v3.0) started successfully');
   }
 }
 
-// Start the server
-if (import.meta.url === `file://${process.argv[1]}`) {
-  const server = new NRCADAMSMCPServer();
-  server.run().catch(err => mcpLogger.error('Server error:', err));
-}
+const server = new NRCADAMSMCPServer();
+server.run().catch((error) => {
+  mcpLogger.error('Server failed to start', {
+    error: error.message,
+    stack: error.stack
+  });
+  process.exit(1);
+});

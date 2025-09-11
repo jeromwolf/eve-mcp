@@ -1,0 +1,1019 @@
+[PDF Metadata]
+Pages: 4
+
+[Content]
+12/29/71
+SAFETY 
+GUIDE 20-VIBRATION 
+MEASUREMENTS 
+ON REACTOR 
+INTERNALS
+A. 
+Introduction
+General 
+Design. 
+Criterion 
+1 requires 
+that
+structures, 
+systems 
+and components 
+important
+to 
+safety, be 
+designed, 
+fabricated, 
+erected, 
+and
+tested 
+to quality 
+standards 
+commensurate 
+with
+the importance 
+of the safety 
+functions 
+to 
+be
+performed. 
+This guide 
+presents 
+an acceptable
+method 
+for 
+implementing 
+this 
+criterion 
+with
+regard to 
+preoperational 
+vibration 
+testing 
+of
+reactor 
+internals 
+(structural 
+components 
+inside
+the 
+reactor 
+vessel) important 
+to safety 
+to
+demonstrate 
+that 
+flow-induced 
+vibrations 
+similar
+in 
+nature 
+to those expected 
+during operation
+will not 
+cause damage. 
+Subsequent 
+inservice
+inspections 
+to verify 
+that these 
+components 
+have
+not 
+been subjected 
+to 
+structuraldegradation 
+as a
+result 
+of vibration 
+during normal 
+reactor
+operation 
+are not 
+covered by 
+this guide.
+B. 
+Discussion
+Reactor 
+internals that 
+are important 
+to 
+safety
+are 
+designed 
+to withstand 
+the 
+predicted 
+cyclic
+loads 
+due to 
+vibration 
+in combination 
+with 
+the
+other 
+loads encountered 
+during 
+their 
+service life.
+The dynamic 
+conditions 
+generated 
+by 
+the flow
+of the reactor 
+coolant 
+within 
+the reactor 
+vessel
+and 
+reactor 
+coolant 
+system 
+components 
+are
+predicted 
+analytically 
+and in conjunction 
+with
+data 
+derived from 
+laboratory 
+and 
+full-scale test
+programs.
+The 
+purpose 
+of these 
+calculations 
+and tests 
+is
+to estimate 
+the 
+input forcing 
+functions 
+which
+cause vibrations 
+and to verify 
+the 
+vibrational
+response 
+(frequency 
+and amplitude) 
+of the
+reactor 
+internal 
+components 
+predicted 
+for the
+prototype 
+design. 
+However, 
+the analytical
+techniques 
+and limited 
+test data 
+available, 
+at
+present, 
+are 
+not yet 
+adequate 
+to. predict 
+and
+confirm 
+the significant 
+sources and 
+levels of 
+the
+input forcing 
+functions 
+and 
+the associated
+responses 
+of the 
+internal 
+components 
+without
+verification 
+by measurement.
+At several 
+nuclear 
+power 
+plants, the 
+dynamic
+forces 
+associated 
+with the 
+flow 
+of reactor
+coolant have 
+resulted 
+in excessive 
+vibration 
+of
+some 
+components 
+of 
+the reactor 
+internals. 
+The
+• vibration 
+has been 
+sufficient 
+to weaken 
+(fatigue)
+the components 
+and, in some 
+cases, 
+has resulted
+in their failure.
+The 
+analytical and empirical techniques
+which provide 
+the initial basis for 
+the evaluation
+of 
+the effects 
+of vibration 
+need 
+verification 
+by
+measurement. 
+Because 
+of the lack 
+of experience
+with vibration 
+characteristics 
+of various 
+reactor
+configurations, 
+and 
+the limitations 
+of the
+analytical 
+and 
+empirical 
+techniques 
+used to 
+date,
+a program 
+of vibration 
+analysis, 
+measurement,
+and 
+inspection, 
+is needed 
+for each 
+prototype
+design.' 
+The extent 
+of 
+this program 
+is
+dependent 
+on 
+the adequacy 
+of 
+analytical 
+and
+empirical 
+data 
+available 
+for a given 
+design, 
+as
+may be. 
+derived 
+from scale 
+tests 
+or other
+prototype 
+tests.
+For reactors 
+whose internals 
+are similar in
+design 
+of 
+that of the 
+vibration-tested 
+reactor
+considered as 
+the prototype, either an inspection
+of the reactor 
+internals 
+following 
+preoperational
+functional testing, or the use of appropriate
+vibration-measuring 
+instrumentation to detect
+the predominant 
+vibratory responses 
+observed in
+the 
+prototype 
+reactor, provides 
+a basis 
+for
+confirmation 
+that 
+the vibrational 
+characteristics
+and 
+their effects 
+are not unlike 
+that of the
+prototype 
+reactor.
+C. Regulatory 
+Position for 
+Prototype 
+Reactor
+Internals'
+1. A 
+vibration 
+analysis 
+and test 
+program
+should 
+be 
+developed. 
+The test 
+program
+should 
+be submitted 
+for review 
+by the
+Commission 
+prior 
+to the 
+performance 
+of
+the scheduled 
+preoperational 
+functional
+tests.
+The 
+vibration 
+testing 
+should 
+be
+conducted 
+with 
+the fuel elements 
+in 
+the
+core structure 
+of the 
+reactor 
+internals 
+(or
+with 
+dummy 
+elements 
+which 
+provide
+equivalent 
+mass and 
+flow characteristics).
+A prototype 
+design 
+of reactor 
+internals 
+is the first
+design 
+respresentative 
+of a group 
+of reactors 
+of
+substantially 
+the same 
+design, 
+size and configuration.
+This group of 
+reactors may include 
+all those in which 
+the
+variations 
+in 
+the parameters 
+of operation 
+pressure,
+temperature, 
+flow conditions, 
+coolant 
+velocities, 
+and
+pressure 
+losses for the range 
+of operating conditions 
+can
+be 
+demonstrated 
+as negligible 
+with respect 
+to their
+influence 
+upon the 
+input vibratory 
+functions.
+20.1
+
+,Testing .may also be conducte4d with
+the core structure 
+not loaded with fuel
+elements provided 
+such conditions can be
+demonstrated., to , result in 
+vibrational
+characteristic 
+which, for the purposes 
+of
+the test, will yield conservativeresults.
+The test program should include:
+a. a 
+brief description of the vibration 
+test
+program, including instrumentation
+types and diagrams of their, 
+location,
+which will be used for 
+measurement of
+vibration responses and 
+those
+parameters 
+which. define the input
+forcing functions,
+b. the planned duration 
+of the test for
+normal operating modes 
+to assure that
+all critical components are subjected 
+to
+at least 10'. cycles of vibration,
+c. the additional test duration 
+for other
+than normal operating modes to assure
+that 
+the number of cycles imposed 
+on
+the critical 
+components is sufficient to
+analyze their adequacy to withstand
+vibrations under these 
+operating
+modes,
+d. the 
+description of different flow
+modes of 
+operation and transients to
+which the internals 
+will be subjected
+during the test,
+e. the predominant response mode 
+shapes
+and 
+the estimated range of numerical
+values of the response 
+of the major
+components of the reactor internals 
+in
+terms of amplitudes 
+and, where
+appropriate, the 
+anticipated values 
+of
+the paramaters which may 
+influence
+the input forcing function, under those
+flow modes of 
+reactor operation which
+are shown by the 
+analyses to be the
+most critical,
+f. the test 
+acceptance criteria and 
+the
+permissible 
+deviations from these
+criteria, and 
+the bases upon which
+these criteria were established,
+g. a description of 
+the inspection
+program which will be followed 
+after
+the 
+completion of the vibration tests,
+including the areas 
+of reactor internals
+subject to examination, 
+the method of
+examination, the design access
+provisions in the reactor internals 
+and
+the specialized equipment to be
+employed 
+for performing such
+examinations.
+2. A vibration' 
+test program should be
+implemented during 
+the preoperational
+functional 
+testing program to measure the
+response
+2 
+of the reactor internals 
+and,
+where appropriate, the 
+values of those
+parameters 
+which will define the input
+forcing !functions 
+for the more critical
+modes 
+of reactor operation. The data
+obtained by these measurements on
+reactor internals should be sufficient 
+to
+verify, 
+that the cyclic stresses in 
+the
+components, 
+as determined by analyses of
+these data, are 
+within the acceptable
+design stress limits set forth 
+in the design
+specifications and applicable 
+code
+requirements 
+and that the results meet 
+the
+acceptance 
+criteria of the vibration test
+program.
+3. The extent of the measurements 
+should
+be determined, 
+for each individual case,
+on the basis 
+of the design and
+configuration of those structural 
+elements
+of the reactor 
+internals important to
+safety and their 
+predicted behavior as
+determined from the vibration 
+analyses
+used in their 
+design. The type of vibration
+test instrumentation 
+used, the number of
+measurements taken, and 
+the distribution
+of measuring devices within the 
+reactor
+should 
+be adequate to detect the presence
+of lateral, vertical, 
+and torsional
+amplitudes of vibration (e.g., 
+beam,
+column, 
+and shell modes of vibrations,'as
+applicable 
+to the geometry of the
+internals) and at sufficient locations 
+to
+determine 
+the points of predominant
+maximum 
+vibratory oscillations.
+4. After 
+the reactor internals 
+have been
+subjected to the significant flo,-' 
+modes
+expected during service 
+lifetme under
+normal reactor 
+operatior, and other
+modes of reactor operation, visual 
+and
+nondestructive 
+surface examinations 
+of
+reactor internals should be conducted 
+to
+detect 
+any evidence of the effects 
+of
+vibrations. 
+These examinations should be
+conducted preferably 
+following removal
+of the 
+internals from the reactor vessel.
+Where removal is not 
+feasible, the
+examinations should 
+be performed by
+means of examination 
+equipment
+appropriate 
+for in situ examination. The
+areas examined should 
+include all major
+2 
+Frequency'and 
+amplitudes 
+of 
+vibration, 
+in 
+terms 
+of
+velocities, accelerations and displacements 
+or strains.
+4
+20.2
+
+load-bearing :elements ' of the' 
+reactor
+internalswhich 
+are relied upon 
+to retain
+the! core structure 
+in place, the 
+lateral,
+vertical, 
+and 
+torsional 
+-restraints 
+provided
+within the reactor vessel, 
+those locking
+and 
+bolting devices whose 
+failure could
+adversely affect 
+the structural integrity 
+of
+the internals, and those 
+critical locations
+o-n 
+' reactor internal components 
+as
+identified 
+from the vibration 
+analyses.
+5.
+In 
+the event either the 
+inspections of
+reactor 
+internals reveal unacceptable
+defects 
+or the results of the 
+vibration test
+program 
+fail to meet the 
+specified
+acceptance 
+criteria, a report should 
+be
+prepared 
+and submitted 
+to the
+Commission 
+for review, which 
+includes an
+evaluation and a 
+description of the
+corrective, 
+actions planned 
+in order to
+justify the adequacy 
+of the reactor
+internals 
+design to withstand the
+vibrations expected 
+in service.
+6. If the test and examination program is
+acceptable, 
+a summary 
+of the results
+obtained 
+from the vibration 
+tests and
+inspection 
+should be submitted 
+to the
+Commission after 
+completion of the tests.
+The summary 
+should include:
+a. a description 
+of any differences 
+from
+the specified vibration 
+tests program,
+instrumentation reading 
+anomalies and
+instrument failures.
+b. a comparision 
+between the 
+measured
+values 
+of vibration responses 
+including
+the 
+parameters
+3  
+from 
+which input
+forcing 
+functions are determined 
+and
+the predi*cted 
+values from the analysis.
+This comparison 
+should be made for
+those components 
+of the reactor
+internals for 
+which the acceptance
+criteria 
+under C.l.f. have 
+been
+established with 
+respect to the
+different 
+modes of 
+vibration,
+c. an 
+evaluation of measurements 
+that
+exceeded acceptable 
+limits or of
+observations 
+that were unanticipated,
+and the disposition of such deviations.
+'Where 
+mleasurements to determine 
+forcing
+functions cannot 
+be obtained practically 
+in all areas by
+means 
+of pressure transducers (or 
+other instruments).
+such values may be estimated 
+from measured responses
+and from 
+analytical and empirical 
+results.
+D. Regulatory Position 
+for Reactor Internals
+Similar 
+to the 
+Prototype 
+Design
+-1. The reactor internals 
+important to safety
+should be 
+subjected during 
+the
+preoperational functional 
+testing program
+to all significant flow 
+modes of normal
+reactor 
+operation and under 
+the same test
+conditions 
+imposed on the 
+prototype
+design whose 
+vibration analysis and 
+tests
+have been accepted 
+and approved.
+The test 
+duration should be 
+at least as
+long as that 
+conducted on the prototype
+design.
+2. Following 
+completion of 
+the
+preoperational 
+functional 
+tests, the
+reactor 
+internals should be removed 
+from
+the reactor 
+vessel and visual 
+and
+nondestructive 
+examination 
+of the reactor
+internals 
+should be conducted. 
+The areas
+examined should 
+include:
+a. 
+all major load bearing 
+elements of the
+reactor internals relied 
+upon to retain
+the core structure 
+in place,
+b. 
+the lateral, vertical, 
+and torsional
+restraints provided within 
+the vessel,
+c. those locking and 
+bolting devices
+whose 
+failure could adversely 
+affect
+the structural 
+integrity of the 
+internals,
+d. those other 
+locations on the reactor
+internal 
+components which 
+were
+examined on the 
+prototype design,
+e. the interior 
+of the reactor 
+vessel for
+evidence 
+of 
+loose 
+parts 
+or foreign
+material.
+3. In 
+lieu of 
+the visual 
+and surface
+examinations of the removed reactor
+internals 
+of 2. above, a vibration 
+test
+program may 
+be implemented 
+during the
+preoperational 
+functional 
+testing 
+program
+by 
+using sufficient 
+and appropriate
+vibration-measuring 
+instrumentation 
+to
+detect 
+the 
+predominant 
+vibratory
+responses 
+observed in the 
+approved and
+accepted prototype design.
+The predominant vibratory responses
+to 
+be measured 
+should 
+be those 
+which,
+from the results of the prototype 
+test,
+identify the principal characteristics and
+modes 
+of vibration 
+of the 
+reactor 
+internal
+20.3
+
+components, 
+and 
+which 
+will permit
+comparison 
+of measured 
+responses 
+to
+confirm the substantially similar
+vibrational 
+behavior, 
+between 
+the 
+tested
+internals 
+and 
+its prototype 
+unit, within
+the limits of the test acceptance criteria of
+the prototype 
+design.
+In the event 
+significant dissimilarity 
+of
+responses 
+are obsered 
+for specific
+components, 
+visual examinations 
+should
+be 
+performed of 
+these components 
+by
+means 
+of appropriate 
+examination
+equipment 
+which 
+permits 
+insitu
+inspection. 
+In all cases, 
+the interior of the
+reactor 
+vessel should 
+be 
+visually 
+checked
+for evidence 
+of loose parts 
+and foreign
+material.
+4. A summary 
+of the inspection 
+of D.Z.
+above, 
+or the 
+results from 
+the 
+vibration
+test program 
+of D.3. 
+above, should be
+submitted to 
+the Commission- 
+after
+completion 
+of 
+the inspection 
+and 
+tests, in
+the form 
+of summary discussed 
+under C.5.
+above, to confirm 
+that the 
+observed
+vibrational 
+characteristics 
+are similar 
+to
+those of the prototype 
+design. The 
+report
+should 
+include 
+an 
+evaluation 
+of 
+any
+observed 
+dissimilarity 
+of responses
+between 
+the tested 
+internals and its
+prototype 
+and the corrective 
+actions
+taken 
+to confirm 
+the acceptance of 
+the
+test 
+results.
+.
+I
+I
+20.4

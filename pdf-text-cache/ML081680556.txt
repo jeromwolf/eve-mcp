@@ -1,0 +1,2290 @@
+[PDF Metadata]
+Pages: 56
+
+[Content]
+UNITED STATES
+ 
+NUCLEAR REGULATORY COMMISSION
+ 
+ADVISORY COMMITTEE ON REACTOR SAFEGUARDS
+ 
+WASHINGTON, DC 20555 • 0001 
+December 16, 2004 
+MEMORANDUM TO: 
+FROM: 
+ACRS Members 
+e"" ~ 
+I'A.. I.k.~~ /~ ...) t. 
+Caye~~~"'~osJr., Senior Staff Engineer 
+Technical Support Staff 
+ACRS/ACNW 
+SUBJECT: 
+CERTIFICATION OF THE MINUTES OF THE ACRS 
+SUBCOMMITTEE MEETING ON THE ARKANSAS NUCLEAR ONE 
+UNIT 2 LICENSE RENEWAL APPLICATION, DECEMBER 
+1, 2004­
+ROCKVILLE, MARYLAND 
+The minutes of the subject meeting were certified on December 15, 2004, as the official 
+record 
+of the proceedings of that meeting. A copy of the certified minutes is attached. 
+Attachment: As stated 
+cc: 
+J. Larkins 
+S. Duraiswamy 
+J. Flack 
+M. Snodderly 
+
+UNITED STATES
+ 
+NUCLEAR REGULATORY COMMISSION
+ 
+ADVISORY COMMITIEE ON REACTOR SAFEGUARDS
+ 
+WASHINGTON, DC 20555 - 0001 
+Cayetano Santos Jr., Senior Staff Engineer, 
+Technical Support Staff 
+ACRS/ACNW 
+FROM: 
+Mario Bonaca, Chairman 
+ACRS Plant License Renewal Subcommittee 
+SUBJECT: 
+CERTIFICATION OF THE MINUTES OF THE ACRS 
+SUBCOMMITTEE MEETING ON THE ARKANSAS NUCLEAR ONE, 
+UNIT 2 LICENSE RENEWAL APPLICATION, DECEMBER 
+1, 2004­
+ROCKVILLE, MARYLAND 
+I hereby certify, to the best 
+of my knowledge and belief, that the minutes of the subject meeting 
+on December 
+1, 2004, are an accurate record of the proceedings for that meeting. 
+tYJc~ ~ J2.l
+l 
+sjoy.­
+Mario Bonaca , Date 
+Plant License Renewal Subcommittee Chairman 
+
+UNITED STATES
+ 
+NUCLEAR REGULATORY COMMISSION
+ 
+ADVISORY COMMITTEE ON REACTOR SAFEGUARDS
+ 
+WASHINGTON, DC 20555 -0001 
+December 15, 2004 
+MEMORANDUM TO:  
+Mario Bonaca, Chairman 
+ACRS Plant License Renewal Subcommittee 
+I'j.-b_~, Sa.:J;  Y. 
+FROM:  
+Caye(a~~~ntosJr., Senior Staff Engineer, 
+Technical Support Staff 
+ACRSIACNW 
+SUBJECT:  WORKING COPY OF THE MINUTES OF THE ACRS 
+SUBCOMMITTEE MEETING ON THE ARKANSAS NUCLEAR ONE 
+UNIT2 LICENSE RENEWAL APPLICATION, DECEMBER 
+1, 2004­
+ROCKVILLE, MARYLAND 
+A working copy 
+of the minutes for the subject meeting is  attached for your review. Please 
+review and comment 
+on them at your earliest convenience. If you are satisfied with these 
+minutes please sign, date, and return the attached certification letter. 
+Attachments:  Certification Letter 
+Minutes (DRAFT) 
+cc 
+wlo Attachment: 
+J. Larkins 
+J. Flack 
+S. Duraiswamy 
+M. Snodderly 
+
+CERTIFIED 
+12/15/04 
+By Mario Bonaca 
+Issued: 12/13/04 
+ADVISORY COMMITTEE ON REACTOR SAFEGUARDS
+ 
+MINUTES OF ACRS PLANT LICENSE RENEWAL SUBCOMMITTEE MEETING
+ 
+ON THE ARKANSAS NUCLEAR ONE, UNIT 2  NUCLEAR POWER PLANT
+ 
+DECEMBER 
+1, 2004
+ 
+ROCKVILLE, MARYLAND
+ 
+On December 
+1, 2004, the Plant License Renewal Subcommittee held a meeting in Room 
+T2B3, 11545 Rockville Pike, Rockville, Maryland. The purpose 
+of the meeting was to review 
+and discuss the Arkansas Nuclear One, Unit 2 License Renewal Application (LRA) and Draft 
+Safety Evaluation Report (SER). 
+The meeting was open to the public. No written comments 
+or requests to make oral statements 
+were received from members 
+of the public related to this meeting. Mr. Cayetano Santos was 
+the Designated Federal Official for this meeting. The meeting convened at 1:30 
+pm and 
+adjourned at 5:45 pm on December 
+1, 2004. 
+ATTENDEES: 
+ACRS MEMBERS/STAFF 
+Mario Bonaca, Chairman Stephen Rosen, Member 
+Richard Denning, Member 
+Peter Ford, Member 
+John Sieber, Member Graham Wallis, Member 
+Victor Ransom, Member 
+Graham Leitch, Consultant 
+Cayetano Santos Jr., ACRS Staff 
+NRC STAFF/PRESENTERS 
+P. Kuo, NRR 
+G. Suber, NRR 
+J. Rowley, NRR R. Dipert, NRR 
+L. Lois, NRR 
+J. Ayala, NRR 
+J. Medoff, NRR 
+K. Cozens, NRR 
+R. Nease, Region IV G. Cranston, NRR 
+G. Georgiev, NRR D. Nguyen, NRR 
+R. McNally, NRR S. Lee, NRR 
+D. Merzke, NRR 
+M. Lintz, NRR 
+L. Tran, NRR 
+J. Guo, NRR 
+C. Li, NRR T. Le, NRR 
+S. Hoffman, NRR M. Morgan, NRR 
+T. Liu, NRR 
+R. Auluck, NRR 
+B. Rogers, NRR 
+S. Mitra, NRR 
+M. Mitchell, NRR J. Tsao, NRR 
+M. Hartzman, NRR V. Rodriguez, NRR 
+J. Hernandez, NRR 
+K. Hsu, NRR 
+K. Chang, NRR J. Zimmerman, NRR 
+1
+ 
+
+Y. Li, NRR 
+J. Ma, NRR 
+P. Kang, RES 
+T. Cheng, NRR 
+A. Stone, Region III 
+OTHER ATTENDEES 
+G. Young, Entergy 
+M. Rinckel, AREVA 
+M. Miller, AREVA 
+B. Kalinowski, AEP 
+M. Stroud, Entergy 
+D. Wooten, Dominion 
+R. Rucker, Entergy 
+D. Lach, Entergy 
+J. Ivy, Entergy 
+N. Haggerty, AEP 
+A. Cox, Entergy 
+D. Johnson, NMC-LLC 
+R. Ahrabus, Entergy 
+P. Aitken, Dominion 
+J. Knorr, NMC-LLC 
+M. Patterson, Metamorph 
+K. Green, ISL 
+R. Grumbir, AEP 
+P. Schoepf, AEP 
+S. Pope, ISL 
+D. Mlynarczyk, ISL 
+K. Prasad, ISL 
+R. Vincent, NMC 
+The presentation slides, handouts used during the meeting, and a complete list 
+of attendees 
+are attached to the Office Copy 
+of the meeting minutes. The presentation to the Subcommittee 
+is summarized below. 
+Opening Remarks 
+Mr. Bonaca, Chairman of the Plant License Renewal Subcommittee, convened the meeting and 
+made a few introductory remarks. The purpose 
+of this meeting is to review Entergy's license 
+renewal application (LRA) and the related Draft Safety Evaluation Report (SER) for Arkansas 
+Nuclear One, Unit 2 
+(AN02). Mr. Bonaca called upon Mr. Kuo of the Office of Nuclear Reactor 
+Regulation (NRR) to begin the discussion. 
+Staff Introduction 
+Mr. Kuo introduced several members of the staff including Mr. Suber (license renewal program 
+manager), Ms. Nease (inspection team leader), and Mr. Cranston (audit team leader). Mr. Kuo also 
+noted that 
+AN02 is  the second plant to be reviewed with a new process that uses on-site audits 
+to verify consistency with the Generic Aging Lessons Learned Report (GALL). 
+AN02 License Renewal Application 
+Mr. Young, Entergy, greeted the Subcommittee and introduced accompanying members of the 
+Entergy and AREVA staff. The key elements 
+of Mr. Young's presentation included a 
+description 
+of AN02, its operating history, the scoping methodology, the application of GALL, 
+and commitment tracking. 
+Background and Plant Description 
+On October 15, 2003, Entergy submitted 
+an application to the NRC for renewal of the AN02 
+operating license for an additional 20 years. The current operating license for AN02 expires on 
+July 17, 2018. Entergy also identified staff approved past precedents that are not in GALL and 
+provided this information to the staff. 
+2
+ 
+
+AN02 is a pressurized water reactor (PWR) unit with a dry ambient containment. AN02 began
+ 
+initial operations 
+in 1978 and has a capacity of 3026 MWt or 1023 MWe. Mr. Young also noted
+ 
+some differences between 
+ANa Unit 1 and 2. Unit 1 is a Babcock and Wilcox PWR that uses
+ 
+once through cooling, while Unit 2 is  a Combustion Engineering PWR with a cooling tower.
+ 
+Operating Historv/Major Equipment Replacements and Repairs
+ 
+In 2002, a power uprate of 7.5% increased capacity by 210 MWe. In 2000 the steam
+ 
+generators were replaced with Westinghouse Delta 109 U-tube steam generators.
+ 
+Scoping and Screening Method
+ 
+The scoping methodology was applied on a plant system basis per the requirements of 10 CFR
+ 
+54.4(a) and screening was performed per the requirements 
+of 10 CFR 54.21 (a)1. Mr. Young
+ 
+added that 
+all components located in a room that contains both safety and non-safety related
+ 
+equipment were assumed to be 
+in scope.
+ 
+Application 
+of GALL
+ 
+The 
+AN02 license renewal application focused on consistency with GALL but since some
+ 
+material/environment/program combinations were not addressed 
+in GALL some plant-specific
+ 
+programs were used. 
+Mr. Young stated that information from Entergy's past precedent review
+ 
+was provided separately from the LRA. This information is  being considered by the staff 
+in an
+ 
+update of the GALL report.
+ 
+Of the 33 aging management programs (AMPs) at AN02, 15 are consistent with GALL with
+ 
+enhancements, 7 are consistent with GALL with exceptions, and 
+11 are plant-specific. Of the
+ 
+11 plant-specific programs, 8 are based on past precedents. Mr. Young stated that the One­
+
+Time Inspection Program was added after the LRA was submitted.
+ 
+Commitment Tracking
+ 
+Mr. Young stated that all commitments made through the LRA, the audit/inspection process,
+ 
+and requests for additional information are tracked with the ANO Licensing Commitment
+ 
+Tracking System.
+ 
+Mr. Young concluded by stating that the use of past precedents and the on-site audits increase
+ 
+the efficiency of the license renewal process.
+ 
+SER Overview 
+Mr. Suber discussed the staff's license renewal activities. The key elements of the staff's 
+presentation described 
+an overview of the Draft SER, the aging management program reviews 
+and audits, and the time-limited aging analyses. 
+The Draft SER did not contain any open or confirmatory items but did list the following license 
+conditions: 
+1.  The FSAR should be updated upon issuance of the renewed license. 
+2.  The future activities should be completed as described in the FSAR Supplement prior to 
+entering the period 
+of extended operation. 
+3
+ 
+
+3.  The reactor vessel surveillance capsules should be removed and tested in accordance 
+with ASTM E185-82 and any changes 
+to the withdrawal schedule or storage 
+requirements should be approved by the NRC. 
+Mr. Suber listed the dates of the various audits and inspections performed by the staff. 
+Scoping and Screening 
+Mr. Suber stated that the scoping and screening methodology is  adequately described in the 
+LRA and satisfies the requirements 
+in 10 CFR 54.4 and 10 CFR 54.21 (a)(1). In addition, the 
+review of the scoping and screening results found that the systems, structures, and 
+components (SSCs) within scope of license renewal and subject to 
+an aging management 
+review (AMR) have been identified. As a result of the staff's review, the feedwater outboard 
+block valve and the power transmission conductors were brought into scope, and the intake 
+canal structure was included 
+in an aging management program. 
+Onsite Inspection Results 
+Ms. Nease, Region IV, described the license renewal inspections performed by the Region. 
+These inspections were performed 
+in accordance with License Renewal Manual Chapter 
+MC2516, Inspection Procedure IP 71002, and a site-specific inspection plan. The scoping and 
+screening inspection was performed 
+in March 2004 and concluded that the scoping and 
+screening process successfully identified those SSCs requiring 
+an AMR. As a result of this 
+inspection the spent fuel pool cooling pumps and the switchyard control house were brought 
+into scope of license renewal. The aging management review inspection was performed 
+in 
+November 2004 to confirm that the applicant has or will implement AMPs to manage the effects 
+of aging. The results of this inspection will be documented 
+in a future inspection report. 
+Ms. Nease also described the recent performance of AN02. All of the NRC performance 
+indicators for the third quarter of 2004 are green. However, 
+AN02 is in the Regulatory 
+Response Column 
+of the NRC Action Matrix because of a white finding in the area of fire 
+protection. 
+Ms. Nease concluded by stating that the Annual Assessment Letter for AN02 
+identified a substantive issue regarding Problem Identification and Resolution. 
+Aging Management Program Review and Audits 
+Mr. Suber described the staff's review of the aging effects associated with various plant 
+systems and components. The staff's review of the reactor vessel, internals and reactor 
+coolant systems resulted 
+in 1 license condition and 3 commitments to submit AMPs for NRC 
+review and approval. As a result of the staff's review the One-Time Inspection Program was 
+added to supplement the System Walkdown AMP and the intake canal structure was included 
+in the Structures Monitoring Program. Even though the pH, chloride and sulfate levels of the 
+below grade water environment are nonaggressive, the Structures Monitoring Program will be 
+used to manage the effects 
+of aging of inaccessible concrete. Mr. Suber also noted that the 
+power transmission conductors which were brought 
+in scope as a result of the staff's review, did 
+not require 
+an AMP. 
+Mr. Cranston, NRR, stated that AMPs are divided into 4 categories: consistent with GALL, 
+consistent with GALL with exceptions, consistent with GALL with enhancements, and based 
+on 
+previously approved staff positions. Mr. Cranston also noted that information regarding NRC 
+approved precedents was supplementary information provided voluntarily by the applicant. It 
+4
+ 
+
+was not part of the LRA. For the AMPs based on past precedents, the audit team evaluated the 
+applicability of the previously approved staff position, determined if the program was bounded 
+by the conditions for which the previous staff position was approved, and verified that the 
+program contains the attributes of the referenced precedent. 
+Mr. Cranston described several of 
+the AMPs including the Structures Monitoring - Masonry Wall Program, the Diesel Fuel 
+Monitoring Program, the Fire Water System Program, and the Cast Austenitic Stainless Steel 
+Evaluation Program. 
+The Structures Monitoring - Masonry Wall Program is  an existing AMP that is  consistent with 
+GALL. During the audit of this AMP, the team found that the initial baseline examinations were 
+not documented properly, the first 5 year reexamination was not performed, and qualifications 
+for personnel qualified to perform walkdowns were not established. The applicant generated a 
+condition report to document and correct these deficiencies. 
+The Diesel Fuel Monitoring Program is  new AMP that is  consistent with GALL with exceptions. 
+The exceptions are the use of fewer additives, the use of ASTM standard D 1796 instead of D 
+2709, the use of a smaller filter pore size, and a lack of ultrasonic measurements of tank 
+bottoms. The staff found these exceptions acceptable because a vendor recommended 
+additive package was used, ASTM D2709 did not apply, the smaller pore size is  more 
+conservative, the bottom of the tank is  not likely to 
+be exposed to water, accessible tank 
+surfaces undergo a periodic visual inspection, and operating experience at 
+AN02 has not 
+shown any wall thinning problems. 
+The Fire Water System is 
+an example of an AMP that is consistent with GALL with 
+enhancements. The program enhancement is  to inspect sprinkler heads consistent with Interim 
+Staff Guidance (ISG) 04. 
+The Cast Austenitic Stainless Steel (CASS) Evaluation Program was originally submitted based 
+on a previously approved staff position but was changed to 
+be consistent with GALL. The audit 
+team determined that the code case to perform only external visual inspections was not 
+applicable to 
+AN02. Therefore, the applicant revised the AMP to be consistent with GALL. An 
+example of a plant-specific AMP based 
+on a previously approved staff position is the Wall 
+Thinning Monitoring Program. This AMP was previously approved by the staff for 
+AN01. 
+The staff concluded that the applicant has demonstrated the effects of aging will be managed 
+so that the intended functions will be maintained consistent with the current licensing basis for 
+the period of extended operation. 
+Time Limited Aging Analyses (TLAAs) 
+Mr. Suber stated that the applicant has identified the appropriate TLAAs. Of the 11 TLAAs at 
+AN02, 5 were identified from NUREG 1800 and 6 were identified by the applicant. The 
+applicant has also demonstrated that (1) the TLAAs are valid for the period of extended 
+operation, (2) the TLAAs are projected to the end of the period of extended operation, or (3) 
+that aging effects will be adequately managed for the period of extended operation. 
+Embrittlement of the reactor vessel affects TLAAs associated with upper shelf energy (USE), 
+pressurized thermal shock (PTS), and pressure temperature limits. Calculations by the staff 
+and applicant demonstrate that the beltline materials continue to meet the USE acceptance 
+5
+ 
+
+criterion in 10 CFR 50 Appendix G through 48 Effective Full Power Years (EFPY). The staff 
+also performed independent calculations of RT
+PTS values and concluded that the limiting beltline 
+material continues to meet the screening criterion 
+in 10 CFR 50.61 through 48 EFPY. 
+The staff concluded that analyses associated with fatigue of ASME Class 1 components; 
+fatigue of ASME Non-Class 1 piping components; fatigue of containment liner plate and 
+penetrations; fracture of reactor coolant pump casings, and Leak-Before-Break of RCS piping 
+systems remain valid for the period of extended operation. 
+The staff made the following conclusions regarding the other TLAAs: 
+1.  The loss of prestress in containment tendons will be adequately managed for the 
+extended period of operation. 
+2.  The Environmental Qualification Program is consistent with GALL and will continue to 
+manage equipment 
+in accordance with 10 CFR 50.49. 
+3.  The analyses of Alloy 600 nozzle repairs projected through the period of extended 
+operation are valid. 
+Mr. Suber concluded by stating that the applicant has met the requirements for license renewal 
+and there is reasonable assurance that activities will continue to be conducted 
+in the renewal 
+term 
+in accordance with the current licensing basis. 
+Member Comments 
+General 
+Chairman Bonaca and Member Rosen asked about the replacement steam generators. 
+Mr. 
+Young replied that the replacement steam generators were of the same design as the original 
+steam generators but were designed for a higher power rating and contained tube materials 
+constructed from Alloy 690. 
+Several Members and Consultant Leitch asked questions regarding the reactor pressure vessel 
+head. The applicant stated that 
+an inspection of the head in 2002 did not indicate any leakage 
+even though 
+AN02 is  a high susceptibility plant. Since some of the penetrations are covered 
+by a shroud which prevents a complete 360
+0 
+bare metal visual inspection, alternative eddy 
+current and ultrasonic inspections were performed. The results 
+of these volumetric inspections 
+did not show any cracking. The applicant has plans to replace the head, but the earliest this 
+could 
+be done is  2008. In the meantime the applicant plans to modify the shroud covering the 
+penetrations to allow increased access for visual inspections. 
+In response to a question from Consultant Leitch, Ms. Nease stated that the material condition 
+of the plant was very good. 
+Chairman Bonaca and Member Rosen asked about the issue identified 
+in the Annual 
+Assessment Letter regarding Problem Identification and Resolution. Ms. Nease responded that 
+errors 
+in the prioritization, implementation, and effectiveness of corrective actions were found 
+across the board at the plant. This is  a concern because AMPs depend upon the effectiveness 
+of the Corrective Action Program. 
+6
+ 
+
+Chairman Bonaca and Member Wallis commented that the audit report for AMPs and AMRs is 
+very valuable to reviewers. 
+Several Members commented that there are 
+no issues regarding the AN02 license renewal 
+application or draft SER. 
+Scoping and Screening 
+Several Members and Consultant Leitch asked questions regarding the justification for the 
+scoping and screening classification of components. 
+In response to a question from Consultant Leitch, the applicant stated that there were no 
+problems associated with the scoping of systems shared between Units 1 and 
+2. 
+Consultant Leitch asked if the scoping process considers situations in which the disintegration 
+of non safety-related components affects the operation of safety-related components. Except 
+for steam dryers 
+in BWRs, operating experience has shown that this type of interaction has not 
+been a problem. The staff added that active components are examined routinely as part of the 
+maintenance program. 
+Aging Management 
+Consultant Leitch asked why buried components are inspected opportunistically and not at a 
+scheduled frequency as recommended by GALL. 
+Mr. Young replied that operating experience 
+has shown that underground pipes are excavated every 5 to 
+10 years and inspected at that 
+time. 
+Mr. Young added that excavating a pipe has the potential to damage its external coating. 
+In response to a question from Member Sieber, the applicant stated that no inspections are 
+performed 
+on the inside of buried pipes because other AMPs are credited for managing 
+corrosion 
+on these interior surfaces. 
+Consultant Leitch asked about the schedule for implementing new AMPs and suggested that 
+this information be discussed at the Full Committee meeting. The applicant stated that the new 
+AMPs will 
+be phased in such that they will all be in place at least 2 years before the 40
+th 
+year of 
+operation. A detailed implementation schedule will be developed after the renewed license has 
+been issued. 
+Several Members asked questions regarding the staff's review of the quality of the AMPs. The 
+headquarters staff and audit team assess the quality of the programs while the regional 
+inspection team verifies that the programs are implemented as described. 
+In determining the 
+effectiveness of current AMPs, the staff considers operating experience, performs walkdowns, 
+and examines Condition Reports. 
+Member Ford asked about the inspection program for reactor vessel internals. The staff 
+responded that the reactor vessel internals programs have not been finalized but the applicant 
+has committed to submitting these programs for staff review 2 years before entering the period 
+of extended operation. 
+Member Ford asked if corrosion 
+of carbon steel pipes could clog up the nozzles in the fire 
+protection systems. The applicant responded that if this clogging occurred, it would be 
+identified during the periodic flushing performed as part of the AMP for the fire protection 
+systems. 
+7
+ 
+
+Members Ford and Rosen asked about the aging management of inaccessible concrete. The 
+most recent tests 
+of groundwater chemistry indicate that the below grade environment is  not 
+aggressive. Since well water is  no longer available for periodic monitoring, the applicant chose 
+to use the Structures Monitoring Program to manage the effects 
+of aging. Under this program 
+concrete exposed to lakewater will 
+be periodically inspected. Since the chemistry of lakewater 
+and ground water are similar, these inspection results will 
+be representative of underground 
+concrete exposed to groundwater. 
+Member Rosen asked if the root cause of the discrepancies 
+in the Structures Monitoring ­
+Masonry Wall Program was identified. The applicant stated that some 
+of these discrepancies 
+were simply the result 
+of the wrong date used in determining the time for the next inspection. 
+TLAAs 
+The TLAAs for reactor vessel embrittlement assumed a constant capacity factor of 80% for 60 
+years resulting 
+in 48 EFPY. Consultant Leitch and Member Rosen questioned the basis for this 
+assumption and asked if the USE and PTS requirements could still be met at 
+54 EFPY. The 
+applicant stated that the basis for this assumption was that the LRA for 
+AN01 assumed 48 
+EFPY and that operating experience to date has shown 
+an 80% capacity factor for AN02. The 
+staff stated that at 54 EFPY the RT
+PTS value for the limiting beltline material increases by only 2 
+degrees and would continue to meet the PTS screening criterion. The staff added that the 
+Reactor Vessel Integrity Program will ensure that fluence values are updated as needed. 
+Several Members and Consultant Leitch asked why cumulative usage factors greater than 1 are 
+acceptable for some components. The staff stated that these analyses are conservative and 
+the actual number of cycles are much lower than those used 
+in these analyses. The staff 
+added that if the usage factor of a component exceeds 
+1, the licensee would have to repair the 
+component, replace the component, refine the analysis, or implement an aging management 
+program. The applicant added that fatigue calculations are updated every fuel cycle to verify 
+that cumulative usage factors won't exceed 1 during the next cycle. 
+Member Wallis asked what data was used to analyze the loss of prestress 
+in concrete 
+containment tendons. The applicant stated that data from the containment of AN01 was 
+extrapolated to 60 years and is  above the minimum requirements. 
+Staff Commitments 
+The staff will calculate the USE of the limiting beltline material at 54 EFPY and report the 
+results to the Committee. 
+Subcommittee Decisions and Follow-up Actions 
+The Subcommittee will summarize the discussions to the full Committee during the December 
+2004 ACRS meeting. 
+Background Materials Provided to the Committee 
+1. License Renewal Application for Arkansas Nuclear One Unit 2, October 14, 2003 
+8
+ 
+
+2.  NRC Inspection Report 05000368/2004-06, License Renewal Scoping and Screening 
+Inspection Report, April 19, 2004 
+3.  Information Systems Laboratories, Inc., Audit and Review Report for Plant Aging 
+Management Reviews and Programs, Arkansas Nuclear One Unit 
+2, july 29,2004 
+4.  Draft Safety Evaluation Report Related to the License Renewal of the Arkansas Nuclear 
+One, Unit 
+2, dated November 2004 
+********************************************* 
+NOTE:
+ 
+Additional details of this meeting can be obtained from a transcript of this meeting available in
+ 
+the NRC Public Document Room, One White Flint North, 11555 Rockville Pike,  Rockville, MD,
+ 
+(301) 415-7000, downloading or view on the Internet at 
+http://www.nrc.gov/reading-rm/doc-collections/acrs/ can be purchased from Neal 
+R. Gross and 
+Co., 1323 Rhode Island Avenue, NW, Washington, D.C. 20005, (202) 234-4433 (voice), (202) 
+387-7330 (fax), nrgross@nealgross.com (e-mail). 
+*********************************************** 
+9
+ 
+
+67372 
+Federal Register/Vol. 69, No. 221/Wednesday, November 17, 2004/Notices 
+NUCLEAR REGULATORY 
+COMMISSION 
+Advisory Committee 
+on Reactor 
+Safeguards Meeting 
+of the 
+Subcommittee on Plant License 
+Renewal; Notice 
+of Meeting 
+The ACRS Subcommittee on Plant 
+License Renewal will hold a meeting on 
+December 1, 2004, Room T-2B3, 11545 
+Rockville Pike, Rockville, 
+Maryland. 
+The entire meeting will be open to 
+public attendance. 
+The agenda for the subject meeting 
+shall be as follows: 
+Wednesday, December 1,2004-1 
+p.m. until 4:30 p.m. 
+The purpose of this meeting is to 
+review the License Renewal Application 
+and associated Draft Safety Evaluation 
+Report (SER) related to the License 
+Renewal of the Arkansas Nuclear One, 
+Unit 2. The Subcommittee will hear 
+presentations by and hold discussions 
+with representatives of the NRC staff, 
+Entergy 
+Operations, Inc., arid other 
+interested persons regarding this matter. 
+The Subcommittee will gather 
+information, analyze relevant issues and 
+facts, and formulate proposed positions 
+and actions, as appropriate. for 
+deliberation by the full Committee. 
+Members of the public desiring to 
+provide oral statements and/or written 
+comments should notify the Designated 
+Federal Official, Mr. Cayetano Santos 
+(telephone 301/415-7270) five days 
+prior to the meeting. if possible, so that 
+appropriate arrangements can be made. 
+Electronic recordings will be permitted. 
+Further information regarding this 
+meeting can be obtained by contacting 
+the Designated Federal Official between 
+7:30 a.m. and 4:15 p.m. (e.t.). Persons 
+planning to attend this meeting are 
+urged to contact the above named 
+individual at least two working days 
+prior to the meeting to be advised of any 
+potential changes to the agenda. 
+Dated: November 9, 2004. 
+John H. Flack, 
+Acting Branch Chief, ACRSIACNW. 
+[FR Doc. 04-25508 Filed 11-16-04; 8:45 am] 
+BILLING CODE 7590-o1-P 
+OFFICE OF MANAGEMENT AND 
+BUDGET 
+Public Availability 
+of Year 2004 Agency 
+Inventories Under the Federal 
+Activities Inventory Reform 
+Act of 1998 
+(PUb. L. 105-270) ("FAIR Act") 
+AGENCY: Office of Management and 
+Budget Executive Office of the 
+President. 
+ACTION: Notice of public availability of 
+agency inventory of activities that are 
+not inherently governmental and of 
+activities that are inherently 
+governmental. 
+SUMMARY: In accordance with the 
+"Federal Activities Inventory Reform 
+Act of 1998" (Pub. L. 105-270) ("FAIR 
+Act"), agency inventories of activities 
+FIRST 
+FAIR ACT RELEASE 2004 
+that are not inherently governmental are 
+now available to the public from the 
+agencies listed below. The FAIR Act 
+requires that OMB publish an 
+announcement of public availability of 
+agency inventories of activities that are 
+not inherently governmental upon 
+completion of OMB's review and 
+consultation process concerning the 
+content of the agencies' inventory 
+submissions. After review and 
+consultation with OMB, agencies make 
+their inventories available to the public, 
+and these inventories also include 
+activities that are inherently 
+governmental. This is the first release of 
+the 2004 FAIR Act inventories. 
+Interested parties who disagree with the 
+agency's initial judgment can challenge 
+the inclusion or the omission of an 
+activity on the list of activities that are 
+not inherently governmental within 30 
+working days and, if not satisfied with 
+this review, may demand a higher 
+agency review/appeal. 
+The Office of Federal Procurement 
+Policy has made available a FAIR Act 
+User's Guide through its Internet site: 
+http://www.whitehouse.gov/OMB/ 
+procurementlfair-index.html. 
+This 
+User's Guide will help interested parties 
+review 2004 FAIR Act inventories, and 
+gain access to agency inventories 
+through agency Web site addresses. 
+Joshua B. Bolten, 
+Director. 
+Attachment 
+Armed Forces Retirement Home Mr. Steve McManus, (202) 730-3533 www.afrh.com. 
+Chemical Safety Board Ms. Bea Robinson, (202) 261-7627 www.csb.gov. 
+Commission on Fine Arts Mr. Frederick Lindstrom, (202) 504-2200 www.cfa.gov. 
+Committee for Purchase from People Who are Blind or Severely Dis-Mr. Leon Wilson, 70~04-7740 www.jwod.gov. 
+abled. 
+Consumer Product Safety Commission 
+Mr. Edward Quist, (301) 504-7655 www.cpsc.gov. 
+Council on Environmental Quality Mr. Ted Boling, (202) 395-3449 www.whitehouse.gov.lceq. 
+Department of Energy.............................................................................. Mr. Dennis O'Brien, (202) 586-1690 www.doe.gov. 
+Department of Health and Human Services Mr. Michael Colvin, (202) 690-7887 www.hhs.gov.logam/oamlfairl. 
+Department of Transportation Mr. David Litman, (202) 366-4263 www.dot.gov. 
+Department of Transportation (IG) Ms. Jackie Weber, (202) 366-1495 www.oig.dot.gov. 
+Federal Communications Commission IG Mr. Charles Willoughby, (202) 418-0472 www.fcc.gov/oig. 
+Federal Energy Regulatory Commission .. Ms. Kimberly Fernandez, (202) 208-1298 www.ferc.gov. 
+Federal Mine Safety and Health Review Commission Mr. Richard Baker, (202) 434-9905 www.fmshrc.gov. 
+Holocaust Museum Ms. Helen Shepherd, (202) 314-0396 www.ushmm.gov. 
+Institute of Museum and Library Services Ms. Teresa LaHaie, (202) 606-8637 www.imls.gov. 
+International Trade Commission Mr. Stephen McLaughlin, (202) 205-3131 www.usitc.gov. 
+Japan-United States Friendship Commission Ms. Margaret Mihori, (202) 418-9800 office.jusfc.gov/commissnl 
+FAIRAct.htm. 
+Kennedy Center Mr. Jared Barlage, (202) 416-8731 www.kennedy-center.org. 
+National Aeronautics and Space Administration Mr. Kenneth Sateriale, (202) 358-D491 www.nasa.gov. 
+National Commission on Libraries and Information Sciences Ms. Madeleine McCain, (202) 606-9200 www.nclis.gov. 
+National Council on Disability................... Ms. Ethel Briggs, (202) 272-2004 www.ncd.gov. 
+National Gallery of Art Mr. William Roache, (202) 842-6329 www.nga.gov. 
+National Labor Relations Board Mr. Emil George, (202) 273-1966 www.nlrb.gov. 
+National Labor Relations Board (IG) Mr. Emil George, (202) 273-1966 www.nlrb.gov/igligindex.htm. 
+National Science Foundation Mr. Joseph Burt, (703) 292-5034 www.nsf.gov. 
+Nuclear Regulatory Commission Ms. Kathryn Greene, (301) 415-7305 www.nrc.gov. 
+Nuclear Regulatory Commission (OIG) Mr. David Lee, (301) 415-5930 www.nrc.gov/insp-gen.html. 
+Occupational Safety and Health Review Commission Ms. Ledia Bernal, (202) 606-5390 www.oshrc.gov. 
+
+UNITED STATES
+ 
+NUCLEAR REGULATORY COMMISSION
+ 
+ADVISORY COMMITTEE ON REACTOR SAFEGUARDS
+ 
+WASHINGTON, D. C. 20555
+ 
+November 9,2004 
+MEMORANDUM TO: 
+John 
+H. Flack, Acting Branch Chief, ACRS/ACNW 
+~ >~-Sr. 
+FROM: 
+Cayetano Santos, Senior Staff Engineer 
+SUBJECT:  
+FEDERAL REGISTER NOTICE REGARDING THE 
+MEETING OF THE ACRS SUBCOMMITTEE ON 
+PLANT LICENSE RENEWAL, DECEMBER 
+1,2004, 
+ROCKVILLE, MARYLAND 
+Attached is  a Federal Register Notice regarding the subject meeting. Please have this 
+Notice transmitted for publication as soon as possible. 
+Attachment 
+FR Notice 
+cc with Attachment: 
+M. Bonaca, ACRS 
+J. Larkins, ACRS 
+J. Szabo, OGC 
+A. Bates, SECY 
+R. Tadesse, OEDO 
+S. Burnell, OPA 
+R. W. Borchardt, NRR 
+D. Matthews, NRR 
+P. Kuo, NRR 
+T. Liu, NRR 
+PMNS 
+Public Document Room 
+
+[7590-01-Pl 
+NUCLEAR REGULATORY COMMISSION
+ 
+ADVISORY 
+COMMITIEE ON REACTOR SAFEGUARDS
+ 
+MEETING OF THE 
+SUBCOMMITIEE ON PLANT LICENSE RENEWAL
+ 
+Notice of Meeting 
+The ACRS Subcommittee on Plant License Renewal will hold a meeting on December 
+1, 
+2004, Room T-2B3, 11545 Rockville Pike, Rockville, Maryland. 
+The entire meeting will be open to public attendance. 
+The agenda for the subject meeting shall be as follows: 
+Wednesday, December 
+1, 2004 - 1:00 p.m. until 4:30 p.m. 
+The purpose 
+of this meeting is  to review the License Renewal Application and 
+associated Draft Safety Evaluation Report (SER) related to the License Renewal of the 
+Arkansas Nuclear One, Unit 
+2. The Subcommittee will hear presentations by and hold 
+discussions with representatives 
+of the NRC staff, Entergy Operations, Inc., and other interested 
+persons regarding this matter. The Subcommittee will gather information, analyze relevant 
+issues and facts, and formulate proposed positions and actions, 
+as appropriate, for deliberation 
+by the full Committee. 
+Members 
+of the public desiring to provide oral statements and/or written comments 
+should notify the Designated Federal Official, Mr. Cayetano Santos (telephone 
+301/415-7270) 
+five days prior to the meeting, if possible, so that appropriate arrangements can be made. 
+Electronic recordings will 
+be permitted. 
+Further information regarding this meeting can be obtained 
+by contacting the Designated 
+Federal Official between 7:30 a.m. and 4:15 p.m. (ET). Persons planning to attend this meeting 
+are urged to contact the above named individual at least two working days prior to the meeting 
+to be advised of any potential changes to the agenda. 
+/f /"' 
+-j 
+( 
+;/)1i ~o 
+Date I//;/cr 
+;#(/ ,,-j)~g 
+J6hn
+t
+H. Flack, Acting Branch Chief, ACRS/ACNW 
+
+Advisory Committee on Reactor Safeguards
+ 
+Plant License Renewal Subcommittee Meeting
+ 
+Arkansas Nuclear One - Unit 2
+ 
+December 1, 2004
+ 
+Rockville, 
+MD
+ 
+-PROPOSED SCHEDULE-
+
+Cognizant Staff Engineer: Cayetano Santos Jr. CXS3@NRC.GOV (301) 415-7270 
+Topics  
+Presenters Time 
+Opening Remarks  M. Bonaca, ACRS 1:30 pm -1:35 pm 
+II Staff Introduction  
+P.T. 
+Kuo, NRR 
+1:35 
+pm - 1:40 pm 
+III 
+ANO-2 License Renewal Application  
+G. Young 
+1:40 pm .e:4B=p;.r I ~212 Of /VI 
+Entergy Operations, 
+Inc. 
+A.  Application Background 
+B.  Description of ANO-2 
+C.  Operating History 
+D.  Scoping Discussion 
+E.  Application of GALL 
+F.  Commitment Process 
+'U'Z,...Or "" 3
+1
+'" () I""
+IV SER Overview  G. Suber, NRR 'ii:1Q 13m -~Q 131'11 
+R. Nease, Region IV 
+L. Smith, Region IV 
+A.  Scoping and Screening Methodology Results 
+B.  Onsite Inspection Results 
+BREAK  
+3 ~I ~ f /11 Sl8e pm -3T=I-5-pmJ;z.;-pt'1 
+1~~~  ~ 
+V  
+Aging Management Program Review G.Suber,NRR .a:1oplll-~OOpnl {h~p~ 
+and AUdits G. Cranston, NRR 
+VI 
+Time Limited Aging Analyses (TLAAs)  
+G. Suber, NRR'fI""I"\~:OO I'm -~O pill ~~<['~1'1 
+~, 51'~ 
+VII 
+Subcommittee Discussion 
+M. Sonaca, ACRS ~m -~ S 4'::-('~ 
+VIII 
+Adjourn  
+M. Bonaca, ACRS 50Q0 pi IT" >Ifs(?"" 
+NOTE: 
+•  Presentation time should not exceed 50 percent of the total time allocated for a specific 
+item. The remaining 
+50 percent of the time is reserved for discussion. 
+•  50 copies of the presentation materials to be provided. 
+
+ADVISORY COMMITTEE ON REACTOR SAFEGUARDS
+ 
+SUBCOMMITTEE MEETING ON PLANT LICENSE RENEWAL
+ 
+December 
+1! 2004
+ 
+Date
+ 
+PLEASE PRINT 
+NAME 
+AFFILIATION 
+GMrL'j Y(J r)Ncs--
+EMTFfL{i>-J J<l uGl£~ 
+b'r-X,·tr.:.=-\k-e.-+-I_ 
+!JRC.::..L.jV4F-------­
+~tW~ 
+A'lEJJl~ _ 
+.~ I:> ~ J(t4-L ( ); ~ vv,? J( i 
+AEf 
+1\J\JC\.ek" ~~6E~~ c.()J.(JN-? 
+~~ l'~ :3'.. LQ~\3 
+.Jed. ~. Iv-v 
+J:2¥~Y 
+-/J.),41c -LL c-
+Nt;>.~ ?6'i""jLRS~
+ 
+''--HV\ GY'e-t.lJ\ 
+\ 5L. I Inc... 
+K \Cffi&) b«-JJ.VV\G\(L 
+C/C{v\ ~c"'-oef \ 
+M3P -().(-coote.. P..!..!o<lw=--1_, _ 
+5T<':"'V~ P~~5 
+.L-:;;L) LiY'I,.., 
+
+ADVISORY COMMITTEE ON REACTOR SAFEGUARDS
+ 
+SUBCOMMITTEE MEETING ON PLANT LICENSE RENEWAL
+ 
+December 1, 2004
+ 
+Date
+ 
+PLEASE PRINT 
+NAME AFFILIATION 
+I 
+ISL,I"'CC 
+JSL ( r tIllL 
+~~LZ"~~ 
+~C-(~) Lr 
+{I/ ~L IN r<-RI i)~ I ''!:::-M (;/1~
+ 
+-:3". >. M.a 
+I 
+~-'l-S !S>6'C I ~1d?>. 
+' 
+• I 
+
+ADVISORY COMMITTEE ON REACTOR SAFEGUARDS
+ 
+SUBCOMMITTEE MEETING ON PLANT LICENSE RENEWAL
+ 
+December 
+1, 2004
+ 
+Date
+ 
+NRC STAFF SIGN 
+IN FOR ACRS MEETING 
+PLEASE PRINT 
+NAME 
+NRC ORGANIZATION 
+~'1 '1&" £0.4 j l~ 
+fit CJ:fl.../nr<-V/aL8-fJ-d 
+f?IC~4iCD DIf=t;E.,
+ 
+\!\~ L;\v+z
+ 
+L .-, ~V"\ 
+}JIZ.1l. /~, p / ~l6'-A­
+
+...
+ 
+ADVISORY COMMITIEE ON REACTOR SAFEGUARDS
+ 
+SUBCOMMITTEE MEETING ON PLANT LICENSE RENEWAL
+ 
+December 
+1! 2004
+ 
+Date 
+NRC STAFF SIGN IN FOR ACRS MEETING 
+PLEASE PRINT 
+NAME 
+NRC ORGANIZATION 
+fY\ \l-(-\Ah-l h~ rJj( ~ hI( (P / R..L~,p 
+Ill-'P A LW 
+I 
+,/ 
+/?2#L A. ~ '/c,/, 1/ . 
+/1I/Z!Z/OP/F~ cD 
+joHN Ts AD 
+MA R",t HA J2 "\'Z-r--'\.4 ~ 
+\l.e.-(lJ¥"'.\'c:a...~n.S\A...e/'L..­
+~\~ ~"c...~'"L 
+
+uec. 1,~UU4 
+Entergy
+Arkansas Nuclear One -  Unit 2 
+License Renewal
+ 
+Presentation to ACRS
+ 
+Subcommittee
+ 
+Garry G. Young
+ 
+Entergy Nuclear
+ 
+December 
+1, 2004
+ 
+e
+........­
+­
+Entergy
+Introduction 
+• Application Background 
+• Description of ANO-2 
+•  Operating 
+History 
+• Scoping Discussion 
+• Application of GALL 
+• 
+Cornrnitment Process 
+Dec. 1,2004 
+2 
+1 
+
+Ul:::v. I, LUU,+
+. 
+; 
+Entergy
+Application Background 
+•  Application subrrlitted October 15, 2003 
+•  Original license expiration: 
+-  Unit 2 -JUly 17,2018 
+•  New Process 
+-  Consistent with GALL Audits 
+Dec. 1.2004  3 
+Description of ANO-2  
+Entergy
+ 
+•   Combustion 
+Engineering PWR 
+•   Bechtel -  Architect / 
+Engineers 
+•   Initial Ops: 1978 
+•   Capacity: 3026 MWt ­
+1023MWe 
+Dec. 1,2004  
+4 
+2 
+
+UVV. I, £.VV't 
+Entergy
+Operating History 
+•  Uprated:  Unit 2 -2002 
+-7.50/0 power uprate 
+-Increased capacity by 210 MWt 
+•  SGs replaced in 2000 
+-  Westinghouse Delta 109 U-tube 
+Dec. 1,2004  5 
+Entergy
+ANO-2 Scoping Method 
+•  Scoping applied on a plant system basis 
+-  System scoping per 
+•  Safety-related -10CFR 54.4(a)(1) 
+•  Non-sa.fety that could affect safety 
+function­
+1OCFR 54.4(a)(2) 
+•  Criteria for Regulated Events -  1
+OCFR 54.4(a)(3) 
+•  Screening per 10CFR 54.21 (a)(1) 
+Dec. 1,2004  
+6 
+3 
+
+----
+u\:;\". II ~UU... 
+Entergy
+GALL Comparison 
+•  ANO-2 focused on consistent with GALL 
+•  Some material/environment/program 
+combinations not addressed in GALL 
+•  Plant-specific programs used as needed 
+•  Past precedent table provided separate 
+from application 
+Dec. 1,2004  
+7 
+~ 
+::= == 
+-
+Entergy
+Consistent with GALL 
+•  33 total aging management programs 
+•   15 programs consistent with GALL and with 
+enhancements 
+•   7  programs consistent 
+with exceptions 
+•  11 programs not consistent with GALL and plant 
+speci"fic 
+•  1 AMP added -  One Time Inspection 
+Dec. 1.2004  
+8 
+4 
+
+-----
+~ 
+=-=-= 
+e::=-:===
+Entergy
+Commitment Tracking 
+•  Commitments 
+-Commitments documented in the LRA and 
+revised as needed during audit / inspection 
+process 
+-Tracked with AND Licensing Commitment 
+Tracking System 
+Dec. 1,2004 
+9 
+Commitment Tracking System 
+Entergy 
+Dec. 1,2004 
+10 
+5 
+
+ut::\". I I '::'VV't 
+. 
+Closing Remarks 
+Entergy 
+•  New process with audit team 
+was thorough and rigorous 
+• Consistent with GALL process 
+and past precedent added new 
+opportunity for process efficiency 
+Dec. 1,2004  
+11 
+6 
+
+ACRS License Renewal Subcommittee 
+Arkansas Nuclear One, Unit 2 
+License Renewal Application 
+Draft Safety Evaluation Report
+ 
+December 01, 2004
+ 
+Gregory 
+F. Suber
+ 
+Project Manager
+ 
+NRC Review Highlights
+ 
+•  No Open Items 
+•  No Confirmatory Items 
+•  Brought into scope and subjected to AMH 
+•  Five (5) components/commodities 
+•  1 new AMP -  One-Time Inspection 
+December 1, 2004 ACRS Subcommltlee Meeling­
+
+Arkansas Nuclear One. Unit 2
+ 
+1 
+
+NRC Review Highlights
+ 
+•  Three (3) License Conditions 
+•   Update FSAR upon issuance of the renewed license 
+•   Complete future activities described 
+in the FSAR 
+Supplement prior to entering the period of extended 
+operation 
+•   Reactor Vessel Surveillance Program 
+•  Remove 
+and test capsule in accordance with ASTM E 
+185-82 
+•  Obtain 
+NRC approval prior to changing capsule 
+withdrawal schedule or changing storage 
+requirements 
+December 1. 2004 
+ACRS Subcomminee Meeting­
+3 
+Arkansas Nuclear One, Unit 2 
+NRC Audits and Inspections
+ 
+•  Aging Management Programs Audit 
+•   December 1 -5, 2003 
+•  
+Scoping and Screening Methodology Audit 
+•   January 20 -  22, 2004 
+•  
+Aging Management Review Audit 
+•   February 9 -13, 2004 
+•  
+Scoping and Screening Inspection 
+•   March 1 -
+5, 2004 
+•  Aging 
+Management Program Inspection 
+•   November 1 -19, 2004 
+December "   2004  
+ACRS Subcomminee Meeting ­
+Mensas Nuclear One. Unit 2 
+2 
+
+Section 2 -Structures & Components 
+Subject to an 
+AMR 
+2.1 -Scoping and Screening Methodology 
+•  Describes methodology used to identify SSCs 
+that are within the scope of 
+.the license.renewal 
+rule and subject tOCln AMR 
+•  Staff audit determined that 
+the applicant's 
+m.~lhodology sati?fiesth~>rule. 
+December 1, 2004 
+ACA.S Subcommln•• Meeting­
+ArkansB8Nuclear One, Unit 2 
+Section 2 -Structures & Components 
+Subject to an AM R 
+SectiOn 2.2 -  Plant Level Scoping Results 
+•  Staff reviewed Section 2.2 tocietermine if any 
+systems, structures, and components 
+required to be withigsG9pewere omitted. 
+•  Three (3) components brought into scope 
+•  Feedwater Outboard Block Valve 
+•  Intake Canal Structu
+re 
+•  Power Transmission Conductors 
+December 1,   2004 
+ACRS Subcomml"ee Meeting ­
+Arkansas Nuclear One, Unit 2 
+3 
+
+Section 2 -Structures & Components 
+Subject to an AMR 
+Section 2.3 -  Scoping and Screening of 
+Mechanical Systems 
+•   Includes the following systems: 
+•   Reactor Coolant System 
+•   Engineered Safety Features Systems 
+•   Auxiliary Systems 
+•   Steam and Power ConverSion Systems 
+•   One (1) Component added by NRC Staff Review: 
+Feedwater Outboard Block Valve 
+Decembw 1, 2004 
+ACR$ SlbcommlUee MooUng ­
+Monaos Nuclear One, UnR 2 
+Section 2 -Structures & Components 
+Subject to an 
+AMR 
+Section 2.4 -  Structures and Structural 
+Components 
+•   Describes structures and structural components 
+•   Containment 
+•   Auxiliary Building, Turbine Building, Yards Structures 
+•   Intake Canal and Emergency Cooling Pond 
+•   Bulk Commodities 
+•   One (1) Component brought into scope by NRC 
+Staff Review: Intake Canal Structure 
+December " 2004 
+ACAS SubcommitCee Meeting ­
+8 
+Arkansas Nuclear One, Unil 2 
+4 
+
+Section 2 -Structures & Components 
+Subject to an AMR 
+Section 2.5 -  Electrical and Instrumentation 
+an~ Controls 
+•   Structures andComponent/Cql1lmodities 
+•  Electrical cables 
+• 
+ElectricaIGQi1r:t~ptQts 
+•  High voltage transmission conductors and 
+insulators 
+•   One (1) Gomponentadded by NRC ~t(lff Review: 
+Power Transmission Conductors 
+December 1. 2004 
+ACRS SubcommltteEt 
+Meeling­
+9 
+ArkBIlBBSI Nuclear One, Unit 2 
+LicenseJF\enewal Inspections
+ 
+..  Scheduled to Support Pilot ReView Program 
+•  Scoping 
+al1d Screening Inspection
+ 
+(March 2004)
+ 
+•  Aging Management Review Inspection
+ 
+(November 2004)
+ 
+•  Third Inspection -  Optional 
+December 1, 2004 ACRS SubcommiUee Meeling­
+10 
+Arkansas Nuclear One, Uni12 
+5 
+
+License Renewal Inspection
+ 
+Pro ram 1m lementation
+ 
+•  License Renewal Manual Chapter-MC2516 
+•  Inspection Procedure-IP 71002 
+•  Site-specific Inspection Plan 
+December 1. 2004 
+ACRS Subcomml_ Meeting ­
+11 
+MaNa. Nucf8er One. Unil2 
+License Renewal Inspections
+ 
+Scoping and Screening Inspection 
+•  Objective:  to confirm that the applicant has 
+included SSCs in the scope of license 
+renewal as required by the rule 
+•  Resources: 3 regional inspectors 
+1 resident inspector 
+•  One week 
+in length: March 1 -5, 2004 
+December 1, 2004 
+ACRS Subcommittee Meeting ­
+12 
+Mansas Nuclear One, Unil 2 
+6 
+
+License Renewal Inspections
+ 
+Scoping and Screening Inspection Results 
+•  Conclusion:  Scoping and screening process 
+was 
+succes~ful in identifyihQJfuose SSCs 
+requiring an 
+.~Qingrna.l1~g~ment review. 
+•  Two items 
+broLlghlinto~g9pe: . 
+Spent 
+FuelP>bdl~oollrtgPumps . 
+Svvilchyard Control House 
+December 1, 2004 ACRS Subcommltt•• Meeting ­
+13 
+.Ark8ness Nuolear OnSi Unit 2 
+License.Renewallrist>~qtions
+ 
+Aging Management Review Inspection 
+•  Objective:  to confirm that applicant has 
+implemented or plans to implement AMPs to 
+manage aging 
+eff~cts forjrH§cope SSCs 
+•  Two weeks: November 
+1-5 and 15-19, 2004 
+•   Results will be summarized 
+in a future report. 
+December 1, 2004 
+ACAS Subcommittee Meeting ­
+14 
+Arkansas Nuclear One, Unil 2 
+7 
+
+------
+----
+---
+ANO-2 
+30/2004 Performance Summary 
+Perform.Rca Indicators 
+-
+December 1, 2004 
+ACRS SlbcOnvnlnoe Meeting­ 
+15 
+Manoa. Nucleer One, Una 2 
+-
+ANO-2 
+Pertormance Summa 
+•   Midcycle Performance Review (August 30, 2004) 
+•   Licensee is 
+in the Regulatory Response Column 
+of the NRC's Action Matrix due to a white finding 
+in  the area of fire protection (issued April 
+7, 
+2004). 
+•  Annual Assessment Letter (dated March 
+3, 2004) 
+identified a substantive cross-cutting issue 
+concerning PI&R. 
+December 1t 2004 
+ACRS SLbcommlnee Meeting ­
+16
+ 
+Arkansas Nuclear One. Unit 2
+ 
+8 
+
+Scoping and Screening Summary
+ 
+•  Scoping and screening methodology is 
+adequately described and justified 
+in the LRA 
+and satisfieSJhe requirements of 
+10 CFR 
+54.4 and 
+10.QfR 54.21 (a)(1). 
+•  Scoping 
+ands.Qr~~Hlhgreview results fgiJnd 
+th?ttheS~Cs ~;ll~~i;n the scope of liceQ~e 
+ren~}Nal,'asr,equire~.byto CFR 54.1(a) and 
+those;~ubject to an AMR, as requiredby 10 
+CFR54.21 (a)(1), have been identified. 
+December 1, 2004 AC~ SubcommiUee Meeting ­
+17 
+Ar.kanaB& Nuclear One, Unit 2 
+Section 3 ;'AgingManagement 
+Review 
+•  Aging Management Program 
+•  Aging ManagemefltReview Results 
+December 1, 2004 AcRS Subcomminee MeeUng ­18 
+Arkansas Nuclear One, Unit 2 
+9 
+
+Section 3 -Aging Management 
+Review 
+•  Reactor Vessel, Internals, and Reactor Coolant System 
+•  (Section 3.1) 
+•  Engineered Safety Features Systems (Sections 3.2) 
+•  Auxiliary Systems (Section 3.3) 
+•  Steam and Power Conversion Systems (Section 3.4) 
+•  Containments, Structures and Component Supports 
+(Section 3.5) 
+•  Electrical and Instrumentation and Controls (Section 3.6) 
+December 1, 2004 ACRS Slb:ommlftee. Meoting­
+19 
+Artcanoao Nuclear One, Unti 2 
+Section 3 -Aging Management 
+Review 
+Section 3.1 -  Reactor Vessel, Internals and 
+Reactor Coolant Systems 
+•  One License Condition 
+•  Three commitments to submit programs for 
+NRC review and approval 
+Section 3.2 -  Engineered Safety Features 
+System 
+December 1. 2004 
+ACRS Subcommlnee Meeting­
+20 
+Arkansas Nuclear One. Unit 2 
+10 
+
+Section 3 -Aging Management 
+Review 
+•  Section 3.3 -  Auxiliary Systems 
+•  One-Time inspection to supplement System 
+Walkdown.AMP 
+•• Fire 
+ProtectJCi)n 
+•  S~Gtion 3.4 -St.~am and power Conversion 
+Systems 
+December 1, 2004 
+··ACRS SubcommlueeMeeUng­
+21 
+Mansas Nuclear One; Unit 2 
+Section 3--.. Agin~··Mqnagement 
+Review 
+Section 3.5 -Containment, Structures,and 
+Component Supports 
+1111  Intake canal structure was added to the scope 
+of license renew,
+..and the c;lQing effects will be 
+managed 
+by ttle Strutttires Monitoring 
+Program. 
+December 1, 2004 
+ACRS SubcommlUse 
+Meeting­
+22 
+Arkansss Nuclear One, Unit 2 
+11 
+
+Aging Management of In-Scope
+ 
+Inaccessible Concrete
+ 
+Aggressive Limit 
+ANO·2 
+pH <5.5 
+7.23 
+Chlorides 
+>500 ppm <5 ppm 
+Sulfates > 1500 ppm 20.3 ppm 
+•   Below grade soil/water environment non-aggressive 
+•  
+Use of Structural Monitoring Program to manage 
+aging as if the environment were aggressive 
+December 1, 2004 
+ACRS S_mlttee MeeIIng­
+23 
+Martlu Nuclear One. UnIl 2 
+Section 3 -Aging Management 
+Review 
+Section 3.6 -  Electrical and Instrumentation and 
+Controls 
+•  Power transmission conductors were added to 
+the scope of license renewal, however, there 
+were no aging effects requiring management and 
+no 
+AMP was required. 
+December 1, 2004 
+ACAS Subcommin911 Meeting ­24
+ 
+Arkansas Nuclear On8, Unit 2
+ 
+12 
+
+AGING MANAGEMENT PROGRAM
+ 
+CATEGORIES
+ 
+• CONSISTENT WITH GALL 
+• CONSISTENT WITH GALL, WITH EXCEPTIONS 
+• CONSISTENT WITH GALL, WITH ENHANCEMENTS 
+• PREVIOUSLY-APPROVED STAFF POSITIONS 
+December 1, 2004 ACRS SubcOmmittee Meeting­25 
+Arkansas Nuclear One, Unit 2 
+NRC AP~RbvED PRECEDENTS
+ 
+• PRECEDENT INFORMATION 
+.Sl!pplementary information voluntarily provided 
+•  Roadmap, reviewers aid 
+•  Not a part 
+of LRA 
+•  Basis must be verified 
+• AUDUT TEAM DETERMINES 
+•  Applicability of previously-approved staff position 
+•  Program bounded 
+by the conditions for which the staff position was 
+evaruated and approved 
+•  Piant program contains the SRP-LR program elements (or
+attributes) 
+December 1, 2004 ACRS Subcommittee Meeting ­26
+ 
+Arkansas Nuclear One, Unit 2
+ 
+13 
+
+LRA AMP CONSISTENT
+ 
+WITH GALL AMP
+ 
+•  LRAAMP 
+•  8.1.10.2, Structures Monitoring -Masonry Wall 
+•  Existing program 
+•  GALL AMP 
+•  XI.S5, Masonry Wall Program 
+•  AUDITTEAM IDENTIFIED PROGRAM DISCREPANCIES 
+•  Initial baseline examinations not properly documented. 
+•  First 5 year re-exam not performed 
+•  Qualifications for structural walkdown personnel not established 
+•  APPLICANT GENERATED CONDITION REPORT TO IDENTIFY 
+AND CORRECT DEFICIENCIES. 
+December 1. 2004 
+ACRS Slb:ommlttee Meeting ­27 
+Arkansas Nuclear One, Un" 2 
+LRA AMP CONSISTENT WITH GALL
+ 
+AMP WITH EXCEPTIONS
+ 
+LRAAMP 
+•  B.l.7, Diesel Fuel Monitoring 
+•  New Program 
+GALL AMP 
+•  XI.M30. Fuel Oil Chemistry Program 
+PROGRAM EXCEPTIONS 
+•  Fewer additives 
+•  ASTM standard D 1796 used; D 2709 not used 
+•  Smaller filter pore size 
+•  No ultrasonic measurements of tank bottoms 
+BASIS FOR ACCEPTING 
+•  Use vendor recommended additive package. including biocide and oxidation inhibitor; proven 
+successful from operating experience 
+•  ASTM D 1796 applies to viscosity of fuel oils used at ANO-2; D 2709 does not apply 
+•  Smaller filter pore size acceptable 
+•  Tank bottom sealed to above ground, concrete foundation preventing water intrusion. 
+•  Accessible tank external surfaces 
+& internal surfaces periodically. visually inspected 
+•  
+AN02 operating experience shows no tank bottom or wall thinning problems 
+December 1. 2004 
+ACRS Subcomminee Meeling ­
+28 
+Arkansas Nuclear One. Unit 2 
+14 
+
+LRA AMP CONSISTENT WITH GALL
+ 
+AMP WITH  ENHANCEMENTS
+ 
+• LRAAMP 
+•  B.1.10.2, Fire Water System 
+•  GALL AMP 
+•.' XI.M27, Fire Sen/ice Water 
+• PROGRAM ENH)\N9EM~ 
+•  Sprinkler head inspechtjh§' consistent with NRC 
+Interim Staff Guidance (ISG) 04 
+• BA$I$ FORACCEPTI~QEf'J.!-i~f'J!i.:;E.MENT/; 
+•  I§~ 04 revised GALL AMP){ljM2fcriteria. Applicant COl1sistent 
+wit~ISG-4 and using the guidance of NFPA 25 
+December 1, 2004 P,tC~_s SUbcOm!Jlltle~ Mee'Ung ­
+29 
+Arkansas Nuclear °':18; Unit 2 
+LRA AMP BASEI:),.RN~I?~~,!IRUSL V-APPROVED
+ 
+STAFF POSITION 
+CHANGEDTO CONSISTEN WITH
+ 
+GALL AMP
+ 
+LRAAMP 
+• B.1.5,Cast Austenitic Stainless Steel (CASS) 
+•  Nellli Program -  submitted based 
+on NRC preViously-approved staff 
+position 
+PROGRAM AUDIT EVALUATION 
+•  Applicant originally 
+Cited'~r~~ibusly-approved staff position to 
+only do external, visuallnspectiohS based on 
+an approved code 
+case 
+•  Application of code case rejected by Audit Team 
+as not 
+applicable to ANO-2. 
+•  Applicant revised LRA AMP to be consistent with GALL 
+•  XI.M12, Thermal Aging Embrittlement of Cast Austenitic
+
+Stainless Steel
+ 
+December 1, 2004 
+ACRS SUlx:ommlnee Meellng ­
+30 
+Arkansas Nuclear One, Unit 2 
+15 
+
+LRA AMP -  PREVIOUSLY-APPROVED STAFF
+ 
+POSITION
+ 
+•  LRA AMP 
+•  6.1.29, Wall Thinning Monitoring 
+•  PREVIOUSLY-APPROVED STAFF POSITION 
+•  ANO-2 Plant Specific ,AMP based on NRC previously-approved 
+staff position for ANO-1 
+•  PROGRAM REVIEW CRITERIA 
+•  AMP reviewed by Audit Team against AMP elements in SRP­
+LR, Appendix 
+A, and ANO-1 approved program 
+December 1, 2004 
+ACRS SubconvnIfteo Meetlng­
+31 
+_ 
+.... Nuclear One, Unlt 2 
+Aging Management Review 
+Summa 
+•  Aging management review found that the 
+applicant has demonstrated that the effects of 
+aging will be adequately managed so that the 
+intended function(s) will be maintained 
+consistent with the current licensing basis for 
+the period of extended operation, as required 
+by 10 CFR 54.21 (a)(3). 
+December 1t 2004 
+ACRS Subcommittee Meeting ­32 
+Arkansas Nuclear One. Unit 2 
+16 
+
+Section 4 -Time-Limited Aging 
+Analyses (TLAA) 
+•  Reactor Vessel and Interna.ls Neutron 
+Embrittlement 
+•   Metal 
+Fatigu,e 
+•  
+EnvironmentalQualific~tion 
+•  Loss of Presfress!rHJohcrete Containment 
+Tendons 
+".. ". ' 
+•  Containment Liner and Penetration F«:itigue 
+Analysis 
+•  Other Plar:lt-Specific TLAAs 
+December 1, 2004 
+ACRS Subcommltte. M••llng ­
+33 
+Arkansas Nuclear One, Unit 2 
+Section 4-TLAA
+ 
+Section 4.1 -  Identification of TLAAs 
+•  Five TLAAs were identified 'from Table 4.1-2 
+Potential 
+List Of Time-Limited Aging Analyses in 
+NUREG-1800. 
+•  Five 
+Other Plant-Specific TLAAs were identi'fied 
+by the applicant. 
+December 1, 2004 
+ACRS Subcommittee Meeting ­34 
+Mansa.s Nuclea.r One, Unil 2 
+17 
+
+Section 4 -TLAA RVI
+ 
+Section 4.2 -Reactor Vessel and Internals 
+Neutron Embrittlement 
+•  Three analyses affected by irradiation 
+embrittlement identified as TLAAs 
+•  Upper Shelf Energy 
+•  Pressurized Thermal Shock 
+•  Pressure Temperature Limits 
+December 1. 2004 
+ACRS Sl.tJcomminee Meeting ­
+35 
+Arksnaaa Nuclear One. Unit 2 
+Section 4 -TLAA on Upper Shelf 
+Energy (USE) 
+Section 4.2 -  Reactor Vessel and Internals 
+Neutron Embrittlement 
+Limiting Material USE Acceptance Calculated 48 EFPY Conclusion 
+For USE 
+Criterion USE value 
+Intermediate Axial 
+Weld 2-203A 
+50 ft-Ib 
+Staff: 
+54 ft-Ib 
+Entergy: 54 ft-Ib 
+Criterion is met 
+for 48 EFPY 
+December 1, 2004 
+ACAS Subcommihee 
+Meeting­
+36 
+Arkansas Nuclear One, Unll2 
+18 
+
+Section 4 -TLAA on Upper Shelf 
+Energy (USE) 
+•  Calculation of USE values for 48 effective full power years 
+(EFPY) identified as a time limited aging analysis (TLAA) for 
+license renewal 
+•  Applicant 
+perforrne!d 
+updat~d USE value~9alculations oUhe 
+rl'l~ctor vessel (RV)beltline materials ij$projected through 48 
+EFPY. 
+•  Staff perfo(l!led indepe!rident calculations of the USE "alues for
+the 
+RV beltline materials through 48 EFPY. . 
+..:' ..--' 
+•  Both the applicanta~~~t~ff'l=l palculationsdemonstrafethe USE 
+acceptance criterion forthelimiting beltline material 
+Will be met 
+through 48 EFPY. TLAA' 
+an~lysis meets the requirements of 10 
+CFR part
+15P
+,..AppendiX G,and the acceptanc..e.,criterion in 10.·. 
+CFR 
+54.21(c)J3){ii).'<.; 
+December 1, 2004 P.CRS Subcommittee M••~ng­37 
+Mat188s Nuclear Onei' Unil2 
+Section 4;;;-;TLAAof'lPressurized 
+Thermal 'Shock (PTS) 
+Section 4.2 -  Reactor Vessel and Internals 
+Neutron Enibrittlement 
+Limiting 
+Material 
+For PTS 
+ScreElning 
+Criterion 
+Calculated 
+48 EFPY 
+RTPl:S vlilue 
+Conclusion 
+Lower Shell Plate 
+C-B010-1 
+Staff: 122.6
+2
+F 
+Entergy: 122.6
+Q
+F 
+Screening 
+Criterion is 
+met 
+December 1, 2004 ACAS Subcommittee Meeting ­38 
+Arkansas Nuclear One, Unil2 
+19 
+
+Section 4 -TLAA on Pressurized 
+Thermal Shock (PTS) 
+•  Calculation of RTPTS values for 48 effective full power years 
+(EFPY) identified as a time limited aging analysis (TLAA) for 
+license renewal 
+•  Applicant performed updated RTPJsvalues calculations of the 
+reactor vessel (RV) beltline matenals as projected through 
+48 
+EFPY. 
+•  Staff performed independent calculations of the RT
+PTS values for 
+the RV beltline materials through 
+48 EFPY. 
+•  Both the applicant and staff's calculations demonstra.te the 
+applicable screening criterioh for the 
+IimitinQ beltline RV material 
+will be met through 48 EFPY. TLAA analysIs meets the 
+requirements of 10 CFR 50.61 and the acceptance criterion for 
+in 10 CFR 54.21 (cH3Hii). 
+ACRS S__MeeUng­
+December 1, 2004 39 
+Arka...... Nuclear One, Unit 2 
+Section 4 -TLAA Metal Fatigue
+ 
+Section 4.3 -  Metal Fatigue 
+•   Two analyses affected by Metal Fatigue 
+•  ASME Class 1 Components (RCS) 
+•  Remains valid under 10 CFR 54.21 (c)(1 Hi) 
+•  ASME Non-Class 1 Piping 
+•  Remains valid under 10 CFR 54.21 (c)(1 Hi) 
+• ASME NOFl ~ss 1 Components 
+•  Fatigue evaluations are not required for these 
+components. 
+December 1t 2004 
+ACRS SLJx:omminee Meeting ­40 
+Arkansas Nuclear One, Unil 2 
+20 
+
+Section 4 -TLAA EO
+ 
+Section 4.4 -  Environmental Qualification 
+•   Applicant has adeqlJately identified the TL.,AA for 
+EO component$. 
+•   Applicant's EOprogfamJsconsistent with GALL
+X.E1. 
+/i;:'1 
+•   Staff concluded EO Program will conti~~~to 
+manage equipment in  accordance will110 CFR 
+50.49, and meets 
+10CFR 54.21 (c)(1) (iii). 
+December 1, 2004 
+ACRS SUbcom"Jinee, Meetlng­
+41 
+Artcsnsss Nuolear One, Unit 2 
+Section 4 ..... TlAA Concrete 
+Tendons 
+Section 4.5 -  Concrete ContainmentTendon 
+Prestress 
+•  Based on the applicant's commitment, the 
+staff concludes the 
+effect~of aging on the 
+intended 
+fUnctiQr1$WIII be-adequately 
+managed for the extended period ot' 
+operation 
+in accordance with 10 CFR 
+54.21 (c)(1 )(iii). 
+December 1, 2004 
+ACRS Subcommlrtee Meeting ­42
+ 
+Arkansas Nuclear One, Unll2
+ 
+21 
+
+Section 4 -TLAA Containment 
+Liner Plate and Penetrations 
+Section 4.6 -Containment Liner Plate and 
+Penetrations 
+•  Remains valid in accordance with
+ 
+10 CFR 54.21 (c)(1)(i)
+ 
+December 1, 2004 
+ACRS SlJJcommibee Meeting­
+Arkansaa Nldear One, Unit 2 
+Section 4 -TLAA Plant-Specific
+ 
+Section 4.7 -  Other Plant-Specific TLAAs 
+•   Licensee-Identified TLAAs 
+•  RCS Leak-Before-Break 
+•  
+RCP Code Case N-481 
+•  Steam Generator Tubes -  Flow-Induced
+ 
+Vibration
+ 
+•  Alloy 600 Nozzle Repair 
+•  High Energy Line Break Analyses 
+•  
+RCP Flywheel 
+December 1. 2004 
+ACRS Subcommlnee Meeting­
+44 
+Arkensaa Nuclear One, Unit 2 
+22 
+
+Section 4 -TLAA Plant-Specific
+ 
+•  Section 4.7 -  Other Plant-SpecificTLAAs 
+ALLOY 600 Nozzle Repair 
+•  Projected thtbugHft1epefibd of extended 
+operation 
+under 10 CFR54.21 (c)(1)(ii) 
+December 1, 2004 ACRS SubcommitteeMeeting ­45 
+Man&u Nuclaar One, Unit 2 
+Section 4 -TLAAPlant-Specific
+ 
+•  S~~tion 4.7 -  Other Plant-Specific'Tl-AAs 
+R~'actor Coolant Pump Code Case N-481 
+•  Use of alternative inspection method in  code 
+case reqUires flaw tolerance (crack growth) 
+which is a time-limited effect 
+•  Remains valid in accordance with 10 CFR 
+54.21 (c)(1 )(i) 
+December 1, 2004 ACRS Subcommittee Meeting ­
+46
+ 
+Arkansas Nuclear One, 
+Unil2
+ 
+23 
+
+Section 4 -TLAA Plant-Specific
+ 
+•  Section 4.7 -  Other Plant-Specific TLAAs ReS 
+Piping Leak Before Break (LBB) 
+•   LBB is a TLAA and requires that growth of postulated 
+flaws should meet a safety factor of two (2) on critical 
+crack size. The thermal aging of CASS piping 
+components can reduce critical crack size. 
+•  Cycles in fatigue growth analysis were determined to 
+be bounding for 60 years. Critical crack size 
+l,Jsed in 
+the analysis were determined to be bounding·for 
+saturated thermally-aged CASS material. 
+•   Remains valid in accordance with 10 CFR 
+54.21 (c)(1 )(i) 
+December 1. 2004 
+ACRS Subcommlnoe Meeting ­
+47 
+ArttaI1888 Nuclear One, unn 2 
+TLAA Summary
+ 
+•  The applicant has identified the appropriate 
+TLAAs and has demonstrated that the 
+TLAAs: 
+•  Will remain valid for the period of extended 
+operation, 
+•  Have been projected to the end of the period 
+of extended operation.
+ 
+or
+ 
+•  The aging effects will be adequately managed 
+for the period of extended operation. 
+December 1, 2004 
+ACRS Subcommlnee Meeting­
+48
+ 
+Arkansas Nuclear One, Unft 2
+ 
+24 
+
+Staff Conclusions
+ 
+The Applicant has met the requirements for 
+license renewal, as required by 10 CFR 
+54;29: 
+•   Actions have been identified and have been or 
+will be taken 
+sucbfllatctner~ is  reasonable 
+assurance that activities will continue to be 
+cdnductedin 
+thet:~enewal term in·accordance 
+with 
+tDe current licensing basis. 
+December 1, 2004 
+ACRS SutK:ommlnee:.Meeting­
+49 
+Arkansas Nuclear One. Unit 2 
+ACRS License Renewal Subcommittee
+ 
+Arkansas Nuclear One -  Unit 2
+ 
+Nuclear Power Plant
+ 
+License Renewal 
+Application
+ 
+Draft Safety Evaluation Report
+ 
+December 1, 2004
+ 
+Gregory F. Suber
+ 
+Project Manager
+ 
+25 
+
+BACKUP SLIDES
+ 
+December 1. 2004 
+ACRS S.mcommiboe Meeting ­
+51 
+Arttareu Nudear One, Unit 2 
+cerpt 'from ANO-2 LRA Table 1 for Reactor Coolant System 
+Table3.1.1: Reactor CoolanlSyslam, NUREG 1801 Vol. 1 
+ii 
+AgIng 
+j Further ]
+Aging EIfectJ
+Item 
+Management
+Component 
+[ Ev.IRtion I 
+Discussion
+Mechanism
+Number 
+Programs 
+i Recommended .
+I 
+TLAA. evalualed in iYes. TlAA ICracking due to ratigue IS an aging eneer 
+pressure 
+latlgue damage' 
+3.1.1-1 RBaclOr cootlnl CumulaUve 
+accordance wtth 
+i 
+! applicable 10 reacror coolant pressure boundary 
+boundaty '0 CFA 54.2'(0) 
+IItems subject to BgU:lg management revieW. I 
+components 
+1Because of the uniform applicability of this effect. I 
+I the effect and the compartson to the associated : 
+'I NUREG-fSOllino items have not been. listed H1 I'
+I
+ 
+Ill. Cia•• 1 lobi•• (3.1.2-1 through 3.1.2-5) ,
+i 
+below. The metal fafigue TIM aSSOCIated with l' 
+! Class 1 components is addressed In 5ecllon 4.3. 
+! -----+--------~-­
+3.'.1-2 
+Sleam generator 
+This grouping includos the s1eam g9neratot shen 
+shalt 
+assembly 
+Los.S 01 ma1(N'ial ! Inservlce Inspectlon: Yes. dRt9Crion of 
+assembly and attached components. and 
+componenls of the secondary side lnternaJa. The l 
+due 10 pilling and Iwater chemistry aging offect!;; Is to 
+crevtce corrosion I :~~::
+I 
+concems 01 IN 90-04 are not appncable to ANO-2 I
+! 
+since lhe atOilfTl genomlors were replaced in : 
+2000 and phting cDlTosion 01 tho steam g¢nOfatot ! 
+! sholl is not known to currently exist. ANO-2 
+Ics-edits the waler chemistry control program and 
+! the inservJce inspection program for managing 
+jloss of material due to pitting and crevICe 
+lcorrosiol"! on the inlernal SIJrfacRs of the steam 
+! 
+generator shen. For further evaluation, see . 
+l 
+f Seclion 3.1.2.2.2. lnservice inspection is a planl-! 
+I spoctfic program for ANO-2. !
+f--__-+-L._~ ._L 
+-~-'-~~~-'----'---'-""'--" .; 
+3.1.1·3 
+~ BWH only 
+--_._--~~-_..~--­
+December 1. 2004 
+ACAS Subcommihee Meeting ­
+52 
+Arkansas Nuclear One, Unit 2 
+26 
+
+cerpt from ANO-2 LRA Table 2 for Reactor Coolant System
+----------------l 
+Aging 
+Management 
+Programs 
+Aging Effect 
+Requiring 
+Management 
+Loss 0' tm,llerlal
+~::on 1Air (eX1emal) 
+iii
+Ma1erral Environment
+In{ended 
+Function 
+Pr05GUra 
+boundary 
+Cons,iS1..ent with NUREG·1B01 Item fOr component. malarial, environrl\ent. aging effect and a~lng management program. AMP Is 
+consistent Wllh NUREG·1601 AMP, 
+B. Consl~tent with NUREG-180 I "em for.component, milierial, environfTll,ml, agIng effect and aging managemontprogram, AMP Ilas 
+elfceptions.to NUREG·1801 AMP. 
+C. Componont Is ~ltferent. but consistenl. Wft.h NURE9-1801 jtem lor material, EmvlronmenL a{lln9 effect and aging managlilment program. 
+AMP Is COf1$iS10nf With NUREG-I801 AMP. 
+O. Component is different, bl1t: consistent with NUREQ·1801 i1em for material, envirOOffllil"!r.. ag~9 eflact and aging m~nagomenl program. 
+AMP h8~ ~u(cepttonG to NURE'G-180tAMp. . 
+E. ConslstefTI. With NUREG-1a01 material. ttpvlronrtlent, and agin9 eHact but a different aging rnnnagement program Is credited. 
+F. Malarial nolln NUREG·1801 for" thIS component. ' 
+Table 3.1.2:-3 Class 1 P"lping. Valves, and Reac.1or Coolant Pumps 
+G. Environment not In NUREG-1,80' for thlSc:omponent and materiaJ. 
+H. Aging 9f1eet not In NURIS"(~·'80i rot this cornponQht. malarial and envlrol'lment' combination. 
+I. 
+Aging effect. in NUREG-l~011or'lhlscOmponent. inst$rlat..and enVinJllmenl CQmbjn8t.~on i" nq,1 applICable. 
+J, Nei1h8f the component nor the moterlnl an~ environmorir com'blnatlon is evalualed In NUAEG-1501. 
+elant~§QMifjgootm 
+101. The matoda' nod en...mJmnenl L-omblnallon is fn NUREG·i801 but no!lhot the plant component. nor 'Ii reasonable substitute. oxist9. 
+December 1, 2004 
+ACRS SUbcommittee Meeting ­
+53 
+Arkensas"NucleEu Onei Unit 2 
+xcerpt from ANO-2LRA Precedent 8eterence Table 
+December 1, 2004 
+ACRS Subcommittee Meeting ­
+54 
+Arkansas Nuclear One, Unil2 
+27 
+
+ELEMENTS OF AN AGING MANAGEMEI\IT
+ 
+PROGRAM FOR LICENSE RENEWAL
+ 
+Scope of program 
+Scope of progrem should include the specific structures and components subject to 
+an AMR for license renewal. 
+2 
+Preventive actions 
+Preventive actions should prevent 
+or mtigate aging degradation. 
+3 
+Parameters monitored 
+or inspected 
+Parameters monitored or inspected should 
+be linked to the. degradation of the 
+particular structure or component intended function(s). 
+4 
+Detection of aging 
+effects 
+Detection of aging effects should occur before there Is a loss of structure or 
+component intended function(s). 
+This includes aspects such as method or 
+technique (i.e., visual, volumetric, surface inspection), frequency, sample size, data 
+collection 
+and timing of new/one-time inspections to ensure timely detection of 
+aging effects. 
+5 
+Monitoring and trending 
+Monitoring 
+and trending should provide predictability 01 the extent of degradation, 
+and timely corrective or mtigative actions. 
+6 
+Acceptance criteria 
+Acceplance criteria, agalnst 
+Which the need for conectlve action will be eval uated. 
+should ensure that the structure or component intended function(s) 
+are maintained 
+under 
+all CLB design conditions during the period of extended operation, 
+7· 
+Corrective actions 
+Audited by 
+DivisiOn of Inspection Program Menagement 
+S· 
+Confirmation process 
+Audited by DivIsion of Inspection Progrem Management 
+9· 
+Administrative controls 
+Audited by Division of Inspection Program Menagement 
+10 
+Operating experience 
+Operating experience 
+of the aging management program, Including pest corrective 
+actions resulting in program enhancements or additional 
+programs, should provide 
+objective evidence to support the conclusion that the effects 
+of aging will be 
+managed adequately so that the structure and component intended function(s) will 
+be rn8.intained dUring the period of elden.ded operation. 
+December 1, 2004 
+ACAS Suboommlnee Meeting ­
+_noaa Nuclear One, Unit 2 
+55 
+Aging Management Reviews
+ 
+lRASKtlon 
+TotalAMR AssIgned to RL£P-B 
+Asslgne<lto Tech Staff 
+GALL 
+fJ'recadenCII 
+3.1 
+580 47% (274) 16%(94) 37% (212) 
+3.2 
+235 
+30% {1O1 
+36% (85) 34% (80) 
+3.3 
+667 53% {353) 9% {OO) 
+38% (254) 
+3.4 
+160 45% (72) 
+'8% {28) 
+31% (60) 
+3.5 
+'24 
+51% (63) 9% (11) 40% (ro) 
+3.6 6 2 (33%) O{O%) 4 (67'1\.) 
+Total MlR 834 
+278 660 
+Total % 
+63% 
+37% 
+December 1, 2004 
+ACRS Subcommlnee MeeUng­
+56 
+Arkall&88 Nuclear One, Unit 2 
+28 
+
+S&S Inspection Results
+ 
+•  Spent Fuel Pool Cooling Pumps 
+SFPC pump casing could fail and spray EFW Pump inlet iso valve and 
+the bypass valve. This could interrupt steam to the TD EFW Pump. 
+Applicant agreed 
+to include the SFPC pump casing. 
+•  Switchyard Control HoUse 
+THe applicant included the SUT bkt control cables; howe\(~r. did not 
+include the cables' supporting structure. 
+Applicant agreed to include the entire structure. 
+December 1, 2004 ACRS Subcommittee Meeting ­
+57 
+Arlcanssa Nuc:1ear One, Unit 2 
+AMR Insp Preliminary Results
+ 
+•  Coniplated S&S wrt the SER 
+•  Verify all SSCs Considered 
+in S&S Efforts 
+System Engr's Walkdown vs. ANO Component Database 
+SSEL vs. ANO Component Database 
+•  Three Areas Continuing Discussion 
+FP Equipment Staged/Stored for HSD and CSD Repairs 
+Cables Outside Containment in  EO Program
+ 
+Cables in Flooded Manholes
+ 
+December 1, 2004 ACRS Subcommittee Meeting­58 
+Arkansas Nuclear One, Unil2 
+29
