@@ -470,6 +470,71 @@ The enhanced RAG engine now provides:
 - Professional reference format for regulatory compliance
 - Improved user experience with exact content location
 
+## Critical Bug: PDF Cache Not Auto-Generated (2025-09-30)
+
+### 🔴 Current Problem
+**Symptom**: Q&A fails with "0 documents indexed" even after download
+- PDF files downloaded successfully to `downloaded_pdfs/`
+- Cache files NOT created in `pdf-text-cache/`
+- RAG engine cannot load documents without cache files
+
+**Root Cause Analysis**:
+1. **download-service.ts Integration Failed**:
+   - Added `pdfCacheService.getCachedText()` calls (lines 205, 257)
+   - Code compiles but doesn't execute properly
+   - Returns `content: undefined` → RAG indexing skipped
+
+2. **Architecture Issue**:
+   - Download step: PDF saved but text not extracted
+   - Q&A step: Tries to load cache → file doesn't exist → fails
+   - Manual cache creation works but not sustainable
+
+### 🔧 Attempted Fixes
+1. ✅ Path resolution fix: `path.join(__dirname, '..')`
+2. ✅ PDFCacheService integration in download-service.ts
+3. ❌ Cache files still not auto-generated on download
+
+### 💡 Proposed Solutions
+
+**Option A (Quick Fix)**: Auto-cache in loadExistingPDFs()
+```typescript
+// src/index.ts loadExistingPDFs() function
+// Change cache file read to:
+const content = await pdfCacheService.getCachedText(pdfPath, documentNumber);
+// This auto-extracts if cache missing
+```
+
+**Option B (Proper Fix)**: Force cache in download flow
+```typescript
+// src/services/download-service.ts
+// After PDF save, force cache creation:
+const content = await pdfCacheService.getCachedText(filePath, documentNumber);
+if (!content) {
+  throw new Error('Text extraction failed');
+}
+```
+
+**Option C (Radical Rethink)**: On-demand download
+- Remove batch download
+- Download + cache + index per question
+- Simpler flow but slower UX
+
+### 📊 Test Results
+- Manual cache creation: ✅ Works
+- Auto cache on download: ❌ Fails
+- Documents affected: ML19014A039, ML081710326
+
+### 🎯 Recommended Action
+**Implement Option A immediately**:
+- Minimal code change
+- Fixes existing downloads
+- Works with MCP stateless nature
+- User can ask questions right after download
+
+### 📝 Files Requiring Changes
+- `src/index.ts`: loadExistingPDFs() line ~790
+- Change from `fs.readFile()` to `pdfCacheService.getCachedText()`
+
 ## Critical Performance Optimizations (2025-09-12)
 
 ### 🚀 Session State Management Solution
