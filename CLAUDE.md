@@ -284,7 +284,35 @@ logger.error('Download failed', { error });
 ### GitHub Repository
 https://github.com/jeromwolf/eve-mcp
 
-## Recent Updates (2025-09-09)
+## Recent Updates (2025-09-30)
+
+### 🎯 Documentation & UX Improvements
+1. **Comprehensive Documentation**
+   - Created QUICK_START_KO.md (5-minute installation guide)
+   - Enhanced README.md with Node.js, npm, Claude Desktop installation
+   - Added file location information (downloaded_pdfs/, pdf-text-cache/)
+   - Updated TROUBLESHOOTING.md with file location diagnostics
+
+2. **User Experience Enhancement**
+   - Added loading time measurement in src/index.ts
+   - Implemented "auto-loaded" notification for first Q&A
+   - Added waiting time guidance (1-2 seconds after download)
+   - Explained MCP protocol stateless nature
+
+3. **MCP Protocol Understanding**
+   - Problem: Each MCP request runs in separate process
+   - Solution: Automatic document loading on first Q&A (3-9 seconds)
+   - Subsequent queries are instant (1-3 seconds)
+   - PDF text cache enables fast reloading
+
+### 📁 File Structure Clarification
+```
+downloaded_pdfs/search_keyword_date/ML_document_number.pdf
+pdf-text-cache/ML_document_number.txt (80KB - extracted text)
+logs/mcp/mcp-server-date.log
+```
+
+### Previous Updates (2025-09-12)
 
 ### 🎯 Test Suite Achievement: 75% Success Rate
 - **Comprehensive Test Suite**: Created `tests/test-comprehensive.js` with 16 test scenarios

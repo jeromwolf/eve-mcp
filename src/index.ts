@@ -462,12 +462,24 @@ Use ask_about_documents to query the downloaded content.`
       }
 
       let ragStats = this.ragEngine.getStats();
-      
+
       // If RAG engine is empty, try to load existing PDF files
       if (ragStats.documentCount === 0) {
         mcpLogger.info('RAG engine empty, attempting to load existing PDFs');
+
+        // Inform user about loading process
+        const startTime = Date.now();
         await this.loadExistingPDFs();
+        const loadTime = ((Date.now() - startTime) / 1000).toFixed(1);
+
         ragStats = this.ragEngine.getStats();
+
+        if (ragStats.documentCount > 0) {
+          mcpLogger.info('PDFs loaded successfully', {
+            documentCount: ragStats.documentCount,
+            loadTimeSeconds: loadTime
+          });
+        }
       }
 
       if (ragStats.documentCount === 0) {
@@ -475,15 +487,20 @@ Use ask_about_documents to query the downloaded content.`
           content: [
             {
               type: "text",
-              text: "❌ No documents available for Q&A. Please download documents first using download_adams_documents."
+              text: `❌ No documents available for Q&A. Please download documents first using download_adams_documents.
+
+💡 Tip: After downloading, wait 1-2 seconds before asking questions to allow file system synchronization.`
             },
           ],
         };
       }
 
+      // Check if documents were just loaded
+      const justLoaded = ragStats.documentCount > 0 && ragStats.documentCount === this.ragEngine.getStats().documentCount;
+
       // Search using RAG engine
       const searchResults = await this.ragEngine.search(question, 5);
-      
+
       if (!searchResults || searchResults.length === 0) {
         return {
           content: [
@@ -498,7 +515,7 @@ Use ask_about_documents to query the downloaded content.`
       // Format response with citations
       const formattedResults = searchResults.map((result, index) => {
         return `${index + 1}. ${result.text.substring(0, 300)}${result.text.length > 300 ? '...' : ''}
-   
+
    📄 Citation: ${result.metadata.citation || 'No citation available'}
    🎯 Relevance Score: ${(result.score * 100).toFixed(1)}%`;
       }).join('\n\n');
@@ -514,12 +531,16 @@ Use ask_about_documents to query the downloaded content.`
         sourceDocuments: sourceDocuments.length
       });
 
+      // Build loading notice if documents were just loaded
+      const loadingNotice = justLoaded ?
+        `\n⚡ Note: Documents were automatically loaded from cache. Subsequent queries will be faster.\n` : '';
+
       return {
         content: [
           {
             type: "text",
             text: `🤖 Answer for: "${question}"
-
+${loadingNotice}
 ${formattedResults}
 
 📊 Search Statistics:
