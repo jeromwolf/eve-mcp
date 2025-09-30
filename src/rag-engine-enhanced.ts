@@ -215,9 +215,16 @@ export class EnhancedRAGEngine {
           });
         } catch (error) {
           mcpLogger.error('Embedding creation failed', error);
+          // OpenAI 실패 시 키워드 검색으로 fallback
+          mcpLogger.warn('Falling back to keyword search (no embeddings)');
+          break; // OpenAI 실패, 키워드 검색으로 전환
         }
       }
-    } else {
+    }
+
+    // OpenAI 실패 또는 API 키 없음: 키워드 검색용 청크 생성
+    if (documentChunks.length === 0) {
+      mcpLogger.info('Creating chunks without embeddings (keyword search mode)');
       // 키워드 검색용 (임베딩 없이)
       chunksWithPages.forEach((chunk, index) => {
         const section = this.extractSection(chunk.text);

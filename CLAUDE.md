@@ -286,6 +286,19 @@ https://github.com/jeromwolf/eve-mcp
 
 ## Recent Updates (2025-09-30)
 
+### 🔥 Critical Bug Fix: OpenAI Embedding Fallback
+**Problem**: OpenAI API key failure caused 0 chunks to be indexed
+**Root Cause**: Embedding error was caught but no fallback to keyword search
+**Impact**: Documents indexed but unusable (0 chunks)
+
+**Solution**:
+- Added automatic fallback to keyword search when OpenAI fails
+- Check `documentChunks.length === 0` after embedding attempt
+- Create keyword search chunks without embeddings
+- Log warning: "Falling back to keyword search"
+
+**Result**: System works even without valid OpenAI API key ✅
+
 ### 🔧 Critical Bug Fix: RAG Indexing Path Issue
 **Problem**: Users experienced "0 documents indexed" error after downloading PDFs
 **Root Cause**: `loadExistingPDFs()` used relative path `pdf-text-cache/` instead of absolute path
