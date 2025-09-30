@@ -286,6 +286,16 @@ https://github.com/jeromwolf/eve-mcp
 
 ## Recent Updates (2025-09-30)
 
+### 🔧 Critical Bug Fix: RAG Indexing Path Issue
+**Problem**: Users experienced "0 documents indexed" error after downloading PDFs
+**Root Cause**: `loadExistingPDFs()` used relative path `pdf-text-cache/` instead of absolute path
+**Solution**:
+- Changed to `path.resolve('pdf-text-cache/${documentNumber}.txt')`
+- Added detailed debug logging for cache file access
+- Enhanced error messages with file paths
+
+**Impact**: RAG Q&A now works correctly on first call after download ✅
+
 ### 🎯 Documentation & UX Improvements
 1. **Comprehensive Documentation**
    - Created QUICK_START_KO.md (5-minute installation guide)

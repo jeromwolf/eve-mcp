@@ -786,8 +786,23 @@ Use ask_about_documents to query these documents.`
           
           try {
             // Use high-speed cache instead of slow extraction
-            const cacheFile = `pdf-text-cache/${documentNumber}.txt`;
-            const content = await fs.readFile(cacheFile, 'utf8').catch(() => null);
+            const cacheFile = path.resolve(`pdf-text-cache/${documentNumber}.txt`);
+
+            mcpLogger.debug('Attempting to load cached text', {
+              documentNumber,
+              cacheFile,
+              exists: await fs.access(cacheFile).then(() => true).catch(() => false)
+            });
+
+            const content = await fs.readFile(cacheFile, 'utf8').catch((err) => {
+              mcpLogger.warn('Cache file read failed', {
+                documentNumber,
+                cacheFile,
+                error: err.message
+              });
+              return null;
+            });
+
             if (content) {
               await this.ragEngine.addDocumentWithPages(
                 documentNumber,
@@ -799,15 +814,23 @@ Use ask_about_documents to query these documents.`
                 }
               );
               loadedCount++;
-              mcpLogger.debug('PDF loaded into RAG engine', {
+              mcpLogger.info('PDF loaded into RAG engine', {
                 documentNumber,
-                contentLength: content.length
+                contentLength: content.length,
+                cacheFile
+              });
+            } else {
+              mcpLogger.warn('No cached content found', {
+                documentNumber,
+                cacheFile
               });
             }
           } catch (error: any) {
-            mcpLogger.warn('Failed to load PDF into RAG engine', {
+            mcpLogger.error('Failed to load PDF into RAG engine', {
               pdfPath,
-              error: error.message
+              documentNumber,
+              error: error.message,
+              stack: error.stack
             });
           }
         }
