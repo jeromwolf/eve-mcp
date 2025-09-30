@@ -409,20 +409,24 @@ export class EnhancedRAGEngine {
   getStats() {
     const totalChunks = Array.from(this.documents.values())
       .reduce((sum, chunks) => sum + chunks.length, 0);
-    
+
     const documentsWithPageInfo = Array.from(this.documents.values())
       .filter(chunks => chunks.some(c => c.metadata.pageNumber))
       .length;
-    
+
     return {
       documents: this.documents,
       provider: this.provider,
       documentCount: this.documents.size,
       totalChunks,
       documentsWithPageInfo,
-      averageChunksPerDocument: this.documents.size > 0 
-        ? totalChunks / this.documents.size 
+      averageChunksPerDocument: this.documents.size > 0
+        ? totalChunks / this.documents.size
         : 0
     };
+  }
+
+  getAvailableDocuments(): Set<string> {
+    return new Set(this.documents.keys());
   }
 }

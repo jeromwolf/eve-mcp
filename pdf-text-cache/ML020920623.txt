@@ -1,0 +1,9225 @@
+[PDF Metadata]
+Pages: 56
+
+[Content]
+Melvin N. 
+Browne 
+Manager. 
+Nuclear 
+Licensing 
+& Operating 
+Experience 
+345-4141 
+A 
+SCANA 
+COMPANY 
+March 
+21, 
+2002 
+RC-02-0046 
+U. 
+S. 
+Nuclear 
+Regulatory 
+Commission 
+ATTN: 
+Document 
+Control 
+Desk 
+Washington, 
+DC 
+20555 
+Gentlemen: 
+Subject: 
+VIRGIL 
+C. 
+SUMMER 
+NUCLEAR 
+STATION 
+(VCSNS) 
+DOCKET 
+NO. 
+50/395 
+OPERATING 
+LICENSE 
+NO. 
+NPF-12 
+TRANSMITTAL 
+OF 
+EMERGENCY 
+PLAN 
+PROCEDURE 
+In 
+compliance 
+with 
+1OCFR50 
+Appendix 
+E(V), 
+South 
+Carolina 
+Electric 
+& 
+Gas 
+Company, 
+acting 
+for 
+itself 
+and 
+as 
+agent 
+for 
+South 
+Carolina 
+Public 
+Service 
+Authority, 
+transmits 
+one 
+controlled 
+copy 
+of 
+EPP-1 
+03, 
+Revision 
+6, 
+Change 
+C, 
+"Emergency 
+Equipment 
+Checklist".  
+The 
+effectiveness 
+of 
+the 
+Virgil 
+C. 
+Summer 
+Nuclear 
+Station 
+Radiation 
+Emergency 
+Plan 
+is 
+not 
+decreased 
+by 
+the 
+change 
+to 
+this 
+procedure.  
+Should 
+you 
+have 
+any 
+questions, 
+please 
+contact 
+Mrs. 
+Donna 
+Railey 
+at 
+(803) 
+345-4107.  
+Very 
+truly yours, 
+Melvin 
+.
+o 
+DWR/MNB/dr 
+Attachment 
+c: 
+(Without 
+Attachment 
+unless 
+noted) 
+L. 
+A. 
+Reyes 
+(With 
+2 
+Attachments) 
+NRC 
+Resident 
+Inspector 
+RTS 
+(0-L-99-0354) 
+File 
+(810.10-2, 
+RR 
+6000) 
+DMS 
+(RC-02-0046)
+SCE&G 
+I Virgil C. Summer 
+Nuclear Station • 
+P. 0. Box 88 * Jenkinsville, 
+South Carolina 
+29065 • T (803) 345.5209 
+-www.scana.com
+
+SOUTH CAROLINA 
+ELECTRIC 
+& GAS COMPANY 
+VIRGIL 
+C. SUMMER NUCLEAR 
+STATION 
+NUCLEAR OPERATIONS 
+NUCLEAR 
+OPERATIONS 
+COPY NO.Ji 
+EMERGENCY 
+PLAN PROCEDURE 
+EPP-103 
+EMERGENCY 
+EQUIPMENT 
+CHECKLIST
+REVISION 
+6
+"-ISCIPLINE,4IERIO
+DATE
+APPROVAL 
+AUTHORITY
+INFORMATION 
+USE 
+Procedure 
+may Be Performed 
+From Memory.  
+User Retains 
+Accountability For 
+Proper Performance.
+RECORD OF CHANGES 
+CHANGE 
+TYPE "PROVAL 
+CANCELLATION CHANGE 
+TYPE APPROVAL 
+CANCELLATION 
+IT C E bir DATE LErTER CHANGE DATE DATE
+
+NUCLEAR 
+OPERATIONS 
+n 
+n0.
+PCflUR 
+DVFLOM;NT 
+ORM 
+-
+A
+SAP-1,39 
+ATTACHMENT 
+11 
+PAGE 
+1 
+OF 3 
+REVISION 
+20
+DATE: 
+/-0 
+2- 
+PROC.# 
+-O 
+3 
+REV. 
+# 
+CHG. 
+COMIM. 
+# 
+TITLE: 
+e--. 
+5 4-•-_r_ 
+, C 
+/ 
+-
+, 
+tA',F•A- 
+.L, 
+.' 
+NEW PROCEDURE 
+REVISION 
+.
+SAFETY 
+RELATED 
+_ 
+CHANGE: 
+PERMANENT 
+.., 
+QUALITY 
+RELATED 
+_ 
+RESTRICTED 
+FROM 
+TO 
+NON-SAFETY 
+RELATED 
+iif 
+DESCRIPTION: 
+REASON 
+FOR 
+CHANGE: 
+O'igir~tor 
+-Sign 
+and 
+PRINT 
+Name 
+iii. 
+REQUIRED 
+REVIEWS: 
+Check 
+ALL selections 
+in first 
+3 columns 
+for 
+SAPs (except 
+for 
+minor changes) 
+Other 
+Reviews: 
+)MCHS 
+()MNPS 
+()MPLE 
+( 
+)GMES 
+( )CWPS 
+( 
+}ISEG 
+NOET 
+( )QC 
+X 
+5 
+)MDE 
+( )MNT 
+( )MPSE 
+( 
+)GMNPO 
+( 
+)DE 
+( )MNTS 
+)NPS 
+( )OR
+)MHPS 
+( 
+)MOD&P 
+( 
+)MSPD 
+( 
+)GMNSS- 
+(.)FFD 
+( )MQS 
+( )NTET 
+( )RC 
+)MMPR 
+( )MPO 
+( )SAS 
+( 
+)GMSPD 
+HPS- 
+( 
+)MPR 
+(•)OPS- 
+( 
+)RE 
+( ) 
+)MMS 
+( 
+)MOPS 
+( )QA 
+( 
+)CHS 
+( 
+ISD 
+)NL&OE 
+C )PSE 
+( )TU 
+I MNL&OE 
+I-/ 
+n)50.59 
+1*- 
+DISCIPLINE 
+SUPERVISOR 
+AUTHOrIZATION 
+TO 
+PROCESS 
+PROPOSED-CHAN 
+,/-j) 
+9-0 
+/L mep -S 
+sor " Date 
+V. 
+TEMPORARY 
+APPROVAL: 
+QUAUFIED 
+REVIEWER 
+DATE 
+QA 
+REVIEW 
+DATE____ 
+TELECON 
+BY 
+TELECON 
+BY 
+SHIFT 
+SUPERVISOR 
+DATE 
+FINAL 
+APPROVAL 
+REQUIRED 
+BY: DATE 
+VIL 
+PICAP 
+ACCEPTABLEP 
+VI. 
+DISCIPUNE 
+SUPERVISOR 
+FINAL REVIEW: 
+C. YES__ 
+NO 
+-n- 
+' # OE/" 
+-iD -.
+"e 
+Dale 
+PSRC 
+REVIEW REQUIRED? 
+YES_._ESP. 
+MGR. 
+DNE.e 
+IF YES. PRIOR TO IMPLEMENTATION? YES__ NO_ VIII. FINAL. QA REVIEW/l 
+plicable) 
+I 
+I/ 
+TRAINING 
+REQUIRED? 
+YES__ NO .
+QACor•ure 
+I 
+Date 
+IF YES, 
+PRIOR 
+TO IMPLEMENTATION? 
+YES___ 
+NO_ 
+Ix. APPROVAL 
+AUTHORITY: 
+P/CAP 
+AFFECTED? 
+YES_ 
+NO 
+Trainfin 
+Completed 
+(, 
+Date 
+COMMENTS 
+-
+REOLED: 
+//mirec 
+Date 
+X. 
+PSRC 
+REVIEW: 
+A. REVIEWED 
+BY: 
+B. PSRC 
+COMMENTS 
+RESOLVED: 
+/ 
+I 
+PSRC Chairman 
+Date 
+Responsible 
+Marpsger 
+Date 
+COMMEN'TS: 
+YES 
+NO_ 
+I 
+PSRC Chairman 
+Date
+
+EPP-103 
+Revision 6, Change 
+C 
+Attachment 
+to PDF-A, 
+Section ii, 
+Description 
+and Reason 
+for Changes 
+Page 1 of 
+4 
+Description: 
+Table 
+of Contents 
+and Section 
+1.0; 
+Changed the 
+title of 1.0 
+to 
+PURPOSE 
+AND SCOPE 
+and added 
+scope statement 
+1.2.  
+Reason 
+for Change: 
+To 
+comply with 
+SAP-1 39.  
+Description: 
+Page ii, Attachments. 
+Add Attachment 
+X -Off-Site 
+Holding Area 
+Supervisor 
+Equipment 
+Checklist.  
+Reason for 
+Change: 
+Require surveillance 
+of equipment 
+stored 
+in that area.  
+Description: 
+Table of 
+Contents and 
+Section 1.0: 
+Changed the 
+title of Section 
+1.0 
+from PURPOSE 
+to PURPOSE 
+AND 
+SCOPE and 
+added scope 
+statement 
+1.2.  
+Reason 
+for Change: 
+To 
+comply with 
+SAP-1 39.  
+Description: 
+Deleted Reference 
+2.9 
+NUREG/BR-0230 
+Response 
+Coordination 
+Manual 
+Reason for 
+Change: 
+This reference 
+has been 
+deleted by the 
+NRC.  
+Description: 
+Added 
+Step 3.1.6 
+Reason 
+for Change: 
+Add 
+definition for 
+Working 
+Day for clarification 
+in body 
+of 
+procedure.  
+Description: 
+Step 5.12 
+Added the 
+word '"Working".  
+Reason for 
+Change: 
+Provide clarification.  
+Description: 
+Attachment II 
+Steps A and 
+B Deleted 
+the number 3 
+in front of 
+pocket radiation 
+signs.  
+Reason 
+for Change: 
+Allow 
+the use of radiation 
+signs 
+that have more 
+or less 
+than 3 
+pockets.  
+Description: 
+Attachment 
+II Step 
+F. Delete 
+step.  
+Reason 
+for Change: 
+Not used in 
+body of attachments. 
+Individual 
+requirements 
+are 
+added to the 
+applicable items.  
+Description: 
+Attachment 
+IV, Items 
+1.E.1.b., 1.E.2.b., 
+1.E.3.b., 
+1.E.4.b., 
+and 3.B.  
+Added 
+the words: 
+EPP-002, 
+Attachment 
+I, Page 1 of 
+3.  
+Reason for 
+Change: Provided 
+the procedure 
+attachment 
+number 
+and page 
+number to 
+clarify where 
+form is 
+located.
+
+EPP-1 03 Revision 6, Change C 
+Attachment 
+to PDF-A, Section ii, Description and Reason for Changes 
+Page 2 of 4 
+Description: Attachment IV Item 2 A. 4, 
+Item 2 B. 4, Item 2 C. 4, and Item 2 G.  
+4 Delete Emergency Planning Telephone Directory. Renumbered 
+succeeding 
+items, as necessary.  
+Reason for 
+Change: Moved these copies of the Emergency Planning 
+Telephone Directory to the TSC Storage 
+Cabinet for better control of the copies.  
+Description: Attachment IV Item 2 H. 4. 
+Increased the number of Emergency 
+Planning Telephone Directory to 2.  
+Reason for Change: Have an extra 
+copy for other personnel's use when 
+requested.  
+Description: Attachment IV Item 2 H.5 Delete NRC Response Coordination 
+Manual. Renumbered 
+succeeding item.  
+Reason for Change: This manual is out of date and is no longer produced by 
+the NRC.  
+Description: Attachment IV Item 4 
+F. Delete Title 10, Code of Federal 
+Regulations. Renumbered succeeding items.  
+Reason for Change: Infrequent use does not warrant maintaining hardcopy in 
+the inventory. Document is available in the Emergency Preparedness Folder and 
+on the NRC Website.  
+Description: Attachment IV Item 5 i.  Added four copies of the Emergency 
+Planning Telephone Directory.  
+Reason for Change: Copies taken out of the individual drawers are to be 
+located here for general use.  
+Description: Attachment V Item 2.R.1. and 3.C.5. Added the words: EPP-002, 
+Attachment I, Page 1 of 3.  
+Reason for Change: Provided the procedure attachment number and page 
+number to clarify where form is located.  
+Description: Attachment V Item 3 H.2 and Item 3.1.3. Delete the Emergency 
+Planning Telephone Directory from the inventory.  
+Reason for Change: These storage locations are the only sealed locations that 
+require breaking the seal when the Directory must be updated. Copies of the 
+Directory are available in the EOF Storage Cabinet if needed.  
+Description: Attachment VI Item 2 H. Reduced the number of blank labels 
+from 50 to 20.  
+Reason for Change: Larger 
+number not needed.
+
+EPP-1 
+03 Revision 6, 
+Change C 
+Attachment 
+to PDF-A, Section ii, Description 
+and Reason for 
+Changes 
+Page 3 of 
+4 
+Description: Attachment 
+VI Item 9 H. 1. And 
+J, Added Hard Hats, 
+Safety 
+Glasses, 
+and Flashlights with batteries 
+installed.  
+Reason for Change: 
+Provide safety equipment 
+for small number of OSC 
+Staff 
+that could not bring their own.  
+Description: 
+Attachment VIII Item 
+7.A. Added the words: 
+EPP-002, Attachment 
+I, Page 1 of 
+3.  
+Reason for Change: Provided 
+the procedure attachment 
+number and page 
+number 
+to clarify where 
+form is located.  
+Description: Attachment 
+IX-A Items 1 and 
+2 Added "Stored external 
+to kit".  
+Reason 
+for Change: To reflect actual 
+conditions.  
+Description: Attachment 
+IX-A Item 9. Added the 
+word "Each".  
+Reason 
+for Change: To 
+clarify number of batteries.  
+Description: 
+Attachment IX-A 
+Item 18 Added the word 
+"Pack".  
+Reason for 
+Change: To clarify the minimum 
+quantity.  
+Description: Attachment 
+IX-B Item 5. Added 
+the words "Stored 
+external to kit".  
+Reason for Change: 
+To reflect actual conditions.  
+Description: 
+Attachment IX-B 
+Item 16. Added the words 
+"Stored external to 
+kit".  
+Reason 
+for Change: To 
+reflect actual conditions.  
+Description: 
+Attachment IX-C Item 9. Added 
+the word "/Ribbon".  
+Reason 
+for Change: To allow 
+either ribbon or tape to 
+be placed in kit.  
+Description: 
+Attachment IX-D 
+Item 7. Delete the words 
+"Shelf Life".  
+Reason 
+for Change: Items 
+that have a shelf 
+life are no longer used 
+in these 
+kits.  
+Description: 
+Attachment IX-E Item 
+3. Delete the words "Due 
+Date" and the 
+blank.  
+Reason 
+for Change: There is not 
+a specific due date for batteries. 
+Change out 
+of 
+shelf life items is tied to 
+the Biennial Exercise 
+date as specified in the 
+body of 
+the 
+procedure.  
+Description: Attachment 
+IX-E Item 7. Reduced 
+the number of rolls 
+of tape to 5.  
+Reason 
+for Change: This 
+is a sufficient number for 
+use during medical 
+emergencies.
+
+EPP-103 
+Revision 
+6, 
+Change 
+C 
+Attachment 
+to PDF-A, 
+Section 
+ii, 
+Description 
+and 
+Reason 
+for Changes 
+Page 
+4 of 4 
+Description: 
+Attachment 
+IX-E Item 
+16. Added 
+the 
+words "Stored 
+External 
+to the 
+kit".  
+Reason 
+for Change: 
+To reflect 
+current 
+conditions.  
+Description: 
+Attachment 
+IX-F Item 
+I. Delete 
+the Inventory 
+Requirement 
+F.  
+Reason 
+for Change: 
+Inventory 
+Requirement 
+F has 
+been deleted.  
+Description: 
+Attachment 
+IX-F 
+Item P. 
+Delete 
+Inventory 
+Requirement 
+D 
+and add 
+the 
+words "Stored 
+External 
+to Kit." 
+Reason 
+for Change: 
+Inventory 
+Requirement 
+D 
+does not 
+apply to 
+this item. 
+It 
+was 
+there in error. 
+Added 
+words 
+to reflect 
+current conditions.  
+Description: 
+Attachment 
+IX-F 
+Item 
+Y. Insert 
+new item, 
+"Fuses 
+for Air 
+Sampler 
+and 
+RM-14 
+(or equivalent). 
+Renumber 
+succeeding 
+items.  
+Reason 
+for 
+Change: 
+These 
+items were 
+included 
+in Inventory 
+Requirement 
+F 
+which 
+was 
+deleted.  
+Description: 
+Attachment 
+IX-K 
+Item 1. 
+Changed 
+"Cal. Date" 
+to "Cal. 
+Due".  
+Reason 
+for 
+Change: 
+To clarify 
+that 
+the calibration 
+is 
+actually 
+due on the 
+date 
+indicated.  
+Description: 
+Added 
+Attachment 
+X.  
+Reason 
+for 
+Change: 
+To require 
+inventory 
+of 
+the emergency 
+equipment 
+stored 
+in this area.
+
+NUCLEAR OPFRATIONS 
+COPY 
+NO.  
+PROCEDURE 
+DEVELOPMENT 
+FORM - A
+SAP-139 
+ATTACHMENT IV 
+PAGE 
+1 
+OF 3 
+REVISION IS
+L DATE- LcL"j 
+PROC=# 
+REV. 
+# 4 CHG. ,-6 
+COMM. # 
+TITME- •A5d- t 
+I 
+A 
+Y LFPP'
+NEW PROC 
+_ CHANGE 
+REVISION
+PERMANENT 
+RESTRICTED 
+_ 
+FROM 
+TO
+SAFETY RELATED 
+QUALITY RELATED 
+NON-SAFETY RELATED 2___
+IL DESCRIPTION: 
+REASON 
+FOR CHANGE: 
+Oriain-ator 
+SgnlPrint 
+UL WILL 
+THIS REVISIONACHANGEINEW 
+PROCEDURE* 
+*YES NO 
+-NA 
+1. Result in significant 
+inck= d personne 
+radialion etposure? 
+(ALARA review) 
+2 
+Result 
+in a 
+release 
+of effluents 
+to the 
+Enviranneu? 
+4. 
+Degrade the safeguards 
+effectiveness of the Physical 
+Secuty Safeguards 
+Contingency 
+of Training and 
+Qualificatim Plans? 
+"If any question 
+I through 4 is answered 
+"YES", refer 
+to appropriate section 
+of procedure 
+for direction.  
+REQUIRED REVIEW 
+AND COMMENT: 
+REQUESTED REVIEW. 
+/ 
+c) MOPS OM-Ps oGMNPO ()M AS 
+OATU 0SD ...! 
+",o 
+) MMS OMDE OGMES OQC 
+)CHS ()RC 
+/ 
+ma) MO 
+MNT (GMNSS 
+OSAS )CHPS 
+()___ 
+____ 
+() MPSE ()MNL&OE 
+O GMSPD ()MNTS OPSE 
+()__ 0)________ 
+()MCHS O)MNPS 
+XIOPS ,XNPS 
+(DE 
+) 0 
+-  /. A^
+IV. 
+1OCFR6O.59 SCREPNING 
+REVIEWISAFETY 
+EVALUATION 
+[3 REQUIRED 
+P EEMPT 
+E3 PSRC 
+SUPPORTING DOCUMENT. 
+,.  
+V. TEMPORARY 
+APPROVAL
+QUALIFIED 
+REVIEWER 
+DATE 
+O,/y/.- QA 
+REVIEW 
+DATE 
+TELECON 
+BY_// 
+TELECON 
+BY 
+SHIFT SUPERVISOR 
+DATE 
+FINAL 
+APPROVAL REQUIRED 
+BY: DATE 
+VIL PICAP 
+ACCEPTABLE? 
+VL DISCIPLINE 
+SUPERVISOR 
+FINAL REVIIEW. 
+C. YES__ NO- 
+N1& 
+/ NL&OE 
+Date 
+PSRC REVIEW 
+PRIOR TO IMPLEMENTATION? 
+__ NOVf 
+N. 
+YES_ NO 
+M 
+TRIIGREURD- 
+RESP. 
+MGR. Date 
+TRNNINGREQUIRED? 
+YES___ 
+NO___ 
+ViLpFINAL 
+QAREVE 
+SAplicable) 
+IF YES, PRIOR TO PROCEDURE 
+IMPLEMENTATION? 
+YES___ 
+NO__ 
+QA Concurrerwe 
+Date 
+P/CAPAFFECTED? 
+YES 
+NO 
+IX. 
+APPROVAL 
+AUTHORITY: 
+CO)MMENTS 
+REOVED 
+Trainin 
+C2%0 
+Date 
+Discplie Superv 
+Date 
+/:4 
+/I 
+Pro&dure Approvacc=,rence 
+Date 
+X. PSRC 
+REVIEW: 
+A. REVIEWED BY: 
+B. PSRC COMMENTS 
+RESOLVED: 
+PSRC 
+Chairman 
+Date 
+Responsib)e Manager 
+Date 
+COMMENTS: 
+YES__ 
+NO 
+__ 
+_ _ _ __ _ _ 
+_ _ __Date 
+PSRC Chairman 
+Date
+
+NUCLEAR OPERATIONS 
+COPY NO.  
+PROCEDURE DEVELOPMENT FORM - A
+SAP-139 
+ATTACHMENT 
+IV 
+PAGE 1 OF 3 
+REVISION 18
+L DATE. -PROC. 0-P -fo -REV. -g/.- CHG. A COMM. # 
+TITLE: 46ft' 
+e AQ £ 4tV 49
+6
+t, #0MEFA11 
+AWKrI-
+NEW PROC 
+REVISION
+CHANGE-X
+PERMANENT , 
+SAFETY RELATED 
+RESTRICTED __ 
+FROM TO_ 
+QUALITY 
+RELATED 
+NON-SAFETY RELATED
+H. DESCRIPTION: -,
+REASON FOR CHANGE: 
+SEW-rr-~'&
+WILL THIS REViSIONICHANGFINEW PROCEDURE. *YES NO WA 
+1. Result in significant increaged personnel radiation exposure? 
+(ALARA review) 
+2. ResuR in a release of effkuet to the Enironnen? 
+
+3. Degrade the effeciveness of 
+the Radiation Emergency Plan? 
+4. Degrade the safeguards effectiveness of the 
+Physical Security, Safeguards Contingency
+of Training and Qualification Plans? 
+If any question 
+1 through 4 is answered "YES", refer to 
+appropriate section of procedure f direction.  
+REQUIRED REVIEW AND COMMENT: 
+REQUESTED REVI 
+() MOPS 
+(MHPS OGMNPO ()QA ()TU (ISD • 
+/ 
+() MMS ()MDE (GMES (QC )CHS ()RC j" g2.Air 
+() 
+s 
+MS 
+CMNT 
+(GMNSS 
+(SAS 
+)(HPS 
+4A.0 
+() MPSE 
+()MNL&OE OGMSPD )MNTS (PSE () __ )______ Os 
+"i 
+() MCHS OMNPS )(OPS #NPS )DE ()0 O 
+J) -I A/ / A
+IV. IOCFRSO.69 
+SCREPIING REVIEWISAPETY EVALUATION 
+0" 
+REQUIRED 
+I EXEMPT 
+0 
+PSRC 
+SUPPORTING 
+MENT: 
+V. TEMPORARY APPROVAL' 
+QUALIFIED REVIEWER DATE_ 
+_ QA REVIEW 
+DATE_ 
+TELECON BY 
+TELECON BY 
+SHIFT SUPERVISOR DATE FINAL APPROVAL 
+REQUIRED BY: DATE 
+VIL PICAP ACCEPTABLE? 
+VL DISCIPLINE 
+SUPERVISOR 
+FINAL 
+REVIEW: 
+C. YES- 
+-NO__ 
+
+PSRC REVIEW PRIOR TO IMPLEMENTATION? YES_._ 
+NO N. YES _ NO_ ES.GR. 
+/Date 
+TRAINING 
+REQUIRED? 
+YES_ 
+NO___ 
+VIL 
+FINAL 
+QA 
+REVIEW 
+(As 
+Applicable) 
+Aii 
+IF YES, PRIOR 
+TO PROCEDURE 
+IMPLEMENTATION? 
+YES__ NO_/'• 
+QA 
+Concurrence 
+Date 
+PICAP 
+AFFECTED? 
+YES 
+NO 
+IL 
+APPROVAL 
+AUTHORITY: 
+A 
+APPOAL 
+UIR1f 
+COMMENTS 
+RESOLVE 
+, 
+7 
+9 
+Date 
+Procedure 
+Approval/Concurrence 
+Date 
+X. PSRC 
+REVIEW: 
+A. REVIEWED BY: 
+B. PSRC COMMENTS RESOLVED: 
+I 
+/ 
+PSRC Chairman Date 
+Responsible Manager Date 
+COMMENTS: YES 
+NO 1 
+PSRC 
+Chairman 
+Date
+Iil.
+
+LIST 
+OF CHANGES 
+EPP-103 
+Rev. 6, Chg. 
+A 
+Page 
+1 of 3 
+Table 
+of Changed 
+Attachment 
+IX.E to Hospital 
+Radiation Emergency 
+Contents Equipment Checklist.  
+Reason: The 
+name of the hospital 
+has been 
+changed.  
+Att. II 
+Added statement 
+to first paragraph. 
+"All items 
+will be inspected 
+for 
+signs 
+of deterioration 
+and replaced 
+as necessary.  
+Reason: To 
+better insure 
+to quality of 
+kit items.  
+Expanded item 
+C. to list the type 
+of instruments 
+and their batteries.  
+Reason: 
+Add clarification.  
+Removed 
+statement from item 
+E.  
+Reason: 
+Move to 
+first paragraph.  
+Att. 
+IV Increased 
+number 
+of telephones to 
+2 in item 2.E.2.  
+Reason: 
+Describe actual 
+conditions.  
+Added item 5.H.  
+Reason: Describe 
+actual conditions.  
+AUt. IX.A 
+Items 9 and 
+16, changed 
+C to Inventory.  
+Reason: Code 
+C was change 
+to describe 
+battery requirements 
+for 
+instruments.  
+Att. IX.B Items 
+9 and 11, changed 
+C to Inventory.  
+Reason: 
+Code C 
+was changed to 
+describe battery 
+requirements for 
+instruments.  
+Added items 
+26 and 27.  
+Reason: 
+Inadvertently 
+deleted during previous 
+revision.
+
+LIST 
+OF 
+CHANGES 
+EPP-103 
+Rev. 
+6, Chg. 
+A 
+Page 
+2 of 
+3 
+Att. 
+IX.C 
+Changed 
+RM-1 
+4 to 
+Frisker 
+in item 
+1.  
+Reason: 
+To 
+be 
+consistent 
+with 
+HP 
+terminology.  
+Items 
+4 through 
+6, 
+remove 
+sizes. 
+Item 
+5 
+and 
+6 were 
+consolidated 
+in 
+item 
+5.  
+Reason: 
+Bags 
+with 
+precise 
+measurements 
+cannot 
+always 
+be 
+purchased.  
+Item 
+11, 
+deleted 
+location 
+description.  
+Reason: 
+Location 
+is described 
+in title.  
+Added 
+item 
+12.  
+Reason: 
+Inadvertently 
+deleted 
+during 
+previous 
+revision.  
+Aft. 
+IX.D 
+Changed 
+location 
+of 
+kit.  
+Reason: 
+Storage 
+location 
+of 
+kit 
+changed 
+to 
+allow 
+better 
+access.  
+Items 
+11 
+through 
+15, 
+change 
+audit 
+to 
+inventory.  
+Reason: 
+More 
+clearly 
+describe 
+surveillance 
+activity.  
+Item 
+17, 
+remove 
+shelf 
+life.  
+Reason: 
+Item 
+does 
+not have 
+a manufacturer 
+specified 
+shelf 
+life.  
+Att. 
+IX.E 
+Changed 
+Title.  
+Reason: 
+Name 
+of 
+hospital 
+changed.  
+Item 
+5, changed 
+C to 
+Inventory.  
+Reason: 
+Code 
+C 
+was 
+changed 
+to 
+describe 
+battery 
+requirements 
+for 
+instruments.  
+Moved 
+items 
+6 
+and 
+11 
+through 
+15 to 
+the 
+end 
+of 
+the checklist 
+and 
+added 
+Stored 
+exterior 
+to 
+kit.  
+Reason: 
+These 
+items 
+are 
+stored 
+together 
+exterior 
+to the 
+kit.
+
+LIST 
+OF 
+CHANGES 
+EPP-103 
+Rev. 
+6, 
+Chg. 
+A 
+Page 
+3 
+of 3 
+Att. 
+IX.F 
+Item 
+1 L., 
+Deleted 
+Due 
+date.  
+Reason: 
+All 
+Shelf 
+Life 
+items 
+will 
+be 
+changed 
+within 
+10 
+days 
+of 
+the 
+biennial 
+exercise.  
+Item 
+1 .W, 
+changed 
+inventory 
+requirement.  
+Reason: 
+Code 
+C was 
+changed 
+to 
+describe 
+battery 
+requirements 
+for 
+instruments.  
+Items 
+1 
+.X. 
+and 
+1 
+.Y were 
+deleted.  
+Reason: 
+TLDs 
+are 
+available 
+in 
+the 
+EOF 
+Dosimetry 
+Issuance 
+Kit.  
+Att. 
+IX.G 
+Item 
+6., 
+added 
+(PACK).  
+Reason: 
+More 
+clearly 
+define 
+item.  
+Item 
+8., 
+moved 
+EXPIRATION 
+DATE 
+to 
+comments 
+section.  
+Reason: 
+More 
+easily 
+seen.  
+Att. 
+IX.H 
+Item 
+2., 
+added 
+(PACK).  
+Reason: 
+More 
+clearly 
+define 
+item.  
+Att. 
+IX.I 
+Item 
+3., 
+added 
+PAIRS.  
+Reason: 
+More 
+clearly 
+define 
+item.  
+Att. 
+IX.J 
+Item 
+2., 
+added 
+PAIRS.  
+Reason: 
+More 
+clearly 
+define 
+item.  
+Aft. 
+IX.K. 
+Item 
+2., 
+deleted 
+inventory 
+requirement 
+B.  
+Reason: 
+B 
+does 
+not 
+apply 
+to 
+this 
+item.
+
+EPP-103 
+Revision 
+6,Change 
+B 
+Attachment 
+IV, 
+page 
+7, item 
+4.D.  
+Delete 
+the 
+Aperture 
+Card 
+Reader. 
+The 
+reader 
+is not 
+needed. 
+An 
+Aperture 
+Card 
+Reader/Printer 
+is 
+available 
+in 
+this 
+area 
+for 
+viewing 
+Aperture 
+Cards.  
+Additional 
+readers 
+can 
+be 
+brought 
+to this 
+area 
+if needed.  
+Attachment 
+VIII 
+Add 
+item 
+14 
+SC Road 
+Map. 
+This 
+map 
+may 
+be needed 
+if areas 
+outside 
+the 
+10-mile 
+radius 
+are 
+affected.  
+Attachment 
+V, 
+page 
+2 
+Add 
+item 
+D.6. 
+SC 
+Road 
+Map. 
+This 
+map 
+may 
+be 
+needed 
+if 
+areas 
+outside 
+the 1 
+0-mile 
+radius 
+are 
+affected.
+
+TABLE 
+OF CONTENTS
+SECTION
+EPP-103 
+PAGE i 
+REVISION 
+6 
+PAGE
+PURPOSE 
+AND 
+SCOPE 
+REFERENCES 
+DEFINITIONS 
+CONDITIONS 
+AND PREREQUISITES 
+PROCEDURE 
+RECORDS: 
+REVISION 
+SUMMARY
+1 
+1 
+1 
+2 
+3 
+5 
+5
+ATTACHMENTS 
+Attachment 
+I -
+Numbered 
+Seal 
+Log 
+Attachment 
+II -
+Radiation 
+Emergency 
+Inventory 
+Requirements 
+Attachment 
+III 
+-Control 
+Room 
+Radiation 
+Emergency 
+Equipment 
+Checklist 
+Attachment 
+IV 
+-Technical 
+Support 
+Center Area 
+Radiation 
+Emergency 
+Equipment 
+Checklist 
+Attachment 
+V 
+-EOF 
+Radiation 
+Emergency 
+Equipment 
+Checklist 
+Attachment 
+VI 
+-OSC 
+Radiation 
+Emergency 
+Equipment 
+Checklist 
+Attachment 
+VII 
+-News 
+Media 
+Centers 
+Radiation 
+Emergency 
+Equipment 
+Checklist 
+Attachment 
+VIII 
+-Backup 
+EOF 
+Radiation 
+Emergency 
+Equipment 
+Checklist 
+Attachment 
+IX.A -
+Control 
+Room 
+& TSC 
+Radiation 
+Emergency 
+Equipment 
+Checklist 
+Attachment 
+IX.B -
+OSC 
+Radiation 
+Emergency 
+Equipment 
+Checklist
+1.0 
+2.0 
+3.0 
+4.0 
+5.0 
+6.0 
+7.0
+Chg 
+C
+
+Attachment 
+IX.C
+Attachment 
+IX. 
+D 
+Attachment 
+IX.E 
+
+Attachment 
+IX.F 
+
+Attachment 
+IX.G 
+
+Attachment 
+IX.H 
+
+Attachment 
+IX.I 
+
+Attachment 
+IX.J 
+
+Attachment 
+IX.K 
+
+Attachment 
+X 
+-
+EPP-1 
+03 
+PAGE 
+ii 
+REVISION 
+6 
+Ambulance 
+Radiation 
+Emergency 
+Equipment 
+Checklist 
+Off-Site 
+Holding 
+Area 
+Radiation 
+Emergency 
+Equipment 
+Checklist 
+Hospital 
+Radiation 
+Emergency 
+Equipment 
+Checklist 
+EOF 
+Radiation 
+Emergency 
+Equipment 
+Checklist 
+EOF 
+Dosimetry/Survey 
+Equipment 
+Checklist 
+Access 
+Portal 
+Emergency 
+Dosimetry 
+Issuance 
+Equipment 
+EOF 
+Frisking 
+Station 
+Equipment 
+Checklist 
+EOF 
+Decontamination 
+Station 
+Equipment 
+Checklist 
+Radioactive 
+Materials 
+Transportation 
+Accident 
+Response 
+Equipment 
+Checklist 
+Off-Site 
+Holding 
+Area 
+Supervisor 
+Equipment 
+Checklist
+Chg 
+A
+Chg 
+C
+
+EPP-1 
+03 
+REVISION 
+6 
+1.0 
+PURPOSE 
+AND 
+SCOPE 
+1.1 
+This 
+procedure 
+establishes 
+the 
+actions 
+to 
+be 
+taken 
+to 
+ensure 
+the 
+operational 
+Chg.  
+readiness 
+of 
+emergency 
+equipment 
+and 
+supplies. 
+c 
+1.2 
+Changes 
+and 
+revisions 
+to 
+this 
+procedure 
+must 
+ensure 
+compliance 
+with 
+the 
+requirements 
+of 1OCFR50.54.q 
+and 
+1OCFR50 
+Appendix 
+B. 
+A 
+10CFR50.59 
+review 
+is 
+not 
+required.  
+2.0 
+REFERENCES 
+2.1 
+NUREG-0654, 
+Criteria 
+for 
+Preparation 
+and 
+Evaluation 
+of Radiological 
+Emergency 
+Response 
+Plans 
+and 
+Preparedness 
+in 
+Support 
+of 
+Nuclear 
+Power 
+Plants.  
+2.2 
+EP-1 
+00, 
+V. 
+C. 
+Summer 
+Nuclear 
+Station 
+Radiation 
+Emergency 
+Plan.  
+2.3 
+HPP-61 
+0, Certification 
+of Flow 
+Rates 
+for 
+Portable 
+Air 
+Samplers.  
+2.4 
+HPP-61 
+1, Calibration 
+of 
+Station 
+Survey 
+Instruments.  
+2.5 
+HPP-633, 
+Inspection, 
+Maintenance, 
+and 
+Storage 
+of Respiratory 
+Protective 
+Devices.  
+2.6 
+SAP-142, 
+Station 
+Housekeeping 
+Program.  
+2.7 
+SAP-143, 
+Preventive 
+Maintenance 
+Program.  
+2.8 
+SAP-1340, 
+Transmittal 
+and 
+Maintenance 
+of 
+Records.  
+Chg.  
+C 
+3.0 
+DEFINITIONS 
+3.1 
+Definitions 
+3.1.1 
+Audit 
+-To 
+verify 
+that 
+the 
+required 
+components 
+are 
+present 
+and 
+current.  
+3.1.2 
+Inventory 
+-To 
+verify 
+that 
+the 
+required 
+number 
+of 
+components 
+are 
+present.  
+3.1.3 
+Shelf 
+Life 
+-The 
+manufacturer's 
+suggested 
+expiration 
+and 
+change 
+out 
+date, 
+or the 
+date 
+for 
+inspection 
+of 
+clothing, 
+to 
+ensure 
+reliability.
+PAGE 
+1 OF 
+7
+
+EPP-1 
+03 
+REVISION 
+6 
+3.1.4 
+Storage 
+Location 
+-
+Kits, 
+desk 
+drawers, 
+boxes, 
+cabinets, 
+etc., 
+that 
+contain 
+equipment, 
+reference 
+material, 
+supplies, 
+etc. 
+that 
+are 
+used 
+in 
+an 
+emergency. 
+These 
+locations 
+shall 
+be 
+secured 
+with 
+a 
+numbered 
+seal 
+or 
+lock 
+where 
+applicable.  
+3.1.5 
+Inspect 
+-
+The 
+examination 
+of 
+equipment 
+to 
+ensure 
+the 
+equipment 
+has 
+not 
+deteriorated 
+and 
+will 
+meet 
+requirements.  
+3.1.6 
+Working 
+Day 
+-
+Days 
+of 
+the 
+week, 
+Monday 
+through 
+Friday, 
+inclusive 
+but 
+I 
+Chg 
+excluding 
+SCANA 
+holidays.  
+4.0 
+CONDITIONS 
+AND 
+PREREQUISITES 
+4.1 
+The 
+Emergency' 
+Services 
+Unit 
+(ESU) 
+is 
+responsible 
+for 
+implementing 
+this 
+procedure, 
+issuing 
+of 
+numbered 
+seals 
+to 
+the 
+responsible 
+groups 
+and 
+insuring 
+inventory 
+and 
+maintenance 
+of 
+the 
+radiation 
+emergency 
+kits 
+listed 
+in 
+Attachments 
+IV 
+through 
+VIII.  
+4.2 
+The 
+Nuclear 
+Operations 
+Group 
+shall 
+be 
+responsible 
+for 
+accomplishing 
+the 
+Attachment 
+III, 
+Control 
+Room 
+Radiation 
+Emergency 
+Equipment, 
+on 
+a 
+yearly 
+basis. 
+The 
+Quality 
+Services 
+Group 
+is 
+responsible 
+for 
+completing 
+Attachment 
+X, 
+Chg 
+Off-Site 
+Holding 
+Area 
+Supervisor 
+Equipment 
+Checklist. 
+C 
+4.3 
+Health 
+Physics 
+is 
+responsible 
+for 
+performing 
+the 
+inventory 
+and 
+maintenance 
+of 
+the 
+radiation 
+emergency 
+kits 
+listed 
+in 
+Attachments 
+IX.A 
+through 
+IX.K, 
+and 
+for 
+the 
+calibration 
+of 
+portable 
+instruments 
+in 
+the 
+radiation 
+emergency 
+kits.  
+4.4 
+Each 
+group 
+responsible 
+for 
+the 
+inventory 
+and 
+maintenance 
+of 
+storage 
+locations 
+is 
+responsible 
+for 
+tracking 
+numbered 
+seals 
+utilized 
+in 
+accordance 
+with 
+this 
+procedure, 
+and 
+is 
+required 
+to 
+maintain 
+an 
+Attachment 
+I, 
+Numbered 
+Seal 
+Log, 
+for 
+each 
+storage 
+location 
+.secured 
+with 
+a 
+numbered 
+seal 
+within 
+the 
+group's 
+responsibility.  
+4.5 
+Respiratory 
+protective 
+equipment 
+shall 
+be 
+inspected 
+in 
+accordance 
+with 
+HPP-633, 
+Inspection, 
+Maintenance 
+and 
+Storage 
+of 
+Respiratory 
+Protective 
+Devices.  
+4.6 
+Specific 
+procedural 
+requirements 
+for 
+the 
+operation 
+of 
+the 
+survey 
+instruments 
+listed 
+in 
+this 
+procedure 
+will 
+be 
+complied 
+with 
+except 
+for 
+daily 
+source 
+and 
+response 
+checks.  
+4.7 
+Operability 
+of 
+portable 
+survey 
+instruments 
+is 
+verified 
+during 
+calibration 
+in 
+accordance 
+with 
+HPP-61 
+1, 
+Calibration 
+of 
+Station 
+Survey 
+Instruments 
+or 
+HPP-61 
+0, 
+Certification 
+of 
+Flow 
+Rates 
+for 
+Portable 
+Air 
+Samplers, 
+as 
+applicable.
+PAGE 
+2 
+OF 
+7
+
+EPP-1 
+03 
+REVISION 
+6 
+4.8 
+If a 
+storage 
+location 
+is 
+used, 
+or 
+the 
+seal 
+is 
+found 
+to be 
+broken, 
+the 
+required 
+inventory 
+shall 
+be 
+performed 
+within 
+ten 
+(10) 
+working 
+days 
+except 
+when 
+replacing 
+instruments 
+for 
+recalibration, 
+maintaining 
+the 
+contents, 
+or conducting 
+training.  
+4.9 
+The 
+ESU 
+shall 
+ensure 
+that 
+inventory 
+and 
+maintenance 
+of 
+the 
+equipment 
+and 
+supplies 
+is 
+accomplished 
+within 
+the 
+specified 
+frequencies, 
+or within 
+10 
+working 
+days 
+after 
+the 
+use 
+of 
+the 
+storage 
+location 
+in 
+a 
+drill, 
+exercise, 
+or 
+actual 
+emergency. 
+This 
+inventory 
+may 
+be 
+substituted 
+for 
+the 
+next 
+scheduled 
+inventory.  
+4.10 
+Any 
+equipment 
+removed 
+from 
+a storage 
+location 
+for 
+the 
+purpose 
+of 
+repair, 
+functional 
+check 
+or 
+calibration 
+will 
+be 
+replaced 
+with 
+equivalent 
+equipment 
+during 
+its removal.  
+4.11 
+If 
+an 
+emergency 
+should 
+occur 
+within 
+the 
+10 
+working 
+day 
+period 
+after 
+the 
+use 
+of 
+a 
+storage 
+location(s), 
+in a 
+drill 
+or 
+an 
+exercise, 
+a 
+quick 
+inventory 
+should 
+be 
+performed 
+Irior.to 
+the 
+storage 
+location(s) 
+being 
+used.  
+4.12 
+All 
+drawings 
+and 
+procedures 
+shall 
+be 
+controlled 
+in 
+accordance 
+with 
+SAP-1340, 
+Transmittal 
+and 
+Maintenance 
+of 
+Records.  
+4.13 
+All 
+inventories 
+described 
+in 
+this 
+procedure 
+are 
+performed 
+on 
+a 
+quarterly 
+basis, 
+unless 
+otherwise 
+noted.  
+4.14 
+Each 
+storage 
+location 
+shall 
+be 
+verified 
+to 
+ensure 
+shelf-life 
+materials 
+are 
+within 
+their 
+designated 
+shelf-life 
+parameters. 
+Items 
+will 
+be 
+replaced 
+or 
+evaluated, 
+as 
+applicable, 
+within 
+10 
+working 
+days 
+of 
+each 
+biennial 
+exercise.  
+5.0 
+PROCEDURE 
+5.1 
+Maintenance 
+of 
+emergency 
+equipment 
+shall 
+be 
+in 
+accordance 
+with 
+the 
+requirements 
+in 
+this 
+procedure 
+and 
+in 
+accordance 
+with 
+SAP-143, 
+Preventive 
+Maintenance 
+Program.  
+5.2 
+Inventory 
+of equipment 
+shall 
+be 
+in 
+accordance 
+with 
+the 
+requirements 
+specified 
+in 
+the 
+attachments 
+to 
+this 
+procedure.  
+5.3 
+The 
+inventory 
+of 
+a storage 
+location 
+with 
+a numbered 
+seal 
+may 
+be 
+done 
+by 
+verifying 
+the 
+number 
+on 
+the 
+seal 
+with 
+the 
+number 
+on 
+the 
+Numbered 
+Seal 
+Log 
+for 
+the 
+storage 
+location 
+being 
+inventoried 
+and 
+ensuring 
+the 
+storage 
+location 
+and 
+seal 
+does 
+not 
+appear 
+to be 
+disturbed.  
+5.4 
+The 
+emergency 
+equipment 
+checklist 
+contains 
+the 
+minimum 
+required 
+to 
+implement 
+the 
+Radiation 
+Emergency 
+Plan. 
+Additional 
+items 
+located 
+in 
+the 
+facility 
+or 
+storage 
+location, 
+but 
+not 
+on the 
+inventory 
+checklist, 
+are 
+acceptable.
+PAGE 
+3 
+OF 
+7
+
+EPP-103 
+REVISION 
+6 
+5.5 
+During 
+the 
+performance 
+of an 
+inventory, 
+it is 
+expected 
+that 
+all 
+discrepancies 
+will 
+be corrected 
+and 
+documented 
+in 
+the 
+"Comments" 
+section.  
+5.6 
+All 
+discrepancies 
+detected 
+during 
+an 
+inventory 
+shall 
+be 
+corrected 
+within 
+fourteen 
+(14) 
+days 
+by 
+the 
+Responsible 
+Supervisor. 
+Those 
+not 
+corrected 
+within 
+fourteen 
+days, 
+will 
+be 
+forwarded 
+to 
+the 
+attention 
+of 
+the 
+Manager, 
+Nuclear 
+Protection 
+Services 
+by 
+the 
+ESU 
+for 
+further 
+action.  
+5.7 
+Attachment 
+I shall 
+be maintained 
+by the 
+group 
+responsible 
+for 
+each 
+storage 
+location 
+that 
+requires 
+a 
+numbered 
+seal.  
+5.8 
+Entry 
+into 
+a storage 
+location 
+for 
+post-use 
+inventory: 
+5.8.1 
+Obtain 
+a 
+manual 
+or scheduled 
+Preventive 
+Maintenance 
+Task 
+Sheet 
+(PMTS), 
+as applicable.  
+5.8.2 
+Obtain 
+a 
+new 
+numbered 
+seal 
+if 
+needed 
+from 
+the 
+group 
+responsible 
+for 
+storage 
+location 
+inventory.  
+5.8.3 
+Compare 
+the 
+number 
+of the 
+seal 
+on 
+the 
+storage 
+location 
+with 
+the 
+number 
+that 
+should 
+be 
+on 
+the 
+storage 
+location 
+in 
+accordance 
+with 
+Attachment 
+I.  
+A. 
+If different, 
+denote 
+the 
+seal 
+discrepancy 
+on Attachment 
+I and 
+inform 
+the 
+ESU 
+by telephone.  
+B. 
+The 
+ESU 
+shall 
+assess 
+the 
+impact 
+of the 
+seal 
+discrepancy 
+and 
+take 
+appropriate 
+actions.  
+5.8.4 
+Perform 
+the 
+inventory 
+in accordance 
+with 
+this 
+procedure.  
+5.8.5 
+Affix 
+the 
+new 
+seal 
+to the 
+storage 
+location 
+so 
+that 
+the 
+seal 
+will 
+be 
+broken 
+if the 
+storage 
+location 
+is 
+entered.  
+5.8.6 
+Record 
+the 
+number 
+of 
+the 
+new 
+seal 
+in 
+the 
+"Comments" 
+section 
+of 
+the 
+PMTS.  
+5.8.7 
+Complete 
+the 
+next 
+available 
+line 
+on 
+Attachment 
+I for 
+the 
+applicable 
+storage 
+location 
+with 
+the 
+appropriate 
+information.  
+5.9 
+Persons 
+breaking 
+a seal 
+on 
+a storage 
+location 
+for 
+the 
+purpose 
+of 
+maintaining 
+the 
+contents, 
+replacing 
+instruments 
+for 
+recalibration, 
+or 
+conducting 
+training 
+shall 
+affix 
+a 
+numbered 
+seal 
+to 
+the 
+storage 
+location, 
+and 
+notify 
+the 
+responsible 
+group.
+PAGE 
+4 OF 
+7
+
+EPP-103 
+REVISION 6 
+5.10 Personnel accomplishing 
+the inventory shall record the revision number or date 
+of any procedures or documents in 
+the space provided during the inventory, then 
+verify the revision number 
+or date with the Master Control Copy for currency.  
+5.11 Upon successful 
+completion of each inventory item, the number available will be 
+documented 
+by recording the appropriate results in the "As Found" 
+space 
+provided on the appropriate 
+attachment.  
+NOTE 5.12 
+Respiratory protection 
+equipment and other Health Physics equipment shall be 
+changed on or before the due date in accordance with Health Physics Procedures.  
+5.12 Any item in the 
+storage location that is denoted as a shelf-life item shal.be 
+replaced 
+or 
+evaluated, 
+as 
+applicable, 
+within 
+10 
+working 
+days 
+of 
+each 
+biennial 
+Chg 
+exercise. 
+C 
+5.13 Upon successful 
+completion of the inventory, a seal will be placed on the storage 
+location, or the storage location will be secured with 
+a lock.  
+5.14 Attachment !1 will be used 
+as a key to the inventory requirements listed in 
+Attachments III through IX.K.  
+5.15 Personnel performing 
+inventories in accordance with this procedure shall also 
+ensure the facilities meet the general 
+housekeeping guidelines of SAP-142, 
+Station Housekeeping Program.  
+6.0 RECORDS 
+6.1 Attachments III through 
+X to this procedure will be retained in accordance 
+with Chg 
+the 
+Document 
+Management 
+System 
+(DMS).' 
+C 
+6.2 Attachment I of this procedure will be maintained 
+as history by the group 
+responsible for the storage location for a period 
+of one year.  
+7.0 REVISION SUMMARY 
+7.1 Step 4.14 Reworded step 
+to require the replacement or evaluation, as 
+applicable, within 10 working days after each 
+biennial exercise. Instead of 
+having individual shelf-life dates for items, all items will be replaced 
+or evaluated, 
+as applicable, at one time every two years.
+PAGE 5 OF 7
+
+EPP-103 
+REVISION 
+6 
+7.2 
+Step 
+5.8 
+Deleted 
+the 
+words 
+"for 
+the 
+replacement 
+of 
+items 
+or". 
+Items 
+in 
+the 
+storage 
+locations 
+can 
+be 
+replaced 
+without 
+performing 
+another 
+inventory 
+as 
+long 
+as 
+the 
+content 
+of 
+the 
+storage 
+location 
+is 
+not 
+changed.  
+7.3 
+Step 
+5.12 
+(Same 
+as 
+Step4.14) 
+7.4 
+Attachment 
+II 
+Step 
+C. 
+Deleted 
+Step 
+B, 
+Shelf 
+Life 
+dates 
+are 
+no 
+longer 
+used.  
+Moved 
+the 
+contents 
+of 
+Step 
+I to 
+Step 
+B. 
+Deleted 
+radiation 
+signs 
+and 
+ribbon, 
+these 
+items 
+are 
+readily 
+available 
+in 
+the 
+plant.  
+7.5 
+Attachment 
+II 
+Step 
+E. 
+Changed 
+the 
+time 
+for 
+inspection 
+of 
+clothing 
+packets 
+to 
+"within 
+10 
+working 
+days 
+after 
+each 
+biennial 
+exercise". 
+Deleted 
+gloves, 
+added 
+as 
+an 
+individual 
+item 
+in 
+the 
+applicable 
+kits.  
+7.6 
+Attachment 
+II, 
+Deleted 
+Steps 
+G. 
+and 
+H. 
+Added 
+the 
+content 
+of 
+these 
+two 
+Steps 
+to 
+the 
+inventories 
+of 
+the 
+applicable 
+kits.  
+7.7 
+Attachment 
+II, 
+Deleted 
+Step 
+I. 
+Moved 
+the 
+contents 
+to 
+Step 
+B.  
+7.8 
+Attachment 
+IX.A 
+Deleted 
+all 
+due 
+date 
+blanks. 
+Deleted 
+all 
+2-year 
+time 
+requirements. 
+Instead 
+of 
+having 
+individual 
+shelf-life 
+dates 
+for 
+items, 
+all 
+items 
+will 
+be 
+replaced 
+or 
+evaluated, 
+as 
+applicable, 
+at 
+one 
+time 
+every 
+two 
+years. 
+Added 
+Disposable 
+Gloves.  
+7.9 
+Attachment 
+IX.B 
+Deleted 
+all 
+due 
+date 
+blanks. 
+Deleted 
+all 
+2-year 
+time 
+requirements. 
+Instead 
+of 
+having 
+individual 
+shelf-life 
+dates 
+for 
+items, 
+all 
+items 
+will 
+be 
+replaced 
+or 
+evaluated, 
+as 
+applicable, 
+at 
+one 
+time 
+every 
+two 
+years. 
+Added 
+Disposable 
+Gloves. 
+Item 
+#1 
+Specified 
+the 
+dosimeter 
+ranges. 
+Item 
+#8 
+Added 
+Serial 
+#. 
+Deleted 
+Inventory 
+Requirement 
+B. 
+Item 
+#15 
+Replaced 
+I 
+with 
+B.  
+7.10 
+Attachment 
+IX.C 
+Deleted 
+all 
+due 
+date 
+blanks. 
+Deleted 
+all 
+2-year 
+time 
+requirements. 
+Instead 
+of 
+having 
+individual 
+shelf-life 
+dates 
+for 
+items, 
+all 
+items 
+will 
+be 
+replaced 
+or 
+evaluated, 
+as 
+applicable, 
+at 
+one 
+time 
+every 
+two 
+years. 
+Added 
+Disposable 
+Gloves. 
+Deleted 
+Inventory 
+Requirement 
+B. 
+Item 
+#2 
+Replaced 
+I 
+with 
+B.  
+7.11 
+Attachment 
+IX.D 
+Deleted 
+all 
+due 
+date 
+blanks. 
+Deleted 
+all 
+2-year 
+time 
+requirements. 
+Instead 
+of 
+having 
+individual 
+shelf-life 
+dates 
+for 
+items, 
+all 
+items 
+will 
+be 
+replaced 
+or 
+evaluated, 
+as 
+applicable, 
+at 
+one 
+time 
+every 
+two 
+years. 
+Deleted 
+Inventory 
+Requirement 
+B., 
+G. 
+and 
+H. 
+Replaced 
+E-400 
+with 
+GM 
+Survey 
+Meter.  
+Added 
+content 
+from 
+old 
+Step 
+G 
+and 
+H from 
+Attachment 
+II. 
+Added 
+Disposable 
+Gloves.  
+7.12 
+Attachment 
+IX.E 
+Deleted 
+all 
+due 
+date 
+blanks. 
+Deleted 
+all 
+2-year 
+time 
+requirements. 
+Instead 
+of 
+having 
+individual 
+shelf-life 
+dates 
+for 
+items, 
+all 
+items 
+will
+PAGE 
+6 
+OF 
+7
+
+EPP-103 
+REVISION 
+6 
+be 
+replaced 
+or 
+evaluated, 
+as 
+applicable, 
+at 
+one 
+time 
+every 
+two 
+years. 
+Replaced 
+E-400 
+with 
+GM 
+Survey 
+Meter. 
+Deleted 
+Inventory 
+Requirement 
+B. 
+Item 
+#24 
+Changed 
+to 
+Blank 
+Survey 
+Map 
+and 
+deleted 
+the 
+reference 
+to 
+the 
+procedure.  
+These 
+are 
+generic 
+survey 
+maps.  
+7.13 
+Attachment 
+IX.F 
+Deleted 
+all 
+due 
+date 
+blanks. 
+Deleted 
+all 
+2-year 
+time 
+requirements. 
+Instead 
+of 
+having 
+individual 
+shelf-life 
+dates 
+for 
+items, 
+all 
+items 
+will 
+be 
+replaced 
+or 
+evaluated, 
+as 
+applicable, 
+at 
+one 
+time 
+every 
+two 
+years. 
+Replaced 
+E-400 
+with 
+GM 
+Survey 
+Meter. 
+Item 
+Z. 
+Moved 
+Expiration 
+Date 
+to 
+the 
+Comments 
+section. 
+Item 
+AA.4. 
+Deleted 
+the 
+reference 
+to 
+the 
+procedure. 
+These 
+are 
+generic 
+survey 
+maps. 
+Deleted 
+Inventory 
+Requirement 
+B.  
+7.14 
+Attachment 
+IX.G 
+Deleted 
+all 
+due 
+date 
+blanks. 
+Deleted 
+all 
+2-year 
+time 
+requirements. 
+Instead 
+of 
+having 
+individual 
+shelf-life 
+dates 
+for 
+items, 
+all 
+items 
+will 
+be 
+replaced 
+or 
+evaluated, 
+as 
+applicable, 
+at 
+one 
+time 
+every 
+two 
+years.  
+7.15 
+Attachment 
+IX.H 
+Deleted 
+all 
+due 
+date 
+blanks. 
+Deleted 
+all 
+2-year 
+time 
+requirements. 
+Instead 
+of 
+having 
+individual 
+shelf-life 
+dates 
+for 
+items, 
+all 
+items 
+will 
+be 
+replaced 
+or 
+evaluated, 
+as 
+applicable, 
+at 
+one 
+time 
+every 
+two 
+years. 
+Item 
+#4 
+Added 
+"with 
+required 
+batteries 
+attached" 
+7.16 
+Attachment 
+IX.I 
+Deleted 
+all 
+due 
+date 
+blanks. 
+Deleted 
+all 
+2-year 
+time 
+requirements. 
+Instead 
+of 
+having 
+individual 
+shelf-life 
+dates 
+for 
+items, 
+all 
+items 
+will 
+be 
+replaced 
+or 
+evaluated, 
+as 
+applicable, 
+at 
+one 
+time 
+every 
+two 
+years. 
+Item 
+#1 
+Replaced 
+50 
+pair 
+with 
+1 
+Box.  
+7.17 
+Attachment 
+IX.J 
+Deleted 
+all 
+due 
+date 
+blanks. 
+Deleted 
+all 
+2-year 
+time 
+requirements. 
+Instead 
+of 
+having 
+individual 
+shelf-life 
+dates 
+for 
+items, 
+all 
+items 
+will 
+be 
+replaced 
+or 
+evaluated, 
+as 
+applicable, 
+at 
+one 
+time 
+every 
+two 
+years. 
+Item 
+#11 
+Replaced 
+Latex 
+with 
+Disposable.  
+7.18 
+Attachment 
+IX.K 
+Deleted 
+all 
+due 
+date 
+blanks. 
+Deleted 
+all 
+2-year 
+time 
+requirements. 
+Instead 
+of 
+having 
+individual 
+shelf-life 
+dates 
+for 
+items, 
+all 
+items 
+will 
+be 
+replaced 
+or 
+evaluated, 
+as 
+applicable, 
+at 
+one 
+time 
+every 
+two 
+years.
+PAGE 
+7 
+OF 7
+
+EPP-103 
+ATTACHMENT I 
+PAGE 
+1 OF 
+1 
+REVISION 
+6
+NUMBERED SEAL LOG
+Storage Location:
+NEW 
+SEAL # 
+DATE 
+INITIALS 
+COMMENTS 
+OR ACTIONS 
+OLD SEAL 
+#
+
+EPP-103 
+ATTACHMENT 
+II 
+PAGE 
+1 
+OF 2 
+REVISION 
+6 
+RADIATION 
+EMERGENCY 
+INVENTORY 
+REQUIREMENTS 
+The 
+following 
+Inventory 
+Requirements 
+are used 
+during 
+inventories 
+to ensure 
+that 
+all 
+equipment 
+is 
+functional. 
+These 
+requirements 
+are 
+coded 
+and 
+used 
+to verify 
+completion 
+of 
+each 
+inventory.  
+Any 
+discrepancies 
+found 
+during 
+the 
+performance 
+of 
+inventories 
+should 
+be 
+noted 
+in the 
+comments 
+sections 
+of 
+the attached 
+Checklists. 
+The 
+person(s) 
+performing 
+the inventory 
+will 
+ensure 
+that 
+each 
+item 
+on each 
+checklist 
+meets 
+or exceeds 
+the 
+Inventory 
+Requirements 
+specified 
+and 
+the latest 
+approved 
+attachments 
+to 
+this procedure 
+are 
+used 
+prior 
+to signing 
+off 
+each 
+item. 
+All 
+items 
+will be 
+inspected 
+for 
+signs 
+of deterioration 
+and 
+replaced 
+as 
+necessary. 
+A 
+Code 
+Inventory 
+Requirements 
+A. 
+Ensure 
+that 
+the 
+Hospital 
+Survey 
+Packet 
+contains 
+a 
+minimum 
+of: 
+1 -. 
+roll 
+of radiation 
+ribbon 
+or approximately 
+100' 
+of radiation 
+rope 
+10 
+-- 
+pocket 
+radiation 
+signs 
+with inserts 
+-
+Chg 
+100 
+-smears 
+in envelopes 
+C 
+2 
+-
+pencil, 
+pens, 
+grease 
+pencils 
+(each) 
+8 
+-
+radiation 
+material 
+labels 
+for waste 
+container 
+1 
+-
+scissors 
+These 
+items 
+may 
+be 
+placed 
+in one 
+packet, 
+several 
+packets 
+or 
+individually 
+stored.  
+Ensure 
+items 
+listed are 
+present 
+prior to 
+signoff.  
+B. 
+Ensure 
+the 
+survey 
+packet 
+contains 
+a minimum 
+of: 
+1 
+-
+roll of 
+radiation 
+ribbon 
+4 
+-pocket 
+radiation 
+signs 
+with inserts 
+Chg 
+50 
+-
+Smears 
+and 
+Envelopes 
+C 
+2 
+-
+pencils, 
+pens, 
+markers 
+C. 
+Battery 
+packet 
+to contain 
+one 
+complete 
+set 
+of batteries 
+for instruments 
+in 
+kit as 
+follows: 
+Instrument 
+Type 
+Batteries 
+GM survey 
+meter/E530 
+-
+2 -D 
+cells/instruments 
+Dose 
+rate 
+instruments 
+-RSO 
+2 
+- 9V cells 
+Chg 
+-R02 
+3 -
+9V cells 
+A 
+RAM 
+surf 
+(frisker) 
+-
+1 
+- 9V cell 
+D. 
+Ensure 
+this 
+posting/survey 
+packet 
+contains 
+a minimum 
+of: 
+50 
+-
+particulate 
+air filters 
+2 -
+pencils, 
+pens, 
+markers 
+(each) 
+50 
+-
+smears 
+in envelopes 
+1 
+-
+tweezers 
+20 
+-environmental 
+particulate 
+air sample 
+envelopes 
+1 -
+Record 
+Logbook 
+10 
+-
+planchets 
+10 
+-vegetation 
+bags 
+1 
+-
+clipboard 
+10 -
+labeled 
+air 
+sample 
+bags 
+These 
+items 
+may 
+be 
+placed 
+in one 
+packet, 
+several 
+packets 
+or 
+individually 
+stored.  
+Ensure 
+items 
+listed 
+are present 
+in each 
+storage 
+location 
+prior 
+to signoff.
+
+EPP-1 
+03 
+ATTACHMENT 
+II 
+PAGE 
+2 
+OF 
+2 
+REVISION 
+6 
+RADIATION 
+EMERGENCY 
+INVENTORY 
+REQUIREMENTS 
+Code 
+Inventory 
+Requirements 
+E. 
+Ensure 
+the 
+protective 
+clothing 
+packets 
+contain 
+a minimum 
+of the 
+following 
+items: 
+1- 
+r coveralls 
+(cloth 
+or 
+paper) 
+1 
+-head 
+cover 
+or hood 
+1 
+-
+pair 
+cloth 
+gloves 
+(liners) 
+1 
+pair 
+rubber 
+or work 
+gloves 
+(heavy) 
+1 
+-
+pair 
+disposable 
+shoe 
+covers 
+1 
+-
+pair 
+rubber 
+shoe 
+covers 
+Chg 
+A 
+Chg 
+C
+
+EPP-103 
+ATTACHMENT III 
+PAGE 1 OF 1 
+REVISION 6
+CONTROL ROOM RADIATION EMERGENCY 
+EQUIPMENT CHECKLIST 
+LOCATION: CONTROL ROOM
+PMTS NO.
+ITEM INVENTORY MINIMUM 
+# EQUIPMENT DESCRIPTION REQUIREMENT QUANTITY AS FOUND COMMENTS 
+1 VCSNS Radiation Emergency Plan Audit 1 copy 
+2 Emergency Plan Procedures 
+Audit 1 set 
+3 Map of 10 Mile Radius Inventory 1 copy 
+4 Overlays for 
+10 Mile Map Inventory 1 each 
+(Stability Classes A -G) (7 total) 
+5 Plant Drawings (Control Copy) 
+Inventory 1 set 
+6 Portable Radios (in normal use) Inventory & 4 
+Verify Operability 
+7 Operations 
+and Security Frequency Base Radio Inventory & 1 each 
+Verify Operability 
+8 Telephone (Control Room Supervisor's Desk) Inventory & 1 each 
+I Verify Operability I
+,
+
+(
+TECHNICAL 
+SUPPORT 
+CENTER 
+AREA 
+RADIATION 
+EMERGENCY 
+EQUIPMENT 
+CHECKLIST
+LOCATION: 
+TECHNICAL 
+SUPPORT 
+CENTER
+EPP-103 
+ATTACHMENT 
+IV 
+PAGE 
+1 
+OF 7 
+REVISION 
+6
+PMTS NO.
+ITEM 
+INVENTORY 
+MIN. 
+AS 
+# 
+EQUIPMENT 
+DESCRIPTION 
+REQUIREMENT 
+QUANTITY 
+FOUND 
+COMMENTS 
+1 
+In The 
+Command 
+Center 
+.___.. 
+.
+., .
+.,. 
+" 
+A. 
+Safety 
+Parameter 
+Display 
+System 
+Verify 
+Operability 
+1 
+B. 
+Plant 
+Procedures 
+Copy 
+#f.___.__- 
+_______ 
+.'!.' 
+1. 
+GOP 
+Inventory 
+1 
+2. 
+SOP 
+Inventory 
+1 
+3. 
+EOP 
+Inventory 
+1 
+4. 
+EPP 
+Inventory 
+1 
+5. 
+HPP 
+Inventory 
+1 
+6. 
+FPP 
+Inventory 
+1 
+7. 
+FHP 
+Inventory 
+1 
+8. 
+CP 
+Inventory 
+1 
+9. 
+SAP 
+Inventory 
+1 
+C. 
+VCS 
+Technical 
+Specifications 
+Inventory 
+I 
+D 
+V. C. 
+Summer 
+Station 
+Radiation 
+Emergency 
+Plan 
+Inventory 
+1 
+(Rev. 
+) 
+E. 
+Emergency 
+Plan 
+Tool 
+Box 
+Locked 
+Inventory 
+1. 
+NUE 
+Notification 
+Package 
+1 pkg. 
+___________ 
+a. 
+Initial 
+Actions 
+Summary 
+Audit 
+1 
+(EPP-001.1, 
+Att. 
+I, 
+Rev.  
+b. 
+Emergency 
+Notification, 
+EPP-002 
+Audit 
+1 
+Attachment 
+I, 
+Page 
+1 
+of 
+3 
+c. 
+Authentication 
+Procedure 
+(EPP-002, 
+Att. 
+I, 
+Audit 
+1 
+Page 
+2 
+& 3 of 
+3, 
+Rev.  
+d. 
+Initial 
+Notification 
+(EPP-002, 
+Att. 
+II, 
+Audit 
+1 
+Rev. _ ) 
+e. 
+Notification 
+List 
+(Verif. 
+Date 
+) Audit 
+1 
+f. 
+NRC 
+One 
+Hour 
+Notification 
+Audit 
+1 
+(EPP-002, 
+Att. 
+IliA, 
+Rev.  
+g. 
+NUE 
+Shift 
+Communicator 
+Actions 
+Audit 
+1 
+EPP-001.1, 
+Att 
+II, 
+Rev.  
+2. 
+Alert 
+Notification 
+Package 
+.
+1 pkg.  
+a. 
+Initial 
+Actions 
+Summary 
+Audit 
+1 
+(EPP-001.2, 
+Att. 
+I, 
+Rev. 
+) 
+b. 
+Emergency 
+Notification, 
+EPP-002 
+Audit 
+1 
+Attachment 
+I, 
+Page 
+1 
+of 
+3
+Chg 
+C 
+Chg 
+C 
+.
+
+/(
+TECHNICAL 
+SUPPORT 
+CENTER 
+AREA 
+RADIATION 
+EMERGENCY 
+EQUIPMENT 
+CHECKLIST 
+LOCATION: 
+TECHNICAL 
+SUPPORT 
+CENTER 
+PMTS 
+NO.
+EPP-103 
+ATTACHMENT 
+IV 
+PAGE 2 OF 7 
+REVISION 6
+ITEM 
+INVENTORY 
+MIN. 
+AS 
+# 
+EQUIPMENT 
+DESCRIPTION 
+REQUIREMENT 
+QUANTITY 
+FOUND 
+COMMENTS 
+1 
+c. Authentication 
+Procedure 
+(EPP-002, 
+Att I, Audit 
+1 
+Cont'd 
+Pages 
+2 and 
+3 of 
+3, Rev.  
+d. 
+Initial 
+Notification 
+(EPP-002, 
+Att. 
+II, 
+Audit 
+1 
+Rev. 
+_) 
+e. 
+Notification 
+List 
+(Verif.Date 
+) Audit 
+1 
+f. 
+NRC 
+One Hour 
+Notification 
+Audit 
+1 
+(EPP-002, Att. IliA, 
+Rev.  
+g. 
+Alert,Shift 
+Communicator 
+Actions 
+Audit 
+1 
+(EPP-001.2, 
+Att. 
+II, Rev. 
+.) 
+h. 
+EOF vs. 
+Backup 
+EOF 
+Decision 
+Flow Chart 
+Audit 
+1 
+(EPP-001.2, 
+Att. 
+III, Rev.  
+3. 
+Site 
+Area 
+Emergency 
+Notification 
+Package 
+1 pkg.  
+a. 
+Initial 
+Actions 
+Summary 
+(EPP-001.3, 
+Att. I, 
+Audit 
+1 
+Rev._ 
+_ 
+b. Emergency 
+Notification 
+, EPP-002 
+Audit 
+1 
+Attachment 
+I, 
+Page 
+1 of 3 
+c. Authentication 
+Procedure 
+(EPP-002, 
+Att. 
+I, 
+Audit 
+1 
+Pages 
+2 & 
+3 of 3, 
+Rev. 
+) 
+d. Initial 
+Notification 
+(EPP-002, 
+Att.ll, 
+Audit 
+1 
+Rev. 
+) 
+e. 
+Notification 
+List 
+(Verif.Date 
+) 
+Audit 
+1 
+f. 
+NRC 
+One 
+Hour 
+Notification 
+(EPP-002, 
+Audit 
+1 
+Att. 
+IliA, 
+Rev. 
+.) 
+g. 
+Recommendation 
+for 
+Activation 
+of 
+the 
+Audit 
+1 
+EWSS 
+(EPP-021, 
+Att. 
+I, Rev. 
+-
+) 
+h. 
+Activation 
+of EWSS 
+using 
+the 
+Control 
+Audit 
+1 
+Console 
+(EPP-021, 
+Att. 
+IIA, 
+Rev 
+) 
+i. Activation 
+of Public 
+Address 
+Speaker 
+Audit 
+1 
+System 
+(EPP-021, 
+Att. 
+118, 
+Rev. _ 
+)_ 
+j. 
+Activation 
+of 
+School 
+Monitor 
+Radios 
+Audit 
+1 
+(EPP-021, 
+Att. 
+IIC, 
+Rev.  
+k. Site 
+Area 
+Emergency, 
+Shift 
+Communicator 
+Audit 
+1 
+Actions 
+(EPP-O01.3, 
+Att. 
+II, Rev. 
+) I 
+I 
+_ 
+_II
+Chg 
+C
+
+EPP-103 
+ATTACHMENT 
+IV 
+PAGE 3 OF 7 
+REVISION 
+6
+TECHNICAL 
+SUPPORT 
+CENTER 
+AREA 
+RADIATION 
+EMERGENCY 
+EQUIPMENT 
+CHECKLIST
+LOCATION: 
+TECHNICAL 
+SUPPORT 
+CENTER
+PMTS NO.
+ITEM 
+INVENTORY 
+MIN. 
+AS 
+# 
+EQUIPMENT 
+DESCRIPTION 
+REQUIREMENT 
+QUANTITY 
+FOUND 
+COMMENTS 
+1 
+I. 
+EOF vs. 
+Backup EOF 
+Decision 
+Flow Chart 
+Audit 
+1 
+Cont'd 
+(EPP-001.3, 
+Att. 
+III, Rev. 
+) 
+m. 
+Evacuation 
+of 
+Non-Essential 
+Personnel 
+Audit 
+1 
+Decision 
+Tree (EPP-001.3, 
+Att. IV, 
+Rev. 
+) 
+n. 
+Dose Assessment 
+Program 
+Data 
+Sheet 
+Audit 
+1 
+(EPP-005, 
+Att. 
+XXI, 
+Rev.  
+o. 
+Guidance 
+for Performing 
+Dose 
+Projections 
+Audit 
+1 
+by Shift 
+Personnel 
+(EPP-005, 
+Att. XXII, 
+Rev._ 
+) 
+4. 
+General 
+Emergency 
+Notification 
+Package 
+1 pkg.  
+a. Initial 
+Actions 
+Summary 
+(EPP-001.4, 
+Att. 
+I, Audit 
+1 
+Rev. 
+) 
+b. Emergency 
+Notification, 
+EPP-002 
+Audit 
+1 
+Attachment 
+I, 
+Page 
+1 of 
+3 
+c. 
+Authentication 
+Procedure 
+(EPP-002, 
+Att. 
+I, Audit 
+1 
+Page 2 
+& 3 of 
+3, Rev. 
+) 
+d. Initial 
+Notification 
+(EPP-002, 
+Att. 
+II, 
+Audit 
+1 
+Rev. 
+) 
+e. 
+Notification 
+List 
+(Verif. 
+Date 
+_) 
+Audit 
+1 
+f. NRC 
+One Hour 
+Notification 
+(EPP-002, 
+Audit 
+1 
+Alt. 
+IliA, 
+Rev. 
+, 
+g. 
+Recommendation 
+for 
+Activation 
+of the 
+Audit 
+1 
+EWSS (EPP-021, 
+Att. 
+I, Rev.  
+h. Activation 
+of EWSS 
+using 
+the Control 
+Audit 
+1 
+Console 
+(EPP-021, 
+Att. 
+IIA, 
+Rev._ 
+) 
+i. 
+Activation 
+of Public 
+Address 
+Speaker 
+Audit 
+1 
+System 
+(EPP-021, 
+Att. 
+1iB, Rev._ 
+) 
+j. 
+Activation 
+of School 
+Monitor 
+Radios 
+Audit 
+1 
+(EPP-021, 
+Att. 
+IIC, 
+Rev. 
+) 
+k. 
+General 
+Emergency, 
+Shift 
+Communicator 
+Audit 
+1 
+Actions 
+(EPP-001.4, 
+Att. 
+Ill, Rev. 
+) 
+I. EOF 
+vs. Backup 
+EOF Decision 
+Flow 
+Chart Audit 
+1 
+(EPP-001.4, 
+Att. 
+V, 
+Rev._)
+Chg 
+C
+
+(
+,
+EPP-103 
+ATTACHMENT IV 
+PAGE 4 OF 7 
+REVISION 6 
+TECHNICAL 
+SUPPORT CENTER 
+AREA RADIATION 
+EMERGENCY EQUIPMENT 
+CHECKLIST 
+LOCATION: 
+TECHNICAL 
+SUPPORT 
+CENTER 
+PMTS NO.
+ITEM 
+INVENTORY 
+MIN. 
+AS 
+# 
+EQUIPMENT 
+DESCRIPTION 
+REQUIREMENT 
+QUANTITY 
+FOUND 
+COMMENTS 
+1 m. Evacuation 
+of Non-Essential 
+Personnel Audit 
+1 
+Cont'd 
+Decision Tree (EPP-001.4, 
+Att. IV, 
+Rev.• 
+n. Dose Assessment 
+Program Data Sheet 
+Audit 
+1 
+I (EPP-005, 
+Att. XXI, Rev._ 
+_ 
+o. 
+Guidance for Performing 
+Dose Projections 
+Audit 1 
+by Shift Personnel 
+(EPP-005, Att. XXII, 
+Rev. 
+) 
+p. Protective 
+Action Recommendation 
+Audit 
+1 
+(EPP-001.4, 
+Att II, Rev. 
+) 
+q. Protective 
+Action Guidelines 
+Audit 
+1 
+(EPP-005, 
+Att. I, 
+Rev._) 
+5. Transportation 
+Accident 
+Notification and 
+Audit 
+3 
+Information 
+(EPP-006, 
+Att. I, 
+Rev._) 
+6. Radioactive 
+Material Transportation 
+Accident 
+Audit 
+3 
+Checklists 
+(EPP-006, 
+Att. 
+II, Rev. 
+_) 
+7. Emergency 
+Communication Log 
+Sheet Audit 
+5 
+(EPP-002 
+Att. 
+V, Rev. 
+.) 
+8. Acute Uptakes Involving 
+Projected Thyroid 
+Audit 
+10 
+Dose Commitments 
+Greater Than 25 Rem 
+(EPP-020, 
+Att. 
+II, Rev.__ 
+) 
+9. 
+Emergency Planning 
+Telephone Directory 
+Inventory 
+1 
+(Rev. 
+) 
+10. Emergency Director's 
+Log Book 
+Inventory 
+1 
+2 TSC 
+Desk Drawers 
+A. Emergency 
+Director 
+Locked 
+1. ED 
+Notebook 
+Inventory 
+1 
+2. Telephone 
+Verify Operability 
+1 
+3. EPPs (0-series) 
+Inventory 
+1 , 
+I 
+Chg 
+B. Technical 
+Support Supervisor 
+LockedI 
+C 
+1. 
+TS Supervisor 
+Notebook 
+Inventory 
+1 
+2. 
+Telephone 
+Verify 
+operability 
+1
+
+TECHNICAL 
+SUPPORT 
+CENTER 
+AREA RADIATION 
+EMERGENCY 
+EQUIPMENT 
+CHECI 
+LOCATION: 
+TECHNICAL SUPPORT 
+CENTER
+EPP-103 
+ATTACHMENT IV 
+PAGE 
+5 OF 
+7 
+REVISION 
+6 
+KLIST 
+PMTS 
+NO.
+ITEM 
+INVENTORY 
+MIN. 
+AS 
+# 
+EQUIPMENT 
+DESCRIPTION 
+REQUIREMENT 
+QUANTITY 
+FOUND 
+COMMENTS 
+2 
+3. Steam 
+Tables 
+Inventory 
+1 
+Cont'd 
+C. 
+Operations 
+Supervisor 
+Locked 
+1. Operations 
+Supervisor 
+Notebook 
+Inventory 
+1 
+2. 
+Telephone 
+Verify 
+Operability 
+1 
+3. EPPs 
+(0-series) 
+Inventory 
+1 
+4. 
+Steam Tables 
+Inventory 
+1 
+5. 
+Calculator 
+Inventory 
+1 
+D. 
+Maintenance 
+Supervisor 
+Locked 
+1. 
+Maintenance 
+Supervisor 
+Notebook 
+Inventory 
+1 
+2. 
+Telephone 
+Verify 
+Operability 
+1 
+3. 
+White 
+Magnetic 
+Sheets 
+Inventory 
+5 
+E. Radiological 
+Assessment 
+Supervisor 
+(RAS) 
+Locked 
+1. RAS Notebook 
+Inventory 
+1 
+2. 
+Telephone 
+Verify 
+Operability 
+2 
+3. Vax 
+Terminal 
+Verify 
+Operability 
+1 
+4. Magnetic 
+Sheets for 
+Offsite Dose 
+Inventory 
+2 
+F. 
+Administrative 
+Supervisor 
+(located 
+in 
+Locked 
+Emergency 
+Director Logger 
+drawer) 
+1. 
+Administrative 
+Supervisor 
+Notebook 
+Inventory 
+1 
+2. Badge 
+Accountability 
+Rosters 
+Inventory 
+2 
+G. Shift 
+Engineer 
+Locked 
+1. Shift 
+Engineer Notebook 
+Inventory 
+1 
+2. Telephone 
+Verify 
+Operability 
+1 
+3. EPPs 
+(0-series) 
+Inventory 
+1 
+4. Steam Tables 
+Inventory 1 I
+iChg
+Chg 
+C 
+Chg 
+C 
+Chg 
+C
+A.
+5. Calculator
+Inventory
+1
+
+(
+TECHNICAL 
+SUPPORT 
+CENTER AREA 
+RADIATION EMERGENCY 
+EQUIPMENT 
+CHECI 
+LOCATION: 
+TECHNICAL SUPPORT CENTER
+EPPoi03 
+ATTACHMENT 
+IV 
+PAGE 
+6 OF 
+7 
+REVISION 
+6 
+KLIST 
+PMTS NO.
+ITEM 
+INVENTORY 
+MIN. 
+AS 
+# 
+EQUIPMENT 
+DESCRIPTION 
+REQUIREMENT 
+QUANTITY 
+FOUND 
+COMMENTS 
+2 
+H. 
+Emergency 
+Preparedness 
+Representative 
+Locked 
+Cont'd 
+'__ 
+1, Emergency 
+Preparedness 
+Inventory 
+1 
+Representative 
+Notebook 
+2. Telephones 
+Verify 
+Operability 
+2 
+3. 
+EPPs 
+(0-series) 
+Inventory 
+1 
+4. 
+Emergency 
+Planning 
+Telephone 
+Inventory 
+2 
+Directory 
+(Rev. 
+.) 
+5. Evacuation 
+Time Assessment 
+Inventory 
+1 
+(Rev. 0 
+and Rev. 1) 
+3 Communicator's 
+Tool 
+Box 
+Locked 
+Inventory 
+.  
+A. 
+Initial Actions 
+Summary 
+1. 
+NUE (EPP-001.1, 
+Att. 1, 
+Rev. 
+) 
+Inventory 
+2 
+2. 
+Alert (EPP-001.2, 
+Att. I, Rev. 
+) 
+Inventory 
+2 
+3. 
+Site Area 
+Emergency 
+(EPP-001.3, 
+Att.I, 
+Inventory 
+2 
+Rev., 
+4. General 
+Emergency 
+(EPP-001.4, 
+Att. I, 
+Inventory 
+2 
+Rev. 
+) 
+B. 
+Emergency 
+Notification, 
+EPP-002 
+Inventory 
+25 
+Attachment 
+I, Page 
+1 of 
+3 
+C. Authentication 
+Procedure 
+(EPP-002, 
+Att I, 
+Inventory 
+1 
+Pages 
+2 
+& 3 of 
+3, 
+Rev.- 
+) 
+D. 
+Initial Notification 
+(EPP-002, 
+Att. II, 
+Inventory 
+2 
+Rev. 
+.) 
+E. 
+NRC One 
+Hour 
+Notification 
+(EPP-002, 
+Att. 
+IliA, Inventory 
+2 
+Rev.__) 
+F. Follow-up 
+Notifications 
+(EPP-002, 
+Att. 
+IV, 
+Inventory 
+20 
+Rev.-.) 
+G. 
+Recommendation 
+for Activation 
+of 
+EWSS 
+Inventory 
+2 
+(EPP-021, 
+Att.I, 
+Rev. 
+) 
+H. Activation 
+of EWSS 
+Using 
+the Control 
+Console 
+Inventory 
+2 
+(EPP-021, 
+Att. 
+IIA, 
+Rev. 
+) 
+I 
+I
+ChC 
+C 
+Chg 
+C
+
+(
+EPP-103 
+ATTACHMENT 
+IV 
+PAGE 7 
+OF 7 
+REVISION 
+6 
+TECHNICAL 
+SUPPORT 
+CENTER 
+AREA 
+RADIATION 
+EMERGENCY 
+EQUIPMENT 
+CHECKLIST 
+LOCATION: 
+TECHNICAL 
+SUPPORT 
+CENTER 
+PMTS 
+NO.  
+ITEM 
+INVENTORY 
+MIN. 
+AS 
+# 
+EQUIPMENT 
+DESCRIPTION 
+REQUIREMENT 
+QUANTITY 
+FOUND 
+COrVMMENTS 
+3 
+I. 
+Activation 
+of Public 
+Address 
+Speaker 
+System 
+Inventory 
+2 
+Cont'd 
+(EPP-021, 
+Att. 
+1iB, Rev.  
+J. 
+Activation 
+of 
+School Monitor 
+Radios 
+Inventory 
+2 
+(EPP-021, 
+Att. 
+IIC, Rev.  
+K. "Emergency 
+Response 
+Personnel 
+Call Trees" 
+Inventory 
+1 
+(Rev. 
+Date 
+L. Plant 
+Status 
+Forms 
+Inventory 
+10 
+M. Emergency 
+Planning Telephone 
+Directory 
+Inventory 
+2 
+(Rev. 
+_ 
+4 
+In the Engineer's 
+Area 
+, 
+A. 
+Aperture 
+Card Reader 
+Printer 
+Verify 
+Operability 
+1 
+B. Drawings 
+of facility 
+and systems 
+to the 
+Spot Check 
+1 
+component 
+level 
+(set 
+of aperture 
+cards) 
+C. 
+FSAR 
+including 
+the Environmental 
+Report 
+Inventory 
+1 
+D. VCS 
+Technical 
+Specifications 
+Inventory 
+1 
+E. 
+Mitigating Core 
+Damage 
+Manual 
+Inventory 
+1 
+F. Copy 
+Machine 
+Verify 
+Operability 
+1 
+G 
+Steam 
+Tables 
+Inventory 
+2 
+5 In 
+the TSC 
+Equipment 
+Storage 
+Locker 
+, 
+A. 
+V. C. Summer 
+Station 
+Radiation 
+Emergency 
+Inventory 
+1 
+Plan (Rev. 
+-) 
+B. 
+Potassium 
+Iodide 
+Pills 
+(Exp. 
+Date 
+I Inventory 
+10 bottles 
+C. 
+EPPs 
+(0-series) 
+Inventory 
+2 
+D. 
+EPPs (50-series) 
+Inventory 
+1 
+E. Pens 
+Inventory 
+12 
+F. Pencils 
+Inventory 
+12 
+G. 
+Note Pads 
+Inventory 
+12 
+H. 
+SAM Status 
+Board 
+Inventory 
+1 
+Stored external 
+to 
+locker 
+I. 
+Emergency 
+Planning 
+Telephone 
+Directory 
+Inventory 
+4 
+(Rev. Date 
+) 
+6 
+Housekeeping 
+of 
+the 
+TSC 
+Area 
+Per 
+SAP-142
+Chg 
+C 
+Chg 
+B 
+Chg 
+C 
+IChg 
+hg.
+
+(
+EOF RADIATION EMERGENCY EQUIPMENT 
+CHECKLIST
+LOCATION: EMERGENCY 
+OPERATIONS FACILITY
+EPP-103 
+A17ACHMENT V 
+PAGE 
+I OF 3 
+REVISION 
+6 
+PMTS 
+NO.
+ITEM 
+INVENTORY 
+MINIMUM 
+# 
+EQUIPMENT DESCRIPTION 
+REQUIREMENT 
+QUANTITY 
+AS FOUND 
+COMMENTS 
+1 Supplies 
+
+A. Log 
+Book 
+Inventory 
+2 
+B. Copy 
+Machine 
+Verify 
+Operability 
+1 
+C. Pens 
+Inventory 
+12 
+D. Writing 
+Pads 
+Inventory 
+12 
+E. Pencils 
+Inventory 
+12 
+2 Records N NIAI•1 1o .  
+A. 
+Technical Specifications 
+Inventory/ 
+1 
+B. FSAR 
+Inventory 
+1 
+C. 
+V.C.S. Radiation 
+Emergency 
+Plan (Rev._._) 
+Audit 
+1 
+D. S.C. Operational 
+Radiological Emergency 
+Audit 
+1 
+Response 
+Plan (Rev. Date 
+J 
+E. S.C. Technical Radiological Emergency Audit 1 
+Response 
+Plan (Rev. 
+Date 
+) 
+F. Fairfield 
+Co. Emergency Plan 
+Audit 
+1 
+(Rev.Date 
+) 
+G. Newberry 
+Co. Emergency Plan 
+Audit 
+1 
+(Rev.Date 
+_ 
+) 
+H. 
+Richland Co. Emergency 
+Plan Audit 
+(Rev.Date 
+) 
+I. Lexington Co. Emergency 
+Plan Audit 
+(Rev.Date 
+_ ) 
+J. Evacuation Time Assessment 
+Study Audit 
+1 
+(Rev. 0 & Rev. 
+1) 
+K. Plant 
+Procedures 
+1. 
+GOP 
+Inventory 
+1 set 
+2. SOP 
+Inventory 
+1 set 
+3. EPPs 
+(001-049) 
+Inventory 
+3 
+sets 
+4. EPPs 
+(050-060) 
+Inventory 
+3 sets 
+L. Aperture Card 
+Reader and 
+Verify Operability/ 
+1 set 
+Set 
+of Aperture 
+Cards 
+Spot 
+Check 
+M. 
+GAI Equipment 
+List 
+Inventory 
+1 
+N. GAI 
+Valve List 
+Inventory 
+1 
+0. Engineering 
+Service 
+Procedures 
+Inventory 
+1 
+P. 
+Fire Protection 
+Evaluation 
+Report 
+Inventory 
+1 
+Q. 
+Steam Tables 
+Inventory 
+2
+!
+
+,
+EOF RADIATION 
+EMERGENCY EQUIPMENT CHECKLIST
+LOCATION: 
+EMERGENCY OPERATIONS FACILITY
+EPP-103 
+ATTACHMENT V 
+PAGE 
+2 OF 
+3 
+REVISION 
+6
+PMTS NO.
+ITEM 
+INVENTORY 
+MINIMUM 
+# 
+EQUIPMENT 
+DESCRIPTION 
+REQUIREMENT 
+QUANTITY 
+AS 
+FOUND 
+COMMENTS 
+2 
+(Cont) 
+R. Forms: 
+___..,. 
+,. .
+._ 
+.   .  
+1. Emergency 
+Notifications, 
+EPP-002 
+Audit 
+30 
+Chg 
+Attachment 
+I, 
+Page 
+1 
+of 
+3 
+C 
+2. 
+EPP-002, 
+Att. 
+II 
+(Rev. 
+) 
+Audit 
+1 
+3. EPP-002, 
+Att. lilA 
+(Rev. 
+.) Audit 
+1 
+4. 
+EPP-002, 
+Att. IV (Rev. 
+) 
+Audit 
+20 
+5. 
+EPP-002, Att. 
+V (Rev. 
+) Audit 
+25 
+6. EPP-021, 
+Att. 
+I (Rev. 
+) Audit 
+3 
+3 
+EOF Desk Drawers 
+• 
+______ 
+____ 
+A. Offsite 
+Emergency 
+Coordinator 
+Drawer 
+Locked 
+1 
+1. 
+Telephone 
+(on Desktop) 
+Verify 
+Operability 
+1 
+2. OEC 
+Notebook 
+Inventory 
+1 
+3. 
+EPPs 
+(0 + 
+50 series) 
+Inventory 
+1 
+4. 
+E P Telephone 
+Directory(Rev. 
+) 
+Inventory 
+1 
+B. Emergency 
+Control 
+Officer Drawer 
+Locked 
+1 
+1. Telephone 
+(on 
+Desktop) 
+Verify 
+Operability 
+1 
+2. 
+Notebook 
+Inventory 
+1 
+3. EPPs 
+(001-049) 
+Inventory 
+1 
+4. 
+Company 
+Phone 
+Directory 
+Inventory 
+1 
+5. E P 
+Telephone 
+Directory (Rev. 
+) Inventory 
+1 
+C. 
+Plant 
+Status 
+Advisor 
+Drawer 
+Locked 
+1 
+1. Notebook 
+Inventory 
+1 
+2. Telephone 
+(on 
+Desktop) 
+Verify Operability 
+2 
+3. 
+Log Book 
+Inventory 
+1 
+4. EOP 
+Inventory 
+1 
+5. 
+Emergency 
+Planning 
+Telephone 
+Directory 
+Inventory 
+1 
+(Rev. 
+) 
+D. 
+Emergency 
+Planning 
+Representative 
+Drawer 
+Locked 
+1 
+1. Notebook 
+Inventory 
+1 
+2. 
+Telephone 
+(on 
+Desktop) 
+Verify 
+Operability 
+3 
+3. 
+EPPs 
+(001-060) 
+Inventory 
+1 
+4. Emergency 
+Notifications, 
+Attachment 
+I, Audit 
+10 
+Page 1 of 
+3 
+Audt 
+2 
+Ch 
+5. EPP-021, 
+Att. 
+I, (Rev. 
+) 
+Audit 
+2 
+C 
+6. 
+SC Road Map 
+Inventory 
+1 
+Chc 
+B
+/
+
+EOF 
+RADIATION 
+EMERGENCY 
+EQUIPMENT 
+CHECKLIST 
+LOCATION: 
+EMERGENCY 
+OPERATIONS 
+FACILITY
+EPP-103 
+ATTACHMENT 
+V 
+PAGE 
+3 
+OF 3 
+REVISION 6
+PMTS NO.
+ITEM 
+INVENTORY 
+MINIMUM 
+# 
+EQUIPMENT 
+DESCRIPTION 
+REQUIREMENT 
+QUANTITY 
+AS 
+FOUND 
+COMMENTS 
+3 
+(Cont) 
+6. 
+Evacuation 
+Zones 
+(1 
+Set) 
+Inventory 
+1 
+set 
+7. 
+NRC 
+Response 
+Coordination 
+Manual 
+Inventory 
+1 
+8. 
+Emergency 
+Planning 
+Telephone 
+Directory 
+Inventory 
+1 
+(Rev.,_) 
+E. 
+Technical 
+Support 
+Coordinator 
+Drawer 
+Locked 
+1 
+1. 
+Notebook 
+Inventory 
+1 
+2. 
+Telephone 
+Verify 
+Operability 
+1 
+3. 
+Emergency 
+Planning 
+Telephone 
+Directory 
+Inventory 
+1 
+(Rev.  
+F. 
+Media 
+Coordinator 
+Drawer 
+Locked 
+1 
+1. 
+Telephone 
+Verify 
+Operability 
+1 
+2. 
+Notebook 
+Inventory 
+1 
+3. 
+EPPs 
+(0 
++ 
+50 
+Series) 
+Inventory 
+1 
+4. 
+Emergency 
+Planning 
+Telephone 
+Directory 
+Inventory 
+1 
+(Rev.  
+G. 
+Offsite 
+Radiological 
+Monitoring 
+Coordinator 
+Locked 
+Drawer 
+1. 
+Notebook 
+Inventory 
+1 
+2. 
+Telephone 
+Verify 
+Operability 
+1 
+3. 
+EPA-400 
+Manual 
+of 
+Protective 
+Action 
+Inventory 
+1 
+Guides 
+and 
+Protective 
+Actions 
+for 
+Nuclear 
+Incidents 
+4. 
+Emergency 
+Planning 
+Telephone 
+Directory 
+Inventory 
+1 
+(Rev. 
+_ 
+H. 
+General 
+Services 
+Coordinator 
+Box 
+Sealed 
+1 
+1. 
+Notebook 
+Inventory 
+1 
+I. 
+Security 
+Coordinator 
+Box 
+Sealed 
+1 
+1. 
+Notebook 
+Inventory 
+1 
+2. 
+Site 
+Telephone 
+Directory 
+Inventory 
+1 
+(Rev. 
+Date 
+4 
+Housekeeping 
+of 
+the 
+EOF 
+Per 
+SAP-1 
+42 
+N/A
+Chg 
+C
+
+(
+OSC RADIATION 
+EMERGENCY 
+EQUIPMENT 
+CHECKLIST
+LOCATION: 
+OPERATIONS SUPPORT 
+CENTER
+EPP-103 
+ATTACHMENT VI 
+PAGE 1 OF 2 
+REVISION 6
+PMTS 
+NO.
+ITEM 
+INVENTORY 
+MINIMUM 
+AS 
+# 
+EQUIPMENT 
+DESCRIPTION 
+REQUIREMENT 
+QUANTITY 
+FOUND 
+COMMENTS 
+1 
+Electrical 
+Drawer 
+Locked 
+1 
+A. 
+Emergency 
+Team 
+Briefing 
+Log 
+Inventory 
+10 
+B. 
+Electrical 
+Maintenance 
+Supervisor 
+Book 
+and 
+Inventory 
+1 each 
+Name 
+Tag 
+2 
+OSC 
+Status 
+Board 
+Drawer 
+Locked 
+1 
+A. 
+Status 
+Board 
+Book 
+Inventory 
+1 
+B. 
+Dry 
+Board 
+Markers 
+Inventory 
+2 
+C. 
+Bottle 
+Cleaning 
+Fluid 
+Inventory 
+1 
+D. Dry 
+Board 
+Eraser 
+Inventory 
+1 
+1 
+E. Classification 
+Labels 
+Inventory 
+3 
+F. 
+Wipes 
+Inventory 
+10 
+G. 
+White 
+Magnetic 
+Board 
+Sheets 
+Inventory 
+10 
+Ch 
+H. Blank 
+Labels 
+Inventory 
+20 
+Cg 
+3 
+OSC Supervisor 
+Drawer 
+Locked 
+1 
+A. 
+OSC 
+Supervisor 
+Book 
+and 
+Name 
+Tag 
+Inventory 
+1 each 
+B. 
+Log 
+Book 
+Inventory 
+1 
+C. Emergency 
+Team 
+Briefing 
+Log 
+Inventory 
+20 
+4 
+Mechanical 
+Drawer 
+Locked 
+1 
+A. 
+Stapler 
+Inventory 
+1 
+B. Mechanical 
+Maintenance 
+Supervisor 
+Book 
+and 
+Inventory 
+1 each 
+I_ 
+Name 
+Tag 
+C. 
+Emergency 
+Team Briefing 
+Log 
+Inventory 
+10 
+5 
+Operations 
+Drawer 
+Locked 
+1 
+A. 
+Emergency 
+Team 
+Briefing 
+Log 
+Inventory 
+10 
+B. Lead 
+Operator 
+Book 
+and Name 
+Tag 
+Inventory 
+1 each 
+6 
+& C Drawer 
+Locked 
+1 
+A. I 
+& C Supervisor 
+Book and 
+Name 
+Tag 
+Inventory 
+1 
+each 
+B. Emergency 
+Team 
+Briefing 
+Log 
+Inventory 
+10 
+7 
+Health 
+Physics 
+Drawer 
+Locked 
+1 
+A. 
+Emergency 
+Team 
+Briefing 
+Log 
+Inventory 
+10 
+B, 
+Notebooks 
+Inventory 
+2
+(
+
+(
+OSC 
+RADIATION 
+EMERGENCY 
+EQUIPMENT 
+CHECKLIST
+LOCATION: 
+OPERATIONS 
+SUPPORT 
+CENTER
+EPP-103 
+ATTACHMENT 
+VI 
+PAGE 
+2 OF 
+2 
+REVISION 
+6
+PMTS 
+NO.  
+ITEM 
+INVENTORY 
+MINIMUM 
+AS 
+# 
+EQUIPMENT 
+DESCRIPTION 
+REQUIREMENT 
+QUANTITY 
+FOUND 
+COMMENTS 
+8 
+Security 
+Drawer 
+Locked 
+1 
+A. 
+Notebook 
+& 
+Name 
+Tag 
+Inventory 
+1 
+each 
+B. 
+OSC 
+Security 
+Key 
+Box 
+Key 
+Inventory 
+1 
+C. Emergency 
+Team 
+Briefing 
+Log 
+Inventory 
+10 
+9 
+Supplies 
+Iif,. 
+I I, 
+19 
+ý'R 
+" 
+A. Pencils 
+Inventory 
+10 
+B. 
+Dry 
+Board 
+Markers 
+Inventory 
+4 
+C. 
+Pens 
+Inventory 
+10 
+D. 
+Pads 
+Inventory 
+10 
+E. 
+Grease 
+Pencils 
+(black) 
+Inventory 
+2 
+F. 
+Grease 
+Pencils 
+(red) 
+Inventory 
+2 
+G. 
+First 
+Aid 
+Bag 
+Inventory 
+1 
+H. 
+Hard 
+Hats 
+Inventory 
+6 
+I. 
+Safety 
+Glasses 
+Inventory 
+6 
+J. 
+Flashlights 
+with 
+Batteries 
+installed 
+Inventory 
+4 
+10 
+Drawing 
+Rack 
+A. 
+Security 
+Evacuation 
+Accountability 
+Inventory 
+3 
+__ 
+Roster-Paper 
+B. 
+Post 
+Accident 
+RCA 
+Access 
+Routes 
+E-077-001 
+Spot 
+Check 
+1 
+set 
+through 
+E-022-015 
+C. 
+Electrical 
+Diagrams 
+E-206-001 
+thru 
+Spot 
+Check 
+1 set 
+each 
+E-206-080 
+and 
+E-207-011 
+thru 
+E-207-042 
+11 
+Miscellaneous 
+A. 
+EOPs 
+Inventory 
+1 
+set 
+B. 
+Instrument 
+List 
+Inventory 
+1 
+C. 
+Feeder 
+Effect 
+List 
+Inventory 
+1 
+D. 
+Plant 
+Drawing 
+Book 
+Inventory 
+1 
+E. 
+EPPs 
+(0-Series) 
+Inventory 
+1 
+set 
+F. 
+SOPs 
+Inventory 
+1 
+set 
+G. 
+FEPs 
+Inventory 
+1 set 
+H. 
+GOPs 
+Inventory 
+1 
+set 
+I. 
+AOPs 
+Inventory 
+1 set 
+12 
+Housekeeping 
+in 
+OSC 
+Per 
+SAP-1 
+42 
+N/A
+Chg 
+C
+
+NEWS 
+MEDIA CENTERS 
+RADIATION 
+EMERGENCY EQUIPMENT 
+CHECKLIST
+EPP-103 
+ATTACHMENT VII 
+PAGE 1 OF 3 
+REVISION 6
+LOCATION: 
+NUCLEAR 
+TRAINING CENTER 
+AND PALMETTO 
+CENTER
+PMTS NO.
+ITEM 
+INVENTORY 
+MINIMUM 
+AS 
+# 
+EQUIPMENT 
+DESCRIPTION 
+REQUIREMENT 
+QUANTITY 
+FOUND 
+COMMENTS 
+1 
+Primary News 
+Media Area (NTC) 
+A. 
+Press Kits 
+Inventory 
+30 
+B. Telephones 
+I 
+20 
+C. 
+Visual Aids 
+-
+.: 
+.  
+1. Diagram 
+of Plant 
+with Main Components 
+Inventory 
+1 
+2. Chart 
+of Radiation 
+Levels 
+Inventory 
+1 
+3. Map with 
+Sectors 
+and Routes 
+Inventory 
+1 
+4. Chart 
+of Accident 
+Categories 
+Inventory 
+1 
+77 
+7 
+1 
+D. Name 
+Cards for 
+State and Local 
+Officials 
+Inventory 
+1 set 
+E. Media 
+Badges 
+Inventory 
+25 
+F. Legal Pads 
+Invento 
+2 
+2 
+Primary Rumor 
+Control Area 
+(NTC) 
+MEMO=' 
+A. Legal 
+Pads 
+Inventoy 
+5 
+B. Pens 
+Inventory 
+5 
+C. Pencils 
+Inventory 
+5 
+D. Stapler 
+Inventory 
+I1 
+E. 
+Press Kits 
+Inventory 
+5 
+F. 
+AM-FM 
+Radio 
+Inventory 
+1I 
+G. Columbia 
+S.C. Telephone 
+Directory 
+Inventory 
+1 
+(Date 
+.
+) 
+H. SCE&G 
+Telephone 
+Directory 
+(Date__)___J 
+Inventory 
+1 
+I. Emergency 
+Planning Telephone 
+Directory 
+Audit 
+1 
+(Rev. 
+__ 
+__ 
+J. EPP-052 (Rev. 
+Audit I copy 
+3 
+Backup News 
+Media Area (Palmetto 
+Center) 
+, 
+A. 
+Press Kits 
+Inventory 
+30 
+B. 
+Telephones 
+Inventory 
+20 
+C. Visual 
+Aids 
+Inventory 
+1 
+1. Diagram 
+of 
+Plant with 
+Main Components 
+Inventory 
+1 
+2. 
+Chart of 
+Radiation 
+Levels 
+Inventory 
+1 
+3. Map 
+with Sectors 
+and 
+Routes 
+Inventory 
+1 
+4. 
+Chart 
+of Accident 
+Categories 
+Inventory 
+1 
+D. Name 
+Cards 
+for State 
+and Local 
+Officials 
+Inventory 
+1 set 
+E. Media Badges 
+Inventory 
+25 
+F. Legal Pads 
+Inventory 
+2
+/
+,
+
+(
+NEWS MEDIA CENTERS RADIATION EMERGENCY EQUIPMENT CHECKLIST
+LOCATION: 
+NUCLEAR 
+TRAINING 
+CENTER 
+AND 
+PALMETTO 
+CENTER
+EPP-103 
+ATTACHMENT VII 
+PAGE 2 OF 3 
+REVISION 
+6
+PMTS NO.  
+ITEM 
+INVENTORY 
+MINIMUM 
+AS 
+# 
+EQUIPMENT 
+DESCRIPTION 
+REQUIREMENT 
+QUANTITY 
+FOUND 
+COMMENTS 
+4 Backup 
+Rumor Control 
+Area (Palmetto Center) 
+M- 
+--. 
+.  
+A. 
+Legal Pads 
+Inventory 
+5 
+B. Pens 
+Inventory 
+_5 
+C. Pencils 
+Inventory 
+5_,.  
+D. Stapler 
+Inventory 
+I 
+E. 
+Press Kits 
+Inventory 
+5 
+F. AM-FM 
+Radio 
+Inventory 
+1 
+G. 
+Columbia S.C. 
+Telephone 
+Directory 
+Inventory 
+1 
+(Date__ 
+__ ) 
+H. SCE&G 
+Telephone 
+Directory 
+(Date. 
+)__ _J Inventory 
+1 
+I. Emergency 
+Planning 
+Telephone 
+Directory 
+Audit 
+1 
+(Rev. 
+I 
+J. 
+EPP-052(Rev. 
+) IAudit 
+1 copy 
+5 Joint 
+Information 
+Center 
+.
+.  
+,__ A. 
+Press 
+Kits 
+Inventory 
+12 
+B. 
+Columbia 
+S.C. Telephone 
+Directory 
+Inventory 
+2 
+(Date 
+-_) 
+C. SCE&G 
+Telephone 
+Directory 
+(Date 
+)....j 
+Inventory 
+2 
+D. Emergency 
+Planning 
+Telephone 
+Directory 
+Audit 
+2 
+(Rev. 
+,_ 
+_ 
+E. Legal 
+Pads 
+Inventory 
+12 
+F. Pens 
+Inventory 
+12 
+G. 
+Pencils 
+Inventory 
+12 
+H. 
+Staplers 
+Inventory 
+3 
+I. 
+"This 
+is a 
+Drill" Stamp 
+& Pad 
+Inventory 
+I1 
+J. Bond 
+Paper 
+Inventory 
+1 ream 
+K. 
+Scotch 
+Tape 
+Inventory 
+3 rolls 
+L. News 
+Release 
+Paper 
+Inventory 
+1 pkgh 
+M. 
+EPP-052 
+(Rev. 
+) 
+Audit 
+3 copies
+
+NEWS MEDIA 
+CENTERS 
+RADIATION 
+EMERGENCY 
+EQUIPMENT 
+CHECKLIST
+LOCATION: 
+NUCLEAR 
+TRAINING 
+CENTER 
+AND 
+PALMETTO 
+CENTER
+EPP-103 
+ATTACHMENT 
+VII 
+PAGE 
+3 OF 3 
+REVISION 
+6 
+PMTS 
+NO.
+ITEM 
+INVENTORY 
+MINIMUM 
+AS 
+# 
+EQUIPMENT 
+DESCRIPTION 
+REQUIREMENT 
+QUANTITY 
+FOUND 
+COMMENTS 
+6 Assistant 
+Media 
+Coordinator 
+A. 
+Columbia, 
+SC Telephone 
+Directory 
+Inventory 
+1 
+(Date 
+_ 
+)_,, 
+B. Emergency 
+Planning 
+Telephone 
+Directory 
+Audit 
+1 
+(Rev. 
+_ 
+C. SCE&G 
+Telephone 
+Directory 
+(Date___)__j 
+Inventory 
+1 
+D. Legal 
+Pads 
+Inventory 
+3 
+E. 
+Pens 
+Inventory 
+3 
+F. 
+Pencils 
+Inventory 
+3 
+G. 
+Stapler 
+Inventory 
+1 
+H. EPP-052(Rev. 
+) Inventory 
+3 
+I. Press 
+Kits 
+Inventory 
+3 
+copies 
+J. "This 
+is a Drill" 
+Stamp 
+& Pad 
+Inventory 
+1 I
+(
+
+(
+BACKUP 
+EOF 
+RADIATION 
+EMERGENCY 
+EQUIPMENT 
+CHECKLIST
+EPP-103 
+ATTACHMENT 
+ViII 
+PAGE 1 OF 1 
+REVISION 
+6
+LOCATION: 
+BACKUP 
+EMERGENCY 
+OPERATIONS 
+FACILITY 
+PMTS 
+NO.
+Chg 
+C
+ITEM 
+INVENTORY 
+MINIMUM 
+# 
+EQUIPMENT 
+DESCRIPTION 
+REQUIREMENT 
+QUANTITY 
+AS 
+FOUND 
+COMMENTS 
+1 
+Log 
+Book 
+Inventory 
+1 
+2 
+10 
+Mile 
+Map 
+Inventory 
+1 
+3 
+Radiation 
+Emergency 
+Plan 
+Inventory 
+1 
+4 Emergency 
+Plan Procedures 
+Inventory 
+6 
+5 
+Emergency 
+Operating 
+Procedures 
+Inventory 
+1 
+6 
+Status 
+Board 
+Chart 
+Inventory 
+1 
+" ' 
+7 
+EOF Communicator 
+Book 
+A. Emergency 
+Notification, 
+EPP-002 
+Inventory 
+30 
+Attachment 
+I, Page 
+1 
+of 
+3 
+B. EPP-002, 
+Att. 
+II (Rev. 
+) 
+Inventory 
+1 
+C. 
+EPP-002, 
+Att. 
+lilA (Rev. 
+) 
+Inventory 
+1 
+D. EPP-002, 
+Att. 
+IV (Rev. 
+) 
+Inventory 
+20 
+E. EPP-002, 
+Att. V 
+(Rev. 
+) 
+Inventory 
+25 
+F. EPP-021, 
+Att. 
+I (Rev. 
+) 
+Inventory 
+3 
+8 
+Pens 
+Inventory 
+10 
+9 Pads 
+Inventory 
+10 
+10 
+Emergency 
+Planning 
+Telephone 
+Directory 
+Inventory 
+6 
+(Rev.  
+11 Aperture 
+Card 
+Reader 
+and Set 
+of Aperture 
+Cards 
+Verify 
+Operability/ 
+1 set 
+Spot Check 
+12 
+EDAP Computer 
+Disk 
+Inventory 
+1 
+13 
+NRC 
+Response 
+Coordination 
+Manual 
+Inventory 
+1 
+14 
+SC 
+Road 
+Map 
+Inventory 
+11
+Chc 
+B
+
+,
+CONTROL ROOM 
+& TSC RADIATION 
+EMERGENCY 
+EQUIPMENT CHECKLIST 
+LOCATION: 
+CONTROL ROOM/TECHNICAL 
+SUPPORT 
+CENTER AREA
+EPP-103 
+ATTACHMENT 
+IX.A 
+PAGE 
+1 OF 1 
+REVISION 
+6 
+PMTS 
+NO.
+ITEM 
+INVENTORY 
+MINIMUM 
+AS 
+# 
+EQUIPMENT 
+DESCRIPTION 
+REQUIREMENT 
+QUANTITY 
+FOUND 
+COMMENTS 
+1 Self 
+Contained 
+Breathing 
+Apparatus 
+(1 hour) 
+Inventory/HPP-633 
+14 
+Stored 
+external 
+to kit.  
+2 
+SCBA Spare Bottles 
+(1 hour) 
+Inventory/HPP-633 
+14 
+Stored 
+external to kit.  
+3 Control 
+Room Radiation 
+Emergency Kit Equipment 
+Inventory 
+2 
+Checklist 
+(EPP-103, 
+Att. 
+IX.A Rev.  
+4 GM Survey 
+Meter (E-530 
+or Equivalent) 
+Inventory 
+1 
+Serial# 
+Cal. 
+Due.  
+5 RM-14/HP210 
+Probe 
+(or Equivalent) and SH-4A 
+Inventory 
+1 
+Sample 
+Holder 
+Serial# 
+Cal. Due.  
+6 Portable P&I Air 
+Samples 
+Inventory 
+1 
+_ Serial# 
+Cal. Due.  
+7 Protective Clothing 
+Packets 
+E Inspect 
+10 
+Shelf 
+Life 
+8 Rolls of 
+Tape 
+Inspect 
+2 
+Shelf 
+Life 
+9 Battery 
+for 5 Flashlights 
+Inventory 
+10 Each 
+Shelf Life 
+10 1 Set of 
+Batteries for Survey 
+Instrument 
+C 
+1 
+Shelf Life 
+11 Cs-137 
+Check 
+Source 
+Inventory 
+1 
+12 
+Flashlights 
+Inventory 
+5 
+13 
+Particulate Air 
+Filters Packet 
+Inventory 
+10 
+14 
+Agz Filters 
+(plant) Packet 
+Inventory 
+10 
+15 Low 
+Range Dosimeters 
+(0-500 
+MR) Due 
+Date _ 
+Inventory 
+10 
+16 Dosimeter 
+Charger 
+with Required 
+Batteries 
+Inventory 
+1 
+Shelf Life (Batteries) 
+17 Whole 
+Body TLD Packet 
+Inventory 
+10 
+18 Control 
+TLD 
+Inventory 
+1 Pack 
+19 Disposable 
+Gloves 
+Inventory 
+1 Box 
+Shelf Life
+I Chg 
+C 
+SChg 
+A&C 
+IChg 
+A 
+SChg 
+C
+
+(
+OSC 
+RADIATION 
+EMERGENCY 
+EQUIPMENT 
+CHECKLIST
+LOCATION: 
+OPERATIONS 
+SUPPORT 
+CENTER
+EPP-103 
+ATTACHMENT 
+IX.B 
+PAGE 
+1 
+OF 
+2 
+REVISION 
+6 
+PMTS:
+ITEM 
+EQUIPMENT 
+DESCRIPTION 
+INVENTORY 
+MINIMUM 
+AS 
+# 
+REQUIREMENT 
+QUANTITY 
+FOUND 
+COMMENTS 
+1 
+High 
+Range 
+Dosimeter 
+(0-1 
+R 
+or 
+0-1.5 
+R) 
+Inventory 
+15 
+Cal. Due 
+2 
+Low 
+Range 
+Dosimeter 
+(0-500 
+mr) 
+Cal. 
+Due 
+Inventory 
+25 
+3 
+Dose 
+Rate 
+Instrument 
+Inventory 
+1 
+Serial# 
+Cal. 
+Due 
+Serial# 
+Cal, 
+Due 
+4 
+GM 
+Survey 
+Meter 
+(E-530 
+or 
+Equivalent) 
+Inventory 
+Serial# 
+--
+Cal. 
+Due 
+Serial# 
+Cal. 
+Due 
+5 
+RM-14/HP-210 
+Probe 
+(or 
+Equivalent) 
+and 
+SH-4A 
+Sample 
+Inventory 
+1 
+Stored 
+external 
+to 
+kit.  
+Holder 
+Serial 
+# 
+Cal. 
+Due 
+6 
+Alarming 
+Dosimeters 
+Inventory 
+2 
+Serial# 
+Cal. 
+Due 
+Serial#. 
+Cal. 
+Due 
+7 
+Alarming 
+Dosimeter 
+Magnets 
+Inventory 
+2 
+8 
+Vamp 
+Area 
+Monitor 
+(or 
+Equivalent) 
+Inventory 
+1 
+Serial 
+# 
+Cal. 
+Due 
+9 
+Dosimeter 
+Charger 
+with 
+Required 
+Batteries 
+Attached 
+Inventory 
+1 
+Shelf 
+Life 
+(Batteries) 
+10 
+1 
+Set 
+of 
+Batteries 
+for 
+High 
+Range 
+Survey 
+Instrument, 
+I Set 
+of 
+C 
+1 
+Shelf 
+Life 
+Batteries 
+for 
+Low 
+Range 
+Survey 
+Instrument 
+and 
+1 
+Set 
+of 
+Batteries 
+for 
+the 
+Alarming 
+Dosimeters 
+11 
+Battery 
+for 
+10 
+Flashlights 
+Inventory 
+20 
+Each 
+Shelf 
+Life 
+12 
+Rolls 
+of 
+Tape 
+Inspect 
+5 
+Shelf 
+Life 
+13 
+Plastic 
+P.C. 
+Inspect 
+10 
+Shelf 
+Life 
+14 
+Protective 
+Clothing 
+Packets 
+E, 
+Inspect 
+25 
+Shelf 
+Life 
+15 
+Survey 
+Packets 
+B 
+2
+hg 
+;Chg 
+A
+
+OSC 
+RADIATION 
+EMERGENCY 
+EQUIPMENT 
+CHECKLIST
+LOCATION: 
+OPERATIONS 
+SUPPORT 
+CENTER
+EPP-103 
+ATTACHMENT 
+IX.B 
+PAGE 
+2 OF 
+2 
+REVISION 
+6
+PMTS: 
+ITEM 
+EQUIPMENT 
+DESCRIPTION 
+INVENTORY 
+MINIMUM 
+AS 
+# 
+REQUIREMENT 
+QUANTITY 
+FOUND 
+COMMENTS 
+16 
+RadiologIcal 
+and 
+Meteorological 
+Data 
+Computer 
+Inventory 
+1 
+Stored 
+external 
+to 
+kit.  
+17 
+First 
+Aid 
+Kits 
+Inventory/Inspect 
+2 
+-Shelf 
+Life 
+18 
+Flashlights 
+Inventory 
+10 
+19 
+Cs-137 
+Check 
+Source 
+Inventory 
+1 
+20 
+Perimeter 
+Survey 
+Maps 
+Inventory 
+20 
+21 
+Self 
+Read. 
+Dos. 
+Card 
+(HPP-152) 
+Inventory 
+50 
+22 
+Auth. 
+To 
+Exceed 
+Exp. 
+Limits 
+Inventory 
+10 
+(HPP-153, 
+Att. 
+I, 
+Rev..) 
+23 
+Personnel 
+Contamination 
+Report 
+Inventory 
+20 
+(HPP-405, 
+Att. 
+I, Rev. 
+) 
+24 
+OSC 
+Radiation 
+Emergency 
+Kit 
+Equipment 
+Checklist 
+Inventory 
+1 
+(EPP-103, 
+Att. 
+IX.B, 
+Rev.  
+25 
+Disposable 
+Gloves 
+Inventory 
+1 Box 
+Shelf 
+Life 
+26 
+Whole 
+Body 
+TLDs 
+Inventory 
+25 
+27 
+Background 
+TLD 
+(Pack) 
+Inventory 
+1
+r~ 
+hg 
+Chg 
+"A
+
+,/
+AMBULANCE 
+RADIATION 
+EMERGENCY 
+EQUIPMENT 
+CHECKLIST
+LOCATION: 
+FIRST 
+AID 
+ROOM 
+(412' 
+CONTROL 
+BUILDING)
+EPP-103 
+ATTACHMENT IX.C 
+PAGE 
+1 OF 
+1 
+REVISION 
+6 
+PMTS NO.
+Chg 
+IA 
+Chg 
+A
+ITEM 
+EQUIPMENT 
+DESCRIPTION 
+INVENTORY 
+MINIMUM 
+AS 
+# 
+REQUIREMENT 
+QUANTITY 
+FOUND 
+COMMENTS 
+1 
+Frisker/HP-210 
+Probe 
+(or 
+Equivalent) 
+Inventory 
+1 
+Serial# 
+Cal. 
+Due 
+2 
+Survey 
+Packet 
+B 
+1 
+3 
+Protective 
+Clothing 
+Packets 
+(Disposable) 
+E, 
+Inspect 
+4 
+Shelf 
+Life 
+4 
+Bags, 
+Large 
+Inventory 
+5 
+5 
+Bags, 
+Medium 
+Inventory 
+10 
+6 
+Bags, 
+Small 
+Inventory 
+10 
+7 
+Absorbent 
+Material 
+Inventory 
+1 
+8 
+Personnel 
+Contamination 
+Report 
+Inventory 
+5 
+(HPP-405, 
+Att. 
+I, Rev.  
+9 
+Radiation 
+Tape/Ribbon 
+(roll) 
+Inventory 
+1 
+10 
+Ambulance 
+Radiation 
+Emergency 
+Kit Equipment 
+Inventory 
+2 
+Checklist 
+(EPP-103, 
+Att. 
+IX.C, 
+Rev 
+11 
+Disposable 
+Gloves 
+Inventory 
+1 
+Box 
+Shelf 
+Life 
+12 
+Batteries 
+For 
+Instrument 
+C 
+1 
+Shelf 
+Life
+Chg 
+A
+Chg 
+C 
+Chg 
+A
+I
+
+,
+OFF-SITE 
+HOLDING 
+AREA 
+RADIATION 
+EMERGENCY 
+EQUIPMENT 
+CHECKLIST
+LOCATION: 
+SECURITY 
+BUILDING
+EPP-103 
+ATTACHMENT 
+IX.D 
+PAGE 1 OF 1 
+REVISION 
+6
+PMTS NO.  
+ITEM 
+EQUIPMENT 
+DESCRIPTION 
+INVENTORY 
+MINIMUM 
+AS 
+# 
+REQUIREMENT 
+QUANTITY 
+FOUND 
+COMMENTS 
+1 
+GM 
+Survey 
+Meter/530 
+(or 
+Equivalent) 
+1 
+Serial# 
+Cal. 
+Due 
+Inventory 
+2 
+RM-14/HP-210 
+Probe 
+(or 
+Equivalent) 
+1 
+Serial# 
+Cal. 
+Due 
+Inventory 
+Stored 
+External 
+of 
+Kit 
+3 
+1 Set 
+of 
+Batteries 
+for 
+Survey 
+Instrument 
+C 
+(packet) 
+SefLf 
+5 
+Check 
+Source 
+(Cs-137) 
+Inventory 
+1 
+6 
+Decon 
+Packet 
+B 
+1 
+7 
+First 
+Aid 
+Kit 
+Inventory 
+1 
+Shelf 
+Life 
+8 
+Irrigation 
+Bottles 
+(500 
+ml) 
+Inventory 
+2 
+9 
+Roll 
+of 
+Tape 
+Inventory 
+2 
+Shelf 
+Life 
+10 
+Procedures/Forms 
+Copy 
+# 
+•...  
+11 
+EPP-010, 
+Personnel/Vehicle 
+Inventory 
+1 
+SeLi 
+Decontamination 
+(Rev 
+....  
+12 
+Personnel 
+C 
+ontamination 
+Report 
+Inventory 
+20 
+(HPP-405, 
+Att. 
+1, 
+Rev..) 
+13 
+Vehicle 
+Survey 
+Record 
+Inventory 
+20 
+EPP-010, 
+Att. C 
+, Rev.e 
+n 
+14 
+Blank 
+Survey 
+Map 
+Inventory 
+10 
+15 
+Out 
+of 
+Plant 
+Radiation 
+Emergency 
+Kit 
+Inventory 
+2 
+Equipment 
+Checklist 
+(EPP-1 
+03 
+Att. 
+IX.D, 
+Rev.) 
+16 
+Disposable 
+Gloves 
+Inventory 
+1 
+Box 
+Shelf 
+Life 
+17 
+Radcon 
+Foam 
+(or 
+equivalent) 
+Inventory 
+4 
+18 
+Paper 
+Towels 
+Inventory 
+2-Rolls 
+19 
+Sratch 
+Pad 
+Inventory1 
+20 
+Poly 
+Sheets 
+(approx, 
+20' 
+x 
+50') 
+Inventory 
+2 
+Shelf 
+Life 
+21 
+Poly 
+Sheets 
+(approx. 
+18' 
+x 
+36') 
+Inventory 
+3 
+Shelf 
+Life
+22 
+Paper 
+Coveralls 
+Inve 
+ntory 
+20 
+Shelf 
+Life 
+23 
+Disposable 
+Shoe 
+Covers 
+Inventory 
+20 
+Pair 
+Shelf 
+Life 
+24 
+Paper 
+Head 
+Covers 
+Inverntory 
+120 
+Shelf 
+Life
+(
+Chg 
+Chg 
+A 
+IChg 
+A
+
+HOSPITAL 
+RADIATION 
+EMERGENCY 
+EQUIPMENT 
+CHECKLIST
+LOCATION: 
+PALMETTO 
+RICHLAND 
+MEMORIAL 
+HOSPITAL
+EPP-103 
+ATTACHMENT 
+IX.E 
+PAGE 
+1 OF 
+1 
+REVISION 
+6
+PMTS 
+NO.  
+ITEM 
+EQUIPMENT 
+DESCRIPTION 
+INVENTORY 
+MINIMUM 
+AS 
+COMMENTS 
+# 
+REQUIREMENTS 
+QUANTITY 
+FOUND 
+1 
+GM 
+Survoy 
+Meter/E530 
+(or 
+Equivalent) 
+Inventory 
+1 
+Serial# 
+Cal. 
+Due 
+2 
+Dose 
+Rate 
+Instruments 
+Inventory 
+1 
+Serial# 
+Cal. 
+Due 
+3 
+Battery 
+Packet 
+to 
+Contain 
+One 
+Complete 
+Set 
+of 
+C 
+1 
+.
+Shelf 
+Life 
+Batteries 
+for 
+Instruments 
+(Item 
+#1 
+& 
+2) 
+4 
+Low 
+Range 
+Dosimeter 
+(0-500 
+MR) 
+Cal. 
+Due 
+Inventory 
+6 
+5 
+High 
+Range 
+Dosimeter 
+(0-1 
+R 
+or 
+0-1.5R) 
+Inventory 
+2 
+Cal. 
+Due 
+6 
+Dosimeter 
+Charger 
+with 
+Required 
+Batteries 
+Attached 
+Inventory 
+1 
+Shelf 
+Life 
+(Batteries) 
+7 
+Rolls 
+of 
+Tape 
+Inventory 
+5 
+Shelf 
+Life 
+8 
+Hospital 
+Survey 
+Packet 
+A 
+1 
+9 
+Disposable 
+Shoe 
+Covers 
+Packet 
+Inventory 
+25 
+pair 
+10 
+Blotter 
+Paper 
+Inventory 
+1 
+roll 
+11 
+Herculite 
+Yellow 
+approx. 
+5' 
+x 
+100' 
+Inventory 
+1 
+12 
+Polyethylene 
+(clear) 
+Inventory 
+1 
+roll 
+13 
+Poly 
+Bags 
+approx.(38" 
+x 
+63") 
+(labeled) 
+Inventory 
+10 
+14 
+Maselin 
+Cloth 
+Inventory 
+50 
+15 
+Step-off 
+Pads 
+Inventory 
+15 
+16 
+15 
+Gallon 
+Nalgene 
+Rad 
+Bottle 
+with 
+Tygon 
+Tubing 
+Inventory 
+1 
+Stored 
+External 
+to 
+Kit.  
+17 
+Personnel 
+Contamination 
+Reports 
+Audit 
+10 
+(HPP-405, 
+Att. 
+I, 
+Rev. 
+) 
+18 
+Blank 
+Survey 
+Maps 
+Audit 
+10 
+19 
+HPP-405, 
+Personnel 
+Decontamination 
+Audit 
+1 
+Rev. 
+Copy 
+# 
+20 
+Hospital 
+Radiation 
+Emergency 
+Kit 
+Equipment 
+Checklist 
+Audit 
+2 
+(EPP-103, 
+Att. 
+IXE, 
+Rev 
+21 
+Waste 
+Containers 
+(Liquid) 
+with 
+Lids 
+Inventory 
+2 
+Stored 
+External 
+of 
+Kit 
+22 
+Waste 
+Containers 
+(Solid) 
+with 
+Lids 
+Inventory 
+2 
+Stored 
+External 
+of 
+Kit 
+23 
+Movable 
+Shield 
+1" 
+Steel 
+with 
+4" 
+Lead 
+Glass 
+Window 
+Inventory 
+1 
+Stored 
+External 
+of 
+Kit 
+24 
+Decontamination 
+Tabletop 
+Inventory 
+1 
+Stored 
+External 
+of 
+Kit 
+25 
+Lead 
+Container 
+Approx. 
+6" 
+x 8" 
+Inventory 
+1 
+Stored 
+External 
+of 
+Kit 
+26 
+Decon 
+Solution 
+Inventory 
+5 
+gallons 
+_____Stored 
+External 
+of 
+Kit
+(
+Chg 
+C 
+IoChg 
+IC 
+I Chg 
+C
+Chg 
+A
+
+EOF 
+RADIATION 
+EMERGENCY 
+EQUIPMENT 
+CHECKLIST 
+LOCATION: 
+EMERGENCY 
+OPERATIONS 
+FACILITY
+EPP-103 
+ATTACHMENT 
+IX.F 
+PAGE 
+1 OF 
+2 
+nEVISION 6
+PMTS NO.
+ITEM 
+EQUIPMENT 
+DESCRIPTION 
+INVENTORY 
+MINIMUM 
+AS 
+# 
+REQUIREMENTS 
+QUANTITY 
+FOUND 
+COMMENTS 
+1 
+Radiation 
+Emergency/Monitoring 
+Kits 
+(Each 
+kit 
+to 
+Per 
+Listed 
+Items 
+2 
+Kit 
+# 
+contain 
+the 
+following 
+items:) 
+i 
+A. 
+GM 
+Survey 
+Meter/E530 
+(or 
+Equivalent) 
+Inventory 
+1 
+Serial# 
+Cal. 
+Due 
+B. 
+Dose 
+Rate 
+Instrument 
+Inventory 
+1 
+Serial# 
+Cal. 
+Due 
+C. 
+Frisker/HP-210 
+Probe(or 
+Equivalent) 
+Inventory 
+1 
+Stored 
+External 
+of 
+Kit 
+Serial# 
+-
+Cal. 
+Due 
+D. 
+12V 
+Air 
+Sampler 
+(or 
+Equivalent) 
+w/Cables 
+Inventory 
+1 
+Stored 
+External 
+of 
+Kit 
+Serial# 
+Cal. 
+Due 
+E. 
+Low 
+Range 
+Dosimeter 
+(0-500 
+MR) 
+Inventory 
+2 
+Cal. 
+Due 
+F. 
+High 
+Range 
+Dosimeter 
+(0-1 
+R 
+or 0-1.5R) 
+Inventory 
+2 
+Cal. 
+Due 
+G. 
+RollTape 
+Inventory 
+2 
+Shelf 
+Life 
+H. 
+Disposable 
+Gloves 
+Packet 
+Inventory 
+20 
+pr. 
+Shelf 
+Life 
+I. 
+Battery 
+Packet 
+C 
+1 
+Shelf 
+Life 
+J. 
+Posting/Survey 
+Packet 
+D 
+1 
+K. 
+4 
+liter 
+Marinelli 
+Beakers 
+Inventory 
+2 
+Stored 
+External 
+of 
+Kit 
+L. 
+First 
+Aid 
+Kit 
+Inventory 
+1 
+Shelf 
+Life 
+M. 
+Bottles 
+(1 
+liter) 
+Inventory 
+3 
+N. 
+Cs137 
+Check 
+Source 
+Inventory 
+1 
+0. 
+Decontamination 
+Materials 
+Inventory 
+2 
+P. 
+AgZ 
+Filters 
+Packet 
+Inventory 
+5 
+Stored 
+External 
+to 
+Kit.  
+Q. 
+Calculator 
+Inventory 
+1 
+R. 
+Watch 
+Inventory/ 
+1 
+Verify 
+Operability 
+S. 
+Environmental 
+Key(s) 
+Inventory 
+1 
+set 
+T. 
+Map 
+of 
+10 
+Mi. 
+EPZ/ 
+Sampling 
+Stations 
+Inventory 
+1 
+U. 
+Roll 
+of 
+Paper 
+Towels 
+Inventory 
+1 
+V. 
+Flashlight 
+Inventory 
+1
+IChg 
+C 
+I 
+Chg 
+I A 
+I 
+Chý
+1
+
+(
+EOF 
+RADIATION 
+EMERGENCY 
+EQUIPMENT 
+CHECKLIST 
+LOCATION: 
+EMERGENCY 
+OPERATIONS 
+FACILITY
+EPP-103 
+ATTACHMENT 
+IXF 
+PAGE 
+2 
+OF 2 
+REVISION 
+6
+PMTS NO.
+ITEM 
+INVENTORY 
+MINIMUM 
+AS 
+# 
+EQUIPMENT 
+DESCRIPTION 
+REQUIREMENTS 
+QUANTITY 
+FOUND 
+COMMENTS 
+1 
+W. 
+Dosimeter 
+Charger 
+with 
+Required 
+Batteries 
+Inventory 
+1 
+Shelf 
+Life 
+(Batteries) 
+Cont'd 
+Attached 
+X. 
+Potassium 
+Iodide 
+Pills 
+Inventory/Check 
+1 bottle 
+Expiration 
+Date 
+Expiration 
+Dates 
+Y. 
+Fuses 
+for 
+Air 
+Sampler 
+and 
+RM-14 
+(or 
+Inventory 
+2 Each 
+equivalent) 
+Z.Procedures/Forms 
+Copy_# 
+#.._.. 
+.
+...
+_. 
+.
+.
+...
+_.  
+1. 
+EPP-007, 
+Environmental 
+Monitoring 
+Audit 
+1 
+(Rev. 
+_) 
+a. 
+Emerg. 
+Env. 
+TLD 
+Report 
+Form 
+Audit 
+10 
+(EPP-007, 
+Att. 
+III 
+Rev._ 
+_ 
+b. 
+Miscellaneous 
+Emergency 
+Audit 
+20 
+Environmental 
+Samples 
+(EPP-007, 
+Att. 
+IV, 
+Rev.  
+2. 
+EPP-010, 
+Personnel/Vehicle 
+Audit 
+1 
+Decontamination 
+(Rev. 
+) 
+3. 
+EPP-020, 
+Emergency 
+Personnel 
+Exposure 
+Audit 
+1 
+Control 
+(Rev.-
+4. 
+Blank 
+Survey 
+Maps 
+Audit 
+10 
+5. 
+Personnel 
+Contamination 
+Report 
+Audit 
+10 
+(HPP-405, 
+Att. 
+I, 
+Rev.  
+6. 
+EOF 
+Radiation 
+Emergency 
+Kit 
+Equipment 
+Audit 
+2 
+Checklist 
+(EPP-103, 
+Att 
+IX.F, 
+Rev. 
+) 
+I 
+_ 
+_I
+IChg 
+ghg
+
+EOF DOSIMETRY/SURVEY EQUIPMENT 
+CHECKLIST 
+LOCATION: 
+EMERGENCY OPERATIONS FACILITY
+EPP-103 
+ATTACHMENT IX.G 
+PAGE 1 OF 
+1 
+REVISION 6
+PMTS NO.
+ITEM 
+EQUIPMENT 
+DESCRIPTION 
+INVENTORY 
+MINIMUM 
+AS 
+COMMENTS 
+# 
+REQUIREMENTS 
+QUANTITY FOUND 
+1 Alarming 
+Dosimeters 
+Inventory 
+3.  
+Serial # 
+Cal. Due 
+2 Alarming Dosimeter Magnet 
+Inventory 1 
+3 0-500 
+MR Dosimeters Cal. Due 
+Inventory 
+50 
+4 
+0-1 R or 0-1.5R Dosimeters Cal. Due 
+Inventory 
+20 
+5 Whole Body TLDs 
+Inventory 
+50 
+6 Background 
+TLD (Pack) 
+Inventory 
+1 
+7 Dosimeter Charger 
+Inventory 1 
+8 Potassium Iodide Pills 
+Inventory/Check 
+10 bottles 
+Expiration Date 
+Expiration 
+Date 
+9 VAMP 
+Area Monitor (or Equivalent) 
+Inventory 
+1 
+Serial # 
+Cal. 
+Due 
+10 Laptop Computer 
+Inventory* 
+1 
+*This laptop may be stored out 
+of cabinet. Ensure available in 
+the 
+EOF.  
+11 EOF 
+Survey Equipment Checklist 
+Inventory 
+2 
+(EPP-103, 
+Att. IX.G, Rev. 
+I I 
+I I
+IChg 
+IA
+
+(
+EPP-103 
+ATTACHMENT IX.H 
+PAGE 1 OF 
+1 
+REVISION 6
+ACCESS 
+PORTAL EMERGENCY 
+DOSIMETRY 
+ISSUANCE EQUIPMENT 
+CHECKLIST 
+LOCATION: ACCESS PORTAL
+PMTS NO.
+IChg
+ITEM 
+INVENTORY 
+MINIMUM 
+AS 
+# 
+EQUIPMENT 
+DESCRIPTION 
+REQUIREMENTS 
+QUANTITY 
+FOUND 
+COMMENTS 
+1 0-500mR 
+Dosimeters with Whole 
+Body TLDs Inventory 
+15 
+" 
+Cal. 
+Due 
+2 
+Control TLD's (Pack) 
+Inventory 
+1 
+3 EPP-020, 
+Emergency 
+Personnel Exposure 
+Control Audit 
+1 copy 
+(Rev. 
+) Copy 
+# 
+4 Dosimeter Charger 
+with Required Batteries Attached 
+Inventory 
+1 
+Shelf Life (Batteries) 
+5 Emergency 
+Dosimeter Log (EPP-020, 
+Att. I, Rev. ) Audit 
+2 
+6 Access Portal Emergency 
+Dosimetry Issuance Kit 
+Audit 2 
+Equipment Checklist 
+(EPP-103, Att IX.H, 
+Rev 
+)_ 
+_ _ 
+_ _ _ _ ______ 
+_ _ _ 
+_ _ _ _ _ 
+_ _ _ _
+t
+
+f
+EOF FRISKING STATION EQUIPMENT CHECKLIST 
+LOCATION: 
+NTC BASEMENT 
+STORAGE 
+AREA
+EPP-103 
+ATTACHMENT IX.I 
+PAGE 
+1 
+OF 1 
+REVISION 
+6
+PMTS NO.
+ITEM 
+INVENTORY 
+MINIMUM 
+AS 
+# 
+EQUIPMENT 
+DESCRIPTION 
+REQUIREMENTS 
+QUANTITY 
+FOUND 
+COMMENTS 
+I Disposable 
+Surgeon's 
+Gloves 
+Inventory 
+1 Box 
+Shelf Life 
+2 
+Paper Coveralls 
+Inventory 
+20 
+3 Disposable 
+Shoe Covers 
+Inventory 
+40 Pairs 
+4 
+Disposable 
+Head 
+Covers 
+Inventory 
+20 
+5 Tape 
+rolls 
+Inventory 
+3 
+_Shelf 
+Life 
+6 Herculite 
+or Poly 
+Sheets(approx. 
+10' x 10') 
+Inventory 
+5 
+7 
+Bags 
+(approx.12" 
+x 
+15" or 
+larger) 
+Inventory 
+10 
+8 Personnel 
+Contamination 
+Report 
+Audit 
+20 
+(HPP-405 
+Att. 
+I, Rev. 
+) 
+9 EOF Frisking 
+Station 
+Equipment 
+Checklist 
+Audit 
+1 
+(EPP-103, 
+Att. 
+IX.I, 
+Rev. 
+)
+jChg 
+A
+
+EOF 
+DECONTAMINATION STATION EQUIPMENT 
+CHECKLIST 
+LOCATION: NTC BASEMENT LADIES 
+RESTROOM
+EPP-103 
+ATTACHMENT IX.J 
+PAGE I OF 1 
+REVISION 
+6 
+PMTS 
+NO.
+I 
+Chg 
+IA
+ITEM 
+INVENTORY 
+MINIMUM 
+AS 
+# EQUIPMENT 
+DESCRIPTION 
+REQUIREMENTS 
+QUANTITY 
+FOUND 
+COMMENTS 
+1 Paper Coveralls 
+Inventory 
+20 
+2 Disposable Shoe Covers 
+Inventory 
+40 Pairs 
+.....  
+3 Disposable Head Covers 
+Inventory 
+20 
+4 Rolls of Tape 
+Inventory 
+3 Shelf Life 
+5 Herculite 
+or Poly Sheets (approx.10' x 10') 
+Inventory 
+5 
+6 
+Bags (approx.12" x 15" or 
+larger) 
+Inventory 10 
+7 
+Rad-Con Foam 
+Inventory 
+6 
+8 Bar Soap 
+Inventory 20 
+9 Detergent 
+Inventory 1 
+box 
+10 Clear Plastic Bags (approx.12" 
+x 15" or larger) Inventory 
+20 
+11 Disposable Gloves 
+Inventory 1 box 
+Shelf 
+Life 
+12 EOF Decontamination 
+Station Equipment Checklist Audit 
+1 
+(EPP-103, 
+Att. IX.J, 
+Rev. 
+)
+
+RADIOACTIVE 
+MATERIALS 
+TRANSPORTATION 
+ACCIDENT 
+RESPONSE 
+EQUIPMENT 
+CHECKLIST
+LOCATION: 
+HEALTH 
+PHYSICS 
+OFFICE, 
+FIRST 
+FLOOR, 
+AUXILIARY 
+SERVICE 
+BUILDING
+EPP-103 
+ATTACHMENT 
+IX.K 
+PAGE 1 OF 1 
+REVISION 6 
+PMTS 
+NO.
+ITEM 
+INVENTORY 
+MINIMUM 
+AS 
+# 
+EQUIPMENT 
+DESCRIPTION 
+REQUIREMENTS 
+QUANTITY 
+FOUND 
+COMMENTS 
+1 
+0-500 
+MR 
+Dosimeters 
+Cal. 
+Due 
+Inventory 
+10 
+2 
+Protective 
+Clothing 
+Packets 
+E, Inspect 
+2 
+Shelf 
+Life 
+3 
+Bags 
+Inventory 
+10 
+4 
+Note 
+Pads 
+with 
+Pens 
+Inventory 
+2 
+5 
+Radiation 
+Signs 
+with 
+Inserts 
+Inventory 
+4 
+6 
+Sets 
+of 
+Air 
+Sample 
+Filters 
+in Bags 
+Inventory 
+4 
+7 
+Decon 
+Spray 
+(can) 
+Inventory 
+1 
+8 
+Roll/Box 
+Paper 
+Towels 
+Inventory 
+1 
+9 
+Radiation 
+Tape 
+(roll) 
+Inventory 
+1 
+10 
+Sets 
+of Blank 
+Shipping 
+Papers 
+Inventory_ 
+2 
+11 
+"Radioactive" 
+Placards 
+Inventory 
+15 
+12 
+Roll 
+"Radioactive 
+LSA" 
+Tape 
+Inventory 
+1 
+13 
+Aircraft 
+Labels 
+Inventory 
+25 
+14 
+"EmptV' 
+Labels 
+Inventory 
+25 
+15 
+White 
+"I" 
+Labels 
+Inventory 
+25 
+16 
+Yellow 
+"If" 
+Labels 
+Inventory 
+25 
+17 
+Yellow 
+"III" 
+Labels 
+Inventory 
+25 
+18 
+Wire 
+Seals 
+Inventory 
+25 
+19 
+Roll 
+"Possible 
+Internal 
+Contamination" 
+Tape 
+Inventory 
+1 
+20 
+Roll 
+"Caution 
+Radioactive 
+Material" 
+Tape 
+Inventory 
+1 
+21 
+Smears 
+in Envelopes 
+Inventory 
+100 
+22 
+Whole 
+Body 
+TLDs 
+Inventory 
+10 
+23 
+Control 
+TLD 
+Inventory 
+1 
+24 
+"DRILL 
+ONLY" 
+Sign 
+Inserts 
+Inventory 
+6 
+25 
+Dosimeter 
+Charger 
+(with 
+Required 
+Batteries 
+Attached) 
+Inventory 
+1 
+Shelf 
+Life 
+(Batteries) 
+26 
+HPP-703, 
+Shipping 
+Radioactive 
+Materials 
+(Rev. 
+_ 
+) 
+Audit 
+1 
+27 
+HPP-702, 
+Receipt 
+of 
+Radioactive 
+Materials 
+(Rev. 
+) 
+Audit 
+1 
+28 
+EPP-006, 
+Transportation 
+Accident 
+Involving 
+Radiological 
+Audit 
+1 
+Material 
+(Rev._) 
+29 
+Radioactive 
+Materials 
+Transportation 
+Accident 
+Response 
+Kit 
+Audit2 
+Equipment 
+Checklist 
+(EPP-103, 
+Att. 
+IX.K, 
+Rev. 
+)
+Chg 
+A,C
+
+(
+EPP-103 
+ATTACHMENT 
+X 
+PAGE 
+1 
+OF 1 
+REVISION 6
+OFF-SITE 
+HOLDING 
+AREA 
+SUPERVISOR 
+EQUIPMENT 
+CHECKLIST 
+LOCATION: 
+QUALITITY 
+SERVICES 
+OFFICE 
+AREA
+ITEM 
+INVENTORY 
+MINIMUM 
+# 
+EQUIPMENT 
+DESCRIPTION 
+REQUIREMENT 
+QUANTITY 
+AS 
+FOUND 
+COMMENTS 
+1 
+Bull 
+Horn 
+Check 
+Operability 
+1 
+2 
+Set 
+of 
+Batteries 
+Inventory 
+1 
+Shelf 
+Life 
+3 
+Radio 
+Check 
+Operability 
+1
+Chg 
+C

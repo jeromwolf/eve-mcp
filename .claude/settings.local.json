@@ -51,7 +51,16 @@
       "Bash(for i in 1 2 3)",
       "Bash(do echo \"Test $i:\")",
       "Bash(done)",
-      "Bash(time:*)"
+      "Bash(time:*)",
+      "Read(//var/folders/h2/yhmybb9n1cn1wn3y141wqv8m0000gn/T/TemporaryItems/NSIRD_screencaptureui_2Ycxeb/**)",
+      "Read(//var/folders/h2/yhmybb9n1cn1wn3y141wqv8m0000gn/T/TemporaryItems/NSIRD_screencaptureui_cHPjto/**)",
+      "Read(//var/folders/h2/yhmybb9n1cn1wn3y141wqv8m0000gn/T/TemporaryItems/NSIRD_screencaptureui_KJRG4Y/**)",
+      "Bash(find:*)",
+      "Read(//var/folders/h2/yhmybb9n1cn1wn3y141wqv8m0000gn/T/TemporaryItems/NSIRD_screencaptureui_rm2f2C/**)",
+      "Read(//var/folders/h2/yhmybb9n1cn1wn3y141wqv8m0000gn/T/TemporaryItems/NSIRD_screencaptureui_dXahwX/**)",
+      "Read(//var/folders/h2/yhmybb9n1cn1wn3y141wqv8m0000gn/T/TemporaryItems/NSIRD_screencaptureui_3tu5yM/**)",
+      "Read(//var/folders/h2/yhmybb9n1cn1wn3y141wqv8m0000gn/T/TemporaryItems/NSIRD_screencaptureui_TY2kyi/**)",
+      "Read(//var/folders/h2/yhmybb9n1cn1wn3y141wqv8m0000gn/T/TemporaryItems/NSIRD_screencaptureui_llAgBW/**)"
     ],
     "deny": []
   }

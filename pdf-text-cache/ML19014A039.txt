@@ -1,0 +1,2419 @@
+[PDF Metadata]
+Author: Jurek, Shane M.
+Pages: 62
+
+[Content]
+414 Nicollet Mall 
+Minneapolis, MN 55401 
+ 
+800.895.4999 
+xcelenergy.com 
+ 
+ 
+ 
+ 
+January 14, 2019 L- XE-19-0  01 
+ 10 CFR 50.54(q)(5) 
+10 CFR 72.44(f) 
+ 
+ATTN: Document Control Desk 
+U.S. Nuclear Regulatory Commission 
+Washington, DC 20555-0001    
+ 
+Prairie Island Nuclear Generating Plant, Monticello Nuclear Generating Plant 
+Units 1 and 2 Dockets 50-263  and 72-58 
+Dockets 50-282 and 50-306 Renewed Facility Operating License 
+Renewed Facility Operating License Nos.  No. DPR-22 
+DPR-42 and DPR-60 
+ 
+Prairie Island Independent Spent Fuel  
+Storage Installation 
+Docket 72-10 
+Materials License No. SNM-2506 
+ 
+ 
+Offsite Nuclear Emergency Plan Revision 
+ 
+As required by 10 CFR 50.54(q)(5) and 10 CFR 72.44(f), Northern States Power Company, a 
+Minnesota corporation (NSPM), d/b/a Xcel Energy, hereby submits the enclosed summary of a 
+completed 10 CFR 50.54(q) change evaluation for a revision to the corporate Offsite Nuclear 
+Emergency Plan (Enclosure 1). In addition, the revision to the corporate Offsite Nuclear 
+Emergency Plan is enclosed (Enclosure 2). This revision has been reviewed and does not 
+result in a reduction in the effectiveness of the Emergency Plan. 
+  
+
+Document Control Desk 
+Page 2 
+Summary 
+of Commitments 
+This letter makes no new commitments and no revisions to existing commitments. 
+!:ii~5/tto 
+Director, Nuclear Licensing and Regulatory Services 
+Northern States Power Company - Minnesota 
+Enclosures (2) 
+cc: Director, Division of Spent Fuel Storage and Transportation, NMSS 
+Administrator, USNRC, Region Ill 
+Project Manager, Monticello and Prairie Island, USNRC 
+Resident Inspector, Monticello, USNRC 
+Resident Inspector, Prairie Island, USNRC 
+
+ 
+ 
+ 
+ 
+ENCLOSURE 1 
+ 
+FP-EP-  PLAN-01,   Revision 8, Offsite Nuclear Emergency Plan Change Summary Analysis 
+10 CFR 50.54(q)(5) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+2 pages follow
+
+ 
+ 
+ 
+Page 1 of 2 
+ 
+Change (#) Change 1 
+Description: 
+This change is a technological upgrade to the existing conference call mass notification 
+system. The upgrade is to switch to the Everbridge conference call mass notification system 
+from the Mission Mode conference call mass notification system having features like for like or 
+enhanced capabilities. 
+Doc ID or (Procedure Number) / Revision Number:     FP-EP-PLAN-01            /8 
+Document Title:   Offsite Nuclear Emergency Plan 
+Evaluation Determination: 
+This change does not impact the timeliness or availability of the offsite ERO staff. Everbridge 
+provides a like for like functionality, there is no impact to the overall timeliness, accuracy, or 
+reliability of the conference call mass notification system established by Everbridge.  
+ 
+The changes do not result in a reduction in effectiveness. 
+ 
+ 
+ 
+
+ 
+Page 2 of 2 
+Change (#) Change 2 
+Description: 
+This is an editorial title change from "Mission Mode Calls" to "conference calls using the mass 
+notification application". 
+ 
+ 
+ 
+Doc ID or (Procedure Number) / Revision Number:     FP-EP-PLAN-01            /8 
+Document Title: Offsite Nuclear Emergency Plan 
+Evaluation Determination: 
+This is an editorial change to generalize an application/system title. The changes do not result 
+in  a reduction in effectiveness. 
+
+ 
+ 
+ 
+ 
+ENCLOSURE 2 
+ 
+Revision to FP-EP-  PLAN-01,   Revision 8, Offsite Nuclear Emergency Plan 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+56   pages follow 
+
+ 
+Nuclear Department Fleet Procedure 
+FP-EP-PLAN-01    Revision:    8 
+Page 1 of 56 
+Title:  
+Offsite Nuclear Emergency Plan  
+Approval: 
+ 
+602000007018 
+ 
+  
+ 
+ 
+ 
+ 
+INFORMATION USE 
+ Procedure should be available, but not necessarily at the work 
+location. 
+ Procedure may be performed from memory. 
+ User remains responsible for procedure adherence. 
+ 
+ 
+ 
+ 
+
+Offsite Nuclear Emergency Plan  
+Revision: 8 
+FP-EP-PLAN-01 Page 2 of 56 
+ 
+ 
+Table of Contents 
+Page 
+1.0 PURPOSE ....................................................................................................................... 3 
+2.0 APPLICABILITY ............................................................................................................. 4 
+3.0 RESPONSIBILITIES ....................................................................................................... 4 
+4.0 DEFINITIONS .................................................................................................................. 8 
+5.0 REQUIREMENTS ......................................................................................................... 11 
+6.0 RECORDS .................................................................................................................... 31 
+7.0 REFERENCES .............................................................................................................. 32 
+7.1 SOURCE DOCUMENTS ...................................................................................... 32 
+7.2 REFERENCE DOCUMENTS ............................................................................... 32 
+7.3 COMMITMENTS .................................................................................................. 32 
+ATTA
+CHMENT 1 MONTICELLO AND PRAIRIE ISLAND OFFSITE EMERGENCY 
+RESPONSE ORGANIZATION ...................................................................................... 33 
+ATTACHMENT 2 BACKUP EOF EQUIPMENT ........................................................................ 34 
+ATTACHMENT 3 MONTICELLO .............................................................................................. 36 
+ATTACHMENT 4 PRAIRIE ISLAND ......................................................................................... 37 
+ATTACHMENT 5 LETTERS OF AGREEMENT ........................................................................ 38 
+ATTACHMENT 6 RADIATION ENVIRONMENT MONITORING PLAN .................................... 39 
+ATTACHMENT 7 MONTICELLO AND PRAIRIE ISLAND CONSERVATIVE 
+GUIDANCE FOR PROTECTIVE ACTION AND RECOMMENDATION ......................... 40 
+ATTACHMENT 8 EVACUATION TIME ESTIMATES – PRAIRIE ISLAND ............................... 41 
+ATTACHMENT 9 EVACUATION TIME ESTIMATES - MONTICELLO ..................................... 42 
+ATTACHMENT 10 OFFSITE NUCLEAR EMERGENCY PLAN CROSS REFERENCE 
+INDEX  .......................................................................................................................... 43 
+ 
+
+Offsite Nuclear Emergency Plan  
+Revision: 8 
+FP-EP-PLAN-01 Page 3 of 56 
+ 
+ 
+1.0   PURPOSE 
+1.1 In accordance with license conditions, 10 CFR part 50 and Nuclear Regulatory 
+Commissioned (NRC) regulatory guidance, the Northern States Power Company, a 
+Minnesota Corporation (NSPM) d/b/a Xcel Energy has developed and implemented 
+emergency response plans for both of its operating nuclear power sites' and off-site 
+response organizations. These combined plans constitute Monticello and Prairie 
+Island’s Emergency Response Plan. NSPM is a subsidiary of Xcel Energy Corporation 
+and operates Monticello and Prairie Island Nuclear Power Sites. As asset owner Xcel 
+Energy retains all owner obligations. 
+1.2 In support of the planning effort at these fixed nuclear facilities, supplemental 
+emergency response plans have been developed by organizations outside of and 
+within the NSPM/Xcel Energy. These include response plans developed by the States 
+of Minnesota, Wisconsin (a state contiguous to NSPM/Xcel Energy Prairie Island site) 
+and Prairie Island Indian Community. Response plans have also been developed by 
+counties (in both states) which are within the emergency planning zones at either 
+Monticello or Prairie Island Nuclear Generating plants. Response arrangements have 
+been developed with various service oriented organizations in support of both sites.  
+These include such entities as hospitals, ambulance services, federal radiological 
+emergency response teams, contractor laboratories, vendors and consultants. These 
+arrangements are documented in a list of "letters of agreement" attached in Attachment 
+5 to this plan.  
+NSPM/Xcel Energy Chief Nuclear Officer is ultimately responsible for ensuring a well 
+prepared and adequately staffed Emergency Response Organization (ERO) is in place 
+for both the On-site and Off-site organizations. NSPM/Xcel Energy’s Chief Nuclear 
+Officer ensures this by requiring strict compliance to the Emergency Plans. This plan 
+can be implemented in response to emergencies at either Monticello or Prairie Island 
+nuclear facilities.  It coordinates the resources of the NSPM/Xcel Energy and other 
+supporting departments.  The emergency response planning effort consists of three 
+phases:  
+1.   The Response 
+2.   Offsite Assistance 
+3.   The Recovery 
+The Response Phase is that period of time immediately following the classification of 
+an emergency condition.  Responses during this phase are those actions which are 
+taken by site personnel to reduce consequences of the emergency condition. Each site 
+plan directs actions during this period and is designed to interface with other response 
+plans if it becomes necessary to utilize outside assistance. 
+
+Offsite Nuclear Emergency Plan  
+Revision: 8 
+FP-EP-PLAN-01 Page 4 of 56 
+ 
+ 
+The Offsite Assistance Phase commences when organizations other than the affected 
+sites are used to assist the site in response to the emergency. The response effort 
+described in this Plan is designed for the Offsite Assistance Phase. The Monticello and 
+Prairie Island Offsite Nuclear Emergency Plan organizes the total resources of the 
+NSPM/Xcel Energy to facilitate support of the affected site. Activation of the Monticello 
+and Prairie Island Offsite Response Organization (ORO) including state, federal, and 
+local governmental response organizations are associated with this phase. 
+The Recovery Phase commences when the Emergency Director, Emergency Manager, 
+Plant Manager, and the Recovery Manager agree that all Emergency Organization 
+activities in progress can be safely transferred to the Recovery Organization, and a 
+punch list of short-term and long-term projects have been identified and prioritized, and 
+consultation has occurred with the NRC. The methodology for the transition to the 
+Recovery Phase is specified in the site Emergency Plan Implementing Procedures.   
+2.0   APPLICABILITY 
+2.1 This plan can be implemented in response to an emergency at either Monticello or 
+Prairie Island Nuclear Generating Plants.  
+3.0   RESPONSIBILITIES 
+Monticello and Prairie Island Nuclear Generating Plants will activate their respective 
+emergency organization independent of offsite assistance. The site staff is responsible 
+for taking the immediate actions to mitigate the emergency and limit the adverse 
+effects. The time taken to completely activate the Monticello or Prairie Island 
+Emergency Response Organization will not adversely affect the site's response to the 
+emergency condition.  
+The Monticello and Prairie Island Offsite Emergency Response Organization is shown 
+in  Attachment 1. Methods are established in procedures to ensure that the necessary 
+personnel are available to staff required positions or that alternates are specified.  
+The following is a description of key members of the Monticello and Prairie Island 
+Offsite Emergency Response Organization. The site emergency organizations are 
+described in the site plans. 
+
+Offsite Nuclear Emergency Plan  
+Revision: 8 
+FP-EP-PLAN-01 Page 5 of 56 
+ 
+ 
+3.1 Responsibilities of NSPM/Xcel Energy’s Offsite Emergency Response 
+Organization Positions 
+3.1.1 Xcel Energy Communications 
+This group is represented by the Xcel Energy Communications staff. Staffing of these 
+positions is ensured by use of a call list of qualified designees. The Director of 
+Communications is responsible for the management of NSPM/Xcel Energy public 
+information efforts and to advise NSPM/Xcel Energy Executive Management on public 
+affairs. The responsibilities and authorities are listed below: 
+   Provide a media representative for communication with the various media 
+personnel. 
+   Ensure that requests for public information by NSPM/Xcel Energy Executive 
+Management are acted upon.  
+   Coordinate the efforts of ERO communications personnel at corporate offices and 
+at the state EOC/JIC. 
+   Ensure that there is a timely exchange of information among spokespersons for the 
+responding agencies and that there are coordinated arrangements for dealing with 
+rumors.   
+   Ensure that requests for communications resources are acted upon in a timely 
+fashion. 
+   Ensure information flow to appropriate federal, state and local government officials 
+not directly involved in the emergency response effort. 
+   If requested by the Emergency Manager, consider dispatching a Communications 
+Representative to the site to support local Media related issues.   
+3.1.2 Executive Spokesperson 
+The Executive Spokesperson with the assistance of Technical Resource personnel will 
+be responsible for directing the efforts of NSPM/Xcel Energy personnel at the State 
+EOC and the Joint Information Center.  Additionally, this individual will be the 
+designated NSPM/Xcel Energy Spokesperson in attendance for media conferences. 
+The individual designated to fill this position will have the following responsibilities: 
+   Serve as the NSPM/Xcel Energy spokesperson for major media meetings and 
+conferences held at the Minnesota state EOC/JIC. 
+   Supply information to ERO communications personnel who develop media releases 
+at the state EOC/JIC. 
+
+Offsite Nuclear Emergency Plan  
+Revision: 8 
+FP-EP-PLAN-01 Page 6 of 56 
+ 
+ 
+   Represent NSPM/Xcel Energy at the state EOC/JIC by interfacing with state 
+officials. 
+   Ensure adequate liaison occurs between NSPM/Xcel Energy representatives and 
+state and county management. 
+   Serve on the JIC Management Committee. 
+   Establish 24-hour shift coverage for JIC Staff. 
+3.1.3 Technical Resource Staff 
+The individuals designated to fill this position will have the following responsibilities: 
+1.   Assist the Executive Spokesperson in supplying information to the ERO 
+communications personnel located at the JIC/EOC. 
+2.   Act as the Executive Spokesperson in his or her absence. 
+3.   As an NSPM/Xcel Energy technical representative, assist other personnel at the 
+JIC/EOC. 
+3.1.4 State Liaison 
+The State Liaison works for the Executive Spokesperson and is at the Executive 
+Spokespersons disposal to provide Liaison between NSPM/Xcel Energy and the State 
+Agencies. 
+The State Liaison will have the following responsibilities: 
+1.   Provide an interface between NSPM/Xcel Energy and various state agencies of 
+both Minnesota and Wisconsin. 
+2.   Assist the state in understanding NSPM/Xcel Energy’s response efforts to the 
+emergency situation. 
+3.   Facilitate the answering of any questions the state has concerning NSPM/Xcel 
+Energy's response efforts. 
+4.   Ensure that information being provided to the state accurately reflects the actual 
+emergency situation. 
+
+Offsite Nuclear Emergency Plan  
+Revision: 8 
+FP-EP-PLAN-01 Page 7 of 56 
+ 
+ 
+5.   Ensure that information originating from the state accurately reflects the actual 
+emergency situation. 
+3.1.5 Emergency Planning County Liaisons 
+The County Liaisons work with the State EP Liaison and assist that person by 
+providing Liaison between NSPM/Xcel Energy and the County Agencies. 
+The County Liaison Representatives will have the following responsibilities: 
+1.   Keep the State EP Liaison informed of issues brought up by County EOC staff 
+and the media at County PIO briefings. 
+2.   Provide assistance to the County EOC Operations Chief as requested. 
+3.   Attend County press briefings as time permits. 
+4.   Keep informed of activities in progress at the County EOC. 
+5.   If requested by County EOC Operations Chief, contact State EP Liaison to 
+resolve rumors and/or validate information concerning site status.   
+6.   Assist Sheriff's Office representative in becoming aware of site shift change 
+times, clearance of NSPM/Xcel Energy staff through roadblocks, or with other 
+requests.  
+3.1.6 Security Advisor at the State Emergency Operations Center 
+The Security Advisor works with the Executive Spokesperson when security issues are 
+concerns in the event. 
+The individual assigned to fill this position will have the following responsibilities: 
+1.   Provide the Executive Spokesperson with pertinent security information. 
+2.   Act as NSPM/Xcel Energy’s security liaison with the State of Minnesota. 
+
+Offsite Nuclear Emergency Plan  
+Revision: 8 
+FP-EP-PLAN-01 Page 8 of 56 
+ 
+ 
+4.0   DEFINITIONS 
+4.1 Annually 
+Annually is defined as one calendar year (January – December).   
+4.2 Monthly 
+Monthly is defined as one month ± 1 week.   
+4.3 Offsite Nuclear Emergency Plan 
+Provides supplementary direction and guidance for the NSPM/Xcel Energy Monticello 
+and Prairie Island Emergency Response Organization including Site emergency plans 
+and implementing procedures. 
+4.4 Recovery Phase 
+The recovery phase should occur only after at least one fission product barrier is in 
+place, the site is not making any radioactive releases to the environs greater than 
+technical specification limits, and the site is stable, with very little potential for future 
+degradation. 
+4.5 Plant Management 
+The affected site's Vice President and their direct reports. 
+4.6 Corporate Management 
+Those members of NSPM/Xcel Energy management below the Vice President level.  
+4.7 Executive Management 
+Those members of NSPM/Xcel Energy management at the Vice President level and 
+above.   
+4.8 Corporate NSPM/XCEL ENERGY Offices 
+The administrative offices of NSPM/Xcel Energy located at Xcel Energy's General 
+Office, Minneapolis, Minnesota. 
+
+Offsite Nuclear Emergency Plan  
+Revision: 8 
+FP-EP-PLAN-01 Page 9 of 56 
+ 
+ 
+4.9 Nuclear Emergency Preparedness Group 
+The NSPM/Xcel Energy group that is responsible for overall emergency preparedness 
+including the interfacing with the governmental entities involved in emergency planning.  
+Other NSPM/ Xcel Energy departments have emergency preparedness responsibilities 
+as specified by this Plan or its Implementing Procedures. 
+4.10 Communications Department 
+Xcel Energy communications staff are responsible for providing public information.  
+4.11 Offsite Officials 
+Those elected or appointed officials responsible for Federal (e.g., NRC, FEMA), State, 
+and local government functions.   
+4.12 Emergency Director 
+The affected site's Plant Manager or his designee. This individual has responsibility for 
+managing the onsite emergency organization and initial efforts external to the site until 
+the near site EOF Emergency Response Organization is activated and the Emergency 
+Manager assumes control. 
+4.13 Emergency Manager 
+The Emergency Manager has the authority and responsibility for the Management of 
+NSPM/Xcel Energy response to an emergency. This individual will assume control at 
+the Emergency Operations Facility (EOF) or Backup EOF and direct the NSPM/Xcel 
+Energy response efforts. 
+4.14 Recovery Manager 
+This person is responsible for the implementation of the Recovery Phase.  This 
+individual will perform tasks as directed by the Emergency Manager, but will primarily 
+be responsible for establishing the Recovery Organization and preparing for the long 
+term recovery effort. 
+4.15 Advisory / Technical Support Group 
+This group is made up of selected personnel.  They will provide a pool of personnel 
+who are familiar with NSPM/Xcel Energy’s Monticello or Prairie Island facilities, Off-site 
+procedures, and available resources. 
+
+Offsite Nuclear Emergency Plan  
+Revision: 8 
+FP-EP-PLAN-01 Page 10 of 56 
+ 
+ 
+4.16 Sister Site 
+The sister site is the unaffected NSPM/Xcel Energy nuclear site. The sister site to 
+Monticello is Prairie Island, and the sister site to Prairie Island is Monticello.   
+4.17 Near-Site Emergency Operations Facility (EOF) 
+Once activated, the Near-site Emergency Operations Facility will serve as the affected 
+Plant’s base for control of offsite emergency response activities.   
+4.18 Technical Support Center (TSC) 
+The onsite Technical Support Center provides a central area outside of the control 
+room that functions as a command and control center for the coordinated onsite 
+emergency response during emergency conditions. 
+4.19 Operational Support Center (OSC) 
+The Operational Support Center will provide a center to assemble the necessary 
+Operators, Radiation Protection Specialists, Instrument Control, Electrical, and 
+Maintenance personnel to support the operations of the site under emergency 
+condition without causing undue congestion in the Control Room.   
+4.20 State Emergency Operations Centers (SEOC) 
+These are the command and control centers for the State(s) of Minnesota and 
+Wisconsin.  Situation, evaluations and coordinated protective action recommendations 
+will be maintained between county EOCs, the state EOCs, and the site EOF. 
+4.21 County Emergency Operations Centers (local EOCs) 
+These response centers provide command and control functions and are the central 
+point of coordination for county and local emergency response organizations.   
+4.22 Monticello and Prairie Island’s Off-Site EMERGENCY RESPONSE Organization. 
+Those individuals assigned duties and responsibilities located at the JIC, and County 
+and State EOCs.  This Organization is comprised of various NSPM/Xcel Energy 
+personnel. 
+4.23 Joint Information Center (JIC) 
+A facility where designated spokespersons from federal, state, local, tribal and 
+NSPM/Xcel Energy personnel will issue media releases.  
+
+Offsite Nuclear Emergency Plan  
+Revision: 8 
+FP-EP-PLAN-01 Page 11 of 56 
+ 
+ 
+4.24 Emergency Response Organization Notification Systems (ERONS) 
+An automated notification system that is used for ERO activation and augmentation. 
+This system is initiated by the sites for a declared emergency and utilizes a variety of 
+communication methods to contact the ERO. 
+5.0   REQUIREMENTS 
+5.1 Concept of Operations 
+The emergency plans for the Monticello and Prairie Island fixed nuclear facilities are 
+designed to be implemented independently of offsite support.  However, it is the 
+purpose of the Monticello and Prairie Island Offsite Nuclear Emergency Plan to 
+augment the Onsite Emergency Response Organization with additional resources as 
+soon as possible. The Monticello and Prairie Island Offsite Nuclear Emergency Plan is 
+designed to be implemented in an incremental manner, as site needs dictate. For 
+emergency conditions that are classified as Unusual Events, the response will be 
+limited to supplying offsite assistance in the areas of public information (Xcel Energy’s 
+Communications Department) and liaison to state and local officials.  During an “Alert”, 
+“Site Area Emergency”, or “General Emergency” NSPM/Xcel Energy Monticello and 
+Prairie Island Offsite Emergency Response Organization will be activated.  This 
+activation will be accomplished through use of the automated Emergency Response 
+Organization Notification System (ERONS) which is initiated by the site.  
+The individuals assigned to the Offsite Emergency Response Organization as well as 
+their duties and responsibilities are identified in the Monticello and Prairie Island Offsite 
+Nuclear Emergency Plan Implementing Procedures.   
+The Monticello and Prairie Island Offsite Nuclear Emergency Plan coordinates the 
+resources of several utility, NSPM/Xcel Energy departments and various outside 
+agencies.  These organizations have each developed emergency planning documents 
+to support their respective functions in the event of a nuclear incident at Monticello or 
+Prairie Island nuclear sites. The Monticello and Prairie Island Offsite Nuclear 
+Emergency Plan is implemented depending on the severity and location of the incident, 
+in conjunction with one or more of the following emergency plans: 
+1.   Monticello Nuclear Generating Plant Emergency Plan.   
+2.   Prairie Island Nuclear Generating Plant Emergency Plan.   
+3.   State of Wisconsin Emergency Response Plan (applicable for PI Site only)   
+4.   Pierce County Emergency Operations Plan (applicable for PI Site only).  
+
+Offsite Nuclear Emergency Plan  
+Revision: 8 
+FP-EP-PLAN-01 Page 12 of 56 
+ 
+ 
+5.   State of Minnesota Emergency Operations Plan. 
+6.   State of Minnesota Local Government Emergency Response Plans for Nuclear 
+Generating Plants. 
+   City of Red Wing/Goodhue County Emergency Response Plan for the Prairie 
+Island Nuclear Generating Plant.   
+   Dakota County Emergency Response Plan for an Incident at the Prairie Island 
+Nuclear Generating Plant.   
+   Wright County Emergency Response Plan for the Monticello Nuclear 
+Generating Plant.   
+   Sherburne County Emergency Response Plan for the Monticello Nuclear 
+Generating Plant. 
+7.   Prairie Island Indian Community (applicable for PI Site only). 
+Additionally, "Letters of Agreement" have been obtained from various other offsite 
+agencies and corporations.  These letters specify pre-existing arrangements to support 
+NSPM/Xcel Energy or state and local government actions during an emergency 
+condition. A list of these letters is provided in Attachment 5 of this Plan.  
+5.2 Emergency Classification System  
+At the Monticello and Prairie Island Nuclear Generating facilities, emergencies are 
+classified into one of four categories. Each succeeding category increases in level of 
+severity and requires an increased amount of participation by onsite and offsite 
+personnel. For each emergency category, key personnel within NSPM/Xcel, Federal, 
+State, Tribal and local organizations will be notified.  They will, in turn, activate their 
+respective emergency organizations according to their individual plans based on the 
+conditions of the emergency. 
+
+Offsite Nuclear Emergency Plan  
+Revision: 8 
+FP-EP-PLAN-01 Page 13 of 56 
+ 
+ 
+Each classification provides a known boundary concerning the severity of the 
+emergency condition. All NSPM/Xcel, Federal, State and local organizations accept 
+this classification system and recognize the bounds of severity of the categories. 
+Associated with this classification system are recommended guidelines for protective 
+actions to be implemented by State and local offsite authorities.  Various events could 
+initially be classified in one category and later be reclassified, as better defined and 
+more complete information becomes available. The emergency classification system is 
+constructed to provide a smooth transition between categories. The mechanism to 
+classify any single event or group of events or conditions into one of the above 
+categories is contained in the respective Site Emergency Plan Implementing 
+Procedures. In general, the individual who is functioning as the Emergency Director is 
+responsible to classify all emergency conditions.  In certain situations it is possible that 
+the offsite organization may have data which would confirm an emergency 
+classification or precipitate a reclassification. In order to preclude erroneous 
+reclassification, after the EOF Emergency Response Organization is fully activated and 
+has assumed responsibility for offsite activities, all changes in classification must have 
+the concurrence of the Emergency Manager. 
+Monticello and Prairie Island Nuclear Generating Plant Emergency Plan Implementing 
+Procedures contain specific parameter values and equipment status for each 
+emergency class as a convenient cross reference. 
+5.2.1 Classification System  
+Emergency situations are classified according to severity, taking into consideration 
+potential as well as actual events in process.  The four classifications are as follows: 
+1.   Notification of Unusual Event (Unusual Event) 
+2.   Alert 
+3.   Site Area Emergency 
+4.   General Emergency 
+Methodologies for Classification of Emergencies are found in the Site Emergency 
+Plans. 
+
+Offsite Nuclear Emergency Plan  
+Revision: 8 
+FP-EP-PLAN-01 Page 14 of 56 
+ 
+ 
+5.3 Facilities and Equipment 
+5.3.1 Description of NSPM/Xcel Energy’s Offsite Facilities 
+1.   Backup Emergency Operations Facility (BUEOF) 
+This facility is approximately 1400 sq. ft. in area and is located in conjunction with 
+Xcel Energy’s general offices in Minneapolis. The primary purpose of this facility 
+is to serve as the Backup EOF in the event that the near site EOF becomes 
+uninhabitable or security issues exist. 
+2.   Near-site Emergency Operations Facility (EOF) 
+The Emergency Operations Facility is activated during "Alert", "Site Area 
+Emergency" and "General Emergency" conditions.  The purpose of the EOF is to 
+provide a command and control center for the utilities offsite emergency activities 
+concerned with identifying and limiting the consequences of the emergency 
+conditions.  The EOF is located in the Plant Training Center which also contains 
+administrative offices for the Training Department and the plant simulator.  
+For Monticello, the EOF is located approximately 1 mile south-southeast of the 
+plant within the city of Monticello. For Prairie Island, the EOF is located 
+approximately 1/2 mile west of the plant.  
+A more detailed description of the EOF facilities are contained in the Monticello 
+and Prairie Island Nuclear Generating Plant Emergency Plans. 
+5.3.2 On-Site Plant Emergency Centers 
+There are two emergency centers at each plant, the onsite Technical Support Center 
+and the onsite Operational Support Center.  Alternative Response Facilities have been 
+designated when ERO response to the onsite centers is not appropriate due to the 
+nature of the site event. Detailed descriptions of these centers are included in the 
+specific site plans. 
+
+Offsite Nuclear Emergency Plan  
+Revision: 8 
+FP-EP-PLAN-01 Page 15 of 56 
+ 
+ 
+5.3.3 Governmental Facilities 
+1.   Minnesota State Emergency Operations Center (EOC) 
+The State EOC is the command and control center for the state. Coordination will 
+be maintained between County EOCs and the State EOC for situation evaluation 
+and protective actions. Federal agencies assigned responsibilities in the event of 
+a nuclear power plant accident, regardless of location, will maintain coordination 
+with the State EOC.  State agencies assigned responsibilities for emergency 
+functions will provide required personnel at the State EOC. In most instances, 
+when the state EOC is activated a licensee Executive Spokesperson will be in 
+attendance. The Executive Spokesperson will have an office at the EOC equipped 
+with communication channels (voice & telecopy) to interface with key licensee 
+facilities including the EOF.   
+2.   Wisconsin State Emergency Operations Center (EOC) 
+For emergencies at Prairie Island, the Wisconsin EOC in Madison will be 
+activated and will serve as a command and control center for Wisconsin response 
+activities. The Wisconsin EOC in Madison will coordinate communications with 
+the Pierce County (Wisc) EOC in Ellsworth and the Joint Information Center (JIC) 
+in St. Paul, Minnesota. 
+3.   County Emergency Operations Centers (EOC) 
+The county EOCs are command and control centers for the local emergency 
+response organizations. They are located in the following buildings:  
+   Goodhue County Law Enforcement Building.   
+   Dakota County Government Center. 
+   Pierce County Emergency Management Office in the Ellsworth Courthouse 
+Annex. 
+   Wright County Courthouse. 
+   Sherburne County Government Building.   
+The County EOC receives primary direction from the State EOC and coordinates 
+the local emergency response activities. The agencies assigned responsibilities in 
+the county emergency response organization will provide the required personnel 
+to the county EOCs.  
+
+Offsite Nuclear Emergency Plan  
+Revision: 8 
+FP-EP-PLAN-01 Page 16 of 56 
+ 
+ 
+4.   Joint Information Center (JIC) 
+The State of Minnesota has established a JIC, which will be activated jointly with 
+the State EOC. The JIC is located in the Saint Paul-Minneapolis area and the 
+major Minnesota news media are also headquartered in this area. The State of 
+Wisconsin officials are aware of this arrangement and are prepared to send 
+representatives.  
+5.3.4 Communication Links 
+The equipment in each site Emergency Response Facility is specified in their 
+Emergency Plans. The equipment in the Backup EOF is described in Attachment 2. 
+5.4 Emergency Response 
+Emergency response activities performed through the Monticello and Prairie Island 
+Offsite Emergency Response Organization are predicated on the fact that each site is 
+able to operate independently for several hours during an emergency. Since the Offsite 
+Emergency Response Organization can be activated within approximately 2 hours, 
+adequate support is available, should the site require it.  
+5.4.1 Activation 
+1.    Activation/Site 
+The Shift Manager/Emergency Director is responsible for activating the site 
+Emergency Response Organization in accordance with site Emergency Plan 
+Implementing Procedures.  A detailed description of the site activation process is 
+contained in the applicable Site Emergency Plan. 
+2.  Activation/Offsite 
+The NSPM/Xcel Energy Monticello and Prairie Island Offsite Emergency 
+Response Organization can be activated within about 2 hours of notification. The 
+Site Plan Implementing Procedures provide for the notification of the Offsite 
+Emergency Response Organization (ERO). The automated Emergency Response 
+Organization Notification System (ERONS) will notify the Offsite ERO in the event 
+of a declared emergency in accordance with the Offsite Emergency Plan 
+Implementing Procedure. 
+
+Offsite Nuclear Emergency Plan  
+Revision: 8 
+FP-EP-PLAN-01 Page 17 of 56 
+ 
+ 
+5.4.2 Planned Response Action 
+1.  Response/Site 
+The Site Emergency Response Organization is activated immediately after the 
+Shift Manager declares an emergency condition as described in site plans.  At this 
+declaration, the Shift Manager becomes the Emergency Director until he is 
+formally relieved of that responsibility according to the site Emergency Plan 
+Implemen
+ting Procedures. As Emergency Director, several emergency response 
+actions are pre-planned in the site plan and procedures. These actions include 
+steps that initiate the activation process for the site Emergency Response 
+Organization. 
+2.    Response/ Monticello and Prairie Island Offsite 
+The Xcel Energy Security Operations Center (SOC) is continuously manned at 
+Xcel Energy’s General Office.  When notified of an emergency condition, the SOC 
+will initiate the conference call mass notification application(s) to establish a 
+management conference call. 
+As part of the site’s ERONS, offsite ERO are also notified who will respond to 
+their assigned ERF and initiate Offsite Emergency Plan Implementing 
+Procedures. The notified personnel have assigned duties that, when 
+implemented, provide for an operational group of personnel at the JIC. 
+3.    Response/Vendor/Consultant 
+There are two primary vendors that are involved with emergency response 
+planning for Monticello and Prairie Island Sites. They are: General Electric Co. 
+(GE) for Monticello and Westinghouse (W) for Prairie Island. At the request of the 
+Emergency Manager, these companies will provide assistance.  
+The response actions which may be requested involve the following: 
+   Personnel 
+   Technical analysis 
+   Operational analysis 
+   Accident/transient analysis 
+Other vendors or consultants will be requested to provide assistance as needed. 
+
+Offsite Nuclear Emergency Plan  
+Revision: 8 
+FP-EP-PLAN-01 Page 18 of 56 
+ 
+ 
+4.    Assistance from Other Utilities 
+Under an emergency, it may be desirable to call on the resources (personnel and 
+equipment) of other nuclear utilities, outside of NSPM/Xcel Energy. Such a 
+request may be made by the sites using the INPO Emergency Resource Manual.  
+5.    Response/Support and Resources 
+The Minnesota Department of Homeland Security and Emergency Management 
+(HSEM) and the Wisconsin Emergency Management (WEM) are the state 
+agencies which are responsible for the overall direction of the state emergency 
+response efforts. The HSEM and WEM will activate their Emergency Operation 
+Centers and deploy their personnel and resources, in accordance with the State 
+of Minnesota Emergency Operations Plan, and the Wisconsin Emergency 
+Response Plan respectively. These plans include written messages intended for 
+the public which are consistent with the emergency classification scheme and 
+give the public instruction regarding suitable protective action. The Public 
+Emergency Planning Education Program (described in Section 5.5) will familiarize 
+the public in the proper response to these pre-planned messages.  
+The Federal Department of Energy Radiological Assistance Program is available 
+for monitoring assistance and radiological advice to the Minnesota Department of 
+Health (MDH), Section of Radiation Control, and the Wisconsin Department of 
+Health Services (DHS), section of Radiation Protection.   
+The Department of Energy (DOE) is the coordinating agency for the Federal 
+Emergency Response Plan (FERP). Regional Coordinating offices are assigned 
+geographic responsibilities for incidents in their region. Their objective is to rapidly 
+dispatch specialists to the incident site, evaluate the hazard, take recommended 
+action to counteract and control any acute hazard, and establish communications 
+with local authorities and the press. The Regional Coordinating Offices will 
+respond to requests for radiological assistance from the NSPM/Xcel Energy, 
+federal, state, and local agencies, and would implement the FERP. The 
+Emergency Manager will, if necessary, coordinate with the Health Department(s) 
+any request for DOE assistance. Federal assistance teams will be supplied 
+operating quarters, support, and resources by the State EOC(s).  
+
+Offsite Nuclear Emergency Plan  
+Revision: 8 
+FP-EP-PLAN-01 Page 19 of 56 
+ 
+ 
+5.5 Public Information 
+5.5.1 Public Emergency Planning Education 
+NSPM/Xcel Energy, in coordination with state, county and local officials, annually 
+provides the general public (including transients) with information concerning the 
+methods of public notification and what individual actions should be taken during an 
+emergency. This information may include:   
+   methods of public notification 
+   possible protective actions 
+   general information as to the nature and effects of radiation 
+   contact points for additional information 
+   special needs for the handicapped 
+   registration cards for the mobility impaired. 
+Methods for disseminating the information may include calendars, brochures, annual 
+publications, public postings and/or meetings. Dissemination of information to the 
+public is coordinated with state and local agencies. 
+5.5.2 Media Information 
+The Xcel Energy Communications Department has communications procedures to 
+ensure prompt communications between Xcel Energy or NSPM and principal media 
+organizations.  
+At least once a year, both states will conduct training programs or send mailings to 
+acquaint the news media with the emergency plans and to provide information 
+concerning radiation and points of contact for release of public information in an 
+emergency. NSPM/Xcel Energy has input to this process. 
+NSPM/Xcel Energy have established procedures for informing the news media when a 
+nuclear power plant is removed from service and delineate additional responsibilities 
+during a serious nuclear accident. Primary responsibility for implementation of the 
+program rests with the Xcel Energy Communications Department after notification by 
+the site. Release of information to the news media and the scheduling of news 
+conferences SHALL have the review and concurrence of the Executive Spokesperson.  
+
+Offsite Nuclear Emergency Plan  
+Revision: 8 
+FP-EP-PLAN-01 Page 20 of 56 
+ 
+ 
+5.5.3 NSPM/Xcel Energy And Xcel Energy Employee Information 
+It is desirable that NSPM/Xcel Energy employees be aware of the current status during 
+an emergency. This ensures employees do not inadvertently start rumors.  Methods of 
+employee communication are delineated in the Communications Program and may 
+consist of the following:   
+   Electronic mail  
+   Public address announcements  
+   Daily news services - print and phone 
+   Employee meetings 
+5.6 Emergency Organization Interfaces 
+The purpose of this section is to specify communications interfaces between the 
+Emergency Response Organization and various organizational entities within and 
+outside of NSPM/Xcel Energy. 
+After notification of an emergency condition is made to offsite officials, the state, and 
+applicable county emergency operations centers, the associated response teams will 
+be activated, in accordance with the appropriate State Emergency Plans. Designated 
+NSPM/Xcel Energy personnel will make periodic status reports of site conditions to 
+offsite officials.  Meteorological data, survey results, projected doses and protective 
+action recommendations will be provided to offsite officials. 
+The final decision concerning what protective actions will be implemented on behalf of 
+the public rests with the Governor of each State. Designated Utility officials will make 
+recommendations (see site plans) but the State of Minnesota (and/or Wisconsin & 
+Prairie Island Indian Community) is responsible for issuing protective actions decisions 
+(PADs). If necessary for a fast developing incident, the States’ Plan provides for the 
+contingency that the site may recommend immediate protective actions to offsite 
+officials. 
+5.7 Recovery Phase 
+The process of Recovery Phase is defined in the specific site plans. 
+
+Offsite Nuclear Emergency Plan  
+Revision: 8 
+FP-EP-PLAN-01 Page 21 of 56 
+ 
+ 
+5.8 Exercises, Drills and Training 
+5.8.1 Exercises 
+Periodic exercises and drills are conducted to evaluate major portions of emergency 
+response capabilities, maintain capabilities and identify deficiencies that form the basis 
+for corrective action. These exercises serve to develop and maintain key skills in the 
+course of emergency response.   
+An exercise is a real-time simulated event that tests the integrated capability of the 
+ERO and a major portion of the five basic elements existing within emergency 
+preparedness plans. The emergency preparedness exercise simulates an emergency 
+that results in potential offsite radiological releases which would require response by 
+offsite authorities.   
+The five basic elements are: 
+1.   Initial Response Activities  
+   Identify and classify emergency 
+   Notify and communicate conditions 
+   Activate organizations and facilities 
+   Control facility access 
+2.   Emergency Response Activities 
+   Assess accidents 
+   Mitigate accidents 
+   Recommend protective actions 
+3.   Radiological Response Activities 
+   Sample/analyze plant air/liquids 
+   Monitor onsite radiological conditions 
+   Control emergency radiation exposure 
+   Monitor offsite radiological conditions 
+4.   Assembly and Accountability Activities 
+
+Offsite Nuclear Emergency Plan  
+Revision: 8 
+FP-EP-PLAN-01 Page 22 of 56 
+ 
+ 
+5.   Offsite Interface Activities 
+The specifics of conducting Emergency Preparedness drills or exercises are found in 
+Emergency Preparedness Drill and Exercise Manual. When integrated exercises are 
+conducted, the scope will be expanded to also include appropriate State and local 
+government agencies as well as the JIC. Each site SHALL exercise with offsite 
+authorities such that the State and local government emergency plans for each 
+operating reactor site are exercised at least biennially, with full
+1
+ or partial participation
+2
+ 
+by State(s) and local governments, within the plume exposure pathway EPZ. The level 
+of participation SHALL be as follows: 
+   At a minimum, each State, within an Ingestion Pathway Zone (IPZ), SHALL 
+exercise its plans and preparedness related to ingestion exposure pathway 
+measures at least once every 8 years. The States of Minnesota and Wisconsin 
+should rotate this participation from between Monticello and Prairie Island sites.  
+Local governments having ingestion pathway responsibilities should also 
+participate.  At a minimum, local entities should, during the year the full participation 
+ingestion exercise is held, review their plans and procedures to verify their 
+accuracy and completeness. 
+   The Utility should enable any State or local governments, located within the plume 
+exposure pathway EPZ, to participate in annual full scale exercises when 
+requested by such State or local government. 
+The need for a remedial exercise under 10 CFR Part 50, Appendix E, Section IV.F.2.f 
+will be determined on a case-by-case basis when any of the following conditions 
+associated with a biennial exercise occurs:  
+   Confidentiality is compromised to an extent that broadly affects ERO performance  
+   The scenario does not provide the opportunity for demonstration of key skills; the 
+scenario is not implemented in such a way that provides the opportunity for 
+demonstration of key skills. 
+                                                
+ 
+1
+ “Full participation” when used in conjunction with emergency preparedness exercises for  
+  a particular site means appropriate offsite local and state authorities and licensee  
+  personnel physically and actively take part in testing their integrated capability to   
+  adequately assess and responded to an accident at a commercial nuclear power plant.  
+  “Full participation” includes testing the major observable portions of the onsite and offsite  
+  emergency plans and mobilization of state, local and licensee personnel and other  
+  resources in sufficient numbers to verify the capability to respond to the accident   
+  scenario. 10 CFR Part 50 Appendixes E, Footnote #4.  
+  
+ 
+2
+ “Partial Participation” when used in conjunction with emergency preparedness exercises  
+  for a particular site means appropriate offsite authorities SHALL actively take part in the  
+  exercise sufficient to test direction and control functions, i.e., (a) protective action  
+  decision making related to emergency action levels, and (b) communication capabilities  
+  among affected state and local authorities and the licensee. 10 CFR Part 50 Appendix  
+  E, Footnote #5   
+
+Offsite Nuclear Emergency Plan  
+Revision: 8 
+FP-EP-PLAN-01 Page 23 of 56 
+ 
+ 
+   ERO performance does not provide the NRC with a basis to determine that key 
+skills have been maintained. 
+   The extent of participation in a remedial exercise will also be determined on a case-
+by-case basis since only portions of the response may need to be re-demonstrated. 
+NSPM/Xcel Energy participants in drills and exercises SHALL be assigned from the 
+staff listings in the Nuclear Emergency Preparedness Telephone Directory.   
+Controllers in drills and exercises should be trained in the Emergency Response 
+Organization to which they are assigned duties. 
+Official controllers from Federal, State or local governments will observe, evaluate, and 
+critique the required exercises.  A critique SHALL be scheduled at the conclusion of the 
+exercise to evaluate each organization's ability to respond as called for in the 
+Emergency Plan.  The critique SHALL be conducted as soon as practicable after the 
+exercise, and a formal evaluation should result from the critique.  
+Controller and participant comments should be evaluated, and corrective actions will 
+be established by management control to ensure that Emergency Plan or 
+Implementing Procedures are changed as required. 
+The exercise will be varied from year to year so as to test all major components of the 
+plans and preparedness organizations, which may include federal emergency 
+response agencies, within the applicable exercise cycle (8 years).  Provisions should 
+be made to start a drill or exercise between 6:00pm and 4:00am at least once in every 
+exercise cycle. Some drills or exercises should be unannounced. 
+The details concerning scheduling, conduct and critique of drills and exercises are 
+specified in site specific procedures. 
+5.8.2 Drills 
+A drill is a supervised instruction period aimed at testing, developing and maintaining 
+skills in a particular operation.  A drill is often a component of an exercise.  Each drill is 
+supervised and evaluated by a qualified drill coordinator.  The utility will conduct drills 
+at intervals specified in site specific procedures and their respective Drill and Exercise 
+Manual. 
+
+Offsite Nuclear Emergency Plan  
+Revision: 8 
+FP-EP-PLAN-01 Page 24 of 56 
+ 
+ 
+5.8.3 Training 
+NSPM/Xcel Energy will assure that radiological emergency response training is 
+provided to those who may be called upon to assist in an emergency. Training will also 
+be provided for the person(s) designated as responsible for the planning effort. 
+1.   Qualification of and training for the Monticello and Prairie Island Offsite 
+Emergency Response Organization consists of initial overview training and 
+position specific training. The training program for site and EOF ERO members is 
+described in the site specific procedures. 
+2.   Initial Overview Training 
+Training SHALL introduce the EP personnel to the basis for nuclear power plant 
+radiological emergency preparedness.  It should include: 
+a.   Protective Action Recommendations 
+b.   Emergency Action Levels and Classifications 
+c.   Introduction to Emergency Plans of Monticello, Prairie Island and local 
+Government 
+d.   Emergency Response Organization and Communication 
+e.   EP Objectives 
+3.   Position specific training SHALL qualify the EP personnel in the position for which 
+they have been nominated. It should include: 
+a.   Detailed review of applicable procedures 
+b.   Opportunity to practice the role of nominated position 
+c.   Mini-drill or table top simulations/discussions 
+The Utility will assist in the training of those offsite emergency organizations who may 
+be called upon to provide assistance in the event of an emergency.  Each offsite 
+response organization will participate in and receive training which will be coordinated 
+by the appropriate governmental agencies. 
+
+Offsite Nuclear Emergency Plan  
+Revision: 8 
+FP-EP-PLAN-01 Page 25 of 56 
+ 
+ 
+Where mutual aid agreements exist between local agencies such as fire, police, 
+ambulance/rescue, and other departments that are members of the mutual aid district, 
+training will also be offered. 
+Annual training for hospital personnel, ambulance/rescue and fire departments will 
+include the procedures for notification, basic radiation protection and the appropriate 
+Implementing Procedures.  For local services and support organizations who may 
+enter the site, training will include orientation to site access procedures and to the 
+onsite emergency organization that will control the support activities. 
+All emergency organization members will be required to periodically participate in drills 
+and exercises in which each person demonstrates the ability to perform his assigned 
+tasks in an emergency situation. 
+Personnel who implement radiological facets of the Emergency Response Plan will 
+receive a training program to qualify them, per the Implementing Procedures that 
+pertain to surveys, accident assessment, decontamination, and emergency mitigation. 
+Training was presented initially when all plans and procedures were finalized, and 
+re-training will be conducted annually in accordance with the Emergency Response 
+Training Plans. Emergency response personnel will be trained for the following 
+categories: 
+1.   Directors or Coordinators of the Emergency Response Organizations 
+2.   Accident assessment personnel 
+3.    Radiological monitoring teams and radiological analysis personnel 
+4.   Security and fire-fighting personnel 
+5.   Personnel responsible for transmission of emergency information and instructions 
+6.   Onsite repair and damage control teams 
+7.   First aid and rescue personnel 
+8.   Medical support personnel 
+9.   Local law enforcement personnel 
+10.  Local Civil Defense/Emergency Service personnel 
+
+Offsite Nuclear Emergency Plan  
+Revision: 8 
+FP-EP-PLAN-01 Page 26 of 56 
+ 
+ 
+11.  Media personnel 
+12.  State Government Agencies 
+5.9 Maintenance of Plans and Procedures 
+5.9.1 Review of Plans 
+In accordance with 10CFR 50.54(t) the Utilities Procedures and Surveillances provide 
+for the conduct of an annual independent adequacy review of the Monticello and 
+Prairie Island Offsite Emergency Preparedness Program.  (The independent review 
+may be conducted by either an internal or external organization.)  Individuals who have 
+no direct responsibility for implementation of the Emergency Preparedness Program 
+will conduct the review.  The review will include the Emergency Plans, Implementing 
+Procedures, training, readiness testing, interface with state and local organizations, 
+and equipment.  Management controls will be implemented for evaluation and 
+correction of review findings.  The result of the review will be documented, reported to 
+appropriate organizational management and retained for a period of 6 years.  The part 
+of the review involving the evaluation for adequacy of interface with state and local 
+governments SHALL be made available to the appropriate state and local 
+governments. 
+In addition, the Utility will review and update plans and procedures as needed and they 
+will be certified to be current on an annual basis. The update will take into account 
+changes identified during drills and exercises. Other reviews of the Emergency Plan 
+and Implementing Procedures will be performed as required by Technical 
+Specifications. 
+5.9.2 Control of Plans and Procedures 
+Emergency Plans and approved changes will be distributed in a controlled manner. 
+Assigned copies of state and local plans, required at specific locations within the 
+NSPM/Xcel Energy organization, will be updated in the same controlled manner. When 
+making revisions to the Monticello and Prairie Island Off-site Nuclear Emergency Plan, 
+the section of the plan containing the changes will be revised and issued as a whole. 
+The plan will be marked (side barred) to show where changes have been made. The 
+review, revision and issuance of controlled copies of the Nuclear Emergency Plans will 
+be conducted in accordance with standard Utility procedures for document control. 
+
+Offsite Nuclear Emergency Plan  
+Revision: 8 
+FP-EP-PLAN-01 Page 27 of 56 
+ 
+ 
+5.9.3 Surveillance Program 
+A Surveillance Program has been developed to ensure that Monticello and Prairie 
+Island Offsite Nuclear Emergency Plan facilities and procedures are in a current state 
+of readiness.  Communication links with federal, state, and county governments are 
+tested monthly and inventories of equipment are conducted quarterly. Surveillances 
+have also been prepared to conduct the annual independent review, quarterly 
+inventory, and the quarterly updating of emergency response telephone numbers. The 
+Emergency Planning Zone (EPZ) brochure/calendar, Ingestion Planning Zone (IPZ) 
+brochure, and handouts for transients are reviewed annually and updated, as needed. 
+5.10 Emergency Medical Plan 
+5.10.1 Emergency Medical Plan Objective 
+The purpose of this section is to provide an overview of the process to be followed to 
+ensure that prompt, effective and complete medical assistance is available to a nuclear 
+power plant employee in the event of an accident involving an injury or illness which 
+may be complicated by radiation exposure and/or contamination. 
+To provide the best medical treatment possible for its employees, the Utility has made 
+arrangements with certain off-site medical facilities to care for radiation complicated 
+injuries or illnesses.  Because these facilities have special equipment, expertise and 
+training, these facilities will be used for this infrequent, but specialized patient care.  
+Any referral of NSPM/Xcel Energy employees outside of this off-site medical system 
+will be done at the direction of the Utility Medical Review Officer, the patient's request, 
+the patient's authorized representative, or per the hospital's mutual aid and transfer 
+agreements with hospitals appropriate to the patient needs and acuity. 
+For Monticello Nuclear Generating Plant, the principle off-site medical support consists 
+of: 
+   CentraCare Health EMS (ambulance) Monticello, MN 
+   CentraCare Health, Monticello, MN 
+   North Memorial Medical Center, Robbinsdale, MN 
+   Regions Hospital, St. Paul, MN 
+   St. Cloud Hospital (CentraCare) St. Cloud, MN 
+
+Offsite Nuclear Emergency Plan  
+Revision: 8 
+FP-EP-PLAN-01 Page 28 of 56 
+ 
+ 
+For Prairie Island Nuclear Generating Plant the principle off-site medical support 
+consists of: 
+   Red Wing Fire and Ambulance Service 
+   Mayo Clinic Health System-Red Wing, MN 
+   Regions Hospital, St. Paul, MN 
+   North Memorial Medical Center, Robbinsdale, MN 
+5.10.2 Activation/Plant 
+1.   The Shift Manager/Emergency Director is responsible for assessing the extent of 
+injuries, radiation exposure and/or contamination that an individual may have 
+received during their shift. Their assessment of the personnel, injured with or 
+without radiation exposure or contamination, is to include the need for offsite 
+medical assistance. The Shift Manager/Emergency Director can use any member 
+of the Corporate Medical staff to evaluate the extent of such injuries, if such an 
+individual is available. Additionally, the Shift Manager/Emergency Director can 
+use any available Health Physics expertise to evaluate the victim’s radiation 
+exposure or contamination. Once the Shift Manager/Emergency Director has 
+determined that off-site medical assistance is necessary, it is their responsibility 
+to ensure that the local medical hospital and ambulance group are contacted, in 
+accordance with the Plant Emergency Implementing Procedures, to arrange for 
+transportation of the victims. 
+2.   The Plant Emergency Implementing Procedures describe how the hospital is to 
+be notified and discusses what information the hospital needs to ensure their 
+emergency rooms are prepared to receive the potentially 
+contaminated/over-exposed, injured victim. 
+5.10.3 Activation/Local Hospital 
+The local hospital or fire department is responsible for the transportation of all 
+personnel from Monticello or Prairie Island Nuclear Generating sites.  They will receive 
+all NSPM/Xcel Energy personnel that are injured and/or contaminated and/or have 
+received an overdose of ionizing radiation.  The local hospital will provide initial medical 
+treatment and decontamination care and, after the patient is stabilized, will arrange, if 
+necessary, the transportation of patients to North Memorial Medical Center, Regions 
+Hospital, or CentraCare Health St. Cloud via air or ambulance as weather dictates. 
+Patients may be transferred directly to a Definitive Care Center if the injury(s) warrant. 
+Additionally, the local hospital could make contact with the Radiation Emergency 
+Assistance Center/Training Site (REAC/TS) as deemed necessary, to seek further 
+medical advice and expertise. 
+
+Offsite Nuclear Emergency Plan  
+Revision: 8 
+FP-EP-PLAN-01 Page 29 of 56 
+ 
+ 
+5.10.4 Activation/Definitive Care Center 
+1.   North Memorial Medical Center, located in Robbinsdale, Regions Hospital in St. 
+Paul, and St. Cloud Hospital (CentraCare) in St. Cloud are designated by this 
+Plan as Definitive Care Centers, in accordance with our current Letters of 
+Agreement (Attachment 5). 
+2.   The Definitive Care Center will be responsible for providing definitive evaluation 
+and treatment of more serious trauma, illness and for radiation overexposure.  
+The personnel at the Definitive Care Center could contact the Radiation 
+Emergency Assistance Center/Training Site (REAC/TS) for advice as necessary. 
+3.   Should the need arise for further advanced medical treatment of radiation 
+overexposure (for example, bone marrow transplant), this arrangement and 
+decision will be made after evaluation of the patient by the medical staff at the 
+Definitive Care Center, in consultation with the Utility Medical Review 
+Officer/Medical Advisor, and any other medical consultants. The facilities (locally 
+& nationally) able to perform this procedure will be described to the patient and 
+their authorized representative, and referral made according to their wishes. 
+5.10.5 Activation/Medical Resource Person 
+The Utility Medical Review Officer/Medical Advisor would be available to provide 
+medical expertise on the extent of the injury, act as Company spokesperson, and 
+assist in determination of when the services and/or advice of emergency medical 
+assistance would be needed during a nuclear power plant event involving a 
+contaminated/overexposed and/or injured individual. 
+5.10.6 Activation of Emergency Medical Assistance 
+In the event of a suspected or actual radiation accident, where the aforementioned 
+medical facilities need additional emergency medical assistance, this assistance can 
+be provided by Radiation Emergency Assistance Center/Training Site (REAC/TS) and 
+is available as a public agency on a 24-hour basis.  The assistance is comprised of, but 
+not limited to the following: 
+1.   Upon notification, establish immediate means of communication between 
+emergency response personnel and all other facilities involved in the 
+management of the accident. 
+2.   Provide consultation and laboratory services for the evaluation of the patient's 
+radiological health status, if requested. 
+
+Offsite Nuclear Emergency Plan  
+Revision: 8 
+FP-EP-PLAN-01 Page 30 of 56 
+ 
+ 
+3.   Assist the local hospital and/or the Definitive Care Center in the evaluation and 
+the care of the accident victim. 
+4.   Assist or provide a list of commercial entities that could provide support of the 
+Utility Medical Review Officer/Medical Advisor in the arrangement for evacuation 
+of the radiation over-exposed patient(s) to a medical center for advanced 
+treatment, if necessary. 
+Additional medical consultants will be requested as determined by the Utility 
+Emergency and Medical Management. 
+NOTE: 
+Attachments 3 and 4 provide an illustration of patient flow through the medical 
+system 
+5.10.7 Multiple Patients 
+If multiple patients result from an accident, they will be triaged and decontaminated, if 
+necessary, according to accepted medical principles at each level of care, starting at 
+the plant site. 
+5.10.8 Medical Drills and Training 
+The objective of medical training and drills is to ensure prompt, effective and complete 
+medical assistance is available to site personnel in the event of an accident involving 
+injury which is complicated by radiation exposure and/or contamination.  To meet this 
+objective, NSPM/Xcel Energy will provide training and conduct drills to ensure that 
+personnel at all levels of care (plant, ambulance, local hospitals and occasionally, 
+definitive care centers) can respond properly to a radiation emergency medical 
+problem. 
+Training covering methods of dealing with radiation and contamination problems during 
+a medical emergency will be provided annually for the following off-site and on-site 
+Emergency Response groups: 
+1.   Site First Responder Personnel 
+2.   Local hospital personnel, Emergency Room staff 
+3.   Physicians Training will be offered periodically 
+4.   Ambulance personnel, Emergency Medical Technicians 
+5.   Definitive Care personnel and other medical staff that may be involved in the care 
+of patients with radiological concerns 
+
+Offsite Nuclear Emergency Plan  
+Revision: 8 
+FP-EP-PLAN-01 Page 31 of 56 
+ 
+ 
+All medical drills and training to support the Medical Plan are described in the 
+Emergency Preparedness Training Program. 
+5.10.9 Program Maintenance 
+In order to maintain an effective on-site and off-site response program, the following 
+tasks will be performed: 
+1.   Conduct periodic inventories of plant and hospital equipment and supplies used 
+for handling radiation medical emergencies.  Replenish supplies as necessary, 
+based on inventory results or as requested by hospital or ambulance staff.  The 
+results of these periodic surveillances are to be filed by the respective plant. 
+2.   Perform periodic review of hospital telephone numbers and communication 
+checks.  The responsibility of this review and communications check will be the 
+respective plants for the local hospitals and the Offsite planning group will 
+perform the communication check with North Memorial Medical Center and 
+Regions Hospital. 
+3.   Periodic review and inventories should be done at least annually. 
+5.11 Implementing Procedures 
+ 
+TITLE 
+SECTION OF OFFSITE  
+EMERGENCY PLAN 
+IMPLEMENTED 
+FP-EP-IP-01, “Offsite Emergency Response 
+Organization” 
+3.0, 3.1 
+FP-EP-IP-02, “Emergency Organization Shift 
+Turnover” 
+3.1.2 
+FP-EP-IP-03, “Communication Equipment and 
+Information”  
+5.3, Attachment 2 
+FP-EP-IP-04, “Start-up and Operation of 
+SEOC/JIC (and Remote Locations)” 
+3.1.1, 4.10, 5.3.3.4,  5.5.2 
+6.0   RECORDS 
+None 
+
+Offsite Nuclear Emergency Plan  
+Revision: 8 
+FP-EP-PLAN-01 Page 32 of 56 
+ 
+ 
+7.0   REFERENCES 
+7.1 SOURCE DOCUMENTS 
+7.1.1 Combines all Sections of the Offsite Emergency Preparedness Plan to one common 
+document under FP-EP-PLAN-01 
+7.1.2 10CFR 50.47 and Appendix E 
+7.1.3 NUREG-0654, "Criteria for Preparation and Evaluation of Radiological Emergency 
+Response Plans and Preparedness in Support of Nuclear Power Plants". 
+7.2 REFERENCE DOCUMENTS 
+7.2.1 FP-EP-  IP-01, “Offsite Emergency Response Organization” 
+7.2.2 FP-EP-  IP-02, “Offsite Emergency Organization Shift Turnover”  
+7.2.3 FP-EP-  IP-03, “Communication Equipment and Information” 
+7.2.4 FP-EP-  IP-04, “Start-up and Operation of SEOC/JIC (and Remote Locations)” 
+7.2.5 10CFR Part 50, Appendix E 
+7.2.6 10CFR 50.54 
+7.3 COMMITMENTS 
+None 
+
+Offsite Nuclear Emergency Plan  
+Revision: 8 
+FP-EP-PLAN-01 Page 33 of 56 
+ 
+ 
+Attachment 1 
+MONTICELLO AND PRAIRIE ISLAND OFFSITE EMERGENCY RESPONSE 
+ORGANIZATION 
+ 
+NSPM/Xcel Energy
+Executive Management
+Executive Spokesperson
+Located at State EOC/JIC
+Technical 
+Resource
+Staff at JIC
+Communications
+Representative 
+and Administrative 
+Staff
+State EP LiaisonSecurity Advisor
+County EP Liaison
+Recovery
+Manager
+Emergency
+Manager
+Emergency
+Director
+Communication
+Department
+EOF Organization
+(See Site Plans)
+ 
+
+Offsite Nuclear Emergency Plan  
+Revision: 8 
+FP-EP-PLAN-01 Page 34 of 56 
+ 
+ 
+Attachment 2 
+BACKUP EOF EQUIPMENT 
+1. Communication System (General) 
+a. Corporate Phone System - A Failure Analysis of telephone lines has been 
+conducted and it was determined that the Backup EOF has adequate failure 
+protection. Telephone, radio, and private line circuits are spread between two feeder 
+and riser cables to reduce the chances of a complete failure. Approximately two 
+dozen commercial telephone lines are available for use. 
+b. Facsimile Stations -Two facsimile machine extensions, to allow for incoming and 
+outgoing faxes. 
+c. 800 Mghz  Paging System Radio 
+d. NRC Phones  - Should the NRC decide to co-locate at the Backup EOF, telephone 
+lines have been assigned for this purpose. 
+e. INPO Nuclear Network - A computer is available that can access the INPO Nuclear 
+Network to send, receive, and retrieve messages. 
+f. E-Mail - Equipment is available for sending electronic mail messages to both sites. 
+Printers are available to print hard copies of messages sent.  
+2. Backup EOF Phones Monticello Specific 
+a.  Technical Support Communicator (Status Board) Telephone extension 
+b.  Monticello Field Survey Team Radio 
+3. Backup EOF Phones Prairie Island Specific 
+a.  Technical Support Communicator (Status Board) Prairie Island Plant extension 
+b.  Prairie Island Field Survey Team Radio 
+
+Offsite Nuclear Emergency Plan  
+Revision: 8 
+FP-EP-PLAN-01 Page 35 of 56 
+ 
+ 
+Attachment 2
+ CONT’D 
+BACKUP EOF EQUIPMENT 
+4. Minnesota State EOC/JIC 
+a.  Telephone Lines - NSPM/XCEL ENERGY Executive Spokesperson General Office 
+extension and a Rice Street extension  
+1)   Facsimile Machine – General Office extension 
+2)   Facsimile Machine - MN Dept. of Health - extension  
+b.  800 Mghz  Paging System Radio 
+
+Offsite Nuclear Emergency Plan  
+Revision: 8 
+FP-EP-PLAN-01 Page 36 of 56 
+ 
+ 
+Attachment 3 
+MONTICELLO 
+ 
+CARE UNIT SCOPE OF TREATMENT 
+ 
+METHOD OF TRANSPORT 
+SITE 
+ 
+FIRST AID (FAMILY 
+DOCTOR) 
+ 
+N/A (PERSONAL VEHICLE) 
+CENTRACARE HEALTH - 
+MONTICELLO 
+ 
+PRIMARY CARE CENTRACARE HEALTH - MONTICELLO 
+ 
+NORTH MEMORIAL 
+MEDICAL CENTER 
+SECONDARY DEFINITIVE 
+CARE 
+NORTH MEMORIAL AIRCARE 
+(CENTRACARE HEALTH Ambulance) 
+ 
+REGIONS HOSPITAL SECONDARY DEFINITIVE  
+TREATMENT 
+ 
+NORTH MEMORIAL AIRCARE 
+(CENTRACARE HEALTH Ambulance) 
+ 
+ST. CLOUD HOSPITAL 
+(CENTRACARE) 
+SECONDARY DEFINITIVE 
+TREATMENT 
+CENTRACARE HEALTH 
+Ambulance 
+   
+CONSULTANTS 
+MISCELLANEOUS 
+CARE CENTERS 
+ 
+TERTIARY DEFINITIVE 
+CARE 
+ 
+NORTH MEMORIAL AIRCARE 
+CENTRACARE HEALTH Ambulance 
+ 
+ 
+ 
+RADIATION EMERGENCY 
+ASSISTANCE 
+CENTER/TRAINING SITE 
+(REAC/TS) 
+24 HOUR ASSISTANCE 
+RADIATION EVALUATION 
+LABORATORY SERVICES 
+CONSULTATION VIA PHONE 
+ 
+
+Offsite Nuclear Emergency Plan  
+Revision: 8 
+FP-EP-PLAN-01 Page 37 of 56 
+ 
+ 
+Attachment 4 
+PRAIRIE ISLAND 
+ 
+CARE UNIT SCOPE OF TREATMENT 
+ 
+METHOD OF TRANSPORT 
+SITE 
+ 
+ 
+FIRST AID (FAMILY 
+DOCTOR) 
+N/A (PERSONAL VEHICLE) 
+MAYO CLINIC HEALTH 
+SYSTEM – RED WING 
+ 
+PRIMARY CARE RED WING FIRE/EMS 
+ 
+REGIONS HOSPITAL SECONDARY DEFINITIVE 
+CARE 
+NORTH MEMORIAL AIRCARE 
+(RED WING FIRE/EMS) 
+ 
+NORTH MEMORIAL MEDICAL 
+CENTER 
+SECONDARY DEFINITIVE  
+TREATMENT 
+ 
+NORTH MEMORIAL AIRCARE 
+(RED WING FIRE/EMS) 
+CONSULTANTS 
+MISCELLANEOUS 
+CARE CENTERS 
+ 
+TERTIARY DEFINITIVE 
+CARE 
+ 
+NORTH MEMORIAL AIRCARE 
+(RED WING FIRE/EMS) 
+ 
+RADIATION EMERGENCY 
+ASSISTANCE 
+CENTER/TRAINING SITE 
+(REAC/TS) 
+24 HOUR ASSISTANCE 
+RADIATION EVALUATION 
+LABORATORY SERVICES 
+CONSULTATION VIA PHONE 
+ 
+
+Offsite Nuclear Emergency Plan  
+Revision: 8 
+FP-EP-PLAN-01 Page 38 of 56 
+ 
+ 
+Attachment 5 
+LETTERS OF AGREEMENT 
+ 
+ 
+GENERAL (in support of both plant sites) 
+ 
+1.     Institute of Nuclear Power Operations (INPO)  
+2.     State of Minnesota  
+3.     Regions Hospital  
+4.     Environmental, Inc. Midwest Laboratory  
+5.     Department of Energy-Radiation Emergency Assistance Center/Training Site  
+6.     North Memorial Health Care 
+ 
+Burlington Northern Railroad System LOA was removed from LOA lists in the 1980s due to 
+Minnesota Department of Transport taking on the responsibility of coordinating the closing all 
+rail, water, and air traffic during Site Area and General Emergencies. 
+ 
+MONTICELLO 
+ 
+7.     Pooled Equipment Inventory Company (PEICo) 
+8.     General Electric  
+9.     CentraCare Health – Monticello (formerly New River Medical Center and Ambulance 
+Service) (Transfer Agreement with North Memorial) 
+10    Sherburne County Emergency Services 
+11.    Wright County 
+12.    City of Monticello – to include Monticello Fire Department 
+13.    St. Cloud Hospital (CentraCare) - St. Cloud 
+ 
+PRAIRIE ISLAND 
+ 
+14.    Dakota County Emergency Services 
+15.    Goodhue County Emergency Management 
+16.    Pierce County Emergency Management 
+17.    City of Red Wing – to include Red Wing Fire Department 
+18.    Mayo Clinic Health System – Red Wing 
+19.    Westinghouse Electric Company 
+20.    State of Wisconsin 
+21.    Sacred Heart Hospital 
+22.    Prairie Island Indian Community 
+23.    Canadian Pacific Railway- LOA is specific to only Prairie Island because of “critical 
+crossing” to plant access 
+
+Offsite Nuclear Emergency Plan  
+Revision: 8 
+FP-EP-PLAN-01 Page 39 of 56 
+ 
+ 
+Attachment 6 
+RADIATION ENVIRONMENT MONITORING PLAN 
+ 
+Activation of the Radiation Environmental Monitoring Program (REMP) is accomplished 
+through existing Site Emergency Plan Implementing Procedures. 
+ 
+In addition, a Letter of Agreement between The NSPM/Xcel Energy and 
+Environmental, Inc. Midwest Laboratory exists which states Environmental, Inc. 
+Midwest Laboratory will respond upon request to augment our environmental sampling 
+and monitoring program. 
+ 
+
+Offsite Nuclear Emergency Plan  
+Revision: 8 
+FP-EP-PLAN-01 Page 40 of 56 
+ 
+ 
+Attachment 7 
+MONTICELLO AND PRAIRIE ISLAND CONSERVATIVE GUIDANCE FOR 
+PROTECTIVE ACTION AND RECOMMENDATION 
+ 
+See Site Plans 
+
+Offsite Nuclear Emergency Plan  
+Revision: 8 
+FP-EP-PLAN-01 Page 41 of 56 
+ 
+ 
+Attachment 8 
+EVACUATION TIME ESTIMATES – PRAIRIE ISLAND 
+ 
+EVACUATION TIME ESTIMATES FOR THE PLUME 
+EXPOSURE PATHWAY EMERGENCY PLANNING ZONE 
+ 
+PRAIRIE ISLAND NUCLEAR GENERATING PLANT 
+ 
+ 
+ 
+Prepared for: 
+Xcel Energy 
+ 
+Prepared by: 
+KLD Engineering, P.C. 
+43 Corporate Drive 
+Hauppauge, NY 11788 
+ 
+November 2012 
+ 
+ 
+ 
+The Evacuation Time Estimate Study was revised and completed November 2012.  The revised 
+Study replaces the one conducted in December 2008.  The complete Study is on file.  A copy of 
+it can be made available upon request, to those who have a need. 
+ 
+Prairie Island Nuclear Generating Plant Protective Action Recommendations are based on the 
+November 2012 Evacuation Time Estimate Study.  
+
+Offsite Nuclear Emergency Plan  
+Revision: 8 
+FP-EP-PLAN-01 Page 42 of 56 
+ 
+ 
+Attachment 9 
+EVACUATION TIME ESTIMATES - MONTICELLO 
+ 
+EVACUATION TIME ESTIMATES FOR THE PLUME 
+EXPOSURE PATHWAY EMERGENCY PLANNING ZONE 
+ 
+MONTICELLO NUCLEAR GENERATING PLANT 
+ 
+ 
+ 
+Prepared for: 
+Xcel Energy 
+ 
+Prepared by: 
+KLD Engineering, P.C. 
+43 Corporate Drive 
+Hauppauge, NY 11788 
+ 
+November 2012 
+ 
+ 
+ 
+The Evacuation Time Estimate Study was revised and completed November 2012. The revised 
+Study replaces the one conducted in December 2008.  The complete Study is on file. A copy of 
+it can be made available upon request, to those who have a need. 
+ 
+Monticello Protective Action Recommendations are based on the November 2012  Evacuation 
+Time Estimate Study. 
+
+Offsite Nuclear Emergency Plan  
+Revision: 8 
+FP-EP-PLAN-01 Page 43 of 56 
+ 
+ 
+Attachment 10 
+OFFSITE NUCLEAR EMERGENCY PLAN CROSS REFERENCE INDEX 
+NUREG 0654 REFERENCE E-PLAN 
+REFERENCE 
+ 
+A.    Assignment of Responsibility 
+ 
+ 1.a. Response organization Section 1.0 
+   Section 5.6 
+   Section 5.4 
+ 
+ 1.b. Operation of organizations Section 5.1 
+   Section 3.0 
+    
+ 1.c. Organization's block diagrams Attachment 1 
+    
+ 
+ 1.d. Responsible officials Section 1.0 
+   Section 5.1 
+ 
+ 1.e. 24 hour response Site Specific 
+   Section 5.4.1 
+ 
+ 2.a. Key functions State/Local Specific 
+  
+ 2.b. Legal basis State/Local Specific 
+ 
+ 3. Written Agreements Attachment 5 
+ 
+ 4. Protracted operations Section 3.1.1 
+   FP-EP-  IP-  02 
+B.    Onsite Emergency Organization 
+ 
+ 1. Onsite Emergency Organization Site Specific 
+ 
+ 2. Designated Emergency Coordinator Site Specific 
+ 
+ 3. Line of succession Site Specific 
+ 
+ 4. Emergency Coordinator Functional Site Specific 
+  Responsibilities 
+ 
+ 5. Positions, titles, major tasks Site Specific 
+ 
+ 6. Interfaces Section 5.6 
+   Site Specific 
+
+Offsite Nuclear Emergency Plan  
+Revision: 8 
+FP-EP-PLAN-01 Page 44 of 56 
+ 
+ 
+Attachment 10
+ CONT’D 
+OFFSITE NUCLEAR EMERGENCY PLAN CROSS REFERENCE INDEX 
+NUREG 0654 REFERENCE E-PLAN 
+REFERENCE 
+ 
+B.    Onsite Emergency Organization (Continued)  
+  
+ 7. Augmentation of Onsite Organization Section 3.0 
+   Section 5.4 
+   Site Specific 
+ 
+ 7.a. Logistics Support Section 3.0 
+   Site Specific 
+ 
+ 7.b. Technical Support Section 3.0 
+   Site Specific 
+ 
+ 7.c. Management Level Section 3.0 
+   Section 5.6 
+   Site Specific 
+ 
+ 7.d. Media Releases Section 3.1.1 
+   Section 5.5 
+    
+ 8. Contractor and private organization Site Specific 
+   Site Specific 
+ 
+ 9. Services by local agencies Attachment 5 
+ 
+C.    Emergency Response Support and Resources 
+ 
+ 1.a. Specific person for RAP/IRAP Section 5.4.2(5) 
+  assistance requests 
+ 
+ 1.b. Specific federal resources expected Section5.4.2(5) 
+ 
+ 1.c. Specific resources available Section 5.4.2(5) 
+    
+ 2.a. Representative from state to State Specific 
+  licensee's EOF 
+ 
+ 2.b. Representative from Licensee Section 3.1.4 
+  to state's EOC 
+ 
+ 3. Identify radiological laboratories Attachment 5 
+   Site Specific 
+
+Offsite Nuclear Emergency Plan  
+Revision: 8 
+FP-EP-PLAN-01 Page 45 of 56 
+ 
+ 
+Attachment 10
+ CONT’D 
+OFFSITE NUCLEAR EMERGENCY PLAN CROSS REFERENCE INDEX 
+NUREG 0654 REFERENCE E-PLAN 
+REFERENCE 
+ 
+C.    Emergency Response Support and Resources (continued) 
+ 
+ 4. Emergency Assistance Site Specific 
+   Section 5.4.2(5) 
+   Attachment 5 
+  
+D.    Emergency Classification System 
+ 
+ 1. Emergency Classification System Section 3.0 
+   Site Specific 
+  
+ 2. Initiating conditions Site Specific 
+ 
+ 3. State and local emergency State/Local Specific 
+  classification scheme consistent  
+  with licensee 
+ 
+ 4. State/local implementing procedures State/local specific 
+ 
+E.    Notifications, Methods, and Procedures 
+ 
+ 1. Response organization's notification FP-EP-  IP-  04 
+  and verification Site Specific 
+ 
+ 2. Procedures for notifying, alerting, Section 5.4.1(1) 
+  response Section 5.4.1(2) 
+  personnel  
+ 
+ 3. Initial emergency message contents Site Specific 
+ 
+ 4. Provisions for follow-up messages Site Specific 
+  including following information  
+    
+  a.  Location of incident and caller identification 
+    
+  b.  Date/time of incident 
+    
+  c.  Class of emergency 
+ 
+  d.  Type of release and estimated duration/impact time 
+
+Offsite Nuclear Emergency Plan  
+Revision: 8 
+FP-EP-PLAN-01 Page 46 of 56 
+ 
+ 
+Attachment 10
+ CONT’D 
+OFFSITE NUCLEAR EMERGENCY PLAN CROSS REFERENCE INDEX 
+NUREG 0654 REFERENCE E-PLAN 
+REFERENCE 
+ 
+E.    Notifications, Methods, and Procedures (continued) 
+   
+  e.  Estimate of quantity of radioactive material released, points and 
+       heights of release 
+    
+  f.   Chemical/physical form of material  being released, including estimates 
+      of quantity/concentration of noble  gases, iodines, particulates. 
+    
+  g.  Meteorological conditions 
+    
+  h.  Actual/projected dose rates/integrated dose at site boundary    
+ 
+  I.   Projected dose rates/integrated  dose at 2, 5, and 10 miles 
+   
+j.   Estimate of any surface contamination 
+ 
+k.  Licensee response actions underway. 
+    
+  l.   Recommended emergency actions, Protective actions 
+   
+  m. Request for onsite support 
+    
+  n.  Prognosis for worsening or termination of event 
+ 
+ 5. State/local means of public State/local specific 
+  information 
+ 
+ 6. Prompt notification and public  Section 5.6 
+  information system 
+ 
+ 7. Written messages for public  Section5.5 
+  information State/local specific 
+
+Offsite Nuclear Emergency Plan  
+Revision: 8 
+FP-EP-PLAN-01 Page 47 of 56 
+ 
+ 
+Attachment 10
+ CONT’D 
+OFFSITE NUCLEAR EMERGENCY PLAN CROSS REFERENCE INDEX 
+NUREG 0654 REFERENCE E-PLAN 
+REFERENCE 
+ 
+F.    Emergency Communications 
+ 
+ 1.a. Provisions for 24-hour notification      Site Specific 
+  and activation Section 5.4.1(1) 
+    Section 5.4.1(2) 
+    Section 5.4.2(2) 
+ 
+ 1.b. Provisions for communications with Attachment 2 
+  state/local governments Site Specific 
+ 
+ 1.c. Provisions for communications with  Site Specific 
+  Federal emergency response  Section 5.4.2(5) 
+  organizations FP-EP-  IP-  03 
+     
+ 1.d. Provisions for inter-licensee Attachment 2 
+  communications FP-EP-  IP-  03 
+ 
+ 1.e. Provisions for alerting emergency Section 5.4 
+  personnel  
+ 
+ 1.f. Provisions for communications with  FP-EP-  IP-  03 
+  NRC   Attachment 2 
+    Site Specific 
+ 
+ 2. Communications link for medical  FP-EP-  IP-  03 
+  support Site Specific 
+ 
+ 3. Periodic testing of communications  Section 5.9.3 
+  system Site Specific 
+ 
+G.    Public Education and Information 
+ 
+ 1. Periodic dissemination of  
+  information to public Section 5.5 
+ 
+ 2. Public information program Section 5.5 
+                  
+ 3.a. Points of contact and physical  
+  location for media use Section 5.3.3(4) 
+ 
+ 3.b. Space for media  Section 5.3.3(4) 
+ 
+ 
+ 
+
+Offsite Nuclear Emergency Plan  
+Revision: 8 
+FP-EP-PLAN-01 Page 48 of 56 
+ 
+ 
+Attachment 10
+ CONT’D 
+OFFSITE NUCLEAR EMERGENCY PLAN CROSS REFERENCE INDEX 
+NUREG 0654 REFERENCE E-PLAN  
+REFERENCE 
+ 
+G.    Public Education and Information (continued) 
+ 
+ 4.a. Designated spokesperson Section 3.1.2 
+     
+ 4.b. Arrangements for timely exchange of Section 3.1.1 
+  information  
+ 
+ 4.c. Arrangements for dealing with rumors Section 3.1.1 
+    Section 5.5.2 
+    Section 5.5.3 
+ 
+ 5. Coordinated programs for acquainting  
+  media with E-plans and procedures Section 5.5.2 
+ 
+ 
+H.    Emergency Facilities and Equipment 
+ 
+ 1. Technical Support Center Section 5.3.2 
+    Site Specific 
+ 
+ 2. Emergency Operations Facility Section 5.3.1(2) 
+ 
+ 3. Emergency Operations Center State/local specific 
+    Section 5.3.3 
+ 
+ 4. Timely activation and staffing of FP-EP-  IP-  04 
+  facilities  
+     
+  
+ 5. Onsite monitoring systems Site Specific 
+ 
+ 6. Offsite monitoring and analysis  Site Specific 
+  equipment  
+ 
+ 7. Provide for offsite radiological         Site Specific 
+  monitoring equipment  
+     
+ 8. Provide meteorological equipment Site Specific 
+ 
+ 9. Operations Support Center Site Specific 
+  
+ 
+ 
+ 
+ 
+ 
+
+Offsite Nuclear Emergency Plan  
+Revision: 8 
+FP-EP-PLAN-01 Page 49 of 56 
+ 
+ 
+Attachment 10
+ CONT’D 
+OFFSITE NUCLEAR EMERGENCY PLAN CROSS REFERENCE INDEX 
+NUREG 0654 REFERENCE E-PLAN  
+REFERENCE 
+ 
+H.    Emergency Facilities and Equipment (continued) 
+ 
+ 10. Inspect, inventory, and operationally Site Specific    
+  check emergency equipment Section 5.9.3 
+ 
+     11. Emergency kits Site Specific 
+     
+     12. Establish central point for receipt  Section 5.3.1(2) 
+  and analysis of field monitoring data Site Specific    
+         
+I.     Accident Assessment 
+ 
+ 1. Initiating conditions and off-normal 
+  parameters and effluent values Site Specific 
+ 
+ 2. Onsite capabilities and resources to 
+  provide initial and continuing values Site Specific 
+ 
+ 3.a. Determining source term Site Specific 
+ 
+ 3.b. Magnitude of release Site Specific 
+ 
+ 4. Relationship between effluent monitor Site Specific     
+  readings and onsite/offsite monitoring                      
+  results                
+ 
+ 
+ 5. Acquiring and evaluating meteorological Site Specific 
+  data                   
+ 
+ 6. Methodology for determining release  
+  rate and projected dose Site Specific 
+ 
+ 7. Field monitoring capability Site Specific 
+             
+ 
+ 8. Rapid assessment of actual or projected Site Specific 
+  magnitude and locations of airborne                
+  releases                    
+                   
+ 
+ 
+ 
+ 
+ 
+ 
+
+Offsite Nuclear Emergency Plan  
+Revision: 8 
+FP-EP-PLAN-01 Page 50 of 56 
+ 
+ 
+Attachment 10
+ CONT’D 
+OFFSITE NUCLEAR EMERGENCY PLAN CROSS REFERENCE INDEX 
+NUREG 0654 REFERENCE E-PLAN 
+REFERENCE 
+ 
+I.     Accident Assessment (continued) 
+ 
+ 9. Capability of determining activities Site Specific     
+  as low as 10   uCi/cc                
+ 
+     10. Means to relate measured parameters Site Specific    
+  to dose rates for key isotopes                   
+   
+ 11. State/local arrangements to track Plume    State/local specific 
+    
+J.    Protective Response 
+ 
+ 1. Warn and advise onsite personnel including: 
+ 
+    a.    Employees without emergency  
+   assignments Site Specific 
+ 
+    b.    Visitors Site Specific 
+ 
+    c.    Contractor and construction personnel Site Specific 
+ 
+    d.    Other personnel on or near site  
+   property Site Specific 
+ 
+ 2. Evacuation routes and transportation Site Specific 
+     
+ 
+ 3. Provide for radiological monitoring of  Site Specific 
+  evacuees  
+ 
+ 4. Evacuation of non-essential personnel Site Specific 
+     
+ 
+ 5. Accountability Site Specific 
+ 
+ 6. Provisions for: 
+ 
+    a.    Individual respiratory protection Site Specific 
+ 
+   b.    Protective clothing  Site Specific 
+ 
+    c.    Radio-protective drugs Site Specific 
+ 
+ 
+ 
+ 
+
+Offsite Nuclear Emergency Plan  
+Revision: 8 
+FP-EP-PLAN-01 Page 51 of 56 
+ 
+ 
+Attachment 10
+ CONT’D 
+OFFSITE NUCLEAR EMERGENCY PLAN CROSS REFERENCE INDEX 
+NUREG 0654 REFERENCE E-PLAN 
+REFERENCE 
+ 
+J.    Protective Response (continued) 
+ 
+ 7. Recommendation of protective actions Section 5.6 
+                           Site Specific 
+ 
+ 8. Evacuation time estimates Attachment 8 & 9  
+ 
+ 9. State/local implementation of  
+  protective measures State/local specific 
+ 
+     10. Plans to implement protective measures: 
+ 
+    a.    Maps of routes, evacuation areas, etc. Attachment 8 & 9 
+     
+    b.    Maps of population distribution Attachment8&9 
+    
+    c.    Means of notification of population Site Specific 
+     
+    d.    Means to protect mobility impaired   
+   populace State/local specific 
+ 
+    e.    Use of Radio-protective drugs State/local specific 
+ 
+    f.     Decision process to use Radio- 
+   protective drugs State/local specific 
+ 
+    g.    Means of relocation State/local specific 
+ 
+    h.    Relocation centers State/local specific 
+ 
+     i.     Projected traffic capacities State/local specific 
+    Attachment 8 & 9  
+ 
+   j.     Control of access State/local specific 
+ 
+    k.    Identification/means of handling  
+   Impediments State/local specific 
+ 
+    l.     Time estimates for evacuation State/local specific 
+    Attachment 8 & 9  
+ 
+    m.    Basis for recommended protective  State/local specific 
+   actions Attachment 8 & 9  
+    Site Specific 
+ 
+ 
+
+Offsite Nuclear Emergency Plan  
+Revision: 8 
+FP-EP-PLAN-01 Page 52 of 56 
+ 
+ 
+Attachment 10
+ CONT’D 
+OFFSITE NUCLEAR EMERGENCY PLAN CROSS REFERENCE INDEX 
+NUREG 0654 REFERENCE E-PLAN 
+REFERENCE 
+ 
+J.    Protective Response (continued) 
+    
+ 11. Protective measures for ingestion 
+  pathway State specific 
+ 
+ 12. Registration and monitoring evacuees State/local specific 
+ 
+K.    Radiological Exposure Control 
+ 
+ 1. On Site exposure guidelines for: 
+ 
+   a.    Removal of injured persons Site Specific 
+   
+   b.    Undertaking corrective action Site Specific 
+  
+   c.    Performing assessment actions Site Specific 
+ 
+   d.    Providing first aid Site Specific 
+ 
+   e.    Performing personnel  
+   decontamination Site Specific 
+ 
+   f.     Providing ambulance service Site Specific 
+ 
+   g.    Providing medical treatment 
+   services Site Specific 
+  
+ 2. Onsite Radiation Protection Program Site Specific 
+ 
+ 3 a.    Emergency personnel dose determination Site Specific 
+       
+   b.    Dose records and use of dosimeters Site Specific    
+                       
+ 4. Decision chain to exceed EPA PAG for 
+  emergency workers State/local specific 
+ 
+ 5 a.    Need for decontamination Site Specific     
+ 
+   b.    Means of decontamination Site Specific     
+ 
+ 6. Onsite contamination control for: 
+ 
+   a.    Area access control Site Specific 
+  
+   b.    Drinking water/food supplies Site Specific 
+ 
+ 
+
+Offsite Nuclear Emergency Plan  
+Revision: 8 
+FP-EP-PLAN-01 Page 53 of 56 
+ 
+ 
+Attachment 10
+ CONT’D 
+OFFSITE NUCLEAR EMERGENCY PLAN CROSS REFERENCE INDEX 
+NUREG 0654 REFERENCE E-PLAN 
+REFERENCE 
+ 
+K.    Radiological Exposure Control (continued) 
+ 
+   c.    Return of areas and items to normal  Site Specific 
+   use                                        
+ 
+ 7. Decontamination of relocated onsite 
+  personnel Site Specific      
+ 
+L.    Medical and Public Health Support 
+ 
+ 1. Local and backup Hospital/Medical services Attachment 5, Section 
+5.10.1 
+ 
+ 2. Onsite first aid capability Site  Specific,  Section 
+5.10.1 
+  
+ 3. Lists of public, private, and  
+  military hospitals State specific 
+ 
+ 4. Transportation of radiological accident 
+  victims Attachment  5,  Section 
+5.10.1 
+ 
+M.    Recovery and    Re-entry Planning and Post-Accident Operations 
+ 
+ 1. Re-entry and recovery plans and  Site Specific 
+  procedures   
+ 
+ 2. Position/title, authority and  Site Specific 
+  responsibilities  
+ 
+ 3. Method of informing emergency  FP-EP-  IP-  04 
+  organization  
+ 
+ 4. Periodic estimate of population  Site Specific 
+  exposure  
+ 
+N.    Exercises and Drills 
+ 
+ 1.a. Emergency preparedness exercise Section 5.8.1 
+ 
+ 1.b. Exercise mobilization Section 5.8.1 
+ 
+ 2. Emergency preparedness drills:  
+ 
+    a.    Communications drills Section 5.9.3 
+ 
+
+Offsite Nuclear Emergency Plan  
+Revision: 8 
+FP-EP-PLAN-01 Page 54 of 56 
+ 
+ 
+Attachment 10
+ CONT’D 
+OFFSITE NUCLEAR EMERGENCY PLAN CROSS REFERENCE INDEX 
+NUREG 0654 REFERENCE E-PLAN 
+REFERENCE 
+ 
+N.    Exercise and Drills (continued) 
+ 
+    b.    Fire drill Site Specific 
+ 
+    c.    Medical emergency drills Site Specific 
+    Section 5.10.8 
+ 
+    d.    Radiological monitoring drills Site Specific 
+ 
+    e.    1.  Health physics drills Site Specific 
+   2.  Inplant liquid samples Site Specific 
+ 
+ 3. Exercise and drill development for: 
+ 
+    a.    Basic objectives Site Specific 
+ 
+    b.    Date(s), time period, participants Site Specific 
+ 
+    c.    Simulated events Site Specific 
+ 
+    d.    Time schedule of real/simulated events Site Specific 
+ 
+    e.    Narrative summary Site Specific 
+ 
+  f.     Description of arrangements for official Site Specific 
+   observers  
+ 
+ 4. Exercise critique Site Specific 
+     
+ 
+ 5. Means of evaluating comments Site Specific 
+     
+ 
+O.    Radiological Emergency Response Training 
+ 
+ 1. Appropriate training assurances Section 5.8.3 
+    Site Specific 
+ 
+    a.    Site Specific training Site Specific 
+     
+  
+  b.    Offsite response organization training Section 5.8.3 
+    State/local specific 
+ 
+ 2. Onsite drills Site Specific 
+ 
+ 
+
+Offsite Nuclear Emergency Plan  
+Revision: 8 
+FP-EP-PLAN-01 Page 55 of 56 
+ 
+ 
+Attachment 10
+ CONT’D 
+OFFSITE NUCLEAR EMERGENCY PLAN CROSS REFERENCE INDEX 
+NUREG 0654 REFERENCE E-PLAN 
+REFERENCE 
+ 
+O.    Radiological Emergency Response Training (continued) 
+ 
+ 3. First aid training Site Specific 
+     
+ 
+ 4. Position training as follows:  
+    a.    Director/coordinator Section 5.8.3 
+    Site Specific 
+ 
+    b.    Accident assessment personnel Section 5.8.3 
+    Site Specific 
+ 
+    c.    Radiological monitoring and analysis Section 5.8.3 
+    Site Specific 
+     
+  d.    Police, security, fire fighting  Section 5.8.3 
+   personnel Site Specific 
+ 
+    e.    Repair and damage control personnel Section 5.8.3 
+    Site Specific 
+ 
+    f.     First aid and rescue personnel Section 5.8.3 
+    Site Specific 
+ 
+    g.    Local support services personnel Section 5.8.3 
+    Site Specific 
+ 
+    h.    Medical support personnel Section 5.8.3, 5.10.8 
+    Site Specific 
+ 
+    i.     Transmission of information and  Section 5.8.3 
+   instruction personnel Site Specific 
+ 
+ 5. Initial training and annual retraining Section 5.8.3 
+    Site Specific 
+P.    Responsibility for the Planning Effort:  Development Periodic 
+ Review and Distribution of Emergency Plans 
+  
+ 1. Training for responsible personnel of 
+  planning effort Section 5.8.3 
+ 
+ 2. Authority and responsibility Section 1.0 
+    Site Specific 
+     
+ 
+ 
+
+Offsite Nuclear Emergency Plan  
+Revision: 8 
+FP-EP-PLAN-01 Page 56 of 56 
+ 
+ 
+Attachment 10
+ CONT’D 
+OFFSITE NUCLEAR EMERGENCY PLAN CROSS REFERENCE INDEX 
+NUREG 0654 REFERENCE E-PLAN 
+REFERENCE 
+ 
+P.    Responsibility for the Planning Effort:  Development Periodic Review and 
+ Distribution of Emergency Plans (continued) 
+ 
+ 3. Emergency Planning Coordinator designee Section 1.0 
+    Site Specific 
+     
+ 
+ 4. Update plan and agreements as needed, review and  
+  certify it to be current on an annual basis.  Section    5.9.1 
+    Attachment 5  
+ 
+ 5. Control of approved, revised plans and 
+  procedures Section 5.9.2 
+ 
+ 6. Detailed listing of supporting plans  
+  and sources Section 5.0 
+ 
+ 7. Appendix for Implementing Procedures Section 5.11 
+ 
+ 8. Specific Table of Contents Table of Contents 
+ 
+ 9. Annual independent reviews Section 5.9.1 
+ 
+     10. Quarterly update of emergency  Section 5.9.3 
+  telephone number

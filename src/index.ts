@@ -505,7 +505,44 @@ Use ask_about_documents to query the downloaded content.`
       const justLoaded = ragStats.documentCount > 0 && ragStats.documentCount === this.ragEngine.getStats().documentCount;
 
       // Search using RAG engine
-      const searchResults = await this.ragEngine.search(question, 5);
+      let searchResults = await this.ragEngine.search(question, 5);
+
+      // Filter by specific document if requested
+      if (document_number) {
+        const beforeFilter = searchResults.length;
+        mcpLogger.info('Filtering results by document', {
+          document_number,
+          totalResultsBeforeFilter: beforeFilter,
+          availableDocuments: [...new Set(searchResults.map(r => r.metadata.documentNumber))]
+        });
+
+        searchResults = searchResults.filter(result =>
+          result.metadata.documentNumber === document_number ||
+          result.metadata.accessionNumber === document_number
+        );
+
+        mcpLogger.info('Filter results', {
+          document_number,
+          beforeFilter,
+          afterFilter: searchResults.length,
+          filteredOut: beforeFilter - searchResults.length
+        });
+
+        if (searchResults.length === 0) {
+          // Check if document exists in RAG engine
+          const allDocs = Array.from(this.ragEngine.getAvailableDocuments());
+          const docExists = allDocs.includes(document_number);
+
+          return {
+            content: [
+              {
+                type: "text",
+                text: `❓ No relevant information found in document ${document_number} for: "${question}"\n\n💡 ${docExists ? 'Document is loaded but content doesn\'t match your query' : 'Document may not be loaded'}. Try:\n- Searching all documents (remove document_number)\n- ${!docExists ? `Downloading ${document_number} first` : 'Rephrasing your question'}\n- Checking available documents with list_downloaded_documents\n\n📋 Available documents: ${allDocs.join(', ') || 'None'}`
+              },
+            ],
+          };
+        }
+      }
 
       if (!searchResults || searchResults.length === 0) {
         return {
@@ -791,26 +828,15 @@ Use ask_about_documents to query these documents.`
           }
           
           try {
-            // Use high-speed cache instead of slow extraction
-            // __dirname is build/, so go up one level to project root
-            const projectRoot = path.join(__dirname, '..');
-            const cacheFile = path.join(projectRoot, 'pdf-text-cache', `${documentNumber}.txt`);
-
-            mcpLogger.debug('Attempting to load cached text', {
+            // Use high-speed cache with auto-extraction (Option A)
+            // pdfCacheService.getCachedText() automatically extracts PDF if cache missing
+            mcpLogger.debug('Attempting to load cached text with auto-extraction', {
               documentNumber,
-              cacheFile,
-              projectRoot,
-              exists: await fs.access(cacheFile).then(() => true).catch(() => false)
+              pdfPath
             });
 
-            const content = await fs.readFile(cacheFile, 'utf8').catch((err) => {
-              mcpLogger.warn('Cache file read failed', {
-                documentNumber,
-                cacheFile,
-                error: err.message
-              });
-              return null;
-            });
+            // This will auto-generate cache file if missing
+            const content = await pdfCacheService.getCachedText(pdfPath, documentNumber);
 
             if (content) {
               await this.ragEngine.addDocumentWithPages(
@@ -826,12 +852,14 @@ Use ask_about_documents to query these documents.`
               mcpLogger.info('PDF loaded into RAG engine', {
                 documentNumber,
                 contentLength: content.length,
-                cacheFile
+                pdfPath,
+                autoExtracted: true
               });
             } else {
-              mcpLogger.warn('No cached content found', {
+              mcpLogger.warn('PDF text extraction failed', {
                 documentNumber,
-                cacheFile
+                pdfPath,
+                reason: 'pdfCacheService returned null'
               });
             }
           } catch (error: any) {

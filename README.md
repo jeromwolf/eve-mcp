@@ -185,23 +185,39 @@ pdf-text-cache/
 
 ### 3. 다운로드한 문서와 채팅
 
-⚠️ **중요**: 다운로드 후 1-2초 대기하세요!
-- MCP 프로토콜 특성상 각 요청이 독립적인 프로세스로 실행됩니다
-- 첫 Q&A 호출 시 자동으로 문서를 로드합니다 (3-9초 소요)
-- 이후 질문은 즉시 응답합니다 (1-3초)
+✨ **New (2025-09-30)**: 이제 다운로드 후 즉시 Q&A 가능! 캐시 자동 생성 지원
 
-#### 질문하기
+#### 전체 문서 검색
 ```
 "What are the main safety requirements?"
 "Find information about emergency procedures"
 "Summarize the reactor specifications"
 ```
 
+#### 🎯 특정 문서만 검색 (New!)
+```
+"Ask about ML020920623: What is the emergency plan?"
+"In document ML081710326, who attended the meeting?"
+"Summarize ML19014A039"
+```
+
+**장점**:
+- ✅ 정확도 향상: 지정한 문서에서만 검색
+- ✅ 빠른 응답: 불필요한 문서 제외
+- ✅ 명확한 에러: 문서 미로드 시 즉시 알림
+
+**작동 방식**:
+1. `document_number` 파라미터로 특정 문서 지정
+2. RAG 검색 후 해당 문서 결과만 필터링
+3. 문서 없으면 "다운로드 필요" 메시지 표시
+
 #### 문서 내 검색
 ```
 "Search for cooling system in downloaded files"
 "Find emergency response procedures"
 ```
+
+💡 **Tip**: 첫 Q&A 호출 시 자동으로 문서를 로드합니다 (3-9초 소요). 이후 질문은 즉시 응답합니다 (1-3초)
 
 ### 4. 캐시 관리
 
