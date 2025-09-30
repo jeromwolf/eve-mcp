@@ -786,11 +786,14 @@ Use ask_about_documents to query these documents.`
           
           try {
             // Use high-speed cache instead of slow extraction
-            const cacheFile = path.resolve(`pdf-text-cache/${documentNumber}.txt`);
+            // __dirname is build/, so go up one level to project root
+            const projectRoot = path.join(__dirname, '..');
+            const cacheFile = path.join(projectRoot, 'pdf-text-cache', `${documentNumber}.txt`);
 
             mcpLogger.debug('Attempting to load cached text', {
               documentNumber,
               cacheFile,
+              projectRoot,
               exists: await fs.access(cacheFile).then(() => true).catch(() => false)
             });
 
