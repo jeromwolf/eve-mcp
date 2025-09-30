@@ -35,6 +35,7 @@ import { searchService } from './services/search-service.js';
 import { downloadService } from './services/download-service.js';
 import { cacheManager } from './services/cache-manager.js';
 import { stateManager } from './services/state-manager.js';
+import { pdfCacheService } from './services/pdf-cache-service.js';
 import { configManager } from './server/config.js';
 
 // Import existing components
@@ -69,9 +70,14 @@ class NRCADAMSMCPServer {
   constructor() {
     this.config = configManager.getConfig();
     this.ragEngine = new EnhancedRAGEngine();
-    
+
     mcpLogger.info('NRC ADAMS MCP Server initializing with modular architecture');
-    
+
+    // Initialize PDF cache service
+    pdfCacheService.initialize().catch(err => {
+      mcpLogger.error('Failed to initialize PDF cache service', { error: err.message });
+    });
+
     this.server = new Server(
       {
         name: "nrc-adams-mcp",

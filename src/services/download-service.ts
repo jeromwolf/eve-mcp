@@ -4,6 +4,7 @@ import * as path from 'path';
 import mcpLogger from '../mcp-logger.js';
 import { configManager } from '../server/config.js';
 import { cacheManager } from './cache-manager.js';
+import { pdfCacheService } from './pdf-cache-service.js';
 import { extractTextFromPDF } from '../pdf-extractor.js';
 import { createKeywordDownloadPath } from '../utils.js';
 
@@ -201,9 +202,9 @@ export class DownloadService {
             size: stats.size
           });
 
-          // Skip text extraction for existing files to avoid timeout
-          // Text extraction will be done by RAG engine when needed
-          
+          // Use PDFCacheService to get or extract text content
+          const content = await pdfCacheService.getCachedText(filePath, documentNumber);
+
           const result: DownloadResult = {
             success: true,
             filePath,
@@ -212,9 +213,10 @@ export class DownloadService {
             metadata: {
               title,
               documentNumber,
-              docketNumber: document.docketNumber
+              docketNumber: document.docketNumber,
+              pages: this.estimatePagesFromSize(stats.size)
             },
-            content: undefined // Skip extraction for performance
+            content: content || undefined
           };
 
           cacheManager.set(cacheKey, result);
@@ -252,8 +254,8 @@ export class DownloadService {
       await fs.mkdir(path.dirname(filePath), { recursive: true });
       await fs.writeFile(filePath, buffer);
 
-      // Extract text content
-      const content = await extractTextFromPDF(filePath);
+      // Use PDFCacheService to extract and cache text content
+      const content = await pdfCacheService.getCachedText(filePath, documentNumber);
 
       // Get PDF metadata
       const stats = await fs.stat(filePath);
