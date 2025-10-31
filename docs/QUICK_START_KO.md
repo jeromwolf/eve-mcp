@@ -95,22 +95,38 @@ open -e ~/Library/Application\ Support/Claude/claude_desktop_config.json
 ```
 (탐색기 주소창에 붙여넣기)
 
-### 설정 추가
+### 2-1단계: 프로젝트 절대 경로 확인
 
-**절대 경로 확인:**
+먼저 프로젝트가 설치된 **정확한 경로**를 확인하세요:
+
 ```bash
-# 현재 프로젝트 경로 출력
+# eve-mcp 폴더에서 실행 (3번 단계에서 이미 들어가 있음)
 pwd
-# 출력 예시: /Users/your_name/eve-mcp
 ```
 
-**JSON 설정 추가:**
+**출력 예시**:
+```
+/Users/kelly/eve-mcp                    # macOS 예시
+C:\Users\kelly\eve-mcp                  # Windows 예시 (보통 cmd에서는 역슬래시로 표시)
+```
+
+💡 **Tip**: 이 경로를 복사해두세요! 다음 단계에서 사용합니다.
+
+---
+
+### 2-2단계: 설정 파일 작성
+
+위에서 확인한 **절대 경로**를 사용해서 설정하세요.
+
+#### macOS 예시:
+`pwd` 결과가 `/Users/kelly/eve-mcp`인 경우:
+
 ```json
 {
   "mcpServers": {
     "nrc-adams-mcp": {
       "command": "node",
-      "args": ["/절대경로/eve-mcp/build/index.js"],
+      "args": ["/Users/kelly/eve-mcp/build/index.js"],
       "env": {
         "OPENAI_API_KEY": "sk-..."
       }
@@ -119,9 +135,46 @@ pwd
 }
 ```
 
-**⚠️ 주의사항:**
-- `/절대경로/eve-mcp/`를 실제 경로로 변경하세요
-- Windows는 역슬래시(`\`) 대신 슬래시(`/`) 사용: `C:/Users/...`
+#### Windows 예시:
+`pwd` 결과가 `C:\Users\kelly\eve-mcp`인 경우:
+
+```json
+{
+  "mcpServers": {
+    "nrc-adams-mcp": {
+      "command": "node",
+      "args": ["C:/Users/kelly/eve-mcp/build/index.js"],
+      "env": {
+        "OPENAI_API_KEY": "sk-..."
+      }
+    }
+  }
+}
+```
+
+**⚠️ 중요! 흔한 실수들:**
+
+| 잘못된 예 ❌ | 올바른 예 ✅ | 이유 |
+|------------|------------|------|
+| `~/eve-mcp/build/index.js` | `/Users/kelly/eve-mcp/build/index.js` | 절대 경로 사용 필수 |
+| `/Users/kelly/eve-mcp` | `/Users/kelly/eve-mcp/build/index.js` | 끝에 `/build/index.js` 추가 필수 |
+| `C:\Users\kelly\eve-mcp\build\index.js` | `C:/Users/kelly/eve-mcp/build/index.js` | Windows도 `/` 사용 |
+| `/eve-mcp/build/index.js` | `/Users/kelly/eve-mcp/build/index.js` | 전체 경로 필요 |
+
+**올바른 경로 만드는 3단계:**
+```bash
+# 1. pwd로 경로 확인
+pwd
+# 출력: /Users/kelly/eve-mcp
+
+# 2. 끝에 /build/index.js 추가
+# 결과: /Users/kelly/eve-mcp/build/index.js
+
+# 3. JSON의 args에 입력
+"args": ["/Users/kelly/eve-mcp/build/index.js"]
+```
+
+**추가 참고:**
 - `OPENAI_API_KEY`는 선택사항 (없어도 작동, 있으면 정확도 향상)
 
 ---
