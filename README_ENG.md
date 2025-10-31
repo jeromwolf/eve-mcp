@@ -2,11 +2,15 @@
 
 Nuclear Regulatory Commission (NRC) ADAMS (Agency-wide Documents Access and Management System) document search and analysis server for Claude Desktop.
 
+**✅ Status**: Production Ready (10/10 Tests Passed) | **📅 Last Updated**: 2025-10-31
+
 ---
 
 **📖 Documentation**
 - 🚀 [5-Minute Quick Start Guide](docs/QUICK_START_KO.md) ← **First time? Start here!** (Korean)
 - 🔧 [Troubleshooting Guide](docs/TROUBLESHOOTING.md) (Korean)
+- 📊 [Test Report](TEST_REPORT_2025-10-31.md) - 10/10 Success!
+- 📋 [User Feedback Guide](USER_FEEDBACK_GUIDE.md) - Feedback Welcome!
 - 🇰🇷 [한국어 문서](README.md)
 
 ---

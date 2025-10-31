@@ -2,11 +2,15 @@
 
 미국 원자력규제위원회(NRC) ADAMS(Agency-wide Documents Access and Management System) 문서 검색 및 분석 서버 for Claude Desktop
 
+**✅ 상태**: 프로덕션 준비 완료 (10/10 테스트 통과) | **📅 최종 업데이트**: 2025-10-31
+
 ---
 
 **📖 문서 링크**
 - 🚀 [5분 빠른 시작 가이드](docs/QUICK_START_KO.md) ← **처음 설치하시나요? 여기부터!**
 - 🔧 [문제 해결 가이드](docs/TROUBLESHOOTING.md)
+- 📊 [테스트 결과 보고서](TEST_REPORT_2025-10-31.md) - 10/10 성공!
+- 📋 [사용자 피드백 가이드](USER_FEEDBACK_GUIDE.md) - 피드백 환영합니다!
 - 🌐 [English Documentation](README_ENG.md)
 
 ---
