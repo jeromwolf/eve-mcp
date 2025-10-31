@@ -233,34 +233,40 @@ pdf-text-cache/
 "Delete downloaded files"
 ```
 
-## 🧠 RAG Configuration (Optional)
+## 🧠 RAG Search Engine
 
-RAG enables semantic search instead of simple keyword matching. See [API_SETUP.md](docs/API_SETUP.md) for detailed instructions.
+This project uses a RAG (Retrieval-Augmented Generation) system to search information from downloaded documents.
+**Works without API keys**, but adding OpenAI or Claude API significantly improves accuracy.
 
-### Quick Setup
+See [API_SETUP.md](docs/API_SETUP.md) for detailed instructions.
 
-#### Option 1: OpenAI (Recommended)
-- Best accuracy with vector embeddings
-- Cost: ~$0.10-$0.50 per 100 documents
-- Get key: https://platform.openai.com/api-keys
+### Operation Modes
 
-#### Option 2: Claude/Anthropic
-- No additional signup if you have Claude account
-- Direct relevance scoring without embeddings
-- Get key: https://console.anthropic.com
+#### 🥇 OpenAI Vector Embeddings (Recommended)
+- **Accuracy**: 95% (semantic search)
+- **Cost**: ~$0.10-$0.50 per 100 documents
+- **Setup**: Add `OPENAI_API_KEY` environment variable
+- **Get key**: https://platform.openai.com/api-keys
 
-#### Option 3: No API Key
-- Works with keyword search
-- Free but less accurate
-- Good for exact term matching
+#### 🥈 Claude API
+- **Accuracy**: 85% (semantic analysis)
+- **Cost**: $0.25/1M tokens
+- **Setup**: Add `ANTHROPIC_API_KEY` environment variable
+- **Get key**: https://console.anthropic.com
+
+#### 🥉 Keyword Search (Default)
+- **Accuracy**: 60% (word matching)
+- **Cost**: Free
+- **Setup**: Works immediately without API key
+- **Best for**: Exact term or document number searches
 
 ### Performance Comparison
 
-| Method | Accuracy | Speed | Cost |
-|--------|----------|-------|------|
-| OpenAI Embeddings | 95% | Fast | $0.0001/1K tokens |
-| Claude Analysis | 85% | Medium | $0.25/1M tokens |
-| Keyword Search | 60% | Fastest | Free |
+| Mode | Search Method | Accuracy | Speed | Cost |
+|------|--------------|----------|-------|------|
+| OpenAI Embeddings | Vector similarity | **95%** | Fast | $0.0001/1K tokens |
+| Claude Analysis | Semantic analysis | **85%** | Medium | $0.25/1M tokens |
+| Keyword Search | Word matching | 60% | Fastest | **Free** |
 
 ## 📁 Project Structure
 
