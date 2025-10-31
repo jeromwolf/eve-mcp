@@ -5,8 +5,8 @@
 ---
 
 **📖 문서 링크**
-- 🚀 [5분 빠른 시작 가이드](QUICK_START_KO.md) ← **처음 설치하시나요? 여기부터!**
-- 🔧 [문제 해결 가이드](TROUBLESHOOTING.md)
+- 🚀 [5분 빠른 시작 가이드](docs/QUICK_START_KO.md) ← **처음 설치하시나요? 여기부터!**
+- 🔧 [문제 해결 가이드](docs/TROUBLESHOOTING.md)
 - 🌐 [English Documentation](README_ENG.md)
 
 ---
@@ -164,11 +164,11 @@ Claude Desktop에서 새 대화 시작 후:
 
 예시:
 downloaded_pdfs/
-├── emergency_plan_2025-09-30/
+├── emergency_plan_2025-10-31/
 │   ├── ML020920623.pdf
 │   ├── ML021450123.pdf
 │   └── ...
-└── reactor_safety_2025-10-01/
+└── reactor_safety_2025-10-31/
     ├── ML024270A144.pdf
     └── ...
 ```
@@ -185,7 +185,7 @@ pdf-text-cache/
 
 ### 3. 다운로드한 문서와 채팅
 
-✨ **New (2025-09-30)**: 이제 다운로드 후 즉시 Q&A 가능! 캐시 자동 생성 지원
+✨ **Updated (October 2025)**: 이제 다운로드 후 즉시 Q&A 가능! 캐시 자동 생성 지원
 
 #### 전체 문서 검색
 ```
@@ -235,7 +235,7 @@ pdf-text-cache/
 
 ## 🧠 RAG 설정 (선택사항)
 
-RAG는 단순 키워드 매칭 대신 의미론적 검색을 가능하게 합니다. 자세한 내용은 [API_SETUP.md](API_SETUP.md)를 참고하세요.
+RAG는 단순 키워드 매칭 대신 의미론적 검색을 가능하게 합니다. 자세한 내용은 [API_SETUP.md](docs/API_SETUP.md)를 참고하세요.
 
 ### 빠른 설정
 
@@ -324,7 +324,7 @@ npm run build
 ### 검색이 정확하지 않나요?
 - RAG 기능을 위한 API 키 추가
 - 더 구체적인 키워드 사용
-- 설정은 API_SETUP.md 참조
+- 설정은 docs/API_SETUP.md 참조
 
 ### 캐시가 가득 찼나요?
 - 50개 문서 후 자동 LRU 제거

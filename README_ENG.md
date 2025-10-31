@@ -5,8 +5,8 @@ Nuclear Regulatory Commission (NRC) ADAMS (Agency-wide Documents Access and Mana
 ---
 
 **📖 Documentation**
-- 🚀 [5-Minute Quick Start Guide](QUICK_START_KO.md) ← **First time? Start here!** (Korean)
-- 🔧 [Troubleshooting Guide](TROUBLESHOOTING.md) (Korean)
+- 🚀 [5-Minute Quick Start Guide](docs/QUICK_START_KO.md) ← **First time? Start here!** (Korean)
+- 🔧 [Troubleshooting Guide](docs/TROUBLESHOOTING.md) (Korean)
 - 🇰🇷 [한국어 문서](README.md)
 
 ---
@@ -164,11 +164,11 @@ project_folder/downloaded_pdfs/search_keyword_date/ML_document_number.pdf
 
 Example:
 downloaded_pdfs/
-├── emergency_plan_2025-09-30/
+├── emergency_plan_2025-10-31/
 │   ├── ML020920623.pdf
 │   ├── ML021450123.pdf
 │   └── ...
-└── reactor_safety_2025-10-01/
+└── reactor_safety_2025-10-31/
     ├── ML024270A144.pdf
     └── ...
 ```
@@ -185,23 +185,39 @@ pdf-text-cache/
 
 ### 3. Chat with Downloaded Documents
 
-⚠️ **Important**: Wait 1-2 seconds after downloading!
-- Due to MCP protocol, each request runs in a separate process
-- First Q&A call automatically loads documents (takes 3-9 seconds)
-- Subsequent queries are instant (1-3 seconds)
+✨ **Updated (October 2025)**: Now supports immediate Q&A after download! Auto-cache generation enabled.
 
-#### Ask Questions
+#### Ask All Documents
 ```
 "What are the main safety requirements?"
 "Find information about emergency procedures"
 "Summarize the reactor specifications"
 ```
 
+#### 🎯 Query Specific Document (New!)
+```
+"Ask about ML020920623: What is the emergency plan?"
+"In document ML081710326, who attended the meeting?"
+"Summarize ML19014A039"
+```
+
+**Benefits**:
+- ✅ Improved accuracy: Search only in specified document
+- ✅ Faster response: Exclude irrelevant documents
+- ✅ Clear errors: Immediate notification if document not loaded
+
+**How it works**:
+1. Specify document with `document_number` parameter
+2. RAG searches and filters results by that document
+3. Shows "download required" message if document not found
+
 #### Search in Documents
 ```
 "Search for cooling system in downloaded files"
 "Find emergency response procedures"
 ```
+
+💡 **Tip**: First Q&A call automatically loads documents (takes 3-9 seconds). Subsequent queries are instant (1-3 seconds)
 
 ### 4. Cache Management
 
@@ -219,7 +235,7 @@ pdf-text-cache/
 
 ## 🧠 RAG Configuration (Optional)
 
-RAG enables semantic search instead of simple keyword matching. See [API_SETUP.md](API_SETUP.md) for detailed instructions.
+RAG enables semantic search instead of simple keyword matching. See [API_SETUP.md](docs/API_SETUP.md) for detailed instructions.
 
 ### Quick Setup
 
@@ -308,7 +324,7 @@ npm run build
 ### Search not accurate?
 - Add API key for RAG features
 - Use more specific keywords
-- Check API_SETUP.md for configuration
+- Check docs/API_SETUP.md for configuration
 
 ### Cache full?
 - Automatic LRU eviction after 50 documents
