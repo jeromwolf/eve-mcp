@@ -137,42 +137,57 @@ export class ImprovedADAMSScraper {
   private async waitForResults(page: puppeteer.Page): Promise<boolean> {
     const perf = measurePerformance('Wait for search results');
     const startTime = Date.now();
-    
+
     // 먼저 최소 대기 시간만큼 기다림
     await new Promise(resolve => setTimeout(resolve, this.waitOptions.minWait));
-    
+
     while (Date.now() - startTime < this.waitOptions.maxWait) {
-      const hasResults = await page.evaluate(() => {
-        const rows = document.querySelectorAll('tr');
-        // 더 다양한 문서 패턴 확인
-        const patterns = [
-          /ML\d{8,}/,           // ML documents
-          /SECY-\d{2}-\d{4}/,   // SECY documents
-          /NUREG-\d{4}/,        // NUREG documents
-          /\d{10}/              // 10-digit documents
-        ];
-        
-        for (let i = 0; i < rows.length; i++) {
-          const text = rows[i].innerText || '';
-          for (const pattern of patterns) {
-            if (pattern.test(text)) {
-              return true;
+      try {
+        // Windows 호환성: waitForSelector 사용 (detached frame 방지)
+        try {
+          await page.waitForSelector('tr', { timeout: this.waitOptions.checkInterval });
+        } catch (e) {
+          // Selector timeout은 무시하고 계속
+        }
+
+        const hasResults = await page.evaluate(() => {
+          const rows = document.querySelectorAll('tr');
+          // 더 다양한 문서 패턴 확인
+          const patterns = [
+            /ML\d{8,}/,           // ML documents
+            /SECY-\d{2}-\d{4}/,   // SECY documents
+            /NUREG-\d{4}/,        // NUREG documents
+            /\d{10}/              // 10-digit documents
+          ];
+
+          for (let i = 0; i < rows.length; i++) {
+            const text = rows[i].innerText || '';
+            for (const pattern of patterns) {
+              if (pattern.test(text)) {
+                return true;
+              }
             }
           }
+          return false;
+        }).catch((err) => {
+          logger.warn('Evaluate failed (detached frame?), retrying...', { error: err.message });
+          return false;
+        });
+
+        if (hasResults) {
+          const waitTime = Date.now() - startTime;
+          logger.info(`Results found after ${waitTime}ms`);
+          perf.end(true, { waitTime });
+          return true;
         }
-        return false;
-      });
-      
-      if (hasResults) {
-        const waitTime = Date.now() - startTime;
-        logger.info(`Results found after ${waitTime}ms`);
-        perf.end(true, { waitTime });
-        return true;
+
+        await new Promise(resolve => setTimeout(resolve, this.waitOptions.checkInterval));
+      } catch (error) {
+        logger.warn('Wait iteration failed, continuing...', { error: (error as Error).message });
+        await new Promise(resolve => setTimeout(resolve, this.waitOptions.checkInterval));
       }
-      
-      await new Promise(resolve => setTimeout(resolve, this.waitOptions.checkInterval));
     }
-    
+
     perf.end(false);
     logger.warn('No results found within timeout period');
     return false;
@@ -324,34 +339,36 @@ export class ImprovedADAMSScraper {
       return [];
     }
     
-    // 결과 파싱
-    const documents = await page.evaluate(() => {
-      const results: any[] = [];
-      const rows = document.querySelectorAll('tr');
-      
-      rows.forEach(row => {
-        const cells = row.querySelectorAll('td');
-        
-        if (cells.length >= 3) {
-          const accessionCell = cells[2];
-          if (accessionCell) {
-            const link = accessionCell.querySelector('a');
-            
-            if (link) {
-              const accessionText = link.textContent?.trim() || '';
-              const accessionNumber = accessionText.replace('Accession #', '').trim();
-              
-              if (accessionNumber && accessionNumber.length >= 8) {
-                const titleCell = cells[3];
-                let title = titleCell?.textContent?.trim() || '';
-                title = title.replace('Document Title', '').trim();
-                
-                const dateCell = cells[4] || cells[5];
-                let date = dateCell?.textContent?.trim() || '';
-                date = date.replace('Date Added', '').replace('Doc Date', '').trim();
-                
-                results.push({
-                  accessionNumber: accessionNumber,
+    // 결과 파싱 (Windows 호환성: try-catch 추가)
+    let documents: any[] = [];
+    try {
+      documents = await page.evaluate(() => {
+        const results: any[] = [];
+        const rows = document.querySelectorAll('tr');
+
+        rows.forEach(row => {
+          const cells = row.querySelectorAll('td');
+
+          if (cells.length >= 3) {
+            const accessionCell = cells[2];
+            if (accessionCell) {
+              const link = accessionCell.querySelector('a');
+
+              if (link) {
+                const accessionText = link.textContent?.trim() || '';
+                const accessionNumber = accessionText.replace('Accession #', '').trim();
+
+                if (accessionNumber && accessionNumber.length >= 8) {
+                  const titleCell = cells[3];
+                  let title = titleCell?.textContent?.trim() || '';
+                  title = title.replace('Document Title', '').trim();
+
+                  const dateCell = cells[4] || cells[5];
+                  let date = dateCell?.textContent?.trim() || '';
+                  date = date.replace('Date Added', '').replace('Doc Date', '').trim();
+
+                  results.push({
+                    accessionNumber: accessionNumber,
                   title: title.substring(0, 200) || `${accessionNumber} - NRC Document`,
                   date: date,
                   hasLink: true
@@ -360,16 +377,22 @@ export class ImprovedADAMSScraper {
             }
           }
         }
+        });
+
+        // 중복 제거
+        const uniqueResults = results.filter((doc, index, self) =>
+          index === self.findIndex(d => d.accessionNumber === doc.accessionNumber)
+        );
+
+        return uniqueResults;
       });
-      
-      // 중복 제거
-      const uniqueResults = results.filter((doc, index, self) => 
-        index === self.findIndex(d => d.accessionNumber === doc.accessionNumber)
-      );
-      
-      return uniqueResults;
-    });
-    
+    } catch (evalError) {
+      logger.error('Failed to evaluate page (detached frame)', {
+        error: (evalError as Error).message
+      });
+      throw new Error(`Search failed: ${(evalError as Error).message}`);
+    }
+
     logger.info(`Browser search found ${documents.length} documents`);
     
     if (documents.length > 0) {
