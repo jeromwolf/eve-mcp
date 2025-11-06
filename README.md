@@ -8,6 +8,7 @@
 
 **📖 문서 링크**
 - 🚀 [5분 빠른 시작 가이드](docs/QUICK_START_KO.md) ← **처음 설치하시나요? 여기부터!**
+- 🪟 [Windows 설치 가이드](docs/WINDOWS_SETUP.md) ← **Windows 사용자 필독!**
 - 🔧 [문제 해결 가이드](docs/TROUBLESHOOTING.md)
 - 📊 [테스트 결과 보고서](TEST_REPORT_2025-10-31.md) - 10/10 성공!
 - 📋 [사용자 피드백 가이드](USER_FEEDBACK_GUIDE.md) - 피드백 환영합니다!
