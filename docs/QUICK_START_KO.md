@@ -143,23 +143,66 @@ C:\Users\kelly\eve-mcp                  # Windows 예시 (보통 cmd에서는 �
   "mcpServers": {
     "nrc-adams-mcp": {
       "command": "node",
-      "args": ["C:/Users/kelly/eve-mcp/build/index.js"],
+      "args": ["C:\\Users\\kelly\\eve-mcp\\build\\index.js"],
       "env": {
-        "OPENAI_API_KEY": "sk-..."
+        "OPENAI_API_KEY": "sk-...",
+        "PUPPETEER_EXECUTABLE_PATH": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"
       }
     }
+  },
+  "networkAccess": {
+    "allowedDomains": [
+      "adams.nrc.gov",
+      "adams-search.nrc.gov",
+      "adamswebsearch2.nrc.gov",
+      "www.nrc.gov",
+      "nrc.gov"
+    ]
   }
 }
 ```
 
-**⚠️ 중요! 흔한 실수들:**
+**⚠️ 중요! Windows 설정 주의사항:**
 
-| 잘못된 예 ❌ | 올바른 예 ✅ | 이유 |
-|------------|------------|------|
-| `~/eve-mcp/build/index.js` | `/Users/kelly/eve-mcp/build/index.js` | 절대 경로 사용 필수 |
-| `/Users/kelly/eve-mcp` | `/Users/kelly/eve-mcp/build/index.js` | 끝에 `/build/index.js` 추가 필수 |
-| `C:\Users\kelly\eve-mcp\build\index.js` | `C:/Users/kelly/eve-mcp/build/index.js` | Windows도 `/` 사용 |
-| `/eve-mcp/build/index.js` | `/Users/kelly/eve-mcp/build/index.js` | 전체 경로 필요 |
+| 항목 | 잘못된 예 ❌ | 올바른 예 ✅ | 이유 |
+|------|------------|------------|------|
+| **경로 구분자** | `"C:/Users/..."` | `"C:\\Users\\"` | JSON에서는 `\\` (이중 백슬래시) 사용 |
+| **절대 경로** | `~/eve-mcp/build/index.js` | `C:\\Users\\kelly\\eve-mcp\\build\\index.js` | 절대 경로 필수 |
+| **파일명 포함** | `C:\\Users\\kelly\\eve-mcp` | `C:\\Users\\kelly\\eve-mcp\\build\\index.js` | `\\build\\index.js` 추가 필수 |
+| **networkAccess 위치** | `mcpServers` 안에 있음 | `mcpServers` 밖, 최상위 레벨 | 구조 오류 방지 |
+
+**🔴 자주 발생하는 Windows 오류:**
+
+```json
+// ❌ 잘못된 예 - networkAccess 위치 오류
+{
+  "mcpServers": {
+    "nrc-adams-mcp": {
+      ...
+      "networkAccess": {  // ← 여기 있으면 안 됨!
+        ...
+      }
+    }
+  }
+}
+
+// ✅ 올바른 예 - networkAccess가 최상위에
+{
+  "mcpServers": {
+    "nrc-adams-mcp": {
+      ...
+    }
+  },
+  "networkAccess": {  // ← 여기 있어야 함!
+    ...
+  }
+}
+```
+
+**⚠️ 추가 설명:**
+- `PUPPETEER_EXECUTABLE_PATH`: Chrome이 기본 경로에 없을 때 필요
+- `networkAccess`: Claude Desktop이 NRC 웹사이트 접근하도록 허용
+- `networkAccess`는 **반드시 최상위 레벨**에 위치해야 함!
 
 **올바른 경로 만드는 3단계:**
 ```bash
