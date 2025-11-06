@@ -9,6 +9,7 @@ Nuclear Regulatory Commission (NRC) ADAMS (Agency-wide Documents Access and Mana
 **📖 Documentation**
 - 🚀 [5-Minute Quick Start Guide](docs/QUICK_START_KO.md) ← **First time? Start here!** (Korean)
 - 🪟 [Windows Setup Guide](docs/WINDOWS_SETUP.md) ← **Windows users must read!**
+- 🔄 [Windows Manual Update Guide](docs/WINDOWS_UPDATE_GUIDE.md) ← **Update without Git**
 - 🔧 [Troubleshooting Guide](docs/TROUBLESHOOTING.md) (Korean)
 - 📊 [Test Report](TEST_REPORT_2025-10-31.md) - 10/10 Success!
 - 📋 [User Feedback Guide](USER_FEEDBACK_GUIDE.md) - Feedback Welcome!
