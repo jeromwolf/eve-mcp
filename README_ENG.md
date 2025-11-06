@@ -89,6 +89,15 @@ Add the following configuration:
         "ANTHROPIC_API_KEY": "sk-ant-..."
       }
     }
+  },
+  "networkAccess": {
+    "allowedDomains": [
+      "adams.nrc.gov",
+      "adams-search.nrc.gov",
+      "adamswebsearch2.nrc.gov",
+      "www.nrc.gov",
+      "nrc.gov"
+    ]
   }
 }
 ```
@@ -100,15 +109,28 @@ Configuration file: `%APPDATA%\Claude\claude_desktop_config.json`
   "mcpServers": {
     "nrc-adams-mcp": {
       "command": "node",
-      "args": ["C:/path/eve-mcp/build/index.js"],
+      "args": ["C:\\Users\\YourName\\path\\eve-mcp\\build\\index.js"],
       "env": {
         "OPENAI_API_KEY": "sk-...",
         "ANTHROPIC_API_KEY": "sk-ant-..."
       }
     }
+  },
+  "networkAccess": {
+    "allowedDomains": [
+      "adams.nrc.gov",
+      "adams-search.nrc.gov",
+      "adamswebsearch2.nrc.gov",
+      "www.nrc.gov",
+      "nrc.gov"
+    ]
   }
 }
 ```
+
+**⚠️ Important**:
+- Use `\\` (double backslash) for Windows paths
+- `networkAccess` is required for external domain access
 
 ### 4. Restart Claude Desktop
 

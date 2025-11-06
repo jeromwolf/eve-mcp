@@ -128,6 +128,7 @@ notepad "$env:APPDATA\Claude\claude_desktop_config.json"
   "networkAccess": {
     "allowedDomains": [
       "adams.nrc.gov",
+      "adams-search.nrc.gov",
       "adamswebsearch2.nrc.gov",
       "www.nrc.gov",
       "nrc.gov"
@@ -161,6 +162,7 @@ Chrome이 다른 위치에 설치된 경우:
   "networkAccess": {
     "allowedDomains": [
       "adams.nrc.gov",
+      "adams-search.nrc.gov",
       "adamswebsearch2.nrc.gov",
       "www.nrc.gov",
       "nrc.gov"

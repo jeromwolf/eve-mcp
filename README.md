@@ -89,6 +89,15 @@ open -e ~/Library/Application\ Support/Claude/claude_desktop_config.json
         "ANTHROPIC_API_KEY": "sk-ant-..."
       }
     }
+  },
+  "networkAccess": {
+    "allowedDomains": [
+      "adams.nrc.gov",
+      "adams-search.nrc.gov",
+      "adamswebsearch2.nrc.gov",
+      "www.nrc.gov",
+      "nrc.gov"
+    ]
   }
 }
 ```
@@ -100,15 +109,28 @@ open -e ~/Library/Application\ Support/Claude/claude_desktop_config.json
   "mcpServers": {
     "nrc-adams-mcp": {
       "command": "node",
-      "args": ["C:/path/eve-mcp/build/index.js"],
+      "args": ["C:\\Users\\YourName\\path\\eve-mcp\\build\\index.js"],
       "env": {
         "OPENAI_API_KEY": "sk-...",
         "ANTHROPIC_API_KEY": "sk-ant-..."
       }
     }
+  },
+  "networkAccess": {
+    "allowedDomains": [
+      "adams.nrc.gov",
+      "adams-search.nrc.gov",
+      "adamswebsearch2.nrc.gov",
+      "www.nrc.gov",
+      "nrc.gov"
+    ]
   }
 }
 ```
+
+**⚠️ 중요**:
+- 경로에 `\\` (백슬래시 2개) 사용 필수
+- `networkAccess` 설정 필수 (외부 도메인 접근 허용)
 
 ### 4. Claude Desktop 재시작
 
