@@ -313,6 +313,8 @@ export class ImprovedADAMSScraper {
     query: string,
     maxResults: number
   ): Promise<RealADAMSDocument[]> {
+    logger.info('🔄 CODE VERSION: 2025-11-06-v2 (Windows detached frame fix)');
+
     const searchParams = {
       keywords: query,
       legacyLibFilter: true,
@@ -320,31 +322,66 @@ export class ImprovedADAMSScraper {
       any: [],
       all: []
     };
-    
+
     const encodedParams = encodeURIComponent(JSON.stringify(searchParams));
     const searchUrl = `https://adams-search.nrc.gov/results/${encodedParams}`;
-    
+
     logger.info('Navigating to search URL', { url: searchUrl.substring(0, 100) });
-    
-    await page.goto(searchUrl, {
-      waitUntil: 'networkidle2',
-      timeout: 60000
-    });
+
+    try {
+      // Windows 호환성: waitUntil 옵션 변경
+      await page.goto(searchUrl, {
+        waitUntil: 'domcontentloaded', // networkidle2 대신 domcontentloaded 사용
+        timeout: 60000
+      });
+
+      logger.info('✅ Page navigation completed');
+
+      // 추가 대기: 페이지 안정화
+      await new Promise(resolve => setTimeout(resolve, 2000));
+      logger.info('✅ Post-navigation wait completed');
+
+    } catch (navError) {
+      logger.error('❌ Navigation failed', { error: (navError as Error).message });
+      throw new Error(`Navigation failed: ${(navError as Error).message}`);
+    }
     
     // 동적 대기
-    const hasResults = await this.waitForResults(page);
-    
+    logger.info('⏳ Waiting for search results...');
+    let hasResults = false;
+    try {
+      hasResults = await this.waitForResults(page);
+      logger.info(`✅ waitForResults returned: ${hasResults}`);
+    } catch (waitError) {
+      logger.error('❌ waitForResults failed', { error: (waitError as Error).message });
+      return [];
+    }
+
     if (!hasResults) {
-      logger.warn('No results found after waiting');
+      logger.warn('⚠️ No results found after waiting');
       return [];
     }
     
     // 결과 파싱 (Windows 호환성: try-catch 추가)
+    logger.info('📄 Starting page evaluation...');
     let documents: any[] = [];
-    try {
-      documents = await page.evaluate(() => {
-        const results: any[] = [];
-        const rows = document.querySelectorAll('tr');
+
+    // 재시도 로직 추가
+    let retryCount = 0;
+    const maxRetries = 3;
+
+    while (retryCount < maxRetries) {
+      try {
+        logger.info(`🔄 Evaluation attempt ${retryCount + 1}/${maxRetries}`);
+
+        // 페이지가 여전히 존재하는지 확인
+        if (page.isClosed()) {
+          throw new Error('Page is closed');
+        }
+
+        documents = await page.evaluate(() => {
+          const results: any[] = [];
+          const rows = document.querySelectorAll('tr');
 
         rows.forEach(row => {
           const cells = row.querySelectorAll('td');
@@ -379,21 +416,37 @@ export class ImprovedADAMSScraper {
         }
         });
 
-        // 중복 제거
-        const uniqueResults = results.filter((doc, index, self) =>
-          index === self.findIndex(d => d.accessionNumber === doc.accessionNumber)
-        );
+          // 중복 제거
+          const uniqueResults = results.filter((doc, index, self) =>
+            index === self.findIndex(d => d.accessionNumber === doc.accessionNumber)
+          );
 
-        return uniqueResults;
-      });
-    } catch (evalError) {
-      logger.error('Failed to evaluate page (detached frame)', {
-        error: (evalError as Error).message
-      });
-      throw new Error(`Search failed: ${(evalError as Error).message}`);
+          return uniqueResults;
+        });
+
+        // 성공하면 루프 탈출
+        logger.info(`✅ Evaluation successful, found ${documents.length} documents`);
+        break;
+
+      } catch (evalError) {
+        retryCount++;
+        logger.error(`❌ Evaluation attempt ${retryCount} failed`, {
+          error: (evalError as Error).message,
+          stack: (evalError as Error).stack
+        });
+
+        if (retryCount >= maxRetries) {
+          logger.error('❌ All evaluation attempts exhausted');
+          throw new Error(`Search failed after ${maxRetries} attempts: ${(evalError as Error).message}`);
+        }
+
+        // 재시도 전 대기
+        logger.info(`⏳ Waiting 2 seconds before retry...`);
+        await new Promise(resolve => setTimeout(resolve, 2000));
+      }
     }
 
-    logger.info(`Browser search found ${documents.length} documents`);
+    logger.info(`📊 Browser search found ${documents.length} documents`);
     
     if (documents.length > 0) {
       const results = documents.slice(0, maxResults).map(doc => ({
