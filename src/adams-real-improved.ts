@@ -55,9 +55,12 @@ export class ImprovedADAMSScraper {
   private async _initializeBrowser() {
     const perf = measurePerformance('Browser initialization');
     try {
+      const isWindows = process.platform === 'win32';
+
       // Windows-compatible Puppeteer configuration
       const launchOptions: any = {
-        headless: true,
+        // Windows: visible browser (더 안정적)
+        headless: isWindows ? false : true,
         args: [
           '--no-sandbox',
           '--disable-setuid-sandbox',
@@ -67,7 +70,13 @@ export class ImprovedADAMSScraper {
           '--no-zygote',
           '--single-process',
           '--disable-web-security',
-          '--disable-features=IsolateOrigins,site-per-process'
+          '--disable-features=IsolateOrigins,site-per-process',
+          // Windows 안정성 개선
+          '--disable-blink-features=AutomationControlled',
+          '--disable-features=site-per-process',
+          '--disable-infobars',
+          '--window-size=1920,1080',
+          '--start-maximized'
         ]
       };
 
@@ -77,11 +86,13 @@ export class ImprovedADAMSScraper {
         logger.info(`Using custom Chrome path: ${process.env.PUPPETEER_EXECUTABLE_PATH}`);
       }
 
-      // Increase timeout for Windows
-      launchOptions.timeout = 60000;
+      // Windows: 더 긴 timeout
+      launchOptions.timeout = isWindows ? 120000 : 60000;
+
+      logger.info(`🔧 Platform: ${process.platform}, Headless: ${launchOptions.headless}, Timeout: ${launchOptions.timeout}ms`);
 
       this.browser = await puppeteer.launch(launchOptions);
-      logger.info('Browser initialized successfully');
+      logger.info('✅ Browser initialized successfully');
       perf.end(true);
     } catch (error) {
       perf.end(false);
@@ -328,18 +339,27 @@ export class ImprovedADAMSScraper {
 
     logger.info('Navigating to search URL', { url: searchUrl.substring(0, 100) });
 
+    const isWindows = process.platform === 'win32';
+
     try {
+      // Windows: User-Agent 설정 (봇 감지 회피)
+      if (isWindows) {
+        await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36');
+        logger.info('🔧 Windows User-Agent set');
+      }
+
       // Windows 호환성: waitUntil 옵션 변경
       await page.goto(searchUrl, {
         waitUntil: 'domcontentloaded', // networkidle2 대신 domcontentloaded 사용
-        timeout: 60000
+        timeout: isWindows ? 90000 : 60000 // Windows는 더 긴 timeout
       });
 
       logger.info('✅ Page navigation completed');
 
-      // 추가 대기: 페이지 안정화
-      await new Promise(resolve => setTimeout(resolve, 2000));
-      logger.info('✅ Post-navigation wait completed');
+      // 추가 대기: Windows는 더 길게
+      const waitTime = isWindows ? 5000 : 2000;
+      await new Promise(resolve => setTimeout(resolve, waitTime));
+      logger.info(`✅ Post-navigation wait completed (${waitTime}ms)`);
 
     } catch (navError) {
       logger.error('❌ Navigation failed', { error: (navError as Error).message });
