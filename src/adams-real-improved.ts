@@ -55,7 +55,8 @@ export class ImprovedADAMSScraper {
   private async _initializeBrowser() {
     const perf = measurePerformance('Browser initialization');
     try {
-      this.browser = await puppeteer.launch({
+      // Windows-compatible Puppeteer configuration
+      const launchOptions: any = {
         headless: true,
         args: [
           '--no-sandbox',
@@ -64,14 +65,28 @@ export class ImprovedADAMSScraper {
           '--disable-gpu',
           '--no-first-run',
           '--no-zygote',
-          '--single-process'
+          '--single-process',
+          '--disable-web-security',
+          '--disable-features=IsolateOrigins,site-per-process'
         ]
-      });
+      };
+
+      // Use custom Chrome path if provided (Windows support)
+      if (process.env.PUPPETEER_EXECUTABLE_PATH) {
+        launchOptions.executablePath = process.env.PUPPETEER_EXECUTABLE_PATH;
+        logger.info(`Using custom Chrome path: ${process.env.PUPPETEER_EXECUTABLE_PATH}`);
+      }
+
+      // Increase timeout for Windows
+      launchOptions.timeout = 60000;
+
+      this.browser = await puppeteer.launch(launchOptions);
       logger.info('Browser initialized successfully');
       perf.end(true);
     } catch (error) {
       perf.end(false);
       logError(error, 'Browser initialization failed');
+      logger.error('If on Windows, make sure Chrome is installed or set PUPPETEER_EXECUTABLE_PATH');
       throw error;
     }
   }
