@@ -62,7 +62,13 @@
       "Read(//var/folders/h2/yhmybb9n1cn1wn3y141wqv8m0000gn/T/TemporaryItems/NSIRD_screencaptureui_TY2kyi/**)",
       "Read(//var/folders/h2/yhmybb9n1cn1wn3y141wqv8m0000gn/T/TemporaryItems/NSIRD_screencaptureui_llAgBW/**)",
       "Read(//var/folders/h2/yhmybb9n1cn1wn3y141wqv8m0000gn/T/TemporaryItems/NSIRD_screencaptureui_JHB9o6/**)",
-      "Bash(grep:*)"
+      "Bash(grep:*)",
+      "Bash(cd:*)",
+      "Bash(git restore:*)",
+      "Bash(git checkout:*)",
+      "Bash(zip -r:*)",
+      "Bash(git fetch:*)",
+      "Bash(git pull:*)"
     ],
     "deny": []
   }
