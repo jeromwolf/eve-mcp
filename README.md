@@ -2,7 +2,7 @@
 
 미국 원자력규제위원회(NRC) ADAMS(Agency-wide Documents Access and Management System) 문서 검색 및 분석 서버 for Claude Desktop
 
-**✅ 상태**: 프로덕션 준비 완료 (10/10 테스트 통과) | **📅 최종 업데이트**: 2025-10-31
+**✅ 상태**: 프로덕션 준비 완료 - Windows/Mac 모두 정상 작동 | **📅 최종 업데이트**: 2025-11-07
 
 ---
 
@@ -54,22 +54,33 @@ npm --version   # npm도 자동 설치됨
 - 비용: 문서 100개당 약 $0.10-$0.50
 
 ### 2. 프로젝트 설치
+
+**⚠️ 중요: 반드시 빌드를 실행하세요!**
+
 ```bash
 # 1. 저장소 클론
 git clone https://github.com/jeromwolf/eve-mcp.git
 cd eve-mcp
 
-# 2. 의존성 설치 (npm 필수!)
+# 2. 의존성 설치 (필수!)
 npm install
 
-# 3. TypeScript 빌드
+# 3. TypeScript 빌드 (필수! - 소스 코드를 JavaScript로 변환)
 npm run build
 ```
 
-빌드 완료 확인:
+**빌드 완료 확인:**
 ```bash
+# macOS/Linux
 ls build/index.js  # 파일이 존재해야 함
+
+# Windows
+dir build\index.js  # 파일이 존재해야 함
 ```
+
+**❗ 주의사항:**
+- 코드 업데이트 후에는 **반드시 `npm run build`를 다시 실행**하세요
+- 빌드 없이는 변경사항이 적용되지 않습니다
 
 ### 3. Claude Desktop 설정
 
@@ -105,15 +116,21 @@ open -e ~/Library/Application\ Support/Claude/claude_desktop_config.json
 
 #### Windows
 설정 파일 위치: `%APPDATA%\Claude\claude_desktop_config.json`
+
+**Windows 사용자 주의:**
+1. **반드시 `npm install` 및 `npm run build` 실행** (섹션 2 참조)
+2. Chrome이 설치되어 있어야 함 (Puppeteer가 사용)
+
 ```json
 {
   "mcpServers": {
     "nrc-adams-mcp": {
       "command": "node",
-      "args": ["C:\\Users\\YourName\\path\\eve-mcp\\build\\index.js"],
+      "args": ["C:\\Users\\YourName\\Desktop\\jeromspace\\eve-mcp\\build\\index.js"],
       "env": {
         "OPENAI_API_KEY": "sk-...",
-        "ANTHROPIC_API_KEY": "sk-ant-..."
+        "ANTHROPIC_API_KEY": "sk-ant-...",
+        "PUPPETEER_EXECUTABLE_PATH": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"
       }
     }
   },
@@ -129,9 +146,11 @@ open -e ~/Library/Application\ Support/Claude/claude_desktop_config.json
 }
 ```
 
-**⚠️ 중요**:
+**⚠️ Windows 필수 사항:**
 - 경로에 `\\` (백슬래시 2개) 사용 필수
+- `PUPPETEER_EXECUTABLE_PATH`: Chrome 설치 경로 지정 (필수!)
 - `networkAccess` 설정 필수 (외부 도메인 접근 허용)
+- 빌드 없이 설정만 변경하면 작동하지 않음!
 
 ### 4. Claude Desktop 재시작
 

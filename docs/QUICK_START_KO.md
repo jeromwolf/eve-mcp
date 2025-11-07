@@ -1,14 +1,39 @@
 # 🚀 빠른 시작 가이드 (5분 설치)
 
+**✅ Windows/Mac 모두 정상 작동** (2025-11-07 업데이트)
+
+---
+
+## ⚠️ 설치 전 필독!
+
+**가장 흔한 실수 TOP 3:**
+
+1. **🔴 빌드를 안 함** ← 90%의 문제 원인!
+   - `npm run build` 필수!
+   - 코드 업데이트 후에도 재빌드 필요
+
+2. **❌ 상대 경로 사용**
+   - ❌ `~/eve-mcp/build/index.js`
+   - ✅ `/Users/kelly/eve-mcp/build/index.js` (절대 경로)
+
+3. **❌ Claude Desktop 재시작 안 함**
+   - 설정 변경 후 **완전히 종료** 후 재실행
+
+---
+
 ## ✅ 체크리스트
 
 설치 전 이 항목들을 순서대로 확인하세요:
 
 - [ ] **1단계**: Node.js 18+ 설치 완료
 - [ ] **2단계**: Claude Desktop 설치 완료
-- [ ] **3단계**: 프로젝트 클론 및 빌드 완료
+- [ ] **3단계**: 프로젝트 클론 및 **빌드 완료** ⚠️ 필수!
 - [ ] **4단계**: Claude Desktop 설정 완료
 - [ ] **5단계**: 연결 테스트 성공
+
+**🔴 가장 중요한 단계: 3단계 빌드!**
+- 빌드 없이는 작동하지 않습니다
+- 코드 업데이트 후에도 재빌드 필요
 
 ---
 
@@ -46,13 +71,15 @@ Claude Desktop을 실행하고 로그인하세요.
 
 ---
 
-## 3️⃣ 프로젝트 설치 (5분)
+## 3️⃣ 프로젝트 설치 및 빌드 (5분)
+
+**🔴 이 단계가 가장 중요합니다!**
 
 ### 터미널 열기
 - **macOS**: `Cmd + Space` → "Terminal" 입력
 - **Windows**: `Win + R` → "cmd" 입력
 
-### 명령어 실행
+### 명령어 실행 (복사해서 붙여넣기)
 ```bash
 # 1. 홈 디렉토리로 이동
 cd ~
@@ -66,21 +93,49 @@ cd eve-mcp
 # 4. 의존성 설치 (1-2분 소요)
 npm install
 
-# 5. 빌드 (30초 소요)
+# 5. 빌드 (30초 소요) - ⚠️ 필수!
 npm run build
 
 # 6. 빌드 확인
+# macOS/Linux:
 ls build/index.js
+
+# Windows:
+dir build\index.js
 ```
 
 **성공 시 출력:**
 ```
+# macOS/Linux
 build/index.js
+
+# Windows
+...  index.js
 ```
+
+**⚠️ 빌드 실패 시:**
+```bash
+# TypeScript 컴파일러가 없다는 에러가 나면
+npm install
+
+# 그리고 다시 빌드
+npm run build
+```
+
+**🔴 중요! 빌드를 안 하면:**
+- MCP 서버가 시작되지 않음
+- Claude Desktop에서 도구가 안 보임
+- 코드 변경사항이 적용 안 됨
+
+**✅ 빌드 완료 체크:**
+- [ ] `build/index.js` 파일이 생성되었나요?
+- [ ] 에러 메시지 없이 완료되었나요?
 
 ---
 
 ## 4️⃣ Claude Desktop 설정 (3분)
+
+**💡 팁: 경로 확인이 가장 중요합니다!**
 
 ### 설정 파일 열기
 
@@ -95,28 +150,35 @@ open -e ~/Library/Application\ Support/Claude/claude_desktop_config.json
 ```
 (탐색기 주소창에 붙여넣기)
 
-### 2-1단계: 프로젝트 절대 경로 확인
+### STEP 1: 프로젝트 절대 경로 확인 (필수!)
 
-먼저 프로젝트가 설치된 **정확한 경로**를 확인하세요:
+**🔴 절대 경로를 정확히 확인하세요!**
 
 ```bash
-# eve-mcp 폴더에서 실행 (3번 단계에서 이미 들어가 있음)
+# eve-mcp 폴더에서 실행 (3단계에서 이미 이 폴더에 있음)
 pwd
 ```
 
-**출력 예시**:
+**출력 예시:**
 ```
-/Users/kelly/eve-mcp                    # macOS 예시
-C:\Users\kelly\eve-mcp                  # Windows 예시 (보통 cmd에서는 역슬래시로 표시)
+/Users/kelly/eve-mcp                    # macOS
+C:\Users\kelly\eve-mcp                  # Windows
 ```
 
-💡 **Tip**: 이 경로를 복사해두세요! 다음 단계에서 사용합니다.
+**💡 중요:**
+1. 이 경로를 **메모장에 복사**해두세요
+2. `~` 같은 약어가 아닌 **전체 경로**여야 함
+3. Windows는 `\` (백슬래시) 사용
 
 ---
 
-### 2-2단계: 설정 파일 작성
+### STEP 2: 설정 파일 작성
 
-위에서 확인한 **절대 경로**를 사용해서 설정하세요.
+**위에서 확인한 절대 경로 + `/build/index.js`를 합친 경로를 사용하세요!**
+
+**예시:**
+- pwd 결과: `/Users/kelly/eve-mcp`
+- 설정에 입력: `/Users/kelly/eve-mcp/build/index.js` ✅
 
 #### macOS 예시:
 `pwd` 결과가 `/Users/kelly/eve-mcp`인 경우:
@@ -131,9 +193,22 @@ C:\Users\kelly\eve-mcp                  # Windows 예시 (보통 cmd에서는 �
         "OPENAI_API_KEY": "sk-..."
       }
     }
+  },
+  "networkAccess": {
+    "allowedDomains": [
+      "adams.nrc.gov",
+      "adams-search.nrc.gov",
+      "adamswebsearch2.nrc.gov",
+      "www.nrc.gov",
+      "nrc.gov"
+    ]
   }
 }
 ```
+
+**⚠️ macOS도 networkAccess 필요!**
+- NRC 웹사이트 접근 허용
+- `mcpServers` 밖, 최상위 레벨에 위치
 
 #### Windows 예시:
 `pwd` 결과가 `C:\Users\kelly\eve-mcp`인 경우:
@@ -200,8 +275,10 @@ C:\Users\kelly\eve-mcp                  # Windows 예시 (보통 cmd에서는 �
 ```
 
 **⚠️ 추가 설명:**
-- `PUPPETEER_EXECUTABLE_PATH`: Chrome이 기본 경로에 없을 때 필요
-- `networkAccess`: Claude Desktop이 NRC 웹사이트 접근하도록 허용
+- `PUPPETEER_EXECUTABLE_PATH`: (Windows 필수!) Chrome 설치 경로
+  - 기본 경로가 다르면 실제 경로로 수정
+  - 예: `C:\Program Files\Google\Chrome\Application\chrome.exe`
+- `networkAccess`: (macOS/Windows 모두 필수!) NRC 웹사이트 접근 허용
 - `networkAccess`는 **반드시 최상위 레벨**에 위치해야 함!
 
 **올바른 경로 만드는 3단계:**
@@ -224,27 +301,40 @@ pwd
 
 ## 5️⃣ 연결 테스트 (1분)
 
-### Claude Desktop 재시작
-- **macOS**: `Cmd + Q` 후 다시 실행
-- **Windows**: 완전히 종료 후 다시 실행
+### STEP 1: Claude Desktop 완전히 종료
 
-### 도구 확인
+**⚠️ 창만 닫으면 안 됩니다!**
+
+- **macOS**: `Cmd + Q` (완전 종료)
+- **Windows**:
+  1. 작업 관리자 열기 (`Ctrl + Shift + Esc`)
+  2. Claude.exe 찾아서 "작업 끝내기"
+
+### STEP 2: Claude Desktop 다시 시작
+
+### STEP 3: 도구 확인
+
 Claude Desktop에서 새 대화 시작:
 ```
 사용 가능한 도구 보여줘
 ```
 
-**성공 시 표시되는 도구들:**
-- ✅ search_adams
-- ✅ download_adams_documents
-- ✅ ask_about_documents
-- ✅ list_downloaded_documents
-- ✅ clear_cache
-- ✅ get_system_stats
+**✅ 성공 시 표시되는 도구들 (6개):**
+- search_adams
+- download_adams_documents
+- ask_about_documents
+- list_downloaded_documents
+- clear_cache
+- get_system_stats
+
+**❌ 도구가 안 보이면:**
+→ 아래 "문제 해결" 섹션으로 이동
 
 ---
 
-## 🎉 첫 번째 사용
+## 🎉 첫 번째 사용 (설치 확인)
+
+**💡 순서대로 테스트하세요:**
 
 ### 1. 문서 검색
 ```
@@ -293,13 +383,35 @@ eve-mcp/
 
 ## ❓ 문제 해결
 
-### "도구가 안 보여요"
-1. Claude Desktop을 **완전히 종료**했나요?
-2. 설정 파일 경로가 **절대 경로**인가요?
-3. `build/index.js` 파일이 존재하나요?
+### "도구가 안 보여요" (가장 흔한 문제!)
+1. **🔴 빌드를 했나요?** (가장 흔한 원인!)
    ```bash
-   ls ~/eve-mcp/build/index.js
+   cd eve-mcp
+   npm run build
    ```
+   - 빌드 안 하면 작동 안 됨!
+   - 코드 업데이트 후에도 재빌드 필요!
+
+2. Claude Desktop을 **완전히 종료**했나요?
+   - macOS: `Cmd + Q` (창 닫기만으론 부족!)
+   - Windows: 작업 관리자에서 완전 종료
+
+3. 설정 파일 경로가 **절대 경로**인가요?
+   - ❌ `~/eve-mcp/build/index.js` (상대 경로)
+   - ✅ `/Users/kelly/eve-mcp/build/index.js` (절대 경로)
+
+4. `build/index.js` 파일이 존재하나요?
+   ```bash
+   # macOS/Linux
+   ls ~/eve-mcp/build/index.js
+
+   # Windows
+   dir C:\Users\YourName\eve-mcp\build\index.js
+   ```
+
+5. **Windows 사용자**: `networkAccess` 설정이 최상위에 있나요?
+   - `mcpServers` 안에 있으면 ❌
+   - `mcpServers` 밖에 있으면 ✅
 
 ### "검색 결과가 없어요"
 - 더 일반적인 키워드 사용: "reactor safety", "emergency plan"
@@ -318,8 +430,29 @@ eve-mcp/
 - Node.js를 설치하셨나요?
   ```bash
   node --version
+  npm --version
   ```
 - 터미널을 재시작해보세요
+- Windows: 설치 후 **새 CMD 창** 열기
+
+### "검색은 되는데 0건이 나와요" (Windows)
+1. Chrome이 설치되어 있나요?
+2. `PUPPETEER_EXECUTABLE_PATH`가 설정되어 있나요?
+   ```json
+   "PUPPETEER_EXECUTABLE_PATH": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"
+   ```
+3. 빌드를 최신으로 했나요?
+   ```bash
+   npm run build
+   ```
+
+### "코드를 수정했는데 적용이 안 돼요"
+**반드시 재빌드하세요!**
+```bash
+cd eve-mcp
+npm run build
+```
+그리고 Claude Desktop 재시작
 
 ---
 

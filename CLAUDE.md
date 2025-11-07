@@ -8,6 +8,111 @@ NRC ADAMS MCP Server - A Model Context Protocol server that enables NRC ADAMS do
 
 **IMPORTANT**: This project uses REAL NRC ADAMS data only. No mock data or simulated results.
 
+## ✅ WINDOWS PUPPETEER ISSUE - RESOLVED (2025-11-07)
+
+**Status**: ✅ RESOLVED - Windows now works perfectly!
+
+### The Problem (2 days of debugging)
+- Windows returned 0 documents with "Connection closed" error
+- Mac worked perfectly (25+ documents)
+- Tried 7+ different "fixes" - all failed
+
+### Root Cause Discovery
+**The wrong assumptions led us astray:**
+
+1. ❌ **`headless: false` is more stable on Windows**
+   - FALSE! Visible browser mode actually caused connection issues
+
+2. ❌ **More Chrome args = more stability**
+   - FALSE! 17 complex args caused conflicts and crashes
+
+3. ❌ **Request Interception improves performance**
+   - FALSE! Blocking images/CSS caused "Connection closed" on Windows
+
+### The Solution (2025-11-07)
+
+**Step 1: Create minimal test script**
+Created `test-puppeteer-windows.js` to isolate Puppeteer from MCP code:
+- Test Result: ✅ Puppeteer works perfectly (found 52 table rows)
+- Conclusion: Problem was in our configuration, not Puppeteer itself
+
+**Step 2: Identify working configuration**
+```javascript
+// ✅ WORKING (minimal settings)
+{
+  headless: true,  // NOT false!
+  args: [
+    '--no-sandbox',
+    '--disable-setuid-sandbox',
+    '--disable-dev-shm-usage',
+    '--disable-gpu'
+  ],
+  timeout: 60000
+}
+
+// ❌ FAILING (over-engineered)
+{
+  headless: false,  // Caused issues!
+  args: [
+    '--no-sandbox',
+    '--disable-setuid-sandbox',
+    '--disable-dev-shm-usage',
+    '--disable-gpu',
+    '--no-first-run',
+    '--no-zygote',
+    '--single-process',  // Conflicts
+    '--disable-web-security',
+    '--disable-features=IsolateOrigins,site-per-process',
+    '--disable-blink-features=AutomationControlled',
+    '--disable-infobars',
+    '--window-size=1920,1080',
+    '--start-maximized'  // Too many!
+  ],
+  timeout: 120000
+}
+```
+
+**Step 3: Remove Request Interception**
+```typescript
+// ❌ REMOVED (caused "Connection closed")
+await page.setRequestInterception(true);
+page.on('request', (req) => {
+  if (['image', 'stylesheet', 'font'].includes(req.resourceType())) {
+    req.abort();  // This broke Windows!
+  } else {
+    req.continue();
+  }
+});
+```
+
+### Final Changes (src/adams-real-improved.ts)
+1. Changed `headless: false` → `headless: true` (Line 63)
+2. Reduced args from 17 to 4 (Line 64-69)
+3. Removed Request Interception entirely (Line 231-239)
+4. Added version tag: `CODE VERSION: 2025-11-07-WINDOWS-FIX`
+
+### Results
+- ✅ **Windows**: Now returns 25+ documents successfully
+- ✅ **Mac**: Still works perfectly (unchanged)
+- ✅ **Cross-platform**: Single codebase for both platforms
+
+### Key Lesson Learned
+> **"Keep It Simple, Stupid" (KISS Principle)**
+>
+> When debugging complex issues:
+> 1. Create minimal test case first
+> 2. Find simplest working configuration
+> 3. Don't add complexity without proof it helps
+> 4. Over-engineering often causes more problems
+
+### Debugging Time
+- Total: 2 days (16+ hours)
+- Failed attempts: 7+ different approaches
+- Final solution: Removed complexity, went minimal
+
+### Test Script Location
+`test-puppeteer-windows.js` - Keep this for future Windows testing
+
 ## Commands
 
 ### Build and Development
