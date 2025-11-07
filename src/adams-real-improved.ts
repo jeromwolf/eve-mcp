@@ -59,24 +59,13 @@ export class ImprovedADAMSScraper {
 
       // Windows-compatible Puppeteer configuration
       const launchOptions: any = {
-        // Windows: visible browser (더 안정적)
-        headless: isWindows ? false : true,
+        // Windows: headless true로 변경 (테스트 성공 설정)
+        headless: true,
         args: [
           '--no-sandbox',
           '--disable-setuid-sandbox',
           '--disable-dev-shm-usage',
-          '--disable-gpu',
-          '--no-first-run',
-          '--no-zygote',
-          '--single-process',
-          '--disable-web-security',
-          '--disable-features=IsolateOrigins,site-per-process',
-          // Windows 안정성 개선
-          '--disable-blink-features=AutomationControlled',
-          '--disable-features=site-per-process',
-          '--disable-infobars',
-          '--window-size=1920,1080',
-          '--start-maximized'
+          '--disable-gpu'
         ]
       };
 
@@ -86,10 +75,10 @@ export class ImprovedADAMSScraper {
         logger.info(`Using custom Chrome path: ${process.env.PUPPETEER_EXECUTABLE_PATH}`);
       }
 
-      // Windows: 더 긴 timeout
-      launchOptions.timeout = isWindows ? 120000 : 60000;
+      // Timeout 설정
+      launchOptions.timeout = 60000;
 
-      logger.info(`🔧 Platform: ${process.platform}, Headless: ${launchOptions.headless}, Timeout: ${launchOptions.timeout}ms`);
+      logger.info(`🔧 CODE VERSION: 2025-11-07-WINDOWS-FIX - Platform: ${process.platform}, Headless: ${launchOptions.headless}, Timeout: ${launchOptions.timeout}ms`);
 
       this.browser = await puppeteer.launch(launchOptions);
       logger.info('✅ Browser initialized successfully');
@@ -238,16 +227,16 @@ export class ImprovedADAMSScraper {
       // 타임아웃 설정
       page.setDefaultTimeout(30000);
       page.setDefaultNavigationTimeout(30000);
-      
-      // 네트워크 최적화
-      await page.setRequestInterception(true);
-      page.on('request', (req) => {
-        if (['image', 'stylesheet', 'font'].includes(req.resourceType())) {
-          req.abort();
-        } else {
-          req.continue();
-        }
-      });
+
+      // Request Interception 제거 (Windows 호환성 - 테스트 성공 설정과 동일하게)
+      // await page.setRequestInterception(true);
+      // page.on('request', (req) => {
+      //   if (['image', 'stylesheet', 'font'].includes(req.resourceType())) {
+      //     req.abort();
+      //   } else {
+      //     req.continue();
+      //   }
+      // });
       
       const results = await this.withRetry(
         () => this.searchViaBrowser(page!, query, maxResults),

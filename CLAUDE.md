@@ -8,142 +8,110 @@ NRC ADAMS MCP Server - A Model Context Protocol server that enables NRC ADAMS do
 
 **IMPORTANT**: This project uses REAL NRC ADAMS data only. No mock data or simulated results.
 
-## 🔴 CRITICAL WINDOWS ISSUE (2025-11-06)
+## ✅ WINDOWS PUPPETEER ISSUE - RESOLVED (2025-11-07)
 
-**Status**: UNRESOLVED - Windows Puppeteer search returns 0 results
+**Status**: ✅ RESOLVED - Windows now works perfectly!
 
-### Current Situation
-- ✅ **Mac**: Works perfectly, returns 25 documents
-- ❌ **Windows**: Returns 0 documents, "Connection closed" error
-- ✅ **Code**: Same codebase on both platforms
+### The Problem (2 days of debugging)
+- Windows returned 0 documents with "Connection closed" error
+- Mac worked perfectly (25+ documents)
+- Tried 7+ different "fixes" - all failed
 
-### Branch: fix/windows-puppeteer-v3
-**Location**: `fix/windows-puppeteer-v3` branch (NOT merged to main)
-**Commit**: `87594c7`
-**Status**: Tested on Windows, still failing
+### Root Cause Discovery
+**The wrong assumptions led us astray:**
 
-### What We Tried (All Failed)
-1. ❌ Changed `waitUntil: 'networkidle2'` → `'domcontentloaded'`
-2. ❌ Added retry logic (3 attempts)
-3. ❌ Disabled headless mode (`headless: false`) - Chrome window opens but fails
-4. ❌ Increased timeouts (browser: 120s, navigation: 90s, wait: 5s)
-5. ❌ Set Windows User-Agent
-6. ❌ Added Windows-specific Chrome args
-7. ❌ Moved networkAccess to top level in config
+1. ❌ **`headless: false` is more stable on Windows**
+   - FALSE! Visible browser mode actually caused connection issues
 
-### Key Findings from Log Analysis
+2. ❌ **More Chrome args = more stability**
+   - FALSE! 17 complex args caused conflicts and crashes
 
-**Problem**: Browser initialization logs NEVER appear in Windows logs
-- Expected log: `"🔧 Platform: win32, Headless: false, Timeout: 120000ms"`
-- Expected log: `"✅ Browser initialized successfully"`
-- **NONE of these logs appear!**
+3. ❌ **Request Interception improves performance**
+   - FALSE! Blocking images/CSS caused "Connection closed" on Windows
 
-**Timeline Analysis** (from logs):
+### The Solution (2025-11-07)
+
+**Step 1: Create minimal test script**
+Created `test-puppeteer-windows.js` to isolate Puppeteer from MCP code:
+- Test Result: ✅ Puppeteer works perfectly (found 52 table rows)
+- Conclusion: Problem was in our configuration, not Puppeteer itself
+
+**Step 2: Identify working configuration**
+```javascript
+// ✅ WORKING (minimal settings)
+{
+  headless: true,  // NOT false!
+  args: [
+    '--no-sandbox',
+    '--disable-setuid-sandbox',
+    '--disable-dev-shm-usage',
+    '--disable-gpu'
+  ],
+  timeout: 60000
+}
+
+// ❌ FAILING (over-engineered)
+{
+  headless: false,  // Caused issues!
+  args: [
+    '--no-sandbox',
+    '--disable-setuid-sandbox',
+    '--disable-dev-shm-usage',
+    '--disable-gpu',
+    '--no-first-run',
+    '--no-zygote',
+    '--single-process',  // Conflicts
+    '--disable-web-security',
+    '--disable-features=IsolateOrigins,site-per-process',
+    '--disable-blink-features=AutomationControlled',
+    '--disable-infobars',
+    '--window-size=1920,1080',
+    '--start-maximized'  // Too many!
+  ],
+  timeout: 120000
+}
 ```
-05:07:07.488: "Initializing ADAMS scraper"
-05:07:08.421: "Performing real ADAMS search" (0.9s later!)
-05:07:12.864: "Search failed: Connection closed" (4.4s later)
+
+**Step 3: Remove Request Interception**
+```typescript
+// ❌ REMOVED (caused "Connection closed")
+await page.setRequestInterception(true);
+page.on('request', (req) => {
+  if (['image', 'stylesheet', 'font'].includes(req.resourceType())) {
+    req.abort();  // This broke Windows!
+  } else {
+    req.continue();
+  }
+});
 ```
 
-**Discovery**: Browser init function `_initializeBrowser()` is NOT being called!
-- Code exists in build file (verified with findstr)
-- But logs from inside the function never appear
-- Likely reason: `if (this.browser) return;` (Line 44 in adams-real-improved.ts)
-- Browser might already be initialized elsewhere, or initialization silently failed
+### Final Changes (src/adams-real-improved.ts)
+1. Changed `headless: false` → `headless: true` (Line 63)
+2. Reduced args from 17 to 4 (Line 64-69)
+3. Removed Request Interception entirely (Line 231-239)
+4. Added version tag: `CODE VERSION: 2025-11-07-WINDOWS-FIX`
 
-**Error Location**: Line 212 in `build/adams-real-improved.js`
-```
-Error: Search failed: Connection closed.
-    at ImprovedADAMSScraper.searchReal (file:///C:/Users/erica/Desktop/jeromspace/eve-mcp-v3/build/adams-real-improved.js:212:19)
-```
+### Results
+- ✅ **Windows**: Now returns 25+ documents successfully
+- ✅ **Mac**: Still works perfectly (unchanged)
+- ✅ **Cross-platform**: Single codebase for both platforms
 
-### Files Modified in Branch
-- `src/adams-real-improved.ts`:
-  - Line 58-92: Windows platform detection, headless: false
-  - Line 342-362: Windows User-Agent, longer timeouts
+### Key Lesson Learned
+> **"Keep It Simple, Stupid" (KISS Principle)**
+>
+> When debugging complex issues:
+> 1. Create minimal test case first
+> 2. Find simplest working configuration
+> 3. Don't add complexity without proof it helps
+> 4. Over-engineering often causes more problems
 
-### Test Setup Confirmed
-- ✅ Source code has new code (findstr "Platform" shows it)
-- ✅ Build completed successfully
-- ✅ Chrome window briefly opens (headless: false working)
-- ❌ Search still returns 0 results
-- ❌ Browser initialization logs never appear
+### Debugging Time
+- Total: 2 days (16+ hours)
+- Failed attempts: 7+ different approaches
+- Final solution: Removed complexity, went minimal
 
-### Windows User Environment
-- Path: `C:\Users\erica\Desktop\jeromspace\eve-mcp-v3\`
-- Chrome path: `C:\Program Files\Google\Chrome\Application\chrome.exe`
-- Config: networkAccess properly configured at top level
-- Claude Desktop: Latest version
-
-### Hypotheses (Not Yet Tested)
-1. **Browser init silently failing**: Exception caught but not logged
-2. **Browser already initialized**: Reusing old browser instance from previous code
-3. **Windows security/firewall**: Blocking Puppeteer connection to NRC site
-4. **NRC website blocking**: Windows Chrome User-Agent detection
-5. **Puppeteer Windows bug**: Fundamental compatibility issue
-
-### Next Steps for Investigation
-1. **Add aggressive logging to track initialization flow**:
-   ```typescript
-   async initialize() {
-     logger.info('🔍 INIT CHECK: this.browser exists?', { exists: !!this.browser });
-     logger.info('🔍 INIT CHECK: this.browserInitPromise exists?', { exists: !!this.browserInitPromise });
-
-     if (this.browser) {
-       logger.info('⚠️ Browser already initialized, skipping init');
-       return;
-     }
-     // ... rest of logic
-   }
-   ```
-
-2. **Force browser recreation** to bypass singleton pattern:
-   ```typescript
-   async initialize(forceNew = false) {
-     if (forceNew && this.browser) {
-       logger.info('🔄 Forcing browser close for re-initialization');
-       await this.close();
-       this.browser = null;
-       this.browserInitPromise = null;
-     }
-     // ... rest of init
-   }
-   ```
-
-3. **Add logging at EVERY step** in _initializeBrowser():
-   - Before platform detection
-   - After puppeteer.launch() attempt
-   - In catch blocks with full error details
-
-4. **Test from Windows directly** to see:
-   - Real-time browser behavior
-   - Any popup dialogs or security warnings
-   - Console errors not captured in logs
-
-5. **Alternative approaches if still failing**:
-   - Try Playwright instead of Puppeteer
-   - Check Windows Event Viewer for blocked connections
-   - Test from different Windows network environment
-   - Consider using ADAMS API directly (if available)
-
-### Code Locations for Debugging
-- **Line 44** (`src/adams-real-improved.ts`): Browser init check - ADD LOGGING HERE
-- **Line 58-96** (`src/adams-real-improved.ts`): _initializeBrowser() - ADD LOGGING AT EVERY STEP
-- **Line 340-367** (`src/adams-real-improved.ts`): Navigation logic - Already has logs
-- **Line 71-76** (`src/services/search-service.ts`): Scraper initialization entry point
-
-### Windows Test Environment Details
-- **Path**: `C:\Users\erica\Desktop\jeromspace\eve-mcp-v3\`
-- **Chrome**: `C:\Program Files\Google\Chrome\Application\chrome.exe`
-- **Log Location**: `C:\Users\erica\Desktop\jeromspace\eve-mcp-v3\logs\mcp\*.log`
-- **Config**: Claude Desktop config at `%APPDATA%\Claude\claude_desktop_config.json`
-
-### Important Notes
-- DO NOT merge `fix/windows-puppeteer-v3` to main until Windows works
-- Mac users: Stay on main branch (working perfectly)
-- Windows users: Avoid this branch until fixed
-- Estimated time spent: 8+ hours debugging without success
-- **User (Kelly) will test directly on Windows environment in next session**
+### Test Script Location
+`test-puppeteer-windows.js` - Keep this for future Windows testing
 
 ## Commands
 
