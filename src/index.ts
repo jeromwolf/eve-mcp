@@ -800,33 +800,25 @@ Use ask_about_documents to query these documents.`
   private async loadExistingPDFs(): Promise<void> {
     try {
       const { promises: fs } = await import('fs');
-      const { promises: fsPromises } = await import('fs');
       const path = await import('path');
 
       const pdfDir = this.config.storage.pdfPath;
-      
+
       // Find all PDF files in subdirectories
-      const entries = await fsPromises.readdir(pdfDir, { withFileTypes: true });
+      const entries = await fs.readdir(pdfDir, { withFileTypes: true });
       const directories = entries.filter(entry => entry.isDirectory());
-      
+
       let loadedCount = 0;
-      
+
       for (const dir of directories) {
         const dirPath = path.join(pdfDir, dir.name);
-        const files = await fsPromises.readdir(dirPath);
+        const files = await fs.readdir(dirPath);
         const pdfFiles = files.filter(file => file.endsWith('.pdf'));
         
         for (const pdfFile of pdfFiles) {
           const pdfPath = path.join(dirPath, pdfFile);
           const documentNumber = path.basename(pdfFile, '.pdf');
-          
-          // Skip if already processed (performance optimization)
-          // Check if RAG engine already has documents to avoid reprocessing
-          const ragStats = await this.ragEngine.getStats();
-          if (ragStats.documentCount >= pdfFiles.length && loadedCount > 0) {
-            break; // Already loaded all documents
-          }
-          
+
           try {
             // Use high-speed cache with auto-extraction (Option A)
             // pdfCacheService.getCachedText() automatically extracts PDF if cache missing
