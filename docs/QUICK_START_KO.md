@@ -26,14 +26,16 @@
 설치 전 이 항목들을 순서대로 확인하세요:
 
 - [ ] **1단계**: Node.js 18+ 설치 완료
-- [ ] **2단계**: Claude Desktop 설치 완료
-- [ ] **3단계**: 프로젝트 클론 및 **빌드 완료** ⚠️ 필수!
-- [ ] **4단계**: Claude Desktop 설정 완료
-- [ ] **5단계**: 연결 테스트 성공
+- [ ] **2단계**: OpenAI API 키 발급 완료 ⚠️ **필수!**
+- [ ] **3단계**: Claude Desktop 설치 완료
+- [ ] **4단계**: 프로젝트 클론 및 **빌드 완료** ⚠️ 필수!
+- [ ] **5단계**: Claude Desktop 설정 완료 (API 키 포함)
+- [ ] **6단계**: 연결 테스트 성공
 
-**🔴 가장 중요한 단계: 3단계 빌드!**
-- 빌드 없이는 작동하지 않습니다
-- 코드 업데이트 후에도 재빌드 필요
+**🔴 가장 중요한 필수 사항:**
+1. **OpenAI API 키**: RAG Q&A 기능에 필수 (검색/다운로드는 API 키 없이 가능)
+2. **프로젝트 빌드**: 빌드 없이는 작동하지 않습니다
+3. **코드 업데이트 후 재빌드 필요**
 
 ---
 
@@ -61,7 +63,43 @@ npm --version   # 자동 설치됨
 
 ---
 
-## 2️⃣ Claude Desktop 설치 (필수)
+## 2️⃣ OpenAI API 키 발급 (필수) ⚠️
+
+**RAG Q&A 기능을 사용하려면 반드시 필요합니다!**
+
+### API 키 발급 절차
+
+1. **OpenAI 계정 생성**
+   - [platform.openai.com](https://platform.openai.com) 방문
+   - "Sign up" 클릭하여 계정 생성
+
+2. **API 키 생성**
+   - 로그인 후 우측 상단 프로필 클릭
+   - "API keys" 메뉴 선택
+   - "Create new secret key" 클릭
+   - 키 이름 입력 (예: "eve-mcp")
+   - **⚠️ 중요**: 생성된 키를 안전한 곳에 복사 저장 (다시 볼 수 없음!)
+
+3. **사용 요금 안내**
+   - 문서 임베딩: `text-embedding-ada-002` 모델 사용
+   - 비용: 약 $0.0001 per 1000 tokens (매우 저렴)
+   - 예상 비용: 문서 100개 처리 시 약 $0.10~0.50
+   - 무료 크레딧: 신규 가입 시 $5 제공 (3개월 유효)
+
+### 기능별 API 키 필요 여부
+
+| 기능 | API 키 필요 | 설명 |
+|------|------------|------|
+| 🔍 ADAMS 검색 | ❌ 불필요 | 키 없이 작동 |
+| ⬇️ PDF 다운로드 | ❌ 불필요 | 키 없이 작동 |
+| 💬 RAG Q&A | ✅ **필수** | OpenAI 임베딩 사용 |
+| 📊 통계 조회 | ❌ 불필요 | 키 없이 작동 |
+
+**💡 팁**: 검색과 다운로드만 필요하면 API 키 없이 사용 가능합니다!
+
+---
+
+## 3️⃣ Claude Desktop 설치 (필수)
 
 ### 다운로드
 - **macOS & Windows**: [claude.ai/download](https://claude.ai/download)
@@ -71,7 +109,7 @@ Claude Desktop을 실행하고 로그인하세요.
 
 ---
 
-## 3️⃣ 프로젝트 설치 및 빌드 (5분)
+## 4️⃣ 프로젝트 설치 및 빌드 (5분)
 
 **🔴 이 단계가 가장 중요합니다!**
 
@@ -174,11 +212,14 @@ C:\Users\kelly\eve-mcp                  # Windows
 
 ### STEP 2: 설정 파일 작성
 
-**위에서 확인한 절대 경로 + `/build/index.js`를 합친 경로를 사용하세요!**
+**⚠️ 두 가지 필수 설정:**
+1. **절대 경로**: 위에서 확인한 경로 + `/build/index.js`
+2. **OpenAI API 키**: 2단계에서 발급받은 키 (sk-proj-로 시작)
 
 **예시:**
 - pwd 결과: `/Users/kelly/eve-mcp`
 - 설정에 입력: `/Users/kelly/eve-mcp/build/index.js` ✅
+- API 키: `sk-proj-xxxxxxxxxxxxxxxx` ✅
 
 #### macOS 예시:
 `pwd` 결과가 `/Users/kelly/eve-mcp`인 경우:
@@ -190,7 +231,7 @@ C:\Users\kelly\eve-mcp                  # Windows
       "command": "node",
       "args": ["/Users/kelly/eve-mcp/build/index.js"],
       "env": {
-        "OPENAI_API_KEY": "sk-..."
+        "OPENAI_API_KEY": "sk-proj-xxxxxxxxxxxxxxxx"
       }
     }
   },
